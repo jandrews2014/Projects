@@ -1,0 +1,5 @@
+﻿  Main.cpp
+c:\users\murie\code\programming assignment - cot 4400\main.cpp(15): warning C4018: '<': signed/unsigned mismatch
+c:\users\murie\code\programming assignment - cot 4400\main.cpp(138): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\murie\code\programming assignment - cot 4400\main.cpp(162): warning C4018: '<': signed/unsigned mismatch
+  Programming Assignment - COT 4400.vcxproj -> C:\Users\murie\code\Programming Assignment - COT 4400\Debug\Programming Assignment - COT 4400.exe
