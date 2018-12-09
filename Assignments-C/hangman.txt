@@ -1,0 +1,218 @@
+//Jamie Andrews, 4 November 2014, Lab Project #3
+
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+#include <string.h>
+#include <ctype.h>
+#define SIZE 25
+#define MAXGUESSES 6
+
+/*Algorithm
+1.declare all of the additional functions before your main.
+2. declare any arrays or directions in the main function before progressing
+3. create a do/while loop for the whole game function
+4. type in your Game Rule Function the instructions and print them on screen
+
+*/
+//type in the game rules
+void GameRules();
+//display starWord for the user to guess
+void displayStar(char starword[], int length);
+//Get letter from user
+int GuessWord(FILE *inptr, char starword[], char lettersGuessed[], char word[], int usedGuesses,int wrongGuesses, int winOrLose);
+//Search for the letter
+int FindIt(char let, char word[], int length);
+//compare the findings
+int Compare(char word[], char starword[], char lettersGuessed[], int usedGuesses);
+//get letter and display on screen
+char GetLetter();
+//print letter onto the screen
+void Display(char word[], int length);
+//to quit game
+void DoItAgain(char *quitPtr);
+
+int main()
+{
+	char word[SIZE]="";
+	char starword[SIZE]="" ;
+	char lettersGuessed[SIZE]="";
+	char yesOrNo;//do it again function
+	FILE *inptr;
+	inptr = fopen("inputWords.txt", "r");//connnect to the file
+
+	GameRules();//present the instructions
+
+	do{
+		//reset all the variables
+		int winOrLose = 0; //GETS SET TO 1 IF THE PLAYER WINS
+		int wrongGuesses = 0; //COUNTS NUMBER OF WRONG GUESSES
+		int usedGuesses = 0;//COUNTS NUMBER OF LETTERS GUESSED 
+		int length;//length of word
+		char let;//letter
+		word[0] = '\0';
+		starword[0] = '\0';
+		lettersGuessed[0] = '\0';
+
+		//get a word from the file
+		fscanf(inptr, "%s", word);
+		printf("%s\n", word);
+		//get the length of the word
+		length = strlen(word);
+		printf("%d\n", length);
+		
+		//create the starword
+		displayStar(starword, length);
+		printf("%s", starword);
+		//then play a game(Call the guess word function)
+		winOrLose = GuessWord(inptr, starword, lettersGuessed, word, usedGuesses,wrongGuesses, winOrLose);
+
+		while (wrongGuesses < 6)
+		{
+			//print the letters guessed so far on the screen
+			printf("letters guessed so far: %s", lettersGuessed);
+			//print the starword on the screen
+			printf("%s", starword);
+			//get a letter
+			scanf("%s", word);
+			//change the letter to lower case
+			let = tolower(let);
+			//see if the letter is in the word
+			FindIt(let, word, length);
+			//if (loc != -1)
+			//starword at loc equals the letter
+			Compare(word, starword, lettersGuessed, usedGuesses);
+			//else add 1 to wrongGuesses
+			GuessWord(inptr, starword, lettersGuessed, word, usedGuesses, wrongGuesses, winOrLose);
+			//see if the starword and the word match, then the user will win
+			if (starword == word)
+			{
+				printf("You won!\n");
+
+			}
+
+			else
+			{
+				printf("Sorry, you lost! :P \n");
+				printf("The word was is %s. \n", word);
+			}
+		}//END OF NESTED WHILE LOOP
+
+
+		//ask if the user wants to go again
+		DoItAgain(&yesOrNo);
+
+	} while (yesOrNo != 'Q' && yesOrNo != 'q');
+
+	//close file
+	fclose(inptr);
+
+	return 0;
+
+}
+void GameRules()
+{
+	//print a series of words onto the screen
+	printf("WELCOME TO HANGMAN!\n");
+	printf("Please read the following instructions before you play.\n");
+	printf("-You will be presented with a word to be guessed. \n");
+	printf("-Guess letters one at a time. \n");
+	printf("-You will have up to 6 incorrect guesses.\n");
+	printf("-The game will be OVER when \n");
+	printf("you have guesses all of the letters in the word, \n");
+	printf("or when you have guesses incorrectly SIX times! \n");
+	printf("HAVE FUN! \n");
+	printf("------------------------------");
+}
+void displayStar(char starword[], int length)
+{
+	int i;
+
+	for (i = 0; i < length; i++)
+	{
+		starword[i] = '*';
+	}
+	starword[length] = '\0';
+	
+}
+int FindIt(char let, char word[], int length)
+{
+	int location = -1;
+	int i;
+
+	for (i = 0; i < length; i++)
+	{
+		if (let == word[i])
+		{
+			location = i;
+		}
+	}
+	return location;
+}
+int GuessWord(FILE *inptr, char starword[], char lettersGuessed[], char word[],int usedGuesses, int wrongGuesses, int winOrLose)
+{
+	char let;
+
+	while (wrongGuesses < MAXGUESSES && winOrLose == 0)
+	{
+		let = GetLetter();
+		winOrLose = Compare(word, starword, lettersGuessed,usedGuesses, winOrLose);
+
+		wrongGuesses = wrongGuesses + 1;
+		
+	}
+
+	return winOrLose;
+
+}
+int Compare(char word[], char starword[], char lettersGuessed[], int usedGuesses)
+{
+
+	if (word == 1)
+	{
+		printf("Your letter is in the word!\n");
+		printf("Letters guessed so far: %c\n", lettersGuessed);
+		return 1;
+	}
+	else
+	{
+		printf("Your letter is NOT in the word!\n");
+		printf("You have %d more guesses.\n", usedGuesses);
+		printf("letters guessed so far: %c\n", lettersGuessed);
+		return 0;
+	}
+}
+char GetLetter()
+{
+	char let;
+
+	printf("\n Enter a letter: \n");
+	scanf(" %c", &let);
+
+	let = tolower(let);
+
+	return let;
+}
+void Display(char word[], int length)
+{
+	int i;
+
+	//use for loop to print array
+	for (i = 0; i == length, i++;)
+	{
+		printf("\n%c", word[i]);
+	}
+
+}
+void DoItAgain(char *quitPtr)
+{
+	//prompts
+
+	printf("Do you want to play again?\n");
+	printf("Enter Q to quit.\n");
+	printf("Anything else to continue.\n");
+
+	//ask user for game
+	scanf(" %c", quitPtr);
+
+
+}

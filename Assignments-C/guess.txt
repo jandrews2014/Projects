@@ -1,0 +1,130 @@
+//Jamie Andrews, 22 September 2014, Lab Project #1
+
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+#define MAXGUESSES 5
+
+//function prototypes with a comment for each one describing what the function does.
+//Copy and paste from assignment
+//this function provides instructions to the user on how to play the game
+void GameRules();
+//this function runs one game. It for checks either 5 incorrect guesses or correct guess.
+/*It returns a 0 if the game is over and the player did not guess the letter, otherwise it
+returns 1.*/
+int PlayOneRound(char solution);
+//this function prompts the player to make a guess and returns that guess
+//this function is called from inside the PlayOneRound() function described above
+char GetTheLetter();
+//this function takes two arguments, the guess from the player
+//and the solution letter from the file.
+//It lets the user know if the guess comes alphabetically before or after the answer
+//The function returns 1 if the guess matches the solution and returns a 0 if they do not match
+int CompareTheLetters(char guess, char solution);
+
+int main()
+{
+	//declare additional variables
+	FILE *intpr;
+	int gamesToPlay = 0;
+	int i = 0;
+	int winOrLose;
+	int gameswon = 0;
+	char solution;
+
+	//display instructions
+	GameRules();
+	//open file
+	intpr = fopen("input.txt", "r");
+
+	//get number of games to play
+	printf("How many games would you like to play? ");
+	scanf("%d", &gamesToPlay);
+
+
+	for (i = 0; i<gamesToPlay; i++)
+	{
+		//get a letter from file
+		fscanf(intpr, " %c", &solution);
+
+		//Play one game (Call PlayOneRound function)
+		printf("Let's play game %d!\n", i + 1);
+		winOrLose = PlayOneRound(solution);
+
+		//win or lose
+		if (winOrLose == 1)
+		{
+			printf("You won game %d!\n", i + 1);
+			gameswon = gameswon + 1;
+
+		}
+
+		else
+		{
+			printf("Sorry, you lost! :P \n");
+			printf("The correct answer is %c. \n", solution);
+		}
+	}
+
+	//close file
+	fclose(intpr);
+
+	return 0;
+}
+
+
+//Function definitions
+//copy and paste prototypes and comments from assignment. Then remove the ; from each
+void GameRules()
+{
+	printf("Welcome to the guessing game!\n");
+	printf("Select how many games you want to play (1-4).\n");
+	printf("You have 5 guesses for each game.\n");
+	printf("Let's begin the game!\n");
+}
+
+int PlayOneRound(char solution)
+{
+	char guess;
+	int numGuesses = 0;
+	int winOrLose = 0;//SHOULD BE INITIALZED TO 0
+
+	while (numGuesses < MAXGUESSES && winOrLose == 0)
+	{
+		guess = GetTheLetter();
+		winOrLose = CompareTheLetters(guess, solution);
+
+		numGuesses = numGuesses + 1;
+
+	}
+
+	return(winOrLose);
+}
+char GetTheLetter()
+{
+	char guess;
+
+	printf("\n Enter a letter. \n");
+	scanf(" %c", &guess);
+
+	return(guess);
+}
+
+int CompareTheLetters(char guess, char solution)
+{
+	int pair = 0;
+
+	if (guess == solution)
+	{
+		printf("You guessed it!\n");
+
+		pair = 1;
+	}
+
+	else if (guess > solution)
+		printf("The letter comes before %c.\n", guess);
+
+	else
+		printf("The letter comes after %c.\n", guess);
+
+	return(pair);
+}

@@ -1,0 +1,236 @@
+/*Jamie Andrews, Lab Project #2, October 9, 2014*/
+
+//preprocessor directives
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+
+/* Algorithm
+1. Present the app options for the user.
+2. Get the letter of choice from the user.
+3. Set the cost of the item for the user.
+4. Present the amount (money) choices.
+5. Get the number for the amount choices.
+6. Update the bank.
+7. Compare the users amount to the cover cost.
+8. If yes, calculate the change. Otherwise go back to step 4.
+9. Ask if you want to make another purchase.
+10. If yes, go back to step 1 and repeat the program again. Otherwise end program.*/
+
+// Displays the list of apps available
+//prompts for the user’s selection and sets the value of the selection
+void DisplayChoices(char *choicePtr);
+
+//sets the cost of the item based on the choice
+void SetPrice(char choice, double *costPtr);
+
+//Displays the codes for the user to input money - gets user input amounts 
+//compares the integer codes and updates the deposit amount in the bank
+void Money(double *depositPtr, double cost);
+
+//compares the amount the user has in deposits to the price of app selected. 
+//It returns 1 if the amount is enough to cover the cost, and a  0 if there is not enough.
+int Compare(double deposit, double cost);
+
+//uses the Money function to display and collect dollar amounts from the user 
+//uses the Compare function to keep comparing the added deposited amount to the item cost.
+void GetMoney(double *depositPtr, double cost, char choice);
+
+//calculates the amount of money leftover from your deposits
+void GetChange(double *depositPtr, double cost);
+
+//Asks the user if they want another app
+void DoItAgain(char *quitPtr);
+
+//main function
+int main()
+{
+	char choice; //character of choice
+	char yesOrNo; // do it again function
+	double deposit = 0.0;//stores numerical value corresponding with price
+	double cost; //cost of item
+
+	//intro
+	printf("Welcome to the app store! \n");
+	printf("------------------------\n");
+
+	//do/ while loop
+	//remember that & of a call equals the * of the call
+	do
+	{
+		//DisplayChoices function
+		DisplayChoices(&choice);
+		printf("choice is %c \n", choice);
+
+		//SetPrice function
+		SetPrice(choice, &cost);
+		printf("cost is $ %.2f. \n", cost);
+        
+		//GetMoney function
+		GetMoney(&deposit, cost, choice);
+		printf("you have purchased %c \n", choice);
+
+		//GetChange function
+		GetChange(&deposit, cost);
+		printf("Your change is $ %.2f. \n",deposit);
+
+		//DoItAgain function
+		DoItAgain(&yesOrNo);
+		printf("again is %c \n", yesOrNo);
+		
+
+	} while (yesOrNo == 'y');
+
+	//if/else statement #1
+	if(yesOrNo == 'y')
+	{
+		printf("Let's Play again! \n");
+	}
+	else 
+	{
+		printf("Thank you for your purchases! \n");
+	}
+	//good-bye
+	return 0;
+}
+
+// Displays the list of apps available
+//1. prompts for the user’s selection and sets the value of the selection
+void DisplayChoices(char *choicePtr)
+{
+	//prompts
+	printf("Here are the choices: \n");
+	printf("P--Photo Bucket Kit: $7.99 \n");
+	printf("f-- Family Board Game: $2.99 \n");
+	printf("w-- Wheel of Fortune: $4.99 \n");
+	printf("e-- Endless Learing Bundle: $24.99 \n");
+	printf("h-- How to Cook Everything: $14.99 \n");
+	printf("Please select an item:\n");
+
+	//2. Get the letter
+	scanf(" %c", choicePtr);
+}
+
+//3. sets the cost of the item based on the choice
+void SetPrice(char choice, double *costPtr)
+{
+	//if/else statement #2
+	{
+		if (choice == 'p')
+		{
+			*costPtr = 7.99;
+		}
+		else if (choice == 'f')
+		{
+			*costPtr = 2.99;
+		}
+		else if (choice == 'w')
+		{
+			*costPtr = 4.99;
+		}
+		else if (choice == 'e')
+		{
+			*costPtr = 24.99;
+		}
+		else if (choice == 'h')
+		{
+			*costPtr = 14.99;
+		}
+		else
+		{
+			*costPtr = 0.00;
+		}
+   }
+}
+
+//Displays the codes for the user to input money - gets user input amounts 
+//4. compares the integer codes and updates the deposit amount in the bank
+void Money(double *depositPtr, double cost)
+{
+	//initialize num
+	int num;
+	//more prompts
+	printf("-----------------------------\n");
+	printf("Choose your money choice: \n");
+	printf("1: $20.00 \n");
+	printf("2: $10.00 \n");
+	printf("3: $5.00 \n");
+	printf("4: $1.00 \n");
+	printf("Money Deposit:\n");
+
+	//5. Get it
+	scanf("%d", &num);
+
+	//6. Update Bank
+	//if/else statement #3
+	if (num == 1)
+	{
+		*depositPtr = *depositPtr + 20.00;
+	}
+	else if (num == 2)
+	{
+		*depositPtr = *depositPtr + 10.00;
+	}
+	else if (num == 3)
+	{
+		*depositPtr = *depositPtr + 5.00;
+	}
+	else if (num == 4)
+	{
+		*depositPtr = *depositPtr + 1.00;
+	}
+	else
+	{
+		*depositPtr = *depositPtr + 0.00;
+	}
+}
+
+//compares the amount the user has in deposits to the price of app selected. 
+//7. It returns 1 if the amount is enough to cover the cost, and a  0 if there is not enough.
+int Compare(double deposit, double cost)
+{
+	//if/else statement #4
+	if (deposit >= cost)
+	{
+		printf("You have $ %.2f in your bank. \n", deposit);
+		return 1;
+	}
+	else
+	{
+		printf("You don't have enough in the bank. \n");
+		printf("You have $ %.2f in your bank. \n", deposit);
+		return 0;
+	}
+}
+
+//uses the Money function to display and collect dollar amounts from the user 
+//8. uses the Compare function to keep comparing the added deposited amount to the item cost.
+void GetMoney(double *depositPtr, double cost, char choice)
+{
+	//while loop
+	//enough is equaled to the compare function
+	int enough = Compare(*depositPtr, cost);
+	while (enough == 0)
+	{
+		Money(depositPtr, cost);
+		enough = Compare(*depositPtr, cost);
+	}
+}
+//8.calculates the amount of money leftover from your deposits
+		void GetChange(double *depositPtr, double cost)
+		{
+			//equation
+			*depositPtr = *depositPtr - cost;
+		}
+			
+				
+//Asks the user if they want another app
+void DoItAgain(char *quitPtr)
+{
+	//prompts
+
+	printf("Do you want to play again?\n");
+	
+	//9. ask user for game
+	scanf(" %c", quitPtr);
+
+}

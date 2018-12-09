@@ -1,0 +1,41 @@
+/*Jamie Andrews, Lab #6, October 9, 2014*/
+
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+
+/* Algorithm
+1. Ask the user to enter a number 1-10
+2. Get the number from user
+3. Print the statement "FAU is awesome!" the number of times user entered with a for loop.
+4. Print the statement "Programming in C is fun" the number of times user entered with a while loop.
+5. Print the statement " Florida beaches are beautiful" the number of time user entered with a do/while loop.*/
+
+//main function
+int main()
+{
+    int counter, number;
+	int howMany;
+    int i = 0;
+    {
+        printf("Please enter a number from 1 to 10\n\n");
+
+        scanf("%d, &number");
+    }
+    for (i=0;i<howMany;i++)
+	{
+        printf("FAU is awesome");
+    }
+    while ( counter < number)
+    {
+		printf("Programming in C is fun", counter);
+		counter++;
+	}
+    do
+	{
+		printf("Florida beaches are beautiful", counter);
+		counter++;
+	}
+    while ( counter < number);
+        
+	return 0;
+}
