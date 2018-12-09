@@ -1,0 +1,34 @@
+index.html
+<!doctype html>
+<html>
+  <body>
+    ...
+
+    <script src="https://goo.gl/RT0j4e"></script>
+    <script src="https://goo.gle/re5lES"></script>
+
+    
+  </body>
+</html>
+
+
+app.js
+var main = function() {
+  $(".dropdown-toggle").click(function() {
+    $(".dropdown-menu").toggle();
+  });
+};
+
+$(document).ready(main);
+
+
+app.js
+var main = function() {
+  $(".dropdown-toggle").click(function() {
+    $(".dropdown-menu").toggle();
+  });
+};
+
+$(document).ready(main);
+
+
