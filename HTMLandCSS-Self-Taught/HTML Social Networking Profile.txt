@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>The Kingest of Kongs</title>
+	</head>
+	<body>
+		<img src="https://s3.amazonaws.com/codecademy-blog/assets/da840950.jpg" />
+		<p>I'm male, 89 years old, and am a giant, Empire State Building-climbing ape.</p>
+		<ul>
+			<li><p style="color:red">Interests</p>
+				<ul>
+					<li style="font-family:Futura">Bananas</li>
+					<li style="font-family:Futura">Climbing stuff</li>
+					<li style="font-family:Futura">HTML</li>
+				</ul>
+            </li>
+			<li><p style="color:red">Jobs</p>
+				<ol>
+					<li style="font-family:Futura">Giant ape</li>
+					<li style="font-family:Futura">Web developer</li>
+				</ol>
+            </li>
+			<li><p style="color:red">Where I Went to School</p>
+				<ol>
+					<li style="font-family:Futura">Diddy Kong Jr. High School</li>
+					<li style="font-family:Futura">Donkey Kong Sr. High School</li>
+					<li style="font-family:Futura">Harvard University (BA)</li>
+					<li style="font-size:18px; font-family:Futura">Yale University (JD) (Current)</li>
+				</ol>
+            </li>
+			<li><p style="color:red">Favorite Quotes</p>
+				<ul>
+					<li style="font-family:Futura">"If at first you don't succeed, climb a giant building."</li>
+					<li style="font-family:Futura">"A banana in the hand is worth two on the tree."</li>
+				</ul>
+            </li>
+		</ul>
+	</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Kora</title>
+	</head>
+	<body>
+	<img src="http://i65.tinypic.com/295z79j.jpg" />
+	</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Kora</title>
+	</head>
+	<body>
+	<img src="http://i65.tinypic.com/295z79j.jpg" />
+	</body>
+	<p>Age: unknown;
+	Gender: Female;
+	Hometown: London
+	</p>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Kora</title>
+	</head>
+	<body>
+	<img src="http://i65.tinypic.com/295z79j.jpg" />
+	</body>
+	<p>Age: unknown;
+	Gender: Female;
+	Hometown: London
+	</p>
+	<ul>
+	<li>Interests: Reading books, hunting down the usual, go bump in the night, the list can go on</li>
+	<li>Jobs: Intern for Hellsing</li>
+	<li>Favorite Quotes: I have none.</li>
+	<li>Where I've lived: London</li>
+	</ul>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Kora</title>
+	</head>
+	<body>
+	<img src="http://i65.tinypic.com/295z79j.jpg" />
+	</body>
+	<p>Age: unknown;
+	Gender: Female;
+	Hometown: London
+	</p>
+	<ul>
+	<li>Interests: Reading books, hunting down the usual, go bump in the night, the list can go on</li>
+	<li>Jobs: Intern for Hellsing</li>
+	<li>Favorite Quotes: I have none.</li>
+	<li>Where I've lived: London</li>
+	Favorite Books
+        <ol>
+	<li>Bram Stoker's Dracula</li>
+	<li>The Unremembered</li>
+	<li>Steven King's IT</li>
+	<li>Edgar Allen Poe</li>
+	<li>Clockwork Series</li>
+	<li>IceMark Series</li>
+	<li>And so much more...</li>
+        </ol>
+	
+	<ul>
+	<li>Contacts</li>
+	<li>Add Friend</li>
+	<li>Message</li>
+	</ul>
+	</ul>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Kora</title>
+	</head>
+	<body>
+	<img src="http://i65.tinypic.com/295z79j.jpg" />
+	</body>
+	<p style="font-size: 10px; font-family: Arial; color: DarkBlue">Age: unknown;
+	Gender: Female;
+	Hometown: London
+	</p>
+	<ul>
+	<li>Interests: Reading books, hunting down the usual, go bump in the night, the list can go on</li>
+	<li>Jobs: Intern for Hellsing</li>
+	<li>Favorite Quotes: I have none.</li>
+	<li>Where I've lived: London</li>
+	Favorite Books
+	<ol>
+	<li>Bram Stoker's Dracula</li>
+	<li>The Unremembered</li>
+	<li>Steven King's IT</li>
+	<li>Edgar Allen Poe</li>
+	<li>Clockwork Series</li>
+	<li>IceMark Series</li>
+	<li>And so much more...</li>
+	</ol>
+	
+	<ul>
+	<li>Contacts</li>
+	<li>Add Friend</li>
+	<li>Message</li>
+	</ul>
+	</ul>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Kora</title>
+	</head>
+	<body>
+	<img src="http://i65.tinypic.com/295z79j.jpg" />
+	</body>
+	<p style="font-size: 10px; font-family: Arial; color: DarkBlue">Age: unknown;
+	Gender: Female;
+	Hometown: London
+	</p>
+	<ul>
+	<li>Interests: Reading books, hunting down the usual, go bump in the night, the list can go on</li>
+	<li>Jobs: Intern for Hellsing</li>
+	<li>Favorite Quotes: I have none.</li>
+	<li>Where I've lived: London</li>
+	Favorite Books
+	<ol>
+	<li>Bram Stoker's Dracula</li>
+	<li>The Unremembered</li>
+	<li>Steven King's IT</li>
+	<li>Edgar Allen Poe</li>
+	<li>Clockwork Series</li>
+	<li>IceMark Series</li>
+	<li>And so much more...</li>
+	</ol>
+	
+	<ul>
+	<li>Contacts</li>
+	<li>Add Friend</li>
+	<li>Message</li>
+	</ul>
+	</ul>
+</html>
+
+
+

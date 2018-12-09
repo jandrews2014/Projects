@@ -1,0 +1,799 @@
+index.html
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>Result</title>
+	</head>
+	<body>
+		<div id="header">
+			<div id="navbar">
+				<ul>
+					<li>Home</li>
+					<li>About Me</li>
+					<li>Plans for World Domination</li>
+					<li>Contact</li>
+				</ul>
+			</div>
+			<h2>About Me</h2>
+		</div>
+		<div id="left">
+		<img src="https://s3.amazonaws.com/codecademy-blog/assets/puppy-main_zps26d178c5.jpg"/>
+		<p>I am the angriest puppy in the world. This has been scientifically proven in several clinical trials.</p>
+		</div>
+		<div id="right">
+		<table>
+			<th colspan="3">My Bros</th>
+			<tr>
+				<td><img src="https://s3.amazonaws.com/codecademy-blog/assets/puppy-1_zps5666b8e7.jpg"/></td>
+				<td><img src="https://s3.amazonaws.com/codecademy-blog/assets/puppy-2_zps1539e6b2.jpg"/></td>
+				<td><img src="https://s3.amazonaws.com/codecademy-blog/assets/puppy-3_zps4692eafa.png"/></td>
+			</tr>
+			<tr>
+				<td><img src="https://s3.amazonaws.com/codecademy-blog/assets/puppy-4_zps63ff5aa8.jpg"/></td>
+				<td><img src="https://s3.amazonaws.com/codecademy-blog/assets/puppy-5_zps0ee0d2c8.jpg"/></td>
+				<td><img src="https://s3.amazonaws.com/codecademy-blog/assets/puppy-6_zpsc4450a60.jpg"/></td>
+			</tr>
+			<tr>
+				<td><img id="bottom_left" src="https://s3.amazonaws.com/codecademy-blog/assets/puppy-7_zps26e8a8d9.jpg"/></td>
+				<td><img src="https://s3.amazonaws.com/codecademy-blog/assets/puppy-8_zps9a1469be.jpg"></td>
+				<td><img id="bottom_right" src="https://s3.amazonaws.com/codecademy-blog/assets/puppy-9_zps3bab7732.jpg"/></td>
+			</tr>
+		</table>
+		</div>
+		<div id="footer">
+			<div id="button">
+				<p>Send me an <span class="bold">e-mail</span>!</p>
+			</div>
+		</div>
+	</body>
+</html>
+
+stylesheet.css
+body {
+	background-color: #b7d1c4
+}
+
+h2 {
+	font-family: Verdana;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color: #acd1b2;
+}
+
+img {
+	height: 170px;
+	width: 170px;
+	box-shadow: rgba(0,0,0,0.2) 10px 10px;
+
+}
+
+#navbar {
+	position: fixed;
+	top:10px;
+	left:50%;
+	margin-left:-254px;
+}
+
+#header {
+	position: relative;
+	top: -10px;
+	background-color: #3c4543;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+ul{
+	list-style-type: none;
+	position: fixed;
+	margin: -10px;
+}
+
+li {
+	display: inline;
+	border: 2px solid #000000;
+	font-family: Futura, Tahoma, sans-serif;
+	color: #ffffff;
+	padding: 5px;
+	border-radius: 5px 5px;
+	background-color: #cc0323
+}
+
+#left{
+	width: 45%;
+	float: left;
+}
+
+p {
+	font-family: Tahoma;
+	font-size: 1em;
+}
+
+#right{
+	width: 45%;
+	float: right;
+}
+
+table {
+	border: #000000 1px solid;
+	background-color: #acd1b2;
+	float: right;
+	margin-right: 10px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+td {
+	height: 75px;
+	width: 75px;
+}
+
+td img {
+	height: 75px;
+	width: 75px;
+	box-shadow: none;
+}
+
+th {
+	font-family: Verdana;
+	font-size: 1em;
+	font-weight: normal;
+	color: #3c4543
+}
+
+#bottom_left{
+	border-bottom-left-radius: 15px;
+}
+
+#bottom_right{
+	border-bottom-right-radius: 15px;
+}
+
+#footer{
+	clear: both;
+	position: relative;
+	bottom: -20px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	height: 75px;
+	background-color: #3c4543;
+}
+
+#button{
+	border: 2px solid #000000;
+	float:left;
+	position: relative;
+	left: 229px;
+	bottom: -20px;
+	border-radius: 5px;
+	background-color: #cc0323;
+	height: 30px;
+	width: 150px;
+	
+}
+
+#button p{
+	position: relative;
+	bottom: 10px;
+	font-size: 0.8em;
+	color: #acd1b2;
+	text-align: center;
+}
+
+.bold{
+	font-family: tahoma;
+	font-weight: bold;
+	font-size: 1.2em;
+	font-variant: small-caps;
+	color: #ffffff;
+}
+
+
+index.html
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>Fancy Fonts</title>
+	</head>
+	<body>
+		<p>I'm a paragraph written in red font, but one of my words is <span>blue</span>!</p>
+	</body>
+</html>
+
+stylesheet.css
+p {
+	color: red;
+}
+
+span {
+	/*Write your CSS here!*/
+	color: blue;
+}
+
+
+index.html
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>Even Fancier Fonts</title>
+	</head>
+	<body>
+		<p>Much of this is regular text, but some of it is <span>fancy</span>!
+		We can use our <span>newly fancified font</span> to add some
+		<span>flair</span> to our website. It'd be a <span>royal pain</span> 
+		to make each of these span tags <span>fancy</span> individually,
+		but it's a cinch with <span>CSS</span>!</p>
+	</body>
+</html>
+
+stylesheet.css
+p {
+    font-size: 100px;
+}
+
+span {
+	/*Add your CSS here!*/
+	font-family: cursive;
+}
+
+
+index.html
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			p {
+				color: purple;
+			}
+		</style>
+		<title>Result</title>
+	</head>
+	<body>
+		<p>Check it out! I'm purple!</p>
+	</body>
+</html>
+
+
+index.html
+<!DOCTYPE html>
+<html>
+	<head>
+	<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>Result</title>
+	</head>
+	<body>
+		<p>I want to be SIZE 44 font!</p>
+	</body>
+</html>
+
+stylesheet.css
+ {
+	font-size: 44px;
+}
+
+
+index.html
+<!DOCTYPE html>
+<html>
+	<head>
+	<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>Result</title>
+	</head>
+	<body>
+		<p>I want to be SIZE 44 font!</p>
+	</body>
+</html>
+
+
+index.html
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>Result</title>
+	</head>
+	<body>
+		<p>You're about to style this paragraph with CSS all on your own!</p>
+	</body>
+</html>
+
+stylesheet.css
+p{
+    color: green;
+}
+
+
+index.html
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>Result</title>
+	</head>
+	<body>
+		<p>You're about to style this paragraph with CSS all on your own!</p>
+	</body>
+</html>
+
+stylesheet.css
+p{
+    color: green;
+    font-family: Garamond;
+    font-size: 24px;
+}
+
+
+index.html
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>I Know Kung Fu (er, CSS)</title>
+	</head>
+	<body>
+		<div>
+			<h3>What's CSS for?</h3>
+			<p>CSS is for styling HTML pages!</p>
+			<h3>Why use it?</h3>
+			<p>It makes webpages look <span>really rad</span>.</p>
+			<h3>What do I think of it?</h3>
+			<p>It's awesome!</p>
+		</div>
+	</body>
+</html>
+
+stylesheet.css
+/*You can do this! Write your CSS below.*/
+h3{
+    color: red;
+}
+p{
+    font-family: Courier;
+}
+span{
+    background-color: yellow;
+}
+
+
+index.html
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>Result</title>
+	</head>
+	<body>
+		<h3>Recent Projects</h3>
+		<p>I've started learning HTML and CSS. I hope to create my own website soon!</p>
+	</body>
+</html>
+
+stylesheet.css
+h3 {
+	font-family: Verdana;
+	color: blue;
+}
+
+p {
+	font-family: Garamond;
+	font-size: 16px;
+}
+
+
+index.html
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>Result</title>
+	</head>
+	<body>
+		<p>I'm currently red, but I'm about to become black!</p>
+	</body>
+</html>
+
+stylesheet.css
+/*p {
+	color:red;
+}*/
+
+
+index.html
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--Add your link tag here!-->
+		
+		<title>Result</title>
+	</head>
+	<body>
+		<h1>Change me to Verdana.</h1>
+		<h3>Change me to Courier.</h3>
+		<p>Make me purple!</p>
+	</body>
+</html>
+
+stylesheet.css
+/*My Code*/
+h1{
+    font-family: Verdana;
+}
+h3{
+    font-family: Courier;
+}
+p{
+    color: purple;
+}
+
+
+index.html
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>Result</title>
+	</head>
+	<body>
+		<h1>I'm maroon!</h1>
+		<h2>I'm coral!</h2>
+		<h3>I'm goldenrod!</h3>
+		<h4>I'm sea green!</h4>
+		<h5>I'm royal blue!</h5>
+		<h6>I'm plum!</h6>
+	</body>
+</html>
+
+stylesheet.css
+h1 {
+	color: #8B1C62;
+}
+
+h2 {
+	color: #FF7256;
+}
+
+h3 {
+	color: #FFC125;
+}
+
+h4 {
+	color: #54FF9F;
+}
+
+h5 {
+	color: #530EE8;
+}
+
+h6 {
+	color: #8B668B;
+}
+
+
+index.html
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>Result</title>
+	</head>
+	<body>
+		<h3>Roses are red.</h3>
+		<h2>Violets are blue!</h2>
+	</body>
+</html>
+
+stylesheet.css
+h3 {
+	/*Add your CSS hex color here!*/
+	color: #CC6666;
+}
+
+h2 {
+	/*Add your CSS hex color here!*/
+	color: #8A2BE2;
+}
+
+
+index.html
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Result</title>
+	</head>
+	<body>
+		<p style="font-size: 1em">One em!</p>
+		<p style="font-size: 0.5em">Half an em!</p>
+		<p style="font-size: 2em">TWO EM!</p>
+	</body>
+</html>
+
+
+index.html
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>Result</title>
+	</head>
+	<body>
+		<h1>I'm going to be a serif font when I grow up!</h1>
+		<h2>I'm going to be a sans-serif font.</h2>
+		<h3>I'm going to be in cursive!</h3>
+	</body>
+</html>
+
+stylesheet.css
+/*Add your CSS below!*/
+h1{
+    font-family: Serif;
+}
+h2{
+    font-family: Sans-Serif;
+}
+h3{
+    font-family: Cursive;
+}
+
+
+index.html
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>Result</title>
+	</head>
+	<body>
+		<h1>I'm going to be a serif font when I grow up!</h1>
+		<h2>I'm going to be a sans-serif font.</h2>
+		<h3>I'm going to be in cursive!</h3>
+	</body>
+</html>
+
+stylesheet.css
+/*Add your CSS below!*/
+h1{
+    font-family: Times, Serif;
+}
+h2{
+    font-family: Verdana, Sans-Serif;
+}
+h3{
+    font-family: Vivaldi, Cursive;
+}
+
+
+index.html
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>Free Play!</title>
+	</head>
+	<body>
+		<!--Go bananas!-->
+		
+	</body>
+</html>
+
+stylesheet.css
+/*Write your CSS below!*/
+
+
+index.html
+<!DOCTYPE html>
+<html>
+	<head>
+	<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>Result</title>
+	</head>
+	<body>
+		<div></div>
+	</body>
+</html>
+
+stylesheet.css
+/*Add your CSS below!*/
+div{
+    background-color:#CC0000;
+    height:100px;
+    width:100px;
+}
+
+
+index.html
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title></title>
+	</head>
+	<body>
+		<table>
+			<thead>
+				<th colspan="3">Nine Blocks!</th>
+			</thead>
+			<tbody>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>
+
+stylesheet.css
+/*Add your CSS below!*/
+td{
+    height: 50px;
+    border:1px dashed blue;
+}
+table{
+    border: 1px solid black;
+}
+
+
+index.html
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>Result</title>
+	</head>
+	<body>
+		<p>The below link goes to Google!</p>
+		<a href="http://www.google.com/">Google</a>
+	</body>
+</html>
+
+stylesheet.css
+/*Add your CSS below!*/
+a{
+    color:#CC0000;
+    text-decoration: none;
+}
+
+
+index.html
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Result</title>
+	</head>
+	<body></body>
+</html>
+
+stylesheet.css
+<!DOCTYPE html>
+<html>
+	<head>
+	<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>Result</title>
+	</head>
+	<body></body>
+</html>
+
+
+index.html
+<!DOCTYPE html>
+<html>
+	<head>
+	<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>Result</title>
+	</head>
+	<body></body>
+</html>
+
+stylesheet.css
+/*My Code*/
+h1{
+    font-family: Verdana;
+    color: #576D94;
+}
+p{
+    font-size: 18px;
+    color: #4A4943;
+}
+
+
+index.html
+<!DOCTYPE html>
+<html>
+	<head>
+	<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>Result</title>
+	</head>
+	<body><h1>Hello there.</h1>
+	<p>This is CSS.</p></body>
+</html>
+
+stylesheet.css
+/*My Code*/
+h1{
+    font-family: Verdana, Sans-Serif;
+    color: #576D94;
+}
+p{
+    font-size: 18px;
+    color: #4A4943;
+    font-family: Garamond, Serif;
+}
+
+
+index.html
+<!DOCTYPE html>
+<html>
+	<head>
+	<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>Result</title>
+	</head>
+	<body><h1>Hello there.</h1>
+	<p>This is CSS.</p>
+	<img src="http://i65.tinypic.com/295z79j.jpg" /></body>
+</html>
+
+stylesheet.css
+/*My Code*/
+h1{
+    font-family: Verdana, Sans-Serif;
+    color: #576D94;
+}
+p{
+    font-size: 18px;
+    color: #4A4943;
+    font-family: Garamond, Serif;
+}
+img{
+    height: 100px;
+    width: 300px;
+    border: 1px solid #4682B4;
+}
+
+
+index.html
+<!DOCTYPE html>
+<html>
+	<head>
+	<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>Result</title>
+	</head>
+	<body><h1>Hello there.</h1>
+	<p>This is CSS.<a href="http://www.wix.com/">Link</a>.</p>
+	<img src="http://i65.tinypic.com/295z79j.jpg" /></body>
+</html>
+
+stylesheet.css
+/*My Code*/
+h1{
+    font-family: Verdana, Sans-Serif;
+    color: #576D94;
+}
+p{
+    font-size: 18px;
+    color: #4A4943;
+    font-family: Garamond, Serif;
+}
+img{
+    height: 100px;
+    width: 300px;
+    border: 1px solid #4682B4;
+}
+a{
+    text-decoration: none;
+    color: #CC0000;
+}

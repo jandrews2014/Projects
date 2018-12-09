@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Table Time</title>
+	</head>
+	<body>
+		<h1 style="font-family: Arial">Tables Are Mega Sweet</h1>
+		<img src="http://i65.tinypic.com/295z79j.jpg" />
+		<a href="https://www.codecademy.com/">
+		<img src="http://i65.tinypic.com/295z79j.jpg" /></a>
+	</body>
+</html>
+
+
+<html>
+    <head>
+        <title>Table Time</title>
+    </head>
+    
+    <body>
+        <table></table>
+        
+        
+    </body>
+
+</html>
+
+
+<html>
+    <head>
+        <title>Table Time</title>
+    </head>
+    
+    <body>
+        
+        <table>
+            <tr></tr>
+            <!-- Add two more rows below this! -->
+            <tr></tr>
+            <tr></tr>
+            
+        </table>
+        
+    </body>
+
+</html>
+
+
+<html>
+    <head>
+        <title>Table Time</title>
+    </head>
+    
+    <body>
+        
+        <table border="1px">
+            <tr>
+                <td>One</td>
+            </tr>
+            
+            <tr>
+                <td>Two</td>
+            </tr>
+            
+            <tr>
+                <td>Three</td>
+            </tr>
+        </table>
+        
+    </body>
+
+</html>
+
+
+<html>
+    <head>
+        <title>Table Time</title>
+    </head>
+    
+    <body>
+        
+        <table border="1px">
+            <tr>
+                <td>King Kong</td>
+                <td>1933</td>     
+            </tr>
+            
+            <tr>
+                <td>Dracula</td>
+                <td>1897</td>
+                
+            </tr>
+            
+            <tr>
+                <td>Bride of Frankenstein</td>
+                <td>1935</td>
+                
+            </tr>
+        </table>
+        
+    </body>
+
+</html>
+
+
+<html>
+    <head>
+        <title>Table Time</title>
+    </head>
+    
+    <body>
+        
+        <table border="1px">
+            
+            <tbody>
+                <tr>
+                    <td>King Kong</td>
+                    <td>1933</td>     
+                </tr>
+                
+                <tr>
+                    <td>Dracula</td>
+                    <td>1897</td>
+                </tr>
+                
+                <tr>
+                    <td>Bride of Frankenstein</td>
+                    <td>1935</td>
+                </tr>
+            </tbody>
+            
+        </table>
+        
+    </body>
+
+</html>
+
+
+<html>
+    <head>
+        <title>Table Time</title>
+    </head>
+    
+    <body>
+        
+        <table border="1px">
+            <thead>
+                <tr>
+                <th>Famous Monster</th>
+                <th>Birth Year</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>King Kong</td>
+                    <td>1933</td>     
+                </tr>
+                
+                <tr>
+                    <td>Dracula</td>
+                    <td>1897</td>
+                </tr>
+                
+                <tr>
+                    <td>Bride of Frankenstein</td>
+                    <td>1935</td>
+                </tr>
+            </tbody>
+        </table>
+        
+    </body>
+
+</html>
+
+
+<html>
+    <head>
+        <title>Table Time</title>
+    </head>
+    
+    <body>
+        
+        <table border="1px">
+            <thead>
+                <tr>
+                    <th colspan="2">Famous Monsters by Birth Year</th>
+                </tr>
+                <tr>
+                    <th>Famous Monster</th>
+                    <th>Birth Year</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>King Kong</td>
+                    <td>1933</td>     
+                </tr>
+                
+                <tr>
+                    <td>Dracula</td>
+                    <td>1897</td>
+                </tr>
+                
+                <tr>
+                    <td>Bride of Frankenstein</td>
+                    <td>1935</td>
+                </tr>
+            </tbody>
+        </table>
+        
+    </body>
+
+</html>
+
+
+<html>
+    <head>
+        <title>Table Time</title>
+    </head>
+    
+    <body>
+        
+        <table style="border-collapse:collapse;">
+            <thead>
+                <tr>
+                    <th colspan="2" style="color: red">Famous Monsters by Birth Year</th>
+                </tr>
+                <tr style="border-bottom:1px solid black;">
+                    <th style="padding:5px;"><em>Famous Monster</em></th>
+                    <th style="padding:5px;border-left:1px solid black;"><em>Birth Year</em></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="padding:5px;">King Kong</td>
+                    <td style="padding:5px;border-left:1px solid black;">1933</td>     
+                </tr>
+                
+                <tr>
+                    <td style="padding:5px;">Dracula</td>
+                    <td style="padding:5px;border-left:1px solid black;">1897</td>
+                </tr>
+                
+                <tr>
+                    <td style="padding:5px;">Bride of Frankenstein</td>
+                    <td style="padding:5px;border-left:1px solid black;">1944</td>
+                </tr>
+            </tbody>
+        </table>
+        
+    </body>
+
+</html>
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Result</title>
+	</head>
+	<body>
+		<div style="width:50px; height:50px; background-color:red"></div>
+		<div style="width:50px; height:50px; background-color:blue"></div>
+		<div style="width:50px; height:50px; background-color:green"></div>
+		<div style="width:50px; height:50px; background-color: yellow"></div>
+	</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Result</title>
+	</head>
+	<body>
+		<div style="width:50px; height:50px; background-color:red"></div>
+		<div style="width:50px; height:50px; background-color:blue"></div>
+		<div style="width:50px; height:50px; background-color:green"></div>
+		<a href="http://www.tinypic.com/"><div style="width:50px; height:50px; background-color:yellow"></div></a>
+	</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<p>This text is black, except for the word <span style="color: red">red</span>!</p>
+	</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Result</title>
+	</head>
+	<body>
+		<p>My favorite font is <span style="font-family:Impact">Impact</span>!</p>
+	</body>
+</html>
+
+
+index.html
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ye Olde Fancye Booke</title>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+	</head>
+	<body>
+		<h3>Ye Olde Storye</h3>
+		<p><span>A</span> long time ago there was an intrepid young student who wanted to learn CSS...</p>
+	</body>
+</html>
+
+stylesheet.css
+p {
+	font-family:Garamond;
+	font-size:16px;
+}
+
+h3 {
+	font-family:cursive;
+	color:#36648b;
+	text-align:center;
+}
+
+span {
+	color:#cc0000;
+	font-size:24px;
+}
+
+

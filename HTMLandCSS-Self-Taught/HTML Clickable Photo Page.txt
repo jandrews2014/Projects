@@ -1,0 +1,216 @@
+index.html
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css" />
+		<title>My Photo Page</title>
+	</head>
+	<body></body>
+</html>
+
+stylesheet.css
+img {
+	width:100px;
+	height:100px;
+}
+
+table, td {
+	border: 1px #70b8ff dashed;
+}
+
+
+index.html
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css" />
+		<title>My Photo Page</title>
+	</head>
+	<body>
+	<table>
+	<tr></tr>
+	<tr></tr>
+	<tr></tr>
+	</table>
+	</body>
+</html>
+
+stylesheet.css
+img {
+	width:100px;
+	height:100px;
+}
+
+table, td {
+	border: 1px #70b8ff dashed;
+}
+
+
+index.html
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css" />
+		<title>My Photo Page</title>
+	</head>
+	<body>
+	<table>
+	<tr>
+	<td></td>
+	<td></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td></td>
+	<td></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td></td>
+	<td></td>
+	<td></td>
+	</tr>
+	</table>
+	</body>
+</html>
+
+stylesheet.css
+img {
+	width:100px;
+	height:100px;
+}
+
+table, td {
+	border: 1px #70b8ff dashed;
+}
+
+
+index.html
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css" />
+		<title>My Photo Page</title>
+	</head>
+	<body>
+	<table>
+	<thead></thead>
+	<th>Column 1</th>
+	<th>Column 2</th>
+	<th>Column 3</th>
+	<tr>
+	<td></td>
+	<td></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td></td>
+	<td></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td></td>
+	<td></td>
+	<td></td>
+	</tr>
+	</table>
+	</body>
+</html>
+
+stylesheet.css
+img {
+	width:100px;
+	height:100px;
+}
+
+table, td {
+	border: 1px #70b8ff dashed;
+}
+
+
+index.html
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css" />
+		<title>My Photo Page</title>
+	</head>
+	<body>
+	<table>
+	<thead></thead>
+	<th>Column 1</th>
+	<th>Column 2</th>
+	<th>Column 3</th>
+	<tr>
+	<td><img src="http://i65.tinypic.com/295z79j.jpg" /></td>
+	<td><img src="http://i64.tinypic.com/2m5yqef.jpg" /></td>
+	<td><img src="http://i65.tinypic.com/246no5f.jpg" /></td>
+	</tr>
+	<tr>
+	<td><img src="http://i65.tinypic.com/mjsnet.jpg" /></td>
+	<td><img src="http://i67.tinypic.com/16gejif.jpg" /></td>
+	<td><img src="http://i63.tinypic.com/2vmfqpy.jpg" /></td>
+	</tr>
+	<tr>
+	<td><img src="http://i63.tinypic.com/iqvk1t.jpg" /></td>
+	<td><img src="http://i63.tinypic.com/11sld7k.jpg" /></td>
+	<td><img src="http://i67.tinypic.com/330edtv.jpg" /></td>
+	</tr>
+	</table>
+	</body>
+</html>
+
+stylesheet.css
+img {
+	width:100px;
+	height:100px;
+}
+
+table, td {
+	border: 1px #70b8ff dashed;
+}
+
+
+index.html
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css" />
+		<title>My Photo Page</title>
+	</head>
+	<body>
+	<table>
+	<thead></thead>
+	<th>Column 1</th>
+	<th>Column 2</th>
+	<th>Column 3</th>
+	<tr>
+	<td><a href="http://www.facebook.com"><img src="http://i65.tinypic.com/295z79j.jpg" /></a></td>
+	<td><a href="http://www.fau.edu"><img src="http://i64.tinypic.com/2m5yqef.jpg" /></a></td>
+	<td><a href="http://www.photobucket.com/"><img src="http://i65.tinypic.com/246no5f.jpg" /></a></td>
+	</tr>
+	<tr>
+	<td><a href="http://www.youtube.com/"><img src="http://i65.tinypic.com/mjsnet.jpg" /></a></td>
+	<td<a href="http://www.tinyurl.com/"><img src="http://i67.tinypic.com/16gejif.jpg" /></a></td>
+	<td><a href="http://www.deviantart.com/"><img src="http://i63.tinypic.com/2vmfqpy.jpg" /></td>
+	</tr>
+	<tr>
+	<td><a href="http://www.google.com/"><img src="http://i63.tinypic.com/iqvk1t.jpg" /></a></td>
+	<td><a href="http://www.wix.com/"><img src="http://i63.tinypic.com/11sld7k.jpg" /></a></td>
+	<td><a href="http://www.netflix.com/"><img src="http://i67.tinypic.com/330edtv.jpg" /></a></td>
+	</tr>
+	</table>
+	</body>
+</html>
+
+stylesheet.css
+img {
+	width:100px;
+	height:100px;
+}
+
+table, td {
+	border: 1px #70b8ff dashed;
+}
+
+

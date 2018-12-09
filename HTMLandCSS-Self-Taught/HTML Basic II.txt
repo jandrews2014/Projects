@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>The Site of the Sheep!</title>
+	</head>
+	<body>
+		<p>Hello moto!</p>
+	</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+	</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lists</title>
+	</head>
+	<body>
+		<h1>List of my favorite things</h1>
+		<ol>
+			<li>Raindrops on roses</li>
+			<li>Whiskers on kittens</li>
+			<li>Bright copper kettles</li>
+			<li>Warm woolen mittens</li>
+		</ol>
+		<h2>List of things I just find 'OK'</h2>
+		<ol>
+		<li>Roller Skating</li>
+		<li>Internet People</li>
+		<li>Icon for Hire</li>
+		<li>Extensive Games</li>
+		</ol>
+	</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+	    <h3>Most Annoying TV Celebrities</h3>
+	    <ol>
+	    <li>Demi Lovato</li>
+	    <li>Miley Cyrus</li>
+	    <li>Kim Kardashian</li>
+	    </ol>
+	    
+	    <h2>Top three things I can do for Mother's Day</h2>
+	    <ol>
+	    <li>Praise Jesus</li>
+	    <li>Spend time with my Mother</li>
+	    <li>Live life</li>
+	    </ol>
+	    
+	</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Unordered Lists</title>
+	</head>
+	<body>
+	<h1>Some random thoughts</h1>
+	<p>Some thoughts that randomly come to mind with this task.</p><ul>
+	<li>Seven Keys and Nine Doors</li>
+	<li>ARTTT!!!!!!!!!!!!!!</li>
+	<li>SHEEEEEEEEEEEEEEEP!!!!</li>
+	<li>llama .w.</li>
+	</ul>
+
+	</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Nested lists</title>
+	</head>
+	<body>
+		<ol>
+			<li>Dad's interests
+				<ul>
+					<li>football</li>
+					<li>knitting</li>
+				</ul>
+			</li>
+			<li>Mom's interests
+				<ul>
+					<li>hating football</li>
+					<li>skydiving</li>
+				</ul>
+			</li>
+		</ol>
+		<ul>Favorite Boys' Names</ul>
+		<ol>
+		<li>Ethan</li>
+		<li>Michael</li>
+		<li>Seth</li>
+		</ol>
+		<ul>Favorite Girls' Names</ul>
+		<li>Ellie</li>
+		<li>Audrey</li>
+		<li>Kora</li>
+		<ol></ol>
+	</body>
+</html>
+
+
+<!-- Make me into a comment. -->
+
+<p>But leave me visible to the user!</p>
+
+<!-- comment -->
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>First font size change</title>
+	</head>
+	<body>
+		<p style="font-size: 10px"> Some text for you to make tiny! </p>
+		<p style="font-size: 20px"> Some text for you to make normal size!</p>
+		<p style="font-size: 40px"> Some text for you to make super big!</p>
+	</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Changing the colors!</title>
+	</head>
+	<body>
+		<h1 style="color: green; font-size: 16px">Big Heading</h1>
+			<p style="color: violet">A giant bear and a little duck were friends.</p>
+			<p style="color: red; font-size: 10px">But the bear got hungry and ate the duck.</p>
+	</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Loving the font changes</title>
+	</head>
+	<body>
+		<h1 style="font-family: Arial">Big title</h1>
+		 <ol>
+		 	<li style="font-size: 16px; font-family: Arial">This item is big Arial.</li>
+		 	<li style="font-size: 12px; font-family: Verdana">This item is medium Verdana.</li>
+		 	<li style="font-size: 10px; font-family: Impact">This item is small Impact.</li>
+		 </ol>
+	</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Putting it all together</title>
+	</head>
+	<body>
+		<p style="font-size:20px; color: blue; font-family: Arial">A truly spectacular paragraph!</p>
+	</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sexy background color!</title>
+	</head>
+	<body style="background-color: brown">
+		<h3>Favorite Football Teams</h3>
+			<ol style="background-color: yellow">
+				<li>The Hawthorn Football Club</li>	
+				<li>San Franscisco 49ers</li>
+				<li>Barcelona FC</li>
+			</ol>			
+	</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sexy background color!</title>
+	</head>
+	<body>
+		<h3 style="text-align: center">Favorite Football Teams</h3>
+			<ol>
+				<li style="text-align:left">The Hawthorn Football Club</li>	
+				<li style="text-align:center">San Franscisco 49ers</li>
+				<li style="text-align:right">Barcelona FC</li>
+			</ol>			
+	</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Viva La Revolution!</title>
+	</head>
+	<body>
+		<p>Do you hear the people <strong>sing</strong>?</p>
+		<p>No I don't. I'm <strong>too</strong> busy eating cake.</p>
+	</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Some nice practice</title>
+	</head>
+	<body>
+		<p>Hey, don't say <em>that</em>!</p>
+		<p>I am <em>so</em> tired.</p>
+	</body>
+</html>
+
+

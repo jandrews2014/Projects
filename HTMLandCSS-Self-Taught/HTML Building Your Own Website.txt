@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Result</title>
+	</head>
+	<body><h1>YEAH SANDWICHES</h1>
+	<img src="http://bit.ly/RhrMEn" />
+		<p>I like eggs.</p>
+		<p>And ham!</p>
+		<p>But mostly sandwiches.</p>
+	</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to My Website</title>
+</head>
+<body></body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to My Website</title>
+</head>
+<body>
+<h1>Jamie Andrews</h1>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to My Website</title>
+</head>
+<body>
+<h1>Jamie Andrews</h1>
+<p>I like to Code.</p>
+<p>I like to Learn.</p>
+<p>It's all Fabulous!</p>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to My Website</title>
+</head>
+<body>
+<h1>Jamie Andrews</h1>
+<p>I like to Code.</p>
+<p>I like to Learn.</p>
+<p>It's all Fabulous!</p>
+<img src="http://i65.tinypic.com/295z79j.jpg" />
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to My Website</title>
+</head>
+<body>
+<h1>Jamie Andrews</h1>
+<a href="https://www.codecademy.com/"><p>I like to Code.</p></a>
+<a href="http://www.fau.edu/"><p>I like to Learn.</p></a>
+<p>It's all Fabulous!</p>
+<img src="http://i65.tinypic.com/295z79j.jpg" />
+</body>
+</html>
+
+

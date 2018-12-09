@@ -1,0 +1,238 @@
+index.html
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>About Me</title>
+	</head>
+	<body>
+		<img src="https://s3.amazonaws.com/codecademy-blog/assets/46838757.png"/>
+		<p>We're Codecademy! We're here to help you learn to code.</p><br/><br/>
+		<div>
+			<a href="https://www.facebook.com/codecademy">Friend us on <span>Facebook!</span></a>
+		</div>
+	</body>
+</html>
+
+stylesheet.css
+img {
+	display: block;
+	height: 100px;
+	width: 300px;
+	margin: auto;
+}
+
+p {
+	text-align: center;
+	font-family: Garamond, serif;
+	font-size: 18px;
+}
+
+div {
+	border-radius: 5px;
+	border: 2px solid #6495ED;
+	background-color: #BCD2EE;
+	height: 50px;
+	width: 120px;
+	margin: auto;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: #3D59AB;
+	font-family: Verdana, sans-serif;
+}
+
+span {
+	font-weight: bold;
+	font-size: 18px;
+	color: #ffffff;
+}
+
+
+index.html
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>About Me</title>
+	</head>
+	<body>
+		<img src="https://s3.amazonaws.com/codecademy-blog/assets/46838757.png"/>
+		<p>We're Codecademy! We're here to help you learn to code.</p><br/><br/>
+		<div>
+			
+		</div>
+	</body>
+</html>
+
+stylesheet.css
+img {
+	display: block;
+	height: 100px;
+	width: 300px;
+	margin: auto;
+}
+
+p {
+	text-align: center;
+	font-family: Garamond, serif;
+	font-size: 18px;
+}
+
+/*Start adding your CSS below!*/
+div{
+    height: 50px;
+    width: 120px;
+    border-color: #6495ED;
+    background-color: #BCD2EE;
+}
+
+
+index.html
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>About Me</title>
+	</head>
+	<body>
+		<img src="https://s3.amazonaws.com/codecademy-blog/assets/46838757.png"/>
+		<p>We're Codecademy! We're here to help you learn to code.</p><br/><br/>
+		<div>
+			
+		</div>
+	</body>
+</html>
+
+stylesheet.css
+img {
+	display: block;
+	height: 100px;
+	width: 300px;
+	margin: auto;
+}
+
+p {
+	text-align: center;
+	font-family: Garamond, serif;
+	font-size: 18px;
+}
+
+/*Start adding your CSS below!*/
+div{
+    height: 50px;
+    width: 120px;
+    border-color: #6495ED;
+    background-color: #BCD2EE;
+    border-radius: 5px;
+}
+
+
+index.html
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>About Me</title>
+	</head>
+	<body>
+		<img src="https://s3.amazonaws.com/codecademy-blog/assets/46838757.png"/>
+		<p>We're Codecademy! We're here to help you learn to code.</p><br/><br/>
+		<div>
+			
+		</div>
+	</body>
+</html>
+
+stylesheet.css
+img {
+	display: block;
+	height: 100px;
+	width: 300px;
+	margin: auto;
+}
+
+p {
+	text-align: center;
+	font-family: Garamond, serif;
+	font-size: 18px;
+}
+
+/*Start adding your CSS below!*/
+div{
+    height: 50px;
+    width: 120px;
+    border-color: #6495ED;
+    background-color: #BCD2EE;
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+}
+
+
+index.html
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>About Me</title>
+	</head>
+	<body>
+		<img src="https://s3.amazonaws.com/codecademy-blog/assets/46838757.png"/>
+		<p>We're Codecademy! We're here to help you learn to code.</p><br/><br/>
+		<div>
+			
+		</div>
+	</body>
+</html>
+
+stylesheet.css
+img {
+	display: block;
+	height: 100px;
+	width: 300px;
+	margin: auto;
+}
+
+p {
+	text-align: center;
+	font-family: Garamond, serif;
+	font-size: 18px;
+}
+
+/*Start adding your CSS below!*/
+div{
+    height: 50px;
+    width: 120px;
+    border-color: #6495ED;
+    background-color: #BCD2EE;
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: DarkBlue;
+    font-family: Arial;
+}
+
+
+index.html
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>About Me</title>
+	</head>
+	<body>
+		<img src="https://s3.amazonaws.com/codecademy-blog/assets/46838757.png"/>
+		<p>We're Codecademy! We're here to help you learn to code.</p><br/><br/>
+		<div>
+		<a href="http://www.facebook.com/">FaceBook Page</a>
+		</div>
+	</body>
+</html>
+
+stylesheet.css

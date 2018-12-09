@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+	<strong>Welcome to the Perry Network.</strong>
+
+
+<!DOCTYPE html>
+<html>
+Welcome to America! :D
+</html>
+
+
+<!DOCTYPE html>
+<html>
+Welcome to Muricuh!
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Webpage</title>
+</head>
+
+	
+	
+	
+	
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Webpage</title>
+</head>
+
+<body><p>Hello World!</p>
+<p>Good-bye World!</p>
+</body>	
+	
+	
+	
+</html>
+
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>
+			Headings & Paragraphs
+		</title>
+		
+	</head>
+	<body>
+		
+		<h1>Content</h1>
+		<p>About Me</p>
+		<p>Contacts</p>
+		
+	</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>
+			Headings & Paragraphs
+		</title>
+		
+	</head>
+	<body>
+		
+		<h1>Content</h1>
+		<p>About Me</p>
+		<h3></h3>
+		<p>Contacts</p>
+		<h5></h5>
+		<p></p>
+		
+	</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>
+			Headings & Paragraphs
+		</title>
+		
+	</head>
+	<body>
+		
+		<h1>Content</h1>
+		<p>Information about person is below:</p>
+		<h2>About Me</h2>
+		<p>I like to code! :D</p>
+		<h3>Contacts</h3>
+		<p>jandrews2014@fau.edu</p>
+		<h4>More Info</h4>
+		<p>Ask</p>
+		<h5>Playlists</h5>
+		<p>There's nothing atm</p>
+		<h6>Not Important Information</h6>
+		<p>*pokes*</p>
+	</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>
+			Headings & Paragraphs
+			<title><h3>More Stuff
+			<p>more</p>
+			<p>stuff</p>
+			<p>indeed</p>
+			</h3>
+			</title>
+		</title>
+		
+	</head>
+	<body>
+		
+		<h1>Content</h1>
+		<p>Information about person is below:</p>
+		<h2>About Me</h2>
+		<p>I like to code! :D</p>
+		<h3>Contacts</h3>
+		<p>jandrews2014@fau.edu</p>
+		<h4>More Info</h4>
+		<p>Ask</p>
+		<h5>Playlists</h5>
+		<p>There's nothing atm</p>
+		<h6>Not Important Information</h6>
+		<p>*pokes*</p>
+	</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+	    <a href="http://www.fau.edu">FAU</a>
+	</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Images</title>
+ </head>
+ <body>
+ <img src="http://s3.amazonaws.com/codecademy-blog/assets/f3a16fb6.jpg" />
+ 
+ <img src="http://i65.tinypic.com/295z79j.jpg" />
+ <h1>
+ </h1>
+ </body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Images</title>
+ </head>
+ <body>
+ <a href="https://www.codeacademy.com">
+ <img src="http://s3.amazonaws.com/codecademy-blog/assets/f3a16fb6.jpg" /></a>
+ <a href="http://tinypic.com?ref=295z79j">
+ <img src="http://i65.tinypic.com/295z79j.jpg" /></a>
+ <h1>
+ </h1>
+ </body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		
+	<a href="http://www.fau.edu"></a>	
+	<img src="http://i65.tinypic.com/295z79j.jpg" />
+	<a href="https://www.codecademy.com/"><img src="http://i64.tinypic.com/2m5yqef.jpg" /></a>
+		
+	</body>
+</html>
+
+
