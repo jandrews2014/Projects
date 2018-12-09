@@ -1,0 +1,87 @@
+//Jamie Andrews, February 3 2015, Lab Assignment #4
+
+//preprocessor directives
+#include<iostream>
+#include<iomanip>
+
+using namespace std;
+
+#include "Stack.h" 
+Stack::Stack( int max )//constructor     
+{
+    maxsize = max;
+    stack   = new int[ maxsize ];
+    top     = 0;
+	cout << "in Stack::Stack( ) with Stack = " << hex << stack << dec << "\n";           
+}      
+Stack::Stack( const Stack &s )//copy constructor
+{
+	maxsize = s.maxsize;
+	// allocate stack for left side object
+	stack = new int[maxsize];
+	// copy right side object to left side object
+	for (top = 0; top < maxsize; ++top)
+	{
+		stack[top] = s.stack[top];
+	}
+}
+Stack::~Stack()//destructor
+{
+	// undo constructor
+	if(stack)
+		delete[] stack;
+}
+//push_back function used to push extra element
+void Stack::push( int i )   // push an int into Stack
+{
+	if (!full())
+	{
+		cout << "push( " << i << " )\t at location "
+			<< top << '\n';
+		stack[top] = i;
+		++top;              // advance to next empty location
+	}
+}
+//pop function used to remove last element
+int Stack::pop()
+{
+	if( empty( ) )
+    {
+        return -1;          // stack is empty; return -1
+    }
+    else
+    {
+        --top;              // next avail. position
+        cout << "pop( ) " << stack[ top ]
+             << " at location " << top << '\n';
+
+        return stack[ top ];  // return item at top of stack
+    }
+}
+bool Stack::full( ) const//if full
+{
+    return top >= maxsize;
+}
+bool Stack::empty( ) const//if empty
+{
+    return top <= 0;
+}
+int Stack::capacity( ) const//maxsize capacity
+{
+	return maxsize;
+}
+int Stack::size( ) const//size of stack
+{
+    return top;
+}
+ostream &operator <<( ostream &out, const Stack &s )//operator function
+{
+    out << "in Stack::~Stack( ) with stack = " << hex << s.stack << dec << endl;
+
+    for( int i = s.top - 1; i >= 0; --i )//for loop
+    {
+        out << setw( 3 ) << i << setw( 5 ) << s.stack[ i ] << '\n';
+    }
+
+    return out;
+}

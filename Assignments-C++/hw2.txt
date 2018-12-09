@@ -1,0 +1,213 @@
+#include <iostream>
+using namespace std;
+
+//code inspired by Austen Stone
+class Item
+{
+public:
+	int val;
+	Item *next, *prev;// added next and prev as pointers
+	Item()
+	{
+		val = 0; 
+		next = 0;
+		prev = 0;
+	}
+	Item(int val)
+	{
+		this->val = val;
+		next = 0;
+		prev = 0;
+	}
+};
+
+class DLinkedList
+{
+	int size;
+	Item *front;
+	Item *back;
+	Item *current; //added current pointer
+
+public:
+	DLinkedList();
+	DLinkedList(const DLinkedList &list);
+
+	void push_back(Item *a, Item *back);
+	void push_front(Item *a, Item *front);
+
+	Item * pop_front(Item *front);
+	Item * pop_back();
+
+	void SortList(DLinkedList &list, Item *front); // from lowest to greatest integer
+	void IsEmpty(Item *front); // insert item a after the n-th element
+	void insert(Item *a, int n, Item *front, Item *back); //insert item a after the n-th element
+	void insertlist(DLinkedList *list, int n, Item *front, Item *back);
+	void display(ostream &out, Item *current, Item *front);
+
+	int getSize();
+	Item * getfront();
+	Item * getback();
+	void swap(Item *j, Item *k); //swap two items pointed by j and k
+
+	Item * extractmin(Item * start); // return pointer of the min element after  "start"
+	Item * extractmax(Item * start); // return pointer of the max element after "start"
+};
+//calling in stack
+class myStack
+{
+	DLinkedList list;
+public:
+	myStack();
+	int getSize();
+	void in(Item *a);
+	Item * out();
+};
+//mehqueue funtion (I spelled it weird in comment so ignore misspell)
+class myQueue
+{
+	DLinkedList list;
+public:
+	myQueue();
+	int getSize();
+	void in(Item *a);
+	Item * out();
+};
+//empty function
+int IsEmpty(Item *front)
+{
+	if (front == NULL) {
+		return 1;
+	}
+	else {
+		return 0;
+	}
+}
+//push-front function
+void push_front(Item *a, Item *front)
+{
+	a->next = front;
+	a->prev = NULL;
+	front->prev = a;
+	front = a;
+}
+//push-back function
+void push_back(Item *a, Item *back)
+{
+	a->next = NULL;
+	a->prev = back;
+	back->next = a;
+	back = a;
+}
+//pop-front function
+Item * pop_front(Item *front)
+{
+	Item *temp = front;
+	front = front->next;
+	front->next = front;
+	front->prev = NULL;
+	return temp;
+}
+//display function
+void display(ostream &out, Item *current, Item *front)
+{
+	if (front == NULL) {
+		cout << "The list is empty\n";
+	}
+	else { 
+		cout << "The list contains: \n";
+		while (current != NULL) {
+			cout << current->val << ", ";
+			current = current->next;
+		}
+	}
+}
+//insert function
+void insert(Item *a, int n, Item *front, Item *back) 
+{
+	if (front == NULL || n == 1)		// should we consider position 0?
+	{	
+		a->next = NULL;
+		a->prev = NULL;
+		front = a;
+		back = a;
+	}
+	else 
+	{
+		a = front;
+
+		while (n >= 0)
+		{
+			a = a->next;
+			--n;
+		}
+		a->prev->next = a;
+		a->next->prev = a;
+	}
+}
+//inserting an item into the list function
+void insertList(Item *a, int n, Item *front, Item *back)
+{
+	Item *temp = new Item;
+	temp->val = n;
+	temp->next = NULL;
+	front = temp;
+	back = temp;
+}
+//min function
+Item * extractmin(Item *start) 
+{
+	Item *temp = start;
+
+	while (start != NULL)
+	{
+		if (start->val <= start->next->val){
+			temp = start;
+		}
+		else {
+			start = start->next;
+		}
+	}
+
+	cout << "the minimum value is: " << temp->val << endl;
+	return temp;
+}
+//max function
+Item * extractmax(Item * start)
+{
+	Item *temp = start;
+
+	while (start != NULL)
+	{
+		if (start->val >= start->next->val) {
+			temp->val = start->val;
+		}
+		else {
+			start = start->next;
+		}
+	}
+	cout << "the minimum value is: " << temp->val << endl;
+	return temp;
+}
+
+//sort function
+void SortList(DLinkedList &list, Item *front)
+{
+	while (front != NULL)
+	{
+		front = extractmin(front);  
+		front = front->next;
+	}
+}
+//test function
+void Test()
+{
+	//parameters
+	//lots and lots of parameters
+
+}
+//main with the link to test
+int main(int argc, const char * argv[]) {
+	cout << "abc" <<endl;
+	Test();
+	return 0;
+}
