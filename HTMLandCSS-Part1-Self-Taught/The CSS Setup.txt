@@ -1,0 +1,291 @@
+index.html
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,100' rel='stylesheet' type='text/css'>
+
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <h1>Innovation Cloud</h1>
+        <p>Connect your ideas globally</p>
+        <a class="btn" href="#">Learn More</a>
+      </div>
+    </div>
+
+    <div class="nav">
+      <div class="container">
+        <ul>
+          <li>Register</li>
+          <li>Schedule</li>
+          <li>Sponsors</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="container">
+        <img src="https://s3.amazonaws.com/codecademy-content/projects/innovation-cloud/cloud.svg" height="128" width="196">
+        <h2>The Innovation Cloud Conference</h2>
+        <p>Connect with the best minds across a wide range of industries to share ideas and brainstorm new solutions to challenging problems.</p>
+        <p>Hear industry leaders talk about what worked (and what didn't) so that you can save time on your most challenging projects.</p>
+        <p>Learn about the latest research and technologies that you can use immediately to invent the future.</p>
+      </div>
+    </div>
+
+    <div class="jumbotron">
+      <div class="container">
+        <h2>Stay Connected</h2>
+        <p>Receive weekly insights from industry insiders.</p>
+        <a class="btn" href="#">Join</a>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <p>&copy; Innovation Cloud Conference</p>
+      </div>
+    </div>
+  </body>
+</html>
+
+
+index.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Animals Around the World</title>
+
+</head>
+  <style>
+    * {
+  font-family: 'Georgia', 'Times', serif;
+}
+
+a {
+  color: SeaGreen;
+  text-decoration: none;
+}
+
+img {
+  border-radius: 100%;
+}
+  </style>
+<body>
+  <h1>The Brown Bear</h1>
+  <!-- A section that describes the brown bear -->
+  <p>The brown bear (Ursus arctos) is native to parts of northern Eurasia and North America. Its conservation status is currently "Least Concern." There are many subspecies within the brown bear species, including the Atlas bear and the Himalayan brown bear.</p>
+  <a href="https://en.wikipedia.org/wiki/Brown_bear">Learn More</a>
+  <p>Here are some bear species:</p>
+  <ul>
+    <li>Arctos</li>
+    <li>Collarus</li>
+    <li>Horribilis</li>
+    <li>Nelsoni (extinct)</li>
+  </ul>
+  <p>The following countries have the largest populations of brown bears:</p>
+  <ol>
+    <li>Russia</li>
+    <li>United States</li>
+    <li>Canada</li>
+  </ol>
+  <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">
+    <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/web101-image_brownbear.jpg" /></a>
+</body> 
+</html>
+
+
+index.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Animals Around the World</title>
+
+</head>
+  <style>
+    * {
+  font-family: 'Georgia', 'Times', serif;
+}
+
+a {
+  color: SeaGreen;
+  text-decoration: none;
+}
+
+img {
+  border-radius: 100%;
+}
+  </style>
+<body>
+  <h1>The Brown Bear</h1>
+  <!-- A section that describes the brown bear -->
+  <p>The brown bear (Ursus arctos) is native to parts of northern Eurasia and North America. Its conservation status is currently "Least Concern." There are many subspecies within the brown bear species, including the Atlas bear and the Himalayan brown bear.</p>
+  <a href="https://en.wikipedia.org/wiki/Brown_bear">Learn More</a>
+  <p>Here are some bear species:</p>
+  <ul>
+    <li>Arctos</li>
+    <li>Collarus</li>
+    <li>Horribilis</li>
+    <li>Nelsoni (extinct)</li>
+  </ul>
+  <p>The following countries have the largest populations of brown bears:</p>
+  <ol>
+    <li>Russia</li>
+    <li>United States</li>
+    <li>Canada</li>
+  </ol>
+  <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">
+    <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/web101-image_brownbear.jpg" /></a>
+</body> 
+</html>
+
+
+index.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Animals Around the World</title>
+
+</head>
+<body>
+  <h1>The Brown Bear</h1>
+  <!-- A section that describes the brown bear -->
+  <p>The brown bear (Ursus arctos) is native to parts of northern Eurasia and North America. Its conservation status is currently "Least Concern." There are many subspecies within the brown bear species, including the Atlas bear and the Himalayan brown bear.</p>
+  <a href="https://en.wikipedia.org/wiki/Brown_bear">Learn More</a>
+  <p>Here are some bear species:</p>
+  <ul>
+    <li>Arctos</li>
+    <li>Collarus</li>
+    <li>Horribilis</li>
+    <li>Nelsoni (extinct)</li>
+  </ul>
+  <p>The following countries have the largest populations of brown bears:</p>
+  <ol>
+    <li>Russia</li>
+    <li>United States</li>
+    <li>Canada</li>
+  </ol>
+  <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">
+    <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/web101-image_brownbear.jpg" /></a>
+</body> 
+</html>
+
+style.css
+  * {
+  font-family: 'Georgia', 'Times', serif;
+}
+
+a {
+  color: SeaGreen;
+  text-decoration: none;
+}
+
+img {
+  border-radius: 100%;
+}
+
+
+index.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Animals Around the World</title>
+
+</head>
+<body>
+  <link href="/style.css" type="text/css" rel="stylesheet">
+  <h1>The Brown Bear</h1>
+  <!-- A section that describes the brown bear -->
+  <p>The brown bear (Ursus arctos) is native to parts of northern Eurasia and North America. Its conservation status is currently "Least Concern." There are many subspecies within the brown bear species, including the Atlas bear and the Himalayan brown bear.</p>
+  <a href="https://en.wikipedia.org/wiki/Brown_bear">Learn More</a>
+  <p>Here are some bear species:</p>
+  <ul>
+    <li>Arctos</li>
+    <li>Collarus</li>
+    <li>Horribilis</li>
+    <li>Nelsoni (extinct)</li>
+  </ul>
+  <p>The following countries have the largest populations of brown bears:</p>
+  <ol>
+    <li>Russia</li>
+    <li>United States</li>
+    <li>Canada</li>
+  </ol>
+  <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">
+    <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/web101-image_brownbear.jpg" /></a>
+</body> 
+</html>
+
+style.css
+  * {
+  font-family: 'Georgia', 'Times', serif;
+}
+
+a {
+  color: SeaGreen;
+  text-decoration: none;
+}
+
+img {
+  border-radius: 100%;
+}
+
+
+index.html
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,100' rel='stylesheet' type='text/css'>
+
+  </head>
+  <link href="/style.css" type="text/css" rel="stylesheet">
+  <body>
+    <div class="header">
+      <div class="container">
+        <h1>Innovation Cloud</h1>
+        <p>Connect your ideas globally</p>
+        <a class="btn" href="#">Learn More</a>
+      </div>
+    </div>
+
+    <div class="nav">
+      <div class="container">
+        <ul>
+          <li>Register</li>
+          <li>Schedule</li>
+          <li>Sponsors</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="container">
+        <img src="https://s3.amazonaws.com/codecademy-content/projects/innovation-cloud/cloud.svg" height="128" width="196">
+        <h2>The Innovation Cloud Conference</h2>
+        <p>Connect with the best minds across a wide range of industries to share ideas and brainstorm new solutions to challenging problems.</p>
+        <p>Hear industry leaders talk about what worked (and what didn't) so that you can save time on your most challenging projects.</p>
+        <p>Learn about the latest research and technologies that you can use immediately to invent the future.</p>
+      </div>
+    </div>
+
+    <div class="jumbotron">
+      <div class="container">
+        <h2>Stay Connected</h2>
+        <p>Receive weekly insights from industry insiders.</p>
+        <a class="btn" href="#">Join</a>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <p>&copy; Innovation Cloud Conference</p>
+      </div>
+    </div>
+  </body>
+</html>
+

@@ -1,0 +1,411 @@
+index.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Animals Around the World</title>
+</head>
+<body>
+  <h1>The Brown Bear</h1>
+  <!-- A section that describes the brown bear -->
+  <p>The brown bear (Ursus arctos) is native to parts of northern Eurasia and North America. Its conservation status is currently "Least Concern." There are many subspecies within the brown bear species, including the Atlas bear and the Himalayan brown bear.</p>
+  <a href="https://en.wikipedia.org/wiki/Brown_bear">Learn More</a>
+  <p>Here are some bear species:</p>
+  <ul>
+    <li>Arctos</li>
+    <li>Collarus</li>
+    <li>Horribilis</li>
+    <li>Nelsoni (extinct)</li>
+  </ul>
+  <p>The following countries have the largest populations of brown bears:</p>
+  <ol>
+    <li>Russia</li>
+    <li>United States</li>
+    <li>Canada</li>
+  </ol>
+  <a href="#" target="_blank">
+    <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/web101-image_brownbear.jpg" /></a>
+</body> 
+</html>
+
+
+index.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Animals Around the World</title>
+</head>
+  <h1>The Brown Bear</h1>
+<body>
+
+</body> 
+</html>
+
+
+index.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Animals Around the World</title>
+</head>
+  <h1>The Brown Bear</h1>
+  <p>The brown bear (Ursus arctos) is native to parts of northern Eurasia and North America. Its conservation status is currently "Least Concern." There are many subspecies with the brown bear species, including the Atlas bear and the Himalayan brown bear.</p>
+<body>
+
+</body> 
+</html>
+
+
+index.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Animals Around the World</title>
+</head>
+  <h1>The Brown Bear</h1>
+  <p>The brown bear (Ursus arctos) is native to parts of northern Eurasia and North America. Its conservation status is currently "Least Concern." There are many subspecies with the brown bear species, including the Atlas bear and the Himalayan brown bear.</p>
+  <p>The following are subspecies of bears:
+  </p>
+  <ul>
+    <li>Arctos</li>
+    <li>Collarus</li>
+    <li>Horribilis</li>
+    <li>Nelsoni (extinct)</li>
+  </ul>
+  <body>
+
+</body> 
+</html>
+
+
+index.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Animals Around the World</title>
+</head>
+  <h1>The Brown Bear</h1>
+  <p>The brown bear (Ursus arctos) is native to parts of northern Eurasia and North America. Its conservation status is currently "Least Concern." There are many subspecies with the brown bear species, including the Atlas bear and the Himalayan brown bear.</p>
+  <p>The following are subspecies of bears:
+  </p>
+  <ul>
+    <li>Arctos</li>
+    <li>Collarus</li>
+    <li>Horribilis</li>
+    <li>Nelsoni (extinct)</li>
+  </ul>
+  
+  <p>The following countries have the largest populations of brown bears:</p>
+  
+  <ol>
+    <li>Russia</li>
+    <li>United States</li>
+    <li>Canada</li>
+  </ol>
+  <body>
+
+</body> 
+</html>
+
+
+index.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Animals Around the World</title>
+</head>
+  <h1>The Brown Bear</h1>
+  <p>The brown bear (Ursus arctos) is native to parts of northern Eurasia and North America. Its conservation status is currently "Least Concern." There are many subspecies with the brown bear species, including the Atlas bear and the Himalayan brown bear.</p>
+  <p>The following are subspecies of bears:
+  </p>
+  <ul>
+    <li>Arctos</li>
+    <li>Collarus</li>
+    <li>Horribilis</li>
+    <li>Nelsoni (extinct)</li>
+  </ul>
+  
+  <p>The following countries have the largest populations of brown bears:</p>
+  
+  <ol>
+    <li>Russia</li>
+    <li>United States</li>
+    <li>Canada</li>
+  </ol>
+  
+  <a href="https://en.wikipedia.org/wiki/Brown_bear">Learn More</a>
+  <body>
+
+</body> 
+</html>
+
+
+index.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Animals Around the World</title>
+</head>
+  <h1>The Brown Bear</h1>
+  <p>The brown bear (Ursus arctos) is native to parts of northern Eurasia and North America. Its conservation status is currently "Least Concern." There are many subspecies with the brown bear species, including the Atlas bear and the Himalayan brown bear.</p>
+  <p>The following are subspecies of bears:
+  </p>
+  <ul>
+    <li>Arctos</li>
+    <li>Collarus</li>
+    <li>Horribilis</li>
+    <li>Nelsoni (extinct)</li>
+  </ul>
+  
+  <p>The following countries have the largest populations of brown bears:</p>
+  
+  <ol>
+    <li>Russia</li>
+    <li>United States</li>
+    <li>Canada</li>
+  </ol>
+  
+  <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">Learn More</a>
+  <body>
+
+</body> 
+</html>
+
+
+index.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Animals Around the World</title>
+</head>
+  <h1>The Brown Bear</h1>
+  <p>The brown bear (Ursus arctos) is native to parts of northern Eurasia and North America. Its conservation status is currently "Least Concern." There are many subspecies with the brown bear species, including the Atlas bear and the Himalayan brown bear.</p>
+  <p>The following are subspecies of bears:
+  </p>
+  <ul>
+    <li>Arctos</li>
+    <li>Collarus</li>
+    <li>Horribilis</li>
+    <li>Nelsoni (extinct)</li>
+  </ul>
+  
+  <p>The following countries have the largest populations of brown bears:</p>
+  
+  <ol>
+    <li>Russia</li>
+    <li>United States</li>
+    <li>Canada</li>
+  </ol>
+  <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/web101-image_brownbear.jpg"/>
+  <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">Learn More</a>
+  <body>
+
+</body> 
+</html>
+
+
+index.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Animals Around the World</title>
+</head>
+  <h1>The Brown Bear</h1>
+  <p>The brown bear (Ursus arctos) is native to parts of northern Eurasia and North America. Its conservation status is currently "Least Concern." There are many subspecies with the brown bear species, including the Atlas bear and the Himalayan brown bear.</p>
+  <p>The following are subspecies of bears:
+  </p>
+  <ul>
+    <li>Arctos</li>
+    <li>Collarus</li>
+    <li>Horribilis</li>
+    <li>Nelsoni (extinct)</li>
+  </ul>
+  
+  <p>The following countries have the largest populations of brown bears:</p>
+  
+  <ol>
+    <li>Russia</li>
+    <li>United States</li>
+    <li>Canada</li>
+  </ol>
+  <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/web101-image_brownbear.jpg"
+       alt ="Brown Bear"/>
+  <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">Learn More</a>
+  <body>
+
+</body> 
+</html>
+
+
+index.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Animals Around the World</title>
+</head>
+<body>
+  <h1>The Brown Bear</h1>
+  <p>The brown bear (Ursus arctos) is native to parts of northern Eurasia and North America. Its conservation status is currently "Least Concern." There are many subspecies within the brown bear species, including the Atlas bear and the Himalayan brown bear.</p>
+  <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">Learn More</a>
+  <p>The following are subspecies of bears:</p>
+  <ul>
+    <li>Arctos</li>
+    <li>Collarus</li>
+    <li>Horribilis</li>
+    <li>Nelsoni (extinct)</li>
+  </ul>
+  <p>The following countries have the largest populations of brown bears:</p>
+  <ol>
+    <li>Russia</li>
+    <li>United States</li>
+    <li>Canada</li>
+  </ol>
+  <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">
+  <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/web101-image_brownbear.jpg" alt="A brown bear"/></a>
+</body> 
+</html>
+
+
+index.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Animals Around the World</title>
+</head>
+<body>
+  <h1>The Brown Bear</h1>
+  <p>The brown bear (Ursus arctos) is native to parts of northern Eurasia and North America. Its conservation status is currently "Least Concern." There are many subspecies within the brown bear species, including the Atlas bear and the Himalayan brown bear.</p>
+  <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">Learn More</a>
+  <p>The following are subspecies of bears:</p>
+  <ul>
+    <li>Arctos</li>
+    <li>Collarus</li>
+    <li>Horribilis</li>
+    <li>Nelsoni (extinct)</li>
+  </ul>
+  <p>The following countries have the largest populations of brown bears:</p>
+  <ol>
+    <li>Russia</li>
+    <li>United States</li>
+    <li>Canada</li>
+  </ol>
+  
+  
+  
+  <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">
+  <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/web101-image_brownbear.jpg" alt="A brown bear"/></a>
+</body> 
+</html>
+
+
+index.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Animals Around the World</title>
+</head>
+<body>
+  <h1>The Brown Bear</h1>
+  <p>The brown bear (Ursus arctos) is native to parts of northern Eurasia and North America. Its conservation status is currently "Least Concern." There are many subspecies within the brown bear species, including the Atlas bear and the Himalayan brown bear.</p>
+  <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">Learn More</a>
+  <p>The following are subspecies of bears:</p>
+  <ul>
+    <li>Arctos</li>
+    <li>Collarus</li>
+    <li>Horribilis</li>
+    <li>Nelsoni (extinct)</li>
+  </ul>
+  <p>The following countries have the largest populations<br/>of brown bears:</p>
+  <ol>
+    <li>Russia</li>
+    <li>United States</li>
+    <li>Canada</li>
+  </ol>
+  
+  
+  
+  <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">
+  <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/web101-image_brownbear.jpg" alt="A brown bear"/></a>
+</body> 
+</html>
+
+
+index.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Animals Around the World</title>
+</head>
+<body>
+  <h1>The Brown Bear</h1>
+  <p>The brown bear (Ursus arctos) is native to parts of northern Eurasia and North America. Its conservation status is currently "Least Concern." There are many subspecies within the brown bear species, including the Atlas bear and the Himalayan brown bear.</p>
+  <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">Learn More</a>
+  <p>The following are subspecies of bears:</p>
+  <ul>
+    <li>Arctos</li>
+    <li>Collarus</li>
+    <li>Horribilis</li>
+    <li>Nelsoni (extinct)</li>
+  </ul>
+  <p>The following countries have the largest populations<br/>of brown bears:</p>
+  <ol>
+    <li>Russia</li>
+    <li>United States</li>
+    <li>Canada</li>
+  </ol>
+  
+  
+  
+  <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">
+  <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/web101-image_brownbear.jpg" alt="A brown bear"/></a>
+</body> 
+</html>
+
+
+index.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Animals Around the World</title>
+</head>
+<body>
+  <h1>The Brown Bear</h1>
+  <p>The brown bear (Ursus arctos) is native to parts of northern Eurasia and North America. Its conservation status is currently "Least Concern." There are many subspecies within the brown bear species, including the Atlas bear and the Himalayan brown bear.</p>
+  <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">Learn More</a>
+  <p>The following are subspecies of bears:</p>
+  <ul>
+    <li>Arctos</li>
+    <li>Collarus</li>
+    <li>Horribilis</li>
+    <li>Nelsoni (extinct)</li>
+  </ul>
+  <p>The following countries have the largest populations<br/>of brown bears:</p>
+  <ol>
+    <li>Russia</li>
+    <li>United States</li>
+    <li>Canada</li>
+  </ol>
+  
+  <!-- with love -->
+  
+  <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">
+  <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/web101-image_brownbear.jpg" alt="A brown bear"/></a>
+</body> 
+</html>
+
+
+index.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Llamas with hats</title>
+</head>
+<body>
+  <h1>LLAMASSSSSSS</h1>
+  <p>My family be llamas!!!!!</p>
+  <ul><li>a real llama</li></ul>
+  <ol><li>A REAL LLAMA</li></ol>
+
+
+</body> 
+</html>
+
