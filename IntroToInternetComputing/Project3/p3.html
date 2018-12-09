@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Welcome to MilePro Converter</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css1/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <style>
+    body {
+        padding-top: 70px;
+        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    }
+    </style>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="javascript:void(0)" class="tabLink" onclick="openPage(event,'Home')" id="defaultOpen">Welcome to MilePro Converter!</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="javascript:void(0)" class="tabLink" onclick="openPage(event,'About')">About</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="tabLink" onclick="openPage(event,'FAQ')">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="tabLink" onclick="openPage(event,'Converter')">Converter</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div id="Home" class="content">
+
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h1>Welcome to the MilePro Converter</h1>
+                <p class="lead">Where Distance Conversion has been made possible!</p>
+                <p>All within a click of a button!</p>
+                <img src="http://i63.tinypic.com/4i0zgj.jpg" border="0" alt="Image and video hosting by TinyPic">
+            </div>
+        </div>
+        <!-- /.row -->
+
+    </div>
+    <div id="About" class="content">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h1>About Us</h1>
+                <p>It all started when boredom came to play while working on a homework</p>
+                <p>assignment. Eventually an idea came up and it was decided that this converter</p>
+                <p>should be put together. Today MilePro is now used to make conversion easy!</p>
+                <img src="http://i63.tinypic.com/ot3nkz.jpg" border="0" alt="Image and video hosting by TinyPic">
+            </div>
+        </div>
+    </div>
+    <div id="FAQ" class="content">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <img src="http://i63.tinypic.com/2ibys20.jpg" border="0" alt="Image and video hosting by TinyPic">
+                <p>Q: How does this converter work?</p>
+                <p>A: All it requires is typing a value in the text box and a click of a button.</p>
+                <p>Q: Does this converter glitch often?</p>
+                <p>A: No.</p>
+                <p>Q: What is Kilometers and Miles?</p>
+                <p>A: Kilometers a quantitative value for distance in the Metric System.</p>
+                <p>Miles is a quantitative value for distance in the Standard System.</p>
+                <p>Q: When was Kilometers and Miles discovered?</p>
+                <p>A: Kilometers was discovered in 1790 when the French Academy of Sciences developed a new system.</p>
+                <p>However it was not until 1867 that Kilometer was officially used. The British spelling for Kilometer is</p>
+                <p>'Kilometre'.</p>
+                <p>Miles was discovered in 29 B.C. by the Ancient Romans as a way of counting a thousand foot paces.</p>
+                <p>Q: How is Kilometers and Miles used today?</p>
+                <p>A: Both Kilometers and Miles are used today to read maps, GPS, and calculating the distance on the road.</p>
+            </div>
+        </div>
+    </div>
+    <div id="Converter" class="content">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h1>Mile Converter</h1>
+                <p class="lead">
+                <ul class="list-unstyled">
+                    <li><input type="text" id="miles" /></li>
+                    <li><input type="button" id="mi_to_km" value="Miles to Kilometers" />
+                        <input type="button" id="km_to_mi" value="Kilometers to Miles" /></li>
+                </ul>
+                </p>
+                <p id="result"></p>
+                <h3>How Conversion Works:</h3>
+                <img src="http://i63.tinypic.com/1250xsl.jpg" border="0" alt="Image and video hosting by TinyPic">
+                <h3>You Can Figure Out the Rest from Here!</h3>
+            </div>
+        </div>
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery Version 1.11.1 -->
+    <script src="js1/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js1/bootstrap.min.js"></script>
+    <script src="prototype1.js"></script>
+
+</body>
+
+</html>

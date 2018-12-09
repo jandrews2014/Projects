@@ -1,0 +1,237 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<title>mainPage-My Creativity Hub</title>	
+                <style type="text/css">
+                    body{
+	background-color: rgb(226,207,169);
+        color: rgb(39,63,27);
+}
+ul.tabs {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	border: 1px solid rgb(175,146,90);
+	background-color: rgb(180,144,76);
+        color: rgb(39,63,27);
+}
+ul.tabs li{
+	float: left;
+}
+ul.tabs li a {
+	display: inline-block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	transition: 0.3s;
+	font-size: 17px;
+}
+
+ul.tabs li a:hover {
+	background-color: rgb(226,177,97);
+        color: rgb(39,63,27);
+}
+
+ul.tabs li a:focus, .active{
+	background-color: rgb(180,144,76);
+        color: rgb(39,63,27);
+}
+
+.content {
+	display: none;
+	padding: 6px 12px;
+	border-top: none;
+}
+
+.sideNav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: black;
+	overflow-x: hidden;
+	padding-top: 60px;
+	transition: 0.5s;
+}
+
+.sideNav a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+}
+
+.sideNav a:hover, .offcanvas a:focus{
+	color: #f1f1f1;
+}
+
+.sideNav .closebtn{
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+}
+
+#mainPage{
+	background-color: rgb(226,207,169);
+	transition: margin-left .5s;
+	padding: 20px;
+}
+
+footer{
+	text-align: center;
+	padding: 8px 8px;
+}
+
+#reportinginternship{
+	width: 80%;
+}
+
+#RIContentLeft{
+	float: left;
+	width: 50%;
+}
+#RIContentRight{
+	float: right;
+	width: 50%;
+}
+table, th, td {
+    border: 1px solid rgb(47,22,6);
+    border-collapse: collapse;
+}
+                </style>
+	</head>
+	<body>
+        <center><b><span onclick="openNav()">The Creativity Hub</span></b></center>
+		<div id="mainPage">
+			<ul class="tabs">
+                                <li><a href="javascript:void(0)" class="tabLink" onclick="openPage(event,'Home')" id="defaultOpen">Home</a></li>
+                                <li><a href="javascript:void(0)" class="tablink" onclick="openPage(event,'AboutMe')">Extra Space</a></li>
+				<li><a href="javascript:void(0)" class="tabLink" onclick="openPage(event,'Experience')">Extra Space</a></li>
+                                <li><a href="javascript:void(0)" class="tabLink" onclick="openPage(event,'AcademicCredentials')">Extra Space</a></li>
+                                
+			</ul>
+		
+			<div id="Home" class="content">
+                            <center><h2>Home</h2></center>
+                            <center><p>Welcome to the Creativity Hub, where all the hobbies I completed come to life.</p>
+                            <p>This includes any designs, projects, or anything that builds upon my interest.</p>
+                            <p>Feel free to look around and view anything of your interest.</p>
+                            
+                            <h4>Designs</h4>
+                            <img src="http://i65.tinypic.com/2hgy88h.jpg" border="0" alt="Image and video hosting by TinyPic">
+                            <p>Image: Forward Programming Logo Design</p>
+                            <p>Design By: Jamie Andrews</p>
+                            <p>Purpose: For Software Engineering Project Development Team for Fall of 2016 (Project Name)</p>
+                            <br>
+                            <img src="http://i66.tinypic.com/wiu8g.jpg" border="0" alt="Image and video hosting by TinyPic">
+                            <p>Image: Kryptonite Logo Design</p>
+                            <p>Design By: Jamie Andrews</p>
+                            <p>Purpose: For Software Engineering Project Development Team for Fall of 2016 (Team Company Name)</p>
+                            
+                            <h4>Projects</h4>
+                            <h5>Software Engineering Project: Career Owl Link</h5>
+                            <img src="http://i65.tinypic.com/rjkx14.jpg" border="0" alt="Image and video hosting by TinyPic">
+                            <p>For someone new at site projects, I have to say this went out pretty well. However I do believe that this project</p>
+                            <p>could have done a lot more better in terms of quality as well as functionality. This also would have been successful</p>
+                            <p>if it were not for the flaws of the overall basic structure.</p>
+                            
+                            <br>
+                            
+                            <h5>Building My Own Computer: Independent Project</h5>
+                            <img src="http://i63.tinypic.com/2d91dmg.jpg" border="0" alt="Image and video hosting by TinyPic">
+                            <p>This was from a Christmas gift that I got from my step dad back at 2015. Although I did not know much of coding back then,</p>
+                            <p>it was still interesting to look at. Eventually summer of 2016 hit by and I decided to built the computer and put it</p>
+                            <p>all together successfully. It looks basic now because not much code is implemented into the system yet, but I will get </p>
+                            <p>there eventually once I learn enough code for me to expand the operating system.</p>
+                            
+                            <h5>Video Game Making: Another Independent Project</h5>
+                            <img src="http://i65.tinypic.com/azjoza.jpg" border="0" alt="Image and video hosting by TinyPic">
+                            <p>This was another independent project that I started around December of 2015 that I started out of pure boredom.</p>
+                            <p>Before anyone questions, yes this program has a unique coding system to make the functions of the game work. There</p>
+                            <p>are still a few tweaks that need to be worked on but it is coming out well in a snails pace.</p>
+                            
+                            <h4>Table of Works</h4>
+                            <table style="width:100%">
+                                <tr>
+                                    <th>Forward Programming Logo</th>
+                                    <th>Kryponite Logo</th>
+                                    <th>Career Owl Link Site</th>
+                                    <th>Building A Computer</th>
+                                    <th>Video Game Making</th>
+                                </tr>
+                                <tr>
+                                    <td>Completed Successfully</td>
+                                    <td>Completed Successfully</td>
+                                    <td>Completed with Some Failiures</td>
+                                    <td>Currently Working</td>
+                                    <td>Currently Working</td>
+                                </tr>
+                            </table>
+                            
+                            <h4>Links</h4>
+                            <a href="http://fau.edu">FAU Home Page</a>
+                            <a href="http://http://cynicalwebcritic.blogspot.com"/>The Cynical Web Critic</a>
+                            <a href="http://lamp.cse.fau.edu/~jandrews2014">Home</a>
+                            </center>
+                            
+			</div>
+                    <div id="AboutMe" class="content">
+                        <center><h2>Extra Space</h2></center>
+                                <p></p>
+                    </div>
+			<div id="Experience" class="content">
+	
+                         <center><h2>Extra Space</h2></center>
+                         <p> </p><br>
+                                
+			</div>
+                    <div id="AcademicCredentials" class="content">
+                        <center><h2>Extra Space</h2></center>
+                        <p></p>
+                    </div>
+                </div>
+        <script type="text/javascript" src="prototype.js"></script>
+        <script type="text/javascript">
+            function openPage(event, tabName) {
+    var i, tabcontent, tablinks;
+	
+    tabcontent = document.getElementsByClassName("content");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+	
+    tablinks = document.getElementsByClassName("tabLink");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+	
+    document.getElementById(tabName).style.display = "block";
+    event.currentTarget.className += " active";
+}
+
+function openNav(){
+	document.getElementById("mainNav").style.width = "250px";
+	document.getElementById("mainPage").style.marginLeft = "250px";
+}
+
+function closeNav(){
+	document.getElementById("mainNav").style.width = "0";
+	document.getElementById("mainPage").style.marginLeft = "0";
+}
+
+document.getElementById("defaultOpen").click();
+
+$(document).ready(function (){
+	
+});
+        </script>
+	</body>
+</html>
