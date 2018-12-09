@@ -1,0 +1,1 @@
+SELECT AVG (Premium) FROM [Reporting].[dbo].[CurrentInforcePolicies]

@@ -1,0 +1,1 @@
+SELECT MAX (CoverageA) FROM [Reporting].[dbo].[CurrentInforcePolicies]
