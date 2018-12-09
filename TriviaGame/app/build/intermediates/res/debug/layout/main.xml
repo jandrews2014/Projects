@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/background3">
+
+	
+      <Button
+         android:id="@+id/geography_button"        
+         android:layout_height="wrap_content" 
+         android:layout_width="wrap_content" 
+         android:layout_marginLeft="15dip"
+         android:layout_marginTop="105dip" 
+         android:text="Geography" 
+         android:textStyle="bold" 
+         android:gravity="bottom|center" 
+         android:background="@drawable/geography_icon4"/>
+         
+      <Button
+         android:id="@+id/politics_button"         
+         android:layout_height="wrap_content" 
+         android:layout_width="wrap_content" 
+         android:layout_marginLeft="115dip"
+         android:layout_marginTop="120dip"
+         android:text="Politics" 
+         android:textStyle="bold" 
+         android:gravity="bottom|center" 
+         android:background="@drawable/politics_icon4"/>
+          
+      <Button
+         android:id="@+id/history_button"         
+         android:layout_height="wrap_content" 
+         android:layout_width="wrap_content" 
+         android:layout_marginLeft="225dip"
+         android:layout_marginTop="105dip" 
+         android:textStyle="bold" 
+         android:gravity="bottom|center" 
+         android:text="History" 
+         android:background="@drawable/history_icon2"/>
+	
+	  <Button
+         android:id="@+id/sports_button"         
+         android:layout_height="wrap_content" 
+         android:layout_width="wrap_content" 
+         android:layout_marginLeft="20dip"
+         android:layout_marginTop="275dip" 
+         android:text="Sports" 
+         android:textStyle="bold" 
+         android:gravity="bottom|center" 
+         android:background="@drawable/sports_icon4"/>
+
+	  <Button
+         android:id="@+id/science_button"         
+         android:layout_height="wrap_content" 
+         android:layout_width="wrap_content" 
+         android:layout_marginLeft="125dip"
+         android:layout_marginTop="255dip" 
+         android:text="Science" 
+         android:textStyle="bold" 
+         android:gravity="bottom|center" 
+         android:background="@drawable/science_icon2"/>
+         
+      <Button
+         android:id="@+id/movies_button"         
+         android:layout_height="wrap_content" 
+         android:layout_width="wrap_content" 
+         android:layout_marginLeft="230dip"
+         android:layout_marginTop="275dip" 
+         android:text="Movies" 
+         android:textStyle="bold" 
+         android:gravity="bottom|center" 
+         android:background="@drawable/movies_icon2"/>
+
+      <Button
+         android:id="@+id/general_button"         
+         android:layout_height="wrap_content" 
+         android:layout_width="wrap_content" 
+         android:layout_marginLeft="130dip"
+         android:layout_marginTop="350dip" 
+         android:text="General" 
+         android:gravity="bottom|center" 
+         android:textStyle="bold" 
+         android:background="@drawable/general_icon3"/>
+
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/shankar/AndroidStudioProjects/TriviaGame/app/src/main/res/layout/main.xml -->

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_height="fill_parent" 
+	android:layout_width="fill_parent">
+	
+	<TextView	
+		android:id="@+id/wrongansweractivitygraphic"
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content"
+		android:layout_marginBottom="100dip"
+		android:layout_marginTop="25dip"
+		android:layout_centerHorizontal="true" 
+		android:textStyle="bold" 
+		android:textColor="#ffffffff" 
+		android:gravity="bottom|center_horizontal" 
+		android:text="Incorrect !" 
+		android:background="@drawable/wronganswer2">
+	</TextView>
+
+</RelativeLayout><!-- From: file:/C:/Users/shankar/AndroidStudioProjects/TriviaGame/app/src/main/res/layout/wrongansweractivity.xml -->
