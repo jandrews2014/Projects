@@ -1,0 +1,119 @@
+LAB3
+            call     #Init_Registers
+            mov     #5,R4
+
+XCalc
+            call     #XCalculation
+            mov     R5,&0200h
+
+FCalc
+            call     #FCalculation
+
+Mainloop     jmp     Mainloop                 ;Infinite Loop
+;------------------------------------------------------------
+;subroutine #1
+;------------------------------------------------------------
+Init_Registers:
+            clr     R4
+            clr     R5
+            clr     R6
+            clr     R7
+            clr     R8
+            clr     R9
+            clr     R10
+            clr        R11
+            clr        R12
+            clr        R13
+            clr        R14
+            ret
+;------------------------------------------------------------
+;subroutine #2
+;------------------------------------------------------------
+XCalculation:
+            call     #Abs
+            call    #Factorial
+;            call    #loop
+            call     #Mult2            ;counter
+            ret
+;------------------------------------------------------------
+;subroutine #3
+;------------------------------------------------------------
+FCalculation:
+            mov     R5,R7
+            add     #50,R7
+            mov     R7, &0250h
+            call     #Div4
+            mov     R7, &0250h
+            ret
+;------------------------------------------------------------
+;subroutine #4
+;------------------------------------------------------------
+Abs:
+            mov     R4,&0220h
+            mov     R4,R8         ;absolute value subroutine
+            cmp     #0,R8         ;compare 0 to resistor 9
+            jge     Abs_End     ;end absolute value
+            inv     R8             ;exclusive or function
+            inc     R8             ;increment command on R9
+Abs_End
+            mov     R8,&0210h
+            ret                 ;Subroutines have to be implemented after MainLoop
+;------------------------------------------------------------
+;subroutine #5
+;------------------------------------------------------------
+Factorial:
+            mov.w     R8,R5
+Fact_loop
+            dec.w     R8
+            jz         Fact_End
+            call     #Mult
+            mov     R10,R5
+            jmp     Fact_loop
+Fact_End
+            ret
+;-----------------------------------------------------------
+;subroutine #6
+;-----------------------------------------------------------
+Mult:
+            push     R5
+            push     R8
+            clr     R10
+Mult_Loop
+            add     R5,R10
+            mov     R10,&0230h
+            dec     R8
+            mov     R8,&0240h
+            jnz     Mult_Loop
+            pop     R8
+            pop     R5
+            ret
+;-----------------------------------------------------------
+;subroutine #7
+;-----------------------------------------------------------
+Mult2:
+            rla     R10 ;Multiply Subroutine must be develop taking into
+            mov.w     R10,R5
+            ret
+;----------------------------------------------------------
+;subroutine #8
+;----------------------------------------------------------
+Div4:
+            rra     R10 ;input R10
+            rra     R10 ;input RRA 2 times ret
+                        ;RL same as 10 base decimal bit movers 2 so for example
+                        ;10x10 shift left by
+
+;-------------------------------------------------------------------------------
+;subroutine #9
+;-------------------------------------------------------------------------------
+;loop:
+;            mov.w     R9,R4
+;            call     #Factorial
+;            add.w    R9,R8
+;            add.w    R5,R8
+;            dec.w    R9
+;            jnz    loop
+            ;mov.w
+            ;incd.w
+            ;ret
+;-------------------------------------------------------------------------------
