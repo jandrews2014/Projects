@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ollie Bike Sharing</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<h1>Hello Moto</h1>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ollie Bike Sharing</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+<h1>Ollie Bike Sharing</h1>
+  <h3>Share Your Pedals with the World</h3>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ollie Bike Sharing</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+<h1>Ollie Bike Sharing</h1>
+  <h3>Share Your Pedals with the World</h3>
+  <p>Need a set of wheels while you're in town? Use Ollie to pair your perfect vacation with a stylish, affordable bike rental.</p>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ollie Bike Sharing</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+<h1>Ollie Bike Sharing</h1>
+  <h3>Share Your Pedals with the World</h3>
+  <p>Need a set of wheels while you're in town? Use Ollie to pair your perfect vacation with a stylish, affordable bike rental. Here is a list of cities where you can find us. Here is a <a href = "cities.html">list</a> of cities where you can find us.</p>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ollie Bike Sharing</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+<h1>Ollie Bike Sharing</h1>
+  <h3>Share Your Pedals with the World</h3>
+  <p>Need a set of wheels while you're in town? Use Ollie to pair your perfect vacation with a stylish, affordable bike rental. Here is a list of cities where you can find us. Here is a <a href = "cities.html">list</a> of cities where you can find us.<img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-1/bikes1.jpg"/></p>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ollie Bike Sharing</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+<h1>Ollie Bike Sharing</h1>
+  <h3>Share Your Pedals with the World</h3>
+  <p>Need a set of wheels while you're in town? Use Ollie to pair your perfect vacation with a stylish, affordable bike rental. Here is a list of cities where you can find us. Here is a <a href = "cities.html">list</a> of cities where you can find us.<img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-1/bikes2.jpg"/></p>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ollie Bike Sharing</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+<h1>Ollie Bike Sharing</h1>
+  <h3>Share Your Pedals with the World</h3>
+  <p>Need a set of wheels while you're in town? Use Ollie to pair your perfect vacation with a stylish, affordable bike rental. Here is a list of cities where you can find us. Here is a <a href = "cities.html">list</a> of cities where you can find us.
+  <video width="320" height="240" controls><source src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-1/ollie.mp4" type "video.mp4"></video></p>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ollie Bike Sharing</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+<h1>Ollie Bike Sharing</h1>
+  <h2>Ollie</h2>
+  <ul>
+    <li>sign up</li>
+    <li>search bikes</li>
+    <li>reserve a bike</li>
+    <li>about us</li>
+  </ul>
+  <h3>Share Your Pedals with the World</h3>
+  <p>Need a set of wheels while you're in town? Use Ollie to pair your perfect vacation with a stylish, affordable bike rental. Here is a list of cities where you can find us. Here is a <a href = "cities.html">list</a> of cities where you can find us.
+  <video width="320" height="240" controls><source src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-1/ollie.mp4" type "video.mp4"></video></p>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ollie Bike Sharing</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+  <div class="container">
+     <div class="nav">
+  <h2>Ollie</h2>
+  <ul>
+    <li>sign up</li>
+    <li>search bikes</li>
+    <li>reserve a bike</li>
+    <li>about us</li>
+  </ul>
+  </div>
+    <div class="main">
+  <h1>Ollie Bike Sharing</h1>
+  <h3>Share Your Pedals with the World</h3>
+  <p>Need a set of wheels while you're in town? Use Ollie to pair your perfect vacation with a stylish, affordable bike rental. Here is a list of cities where you can find us. Here is a <a href = "cities.html">list</a> of cities where you can find us.</p>
+      <video width="320" height="240" controls><source src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-1/ollie.mp4" type "video.mp4"></video>
+    </div>
+  
+  </div>
+
+</body>
+</html>
