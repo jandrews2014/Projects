@@ -1,0 +1,10 @@
+<div class="list-wrapper">
+  <h4 class="margin-top-element"><b>Choose a Motestack</b></h4>
+  <div class="form-group margin-top-element">
+      <input placeholder="filter" class="form-control" id="radio-filter" type="text" #filter (input)="filterItem(filter.value)">
+  </div>
+  <div class="list-group margin-bottom-100">
+    <button type="button" (click)="updateMotestack(null)" class="list-group-item list-group-item-action active">New Motestack...</button>
+    <button type="button" (click)="updateMotestack(motestack)" class="list-group-item list-group-item-action disabled" *ngFor="let motestack of filteredMotestacks">{{motestack.label}}</button>
+  </div>
+</div>

@@ -1,0 +1,65 @@
+<div *ngIf="template && sensingDevices" class="list-group form-wrapper margin-bottom-100">
+  <form>
+    <h4 class="margin-top-element"><b>Configure Template</b>
+      <p class="entity-label">{{template.label}}</p>
+    </h4>
+    <hr>
+
+    <div class="form-group">
+      <label for="label">Label</label>
+      <input type="text" class="form-control" id="label" placeholder="Enter label" name="label" [(ngModel)] = "template.label">
+    </div>
+
+    <div class="form-group">
+        <label for="type">Device</label>
+        <select *ngIf="templateId != 'new'" disabled name="device" id="device" [(ngModel)]="template.sensingDevice.label" class="form-control form-control-sm">
+          <option [value]="template.sensingDevice.label">{{template.sensingDevice.label}}</option>
+        </select>
+        <select (change)="changeDeviceParams($event.target.value)"  *ngIf="templateId == 'new'" name="device" id="device" [(ngModel)]="template.sensingDevice.id" class="form-control form-control-sm">
+            <option [value]="device.id" *ngFor="let device of sensingDevices;">{{device.label}}</option>
+        </select>
+    </div>
+
+    <h4 class="margin-top-element">Parameters
+      <p class="drag-label">Drag to reorder</p>
+    </h4>
+    <hr>
+
+      <div [sortablejs]="template.params">
+        <div class="draggablePanelList card" *ngFor="let param of template.params; let indx = index;">
+           <div class="card-header">
+              {{(+indx+1)+'. '+param.label}}
+              <button type="button" (click)="removeParam(index)" class="btn btn-xs btn-danger pull-right">Remove</button>
+          </div> 
+          <div style="padding:10px;margin-left:20%;" class="card-block">
+            <dl class="dl-horizontal">
+              <dt>Sensor</dt><dd>self-reporting</dd>
+              <dt>Subject</dt><dd>Water</dd>
+              <dt>Property</dt><dd>Stage</dd>
+              <dt>Units</dt><dd>meters</dd>
+              <dt>Context</dt><dd>
+               <input type="text" class="form-control" id="context" name="context" [(ngModel)] = "param.context">
+              </dd>
+            </dl>
+          </div>
+         
+        </div>
+      </div>
+
+      <hr>
+<div class="row">
+  <div class="col-xs-9 col-sm-8 col-md-6 col-lg-5">
+    <div class="input-group">
+      <select id="add-parameter-select" [(ngModel)] = "selectedParamId" class="form-control"  name="addParamSelect">
+        <option *ngFor="let param of availableToAddParams" [value]="param.id">{{param.label}}</option>
+      </select>
+      <span class="input-group-btn">
+        <button type="button" (click)="addParam()" class="btn btn-primary">
+        <span></span> Add</button></span>
+    </div>
+  </div>
+  <button (click)="updateEntity()" class="btn btn-primary">{{templateId==='new' ? 'Add' : 'Update'}}</button>
+</div>
+  </form>
+
+</div>

@@ -1,0 +1,50 @@
+nice to have:
+  deploymentsAll returns a structure that looks like
+    deployments: [
+      {
+        deploymentId: deployment;
+      }
+    ]
+  
+  dataCurrent returns a structure that looks like:
+    data: [
+      deploymentId: {
+        timestamp: utcTime
+        currentData: [
+          {
+            property: dataValue
+          }
+        ]
+      }
+    ]
+
+  dataHistorical returns a structure that looks like:
+    data: [
+      deploymentId: [
+          {
+          timestamp: utcTime
+          currentData: [
+            {
+              property: dataValue
+            }
+          ]
+        }
+      ]
+    ]
+
+  parameters?parameterId? returns a structure that looks like
+    parameter: {
+      parameter keys and values
+    },
+    status: string
+
+structure of all api functions in intelligent river service
+asyncStatus = {
+  resourceString: {
+    status: string;
+    called: number
+  }
+}
+
+status = ['uncalled', 'request', 'response']
+

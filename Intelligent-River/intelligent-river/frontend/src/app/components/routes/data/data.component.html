@@ -1,0 +1,22 @@
+<nav class="nav nav-tabs" id="myTab" role="tablist">
+  <a class="nav-item nav-link active" 
+    id="nav-data" data-toggle="tab" 
+    href="#nav-data" role="tab" aria-controls="nav-data" 
+    aria-selected="true" (click)="selectDataType('current')">
+    Current Data
+  </a>
+  <a class="nav-item nav-link" 
+    id="nav-data-historical-tab" data-toggle="tab" 
+    href="#nav-data-historical" role="tab" aria-controls="nav-data-historical" 
+    aria-selected="false" (click)="selectDataType('historical')">
+    Historical Data
+  </a>
+</nav>
+<div class="tab-content" id="nav-tabContent">
+  <div class="tab-pane fade show active" 
+    id="nav-data" role="tabpanel" 
+    aria-labelledby="nav-data">
+    <app-data-historical *ngIf="selectedDataType === 'historical'"></app-data-historical>
+    <app-data-current *ngIf="selectedDataType === 'current'"></app-data-current>
+  </div>
+</div>

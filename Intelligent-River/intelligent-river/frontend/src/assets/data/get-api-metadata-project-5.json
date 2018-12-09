@@ -1,0 +1,1304 @@
+[
+  {
+    "active": true,
+    "label": "Bar 4",
+    "mote": {
+      "_id": "53f74258128372000000002e",
+      "active": true,
+      "max1Wire": 1,
+      "maxSdi12": 4,
+      "min1Wire": 0,
+      "minSdi12": 0,
+      "numAds": 0,
+      "nvsramLog": false,
+      "project": 5,
+      "sPeriod": 300,
+      "sTrans": 4,
+      "sdi12Read": 3,
+      "sdi12St": 5,
+      "sdi12V3": true,
+      "sLogSize": 1,
+      "label": "BAR 04",
+      "uri": "http://www.intelligentriver.org/resource/deployment#bar_4",
+      "sensing": [
+        {
+          "label": "Decagon GS3",
+          "id": "0",
+          "sd": {
+            "_id": "53f741cc128372000000002b",
+            "label": "Decagon GS3",
+            "type": "SDI12",
+            "params": [
+              "53f741cc1283720000000028",
+              "53f741cc1283720000000029",
+              "53f741cc128372000000002a"
+            ]
+          },
+          "params": [
+            {
+              "param": {
+                "label": "Volumetric Water Content",
+                "sensor": {
+                  "_id": "53f62744a5f7750000000005",
+                  "label": "Volumetric Water Content"
+                },
+                "subject": {
+                  "label": "Water",
+                  "uriSuffix": "water",
+                  "_id": "53d2abd80d4574412500000c"
+                },
+                "property": {
+                  "label": "Volumetric Water Content",
+                  "uriSuffix": "volumetric-water-content",
+                  "_id": "53dfbe2304dfaa281e000003"
+                },
+                "unit": {
+                  "label": "Vol %",
+                  "uri": "http://purl.oclc.org/NET/ssnx/qu/unit/volPercent",
+                  "_id": "53f625c6a5f7750000000004"
+                },
+                "min": 1,
+                "max": 80,
+                "res": 0.1,
+                "acc": 1,
+                "_id": "53f741cc1283720000000028"
+              }
+            },
+            {
+              "param": {
+                "label": "Temperature",
+                "sensor": {
+                  "label": "Temperature",
+                  "_id": "53d2aa700d4574412500000b"
+                },
+                "subject": {
+                  "label": "Water",
+                  "uriSuffix": "water",
+                  "_id": "53d2abd80d4574412500000c"
+                },
+                "property": {
+                  "label": "Temperature",
+                  "uriSuffix": "temperature",
+                  "_id": "53d250620d45744125000004"
+                },
+                "unit": {
+                  "uri": "http://purl.oclc.org/NET/ssnx/qu/unit/degreesCelsius",
+                  "label": "degrees celsius",
+                  "_id": "53f73ad51283720000000014"
+                },
+                "min": -40,
+                "max": 50,
+                "res": 0.1,
+                "acc": 1,
+                "_id": "53f741cc1283720000000029"
+              }
+            },
+            {
+              "param": {
+                "label": "Conductivity",
+                "sensor": {
+                  "label": "Conductivity",
+                  "_id": "53f73f25128372000000001d"
+                },
+                "subject": {
+                  "label": "Water",
+                  "uriSuffix": "water",
+                  "_id": "53d2abd80d4574412500000c"
+                },
+                "property": {
+                  "label": "Conductivity",
+                  "uriSuffix": "conductivity",
+                  "_id": "53d2ad000d4574412500000f"
+                },
+                "unit": {
+                  "uri": "http://purl.oclc.org/NET/ssnx/qu/unit/deciseimensPerMeter",
+                  "label": "deciseimans per meter",
+                  "_id": "53f73f4c128372000000001e"
+                },
+                "min": 0,
+                "max": 23,
+                "res": 0.001,
+                "acc": 10,
+                "_id": "53f741cc128372000000002a"
+              }
+            }
+          ]
+        },
+        {
+          "label": "Decagon GS3",
+          "id": "1",
+          "sd": {
+            "_id": "53f741cc128372000000002b",
+            "label": "Decagon GS3",
+            "type": "SDI12",
+            "params": [
+              "53f741cc1283720000000028",
+              "53f741cc1283720000000029",
+              "53f741cc128372000000002a"
+            ]
+          },
+          "params": [
+            {
+              "param": {
+                "label": "Volumetric Water Content",
+                "sensor": {
+                  "_id": "53f62744a5f7750000000005",
+                  "label": "Volumetric Water Content"
+                },
+                "subject": {
+                  "label": "Water",
+                  "uriSuffix": "water",
+                  "_id": "53d2abd80d4574412500000c"
+                },
+                "property": {
+                  "label": "Volumetric Water Content",
+                  "uriSuffix": "volumetric-water-content",
+                  "_id": "53dfbe2304dfaa281e000003"
+                },
+                "unit": {
+                  "label": "Vol %",
+                  "uri": "http://purl.oclc.org/NET/ssnx/qu/unit/volPercent",
+                  "_id": "53f625c6a5f7750000000004"
+                },
+                "min": 1,
+                "max": 80,
+                "res": 0.1,
+                "acc": 1,
+                "_id": "53f741cc1283720000000028"
+              }
+            },
+            {
+              "param": {
+                "label": "Temperature",
+                "sensor": {
+                  "label": "Temperature",
+                  "_id": "53d2aa700d4574412500000b"
+                },
+                "subject": {
+                  "label": "Water",
+                  "uriSuffix": "water",
+                  "_id": "53d2abd80d4574412500000c"
+                },
+                "property": {
+                  "label": "Temperature",
+                  "uriSuffix": "temperature",
+                  "_id": "53d250620d45744125000004"
+                },
+                "unit": {
+                  "uri": "http://purl.oclc.org/NET/ssnx/qu/unit/degreesCelsius",
+                  "label": "degrees celsius",
+                  "_id": "53f73ad51283720000000014"
+                },
+                "min": -40,
+                "max": 50,
+                "res": 0.1,
+                "acc": 1,
+                "_id": "53f741cc1283720000000029"
+              }
+            },
+            {
+              "param": {
+                "label": "Conductivity",
+                "sensor": {
+                  "label": "Conductivity",
+                  "_id": "53f73f25128372000000001d"
+                },
+                "subject": {
+                  "label": "Water",
+                  "uriSuffix": "water",
+                  "_id": "53d2abd80d4574412500000c"
+                },
+                "property": {
+                  "label": "Conductivity",
+                  "uriSuffix": "conductivity",
+                  "_id": "53d2ad000d4574412500000f"
+                },
+                "unit": {
+                  "uri": "http://purl.oclc.org/NET/ssnx/qu/unit/deciseimensPerMeter",
+                  "label": "deciseimans per meter",
+                  "_id": "53f73f4c128372000000001e"
+                },
+                "min": 0,
+                "max": 23,
+                "res": 0.001,
+                "acc": 10,
+                "_id": "53f741cc128372000000002a"
+              }
+            }
+          ]
+        },
+        {
+          "label": "Decagon GS3",
+          "id": "2",
+          "sd": {
+            "_id": "53f741cc128372000000002b",
+            "label": "Decagon GS3",
+            "type": "SDI12",
+            "params": [
+              "53f741cc1283720000000028",
+              "53f741cc1283720000000029",
+              "53f741cc128372000000002a"
+            ]
+          },
+          "params": [
+            {
+              "param": {
+                "label": "Volumetric Water Content",
+                "sensor": {
+                  "_id": "53f62744a5f7750000000005",
+                  "label": "Volumetric Water Content"
+                },
+                "subject": {
+                  "label": "Water",
+                  "uriSuffix": "water",
+                  "_id": "53d2abd80d4574412500000c"
+                },
+                "property": {
+                  "label": "Volumetric Water Content",
+                  "uriSuffix": "volumetric-water-content",
+                  "_id": "53dfbe2304dfaa281e000003"
+                },
+                "unit": {
+                  "label": "Vol %",
+                  "uri": "http://purl.oclc.org/NET/ssnx/qu/unit/volPercent",
+                  "_id": "53f625c6a5f7750000000004"
+                },
+                "min": 1,
+                "max": 80,
+                "res": 0.1,
+                "acc": 1,
+                "_id": "53f741cc1283720000000028"
+              }
+            },
+            {
+              "param": {
+                "label": "Temperature",
+                "sensor": {
+                  "label": "Temperature",
+                  "_id": "53d2aa700d4574412500000b"
+                },
+                "subject": {
+                  "label": "Water",
+                  "uriSuffix": "water",
+                  "_id": "53d2abd80d4574412500000c"
+                },
+                "property": {
+                  "label": "Temperature",
+                  "uriSuffix": "temperature",
+                  "_id": "53d250620d45744125000004"
+                },
+                "unit": {
+                  "uri": "http://purl.oclc.org/NET/ssnx/qu/unit/degreesCelsius",
+                  "label": "degrees celsius",
+                  "_id": "53f73ad51283720000000014"
+                },
+                "min": -40,
+                "max": 50,
+                "res": 0.1,
+                "acc": 1,
+                "_id": "53f741cc1283720000000029"
+              }
+            },
+            {
+              "param": {
+                "label": "Conductivity",
+                "sensor": {
+                  "label": "Conductivity",
+                  "_id": "53f73f25128372000000001d"
+                },
+                "subject": {
+                  "label": "Water",
+                  "uriSuffix": "water",
+                  "_id": "53d2abd80d4574412500000c"
+                },
+                "property": {
+                  "label": "Conductivity",
+                  "uriSuffix": "conductivity",
+                  "_id": "53d2ad000d4574412500000f"
+                },
+                "unit": {
+                  "uri": "http://purl.oclc.org/NET/ssnx/qu/unit/deciseimensPerMeter",
+                  "label": "deciseimans per meter",
+                  "_id": "53f73f4c128372000000001e"
+                },
+                "min": 0,
+                "max": 23,
+                "res": 0.001,
+                "acc": 10,
+                "_id": "53f741cc128372000000002a"
+              }
+            }
+          ]
+        },
+        {
+          "label": "Decagon GS3",
+          "id": "3",
+          "sd": {
+            "_id": "53f741cc128372000000002b",
+            "label": "Decagon GS3",
+            "type": "SDI12",
+            "params": [
+              "53f741cc1283720000000028",
+              "53f741cc1283720000000029",
+              "53f741cc128372000000002a"
+            ]
+          },
+          "params": [
+            {
+              "param": {
+                "label": "Volumetric Water Content",
+                "sensor": {
+                  "_id": "53f62744a5f7750000000005",
+                  "label": "Volumetric Water Content"
+                },
+                "subject": {
+                  "label": "Water",
+                  "uriSuffix": "water",
+                  "_id": "53d2abd80d4574412500000c"
+                },
+                "property": {
+                  "label": "Volumetric Water Content",
+                  "uriSuffix": "volumetric-water-content",
+                  "_id": "53dfbe2304dfaa281e000003"
+                },
+                "unit": {
+                  "label": "Vol %",
+                  "uri": "http://purl.oclc.org/NET/ssnx/qu/unit/volPercent",
+                  "_id": "53f625c6a5f7750000000004"
+                },
+                "min": 1,
+                "max": 80,
+                "res": 0.1,
+                "acc": 1,
+                "_id": "53f741cc1283720000000028"
+              }
+            },
+            {
+              "param": {
+                "label": "Temperature",
+                "sensor": {
+                  "label": "Temperature",
+                  "_id": "53d2aa700d4574412500000b"
+                },
+                "subject": {
+                  "label": "Water",
+                  "uriSuffix": "water",
+                  "_id": "53d2abd80d4574412500000c"
+                },
+                "property": {
+                  "label": "Temperature",
+                  "uriSuffix": "temperature",
+                  "_id": "53d250620d45744125000004"
+                },
+                "unit": {
+                  "uri": "http://purl.oclc.org/NET/ssnx/qu/unit/degreesCelsius",
+                  "label": "degrees celsius",
+                  "_id": "53f73ad51283720000000014"
+                },
+                "min": -40,
+                "max": 50,
+                "res": 0.1,
+                "acc": 1,
+                "_id": "53f741cc1283720000000029"
+              }
+            },
+            {
+              "param": {
+                "label": "Conductivity",
+                "sensor": {
+                  "label": "Conductivity",
+                  "_id": "53f73f25128372000000001d"
+                },
+                "subject": {
+                  "label": "Water",
+                  "uriSuffix": "water",
+                  "_id": "53d2abd80d4574412500000c"
+                },
+                "property": {
+                  "label": "Conductivity",
+                  "uriSuffix": "conductivity",
+                  "_id": "53d2ad000d4574412500000f"
+                },
+                "unit": {
+                  "uri": "http://purl.oclc.org/NET/ssnx/qu/unit/deciseimensPerMeter",
+                  "label": "deciseimans per meter",
+                  "_id": "53f73f4c128372000000001e"
+                },
+                "min": 0,
+                "max": 23,
+                "res": 0.001,
+                "acc": 10,
+                "_id": "53f741cc128372000000002a"
+              }
+            }
+          ]
+        }
+      ],
+      "comm": {
+        "config": {
+          "apn-name": "epc.tmobile.com",
+          "cell-band": 1,
+          "gw-port": 5000,
+          "gw-add": "http://vpn.ir.clemson.edu"
+        },
+        "radio": {
+          "_id": "53d2b49c0d4574412500002a",
+          "label": "Cellular",
+          "opts": [
+            {
+              "label": "APN Name",
+              "name": "apn-name",
+              "type": "text"
+            },
+            {
+              "label": "Cellular Band",
+              "name": "cell-band",
+              "type": "number"
+            },
+            {
+              "label": "Gateway Address",
+              "name": "gw-add",
+              "type": "url"
+            },
+            {
+              "label": "Gateway Port",
+              "name": "gw-port",
+              "type": "number"
+            }
+          ]
+        }
+      }
+    },
+    "project": 5,
+    "_id": "53f77448a7c2a50000000027",
+    "iaMotes": [
+      
+    ],
+    "location": {
+      "latitude": 33.32585,
+      "longitude": -79.24302
+    }
+  },
+  {
+    "active": true,
+    "label": "Bar 3",
+    "mote": {
+      "_id": "53f7424d128372000000002d",
+      "active": true,
+      "max1Wire": 1,
+      "maxSdi12": 4,
+      "min1Wire": 0,
+      "minSdi12": 0,
+      "numAds": 0,
+      "nvsramLog": false,
+      "project": 5,
+      "sPeriod": 300,
+      "sTrans": 4,
+      "sdi12Read": 3,
+      "sdi12St": 5,
+      "sdi12V3": true,
+      "sLogSize": 1,
+      "label": "BAR 03",
+      "uri": "http://www.intelligentriver.org/resource/deployment#bar_3",
+      "sensing": [
+        {
+          "label": "Decagon GS3",
+          "id": "0",
+          "sd": {
+            "_id": "53f741cc128372000000002b",
+            "label": "Decagon GS3",
+            "type": "SDI12",
+            "params": [
+              "53f741cc1283720000000028",
+              "53f741cc1283720000000029",
+              "53f741cc128372000000002a"
+            ]
+          },
+          "params": [
+            {
+              "param": {
+                "label": "Volumetric Water Content",
+                "sensor": {
+                  "_id": "53f62744a5f7750000000005",
+                  "label": "Volumetric Water Content"
+                },
+                "subject": {
+                  "label": "Water",
+                  "uriSuffix": "water",
+                  "_id": "53d2abd80d4574412500000c"
+                },
+                "property": {
+                  "label": "Volumetric Water Content",
+                  "uriSuffix": "volumetric-water-content",
+                  "_id": "53dfbe2304dfaa281e000003"
+                },
+                "unit": {
+                  "label": "Vol %",
+                  "uri": "http://purl.oclc.org/NET/ssnx/qu/unit/volPercent",
+                  "_id": "53f625c6a5f7750000000004"
+                },
+                "min": 1,
+                "max": 80,
+                "res": 0.1,
+                "acc": 1,
+                "_id": "53f741cc1283720000000028"
+              }
+            },
+            {
+              "param": {
+                "label": "Temperature",
+                "sensor": {
+                  "label": "Temperature",
+                  "_id": "53d2aa700d4574412500000b"
+                },
+                "subject": {
+                  "label": "Water",
+                  "uriSuffix": "water",
+                  "_id": "53d2abd80d4574412500000c"
+                },
+                "property": {
+                  "label": "Temperature",
+                  "uriSuffix": "temperature",
+                  "_id": "53d250620d45744125000004"
+                },
+                "unit": {
+                  "uri": "http://purl.oclc.org/NET/ssnx/qu/unit/degreesCelsius",
+                  "label": "degrees celsius",
+                  "_id": "53f73ad51283720000000014"
+                },
+                "min": -40,
+                "max": 50,
+                "res": 0.1,
+                "acc": 1,
+                "_id": "53f741cc1283720000000029"
+              }
+            },
+            {
+              "param": {
+                "label": "Conductivity",
+                "sensor": {
+                  "label": "Conductivity",
+                  "_id": "53f73f25128372000000001d"
+                },
+                "subject": {
+                  "label": "Water",
+                  "uriSuffix": "water",
+                  "_id": "53d2abd80d4574412500000c"
+                },
+                "property": {
+                  "label": "Conductivity",
+                  "uriSuffix": "conductivity",
+                  "_id": "53d2ad000d4574412500000f"
+                },
+                "unit": {
+                  "uri": "http://purl.oclc.org/NET/ssnx/qu/unit/deciseimensPerMeter",
+                  "label": "deciseimans per meter",
+                  "_id": "53f73f4c128372000000001e"
+                },
+                "min": 0,
+                "max": 23,
+                "res": 0.001,
+                "acc": 10,
+                "_id": "53f741cc128372000000002a"
+              }
+            }
+          ]
+        },
+        {
+          "label": "Decagon GS3",
+          "id": "1",
+          "sd": {
+            "_id": "53f741cc128372000000002b",
+            "label": "Decagon GS3",
+            "type": "SDI12",
+            "params": [
+              "53f741cc1283720000000028",
+              "53f741cc1283720000000029",
+              "53f741cc128372000000002a"
+            ]
+          },
+          "params": [
+            {
+              "param": {
+                "label": "Volumetric Water Content",
+                "sensor": {
+                  "_id": "53f62744a5f7750000000005",
+                  "label": "Volumetric Water Content"
+                },
+                "subject": {
+                  "label": "Water",
+                  "uriSuffix": "water",
+                  "_id": "53d2abd80d4574412500000c"
+                },
+                "property": {
+                  "label": "Volumetric Water Content",
+                  "uriSuffix": "volumetric-water-content",
+                  "_id": "53dfbe2304dfaa281e000003"
+                },
+                "unit": {
+                  "label": "Vol %",
+                  "uri": "http://purl.oclc.org/NET/ssnx/qu/unit/volPercent",
+                  "_id": "53f625c6a5f7750000000004"
+                },
+                "min": 1,
+                "max": 80,
+                "res": 0.1,
+                "acc": 1,
+                "_id": "53f741cc1283720000000028"
+              }
+            },
+            {
+              "param": {
+                "label": "Temperature",
+                "sensor": {
+                  "label": "Temperature",
+                  "_id": "53d2aa700d4574412500000b"
+                },
+                "subject": {
+                  "label": "Water",
+                  "uriSuffix": "water",
+                  "_id": "53d2abd80d4574412500000c"
+                },
+                "property": {
+                  "label": "Temperature",
+                  "uriSuffix": "temperature",
+                  "_id": "53d250620d45744125000004"
+                },
+                "unit": {
+                  "uri": "http://purl.oclc.org/NET/ssnx/qu/unit/degreesCelsius",
+                  "label": "degrees celsius",
+                  "_id": "53f73ad51283720000000014"
+                },
+                "min": -40,
+                "max": 50,
+                "res": 0.1,
+                "acc": 1,
+                "_id": "53f741cc1283720000000029"
+              }
+            },
+            {
+              "param": {
+                "label": "Conductivity",
+                "sensor": {
+                  "label": "Conductivity",
+                  "_id": "53f73f25128372000000001d"
+                },
+                "subject": {
+                  "label": "Water",
+                  "uriSuffix": "water",
+                  "_id": "53d2abd80d4574412500000c"
+                },
+                "property": {
+                  "label": "Conductivity",
+                  "uriSuffix": "conductivity",
+                  "_id": "53d2ad000d4574412500000f"
+                },
+                "unit": {
+                  "uri": "http://purl.oclc.org/NET/ssnx/qu/unit/deciseimensPerMeter",
+                  "label": "deciseimans per meter",
+                  "_id": "53f73f4c128372000000001e"
+                },
+                "min": 0,
+                "max": 23,
+                "res": 0.001,
+                "acc": 10,
+                "_id": "53f741cc128372000000002a"
+              }
+            }
+          ]
+        },
+        {
+          "label": "Decagon GS3",
+          "id": "2",
+          "sd": {
+            "_id": "53f741cc128372000000002b",
+            "label": "Decagon GS3",
+            "type": "SDI12",
+            "params": [
+              "53f741cc1283720000000028",
+              "53f741cc1283720000000029",
+              "53f741cc128372000000002a"
+            ]
+          },
+          "params": [
+            {
+              "param": {
+                "label": "Volumetric Water Content",
+                "sensor": {
+                  "_id": "53f62744a5f7750000000005",
+                  "label": "Volumetric Water Content"
+                },
+                "subject": {
+                  "label": "Water",
+                  "uriSuffix": "water",
+                  "_id": "53d2abd80d4574412500000c"
+                },
+                "property": {
+                  "label": "Volumetric Water Content",
+                  "uriSuffix": "volumetric-water-content",
+                  "_id": "53dfbe2304dfaa281e000003"
+                },
+                "unit": {
+                  "label": "Vol %",
+                  "uri": "http://purl.oclc.org/NET/ssnx/qu/unit/volPercent",
+                  "_id": "53f625c6a5f7750000000004"
+                },
+                "min": 1,
+                "max": 80,
+                "res": 0.1,
+                "acc": 1,
+                "_id": "53f741cc1283720000000028"
+              }
+            },
+            {
+              "param": {
+                "label": "Temperature",
+                "sensor": {
+                  "label": "Temperature",
+                  "_id": "53d2aa700d4574412500000b"
+                },
+                "subject": {
+                  "label": "Water",
+                  "uriSuffix": "water",
+                  "_id": "53d2abd80d4574412500000c"
+                },
+                "property": {
+                  "label": "Temperature",
+                  "uriSuffix": "temperature",
+                  "_id": "53d250620d45744125000004"
+                },
+                "unit": {
+                  "uri": "http://purl.oclc.org/NET/ssnx/qu/unit/degreesCelsius",
+                  "label": "degrees celsius",
+                  "_id": "53f73ad51283720000000014"
+                },
+                "min": -40,
+                "max": 50,
+                "res": 0.1,
+                "acc": 1,
+                "_id": "53f741cc1283720000000029"
+              }
+            },
+            {
+              "param": {
+                "label": "Conductivity",
+                "sensor": {
+                  "label": "Conductivity",
+                  "_id": "53f73f25128372000000001d"
+                },
+                "subject": {
+                  "label": "Water",
+                  "uriSuffix": "water",
+                  "_id": "53d2abd80d4574412500000c"
+                },
+                "property": {
+                  "label": "Conductivity",
+                  "uriSuffix": "conductivity",
+                  "_id": "53d2ad000d4574412500000f"
+                },
+                "unit": {
+                  "uri": "http://purl.oclc.org/NET/ssnx/qu/unit/deciseimensPerMeter",
+                  "label": "deciseimans per meter",
+                  "_id": "53f73f4c128372000000001e"
+                },
+                "min": 0,
+                "max": 23,
+                "res": 0.001,
+                "acc": 10,
+                "_id": "53f741cc128372000000002a"
+              }
+            }
+          ]
+        },
+        {
+          "label": "Decagon GS3",
+          "id": "3",
+          "sd": {
+            "_id": "53f741cc128372000000002b",
+            "label": "Decagon GS3",
+            "type": "SDI12",
+            "params": [
+              "53f741cc1283720000000028",
+              "53f741cc1283720000000029",
+              "53f741cc128372000000002a"
+            ]
+          },
+          "params": [
+            {
+              "param": {
+                "label": "Volumetric Water Content",
+                "sensor": {
+                  "_id": "53f62744a5f7750000000005",
+                  "label": "Volumetric Water Content"
+                },
+                "subject": {
+                  "label": "Water",
+                  "uriSuffix": "water",
+                  "_id": "53d2abd80d4574412500000c"
+                },
+                "property": {
+                  "label": "Volumetric Water Content",
+                  "uriSuffix": "volumetric-water-content",
+                  "_id": "53dfbe2304dfaa281e000003"
+                },
+                "unit": {
+                  "label": "Vol %",
+                  "uri": "http://purl.oclc.org/NET/ssnx/qu/unit/volPercent",
+                  "_id": "53f625c6a5f7750000000004"
+                },
+                "min": 1,
+                "max": 80,
+                "res": 0.1,
+                "acc": 1,
+                "_id": "53f741cc1283720000000028"
+              }
+            },
+            {
+              "param": {
+                "label": "Temperature",
+                "sensor": {
+                  "label": "Temperature",
+                  "_id": "53d2aa700d4574412500000b"
+                },
+                "subject": {
+                  "label": "Water",
+                  "uriSuffix": "water",
+                  "_id": "53d2abd80d4574412500000c"
+                },
+                "property": {
+                  "label": "Temperature",
+                  "uriSuffix": "temperature",
+                  "_id": "53d250620d45744125000004"
+                },
+                "unit": {
+                  "uri": "http://purl.oclc.org/NET/ssnx/qu/unit/degreesCelsius",
+                  "label": "degrees celsius",
+                  "_id": "53f73ad51283720000000014"
+                },
+                "min": -40,
+                "max": 50,
+                "res": 0.1,
+                "acc": 1,
+                "_id": "53f741cc1283720000000029"
+              }
+            },
+            {
+              "param": {
+                "label": "Conductivity",
+                "sensor": {
+                  "label": "Conductivity",
+                  "_id": "53f73f25128372000000001d"
+                },
+                "subject": {
+                  "label": "Water",
+                  "uriSuffix": "water",
+                  "_id": "53d2abd80d4574412500000c"
+                },
+                "property": {
+                  "label": "Conductivity",
+                  "uriSuffix": "conductivity",
+                  "_id": "53d2ad000d4574412500000f"
+                },
+                "unit": {
+                  "uri": "http://purl.oclc.org/NET/ssnx/qu/unit/deciseimensPerMeter",
+                  "label": "deciseimans per meter",
+                  "_id": "53f73f4c128372000000001e"
+                },
+                "min": 0,
+                "max": 23,
+                "res": 0.001,
+                "acc": 10,
+                "_id": "53f741cc128372000000002a"
+              }
+            }
+          ]
+        }
+      ],
+      "comm": {
+        "config": {
+          "gw-add": "http://vpn.ir.clemson.edu",
+          "gw-port": 5000,
+          "cell-band": 1,
+          "apn-name": "epc.tmobile.com"
+        },
+        "radio": {
+          "_id": "53d2b49c0d4574412500002a",
+          "label": "Cellular",
+          "opts": [
+            {
+              "label": "APN Name",
+              "name": "apn-name",
+              "type": "text"
+            },
+            {
+              "label": "Cellular Band",
+              "name": "cell-band",
+              "type": "number"
+            },
+            {
+              "label": "Gateway Address",
+              "name": "gw-add",
+              "type": "url"
+            },
+            {
+              "label": "Gateway Port",
+              "name": "gw-port",
+              "type": "number"
+            }
+          ]
+        }
+      }
+    },
+    "project": 5,
+    "_id": "53f77467a7c2a50000000028",
+    "iaMotes": [
+      
+    ],
+    "location": {
+      "latitude": 33.32982,
+      "longitude": -79.24577
+    }
+  },
+  {
+    "active": true,
+    "label": "Bar 2",
+    "mote": {
+      "active": true,
+      "max1Wire": 1,
+      "maxSdi12": 1,
+      "min1Wire": 0,
+      "minSdi12": 0,
+      "numAds": 0,
+      "nvsramLog": false,
+      "project": 5,
+      "sPeriod": 300,
+      "sTrans": 4,
+      "sdi12Read": 3,
+      "sdi12St": 5,
+      "sdi12V3": true,
+      "sLogSize": 1,
+      "label": "BAR 02",
+      "uri": "http://www.intelligentriver.org/resource/deployment#bar_2",
+      "_id": "53f73fdb1283720000000025",
+      "sensing": [
+        {
+          "label": "Decagon CTD",
+          "id": "0",
+          "sd": {
+            "label": "Decagon CTD",
+            "type": "SDI12",
+            "_id": "53f73f6e1283720000000022",
+            "params": [
+              "53f73f6e128372000000001f",
+              "53f73f6e1283720000000020",
+              "53f73f6e1283720000000021"
+            ]
+          },
+          "params": [
+            {
+              "param": {
+                "label": "Depth",
+                "sensor": {
+                  "label": "Depth",
+                  "_id": "53f69cdbb4cc59d81d00000c"
+                },
+                "subject": {
+                  "label": "Water",
+                  "uriSuffix": "water",
+                  "_id": "53d2abd80d4574412500000c"
+                },
+                "property": {
+                  "_id": "53d2aefa0d45744125000018",
+                  "label": "Depth",
+                  "uriSuffix": "depth"
+                },
+                "unit": {
+                  "label": "millimeters",
+                  "uri": "http://purl.oclc.org/NET/ssnx/qu/unit/millimeters",
+                  "_id": "53f73eaf128372000000001c"
+                },
+                "min": 0,
+                "max": 5000,
+                "res": 1,
+                "acc": 0.05,
+                "_id": "53f73f6e128372000000001f"
+              }
+            },
+            {
+              "param": {
+                "label": "Temperature",
+                "sensor": {
+                  "label": "Temperature",
+                  "_id": "53d2aa700d4574412500000b"
+                },
+                "subject": {
+                  "label": "Water",
+                  "uriSuffix": "water",
+                  "_id": "53d2abd80d4574412500000c"
+                },
+                "property": {
+                  "label": "Temperature",
+                  "uriSuffix": "temperature",
+                  "_id": "53d250620d45744125000004"
+                },
+                "unit": {
+                  "uri": "http://purl.oclc.org/NET/ssnx/qu/unit/degreesCelsius",
+                  "label": "degrees celsius",
+                  "_id": "53f73ad51283720000000014"
+                },
+                "min": -11,
+                "max": 49,
+                "res": 0.1,
+                "acc": 1,
+                "_id": "53f73f6e1283720000000020"
+              }
+            },
+            {
+              "param": {
+                "label": "Conductivity",
+                "sensor": {
+                  "label": "Conductivity",
+                  "_id": "53f73f25128372000000001d"
+                },
+                "subject": {
+                  "label": "Water",
+                  "uriSuffix": "water",
+                  "_id": "53d2abd80d4574412500000c"
+                },
+                "property": {
+                  "label": "Conductivity",
+                  "uriSuffix": "conductivity",
+                  "_id": "53d2ad000d4574412500000f"
+                },
+                "unit": {
+                  "uri": "http://purl.oclc.org/NET/ssnx/qu/unit/deciseimensPerMeter",
+                  "label": "deciseimans per meter",
+                  "_id": "53f73f4c128372000000001e"
+                },
+                "min": 0,
+                "max": 120,
+                "res": 0.001,
+                "acc": 0.01,
+                "_id": "53f73f6e1283720000000021"
+              }
+            }
+          ]
+        }
+      ],
+      "comm": {
+        "config": {
+          "gw-add": "http://vpn.ir.clemson.edu",
+          "gw-port": 5000,
+          "cell-band": 1,
+          "apn-name": "epc.tmobile.com"
+        },
+        "radio": {
+          "_id": "53d2b49c0d4574412500002a",
+          "label": "Cellular",
+          "opts": [
+            {
+              "label": "APN Name",
+              "name": "apn-name",
+              "type": "text"
+            },
+            {
+              "label": "Cellular Band",
+              "name": "cell-band",
+              "type": "number"
+            },
+            {
+              "label": "Gateway Address",
+              "name": "gw-add",
+              "type": "url"
+            },
+            {
+              "label": "Gateway Port",
+              "name": "gw-port",
+              "type": "number"
+            }
+          ]
+        }
+      }
+    },
+    "project": 5,
+    "_id": "53f77484a7c2a50000000029",
+    "iaMotes": [
+      
+    ],
+    "location": {
+      "latitude": 33.329925,
+      "longitude": -79.245807
+    }
+  },
+  {
+    "active": true,
+    "label": "Bar 1",
+    "mote": {
+      "active": true,
+      "max1Wire": 1,
+      "maxSdi12": 1,
+      "min1Wire": 0,
+      "minSdi12": 0,
+      "numAds": 0,
+      "nvsramLog": false,
+      "project": 5,
+      "sPeriod": 300,
+      "sTrans": 4,
+      "sdi12Read": 3,
+      "sdi12St": 5,
+      "sdi12V3": true,
+      "sLogSize": 1,
+      "label": "BAR 01",
+      "uri": "http://www.intelligentriver.org/resource/deployment#bar_1",
+      "_id": "53f73fc91283720000000024",
+      "sensing": [
+        {
+          "label": "Decagon CTD",
+          "id": "1",
+          "sd": {
+            "label": "Decagon CTD",
+            "type": "SDI12",
+            "_id": "53f73f6e1283720000000022",
+            "params": [
+              "53f73f6e128372000000001f",
+              "53f73f6e1283720000000020",
+              "53f73f6e1283720000000021"
+            ]
+          },
+          "params": [
+            {
+              "param": {
+                "label": "Depth",
+                "sensor": {
+                  "label": "Depth",
+                  "_id": "53f69cdbb4cc59d81d00000c"
+                },
+                "subject": {
+                  "label": "Water",
+                  "uriSuffix": "water",
+                  "_id": "53d2abd80d4574412500000c"
+                },
+                "property": {
+                  "_id": "53d2aefa0d45744125000018",
+                  "label": "Depth",
+                  "uriSuffix": "depth"
+                },
+                "unit": {
+                  "label": "millimeters",
+                  "uri": "http://purl.oclc.org/NET/ssnx/qu/unit/millimeters",
+                  "_id": "53f73eaf128372000000001c"
+                },
+                "min": 0,
+                "max": 5000,
+                "res": 1,
+                "acc": 0.05,
+                "_id": "53f73f6e128372000000001f"
+              }
+            },
+            {
+              "param": {
+                "label": "Temperature",
+                "sensor": {
+                  "label": "Temperature",
+                  "_id": "53d2aa700d4574412500000b"
+                },
+                "subject": {
+                  "label": "Water",
+                  "uriSuffix": "water",
+                  "_id": "53d2abd80d4574412500000c"
+                },
+                "property": {
+                  "label": "Temperature",
+                  "uriSuffix": "temperature",
+                  "_id": "53d250620d45744125000004"
+                },
+                "unit": {
+                  "uri": "http://purl.oclc.org/NET/ssnx/qu/unit/degreesCelsius",
+                  "label": "degrees celsius",
+                  "_id": "53f73ad51283720000000014"
+                },
+                "min": -11,
+                "max": 49,
+                "res": 0.1,
+                "acc": 1,
+                "_id": "53f73f6e1283720000000020"
+              }
+            },
+            {
+              "param": {
+                "label": "Conductivity",
+                "sensor": {
+                  "label": "Conductivity",
+                  "_id": "53f73f25128372000000001d"
+                },
+                "subject": {
+                  "label": "Water",
+                  "uriSuffix": "water",
+                  "_id": "53d2abd80d4574412500000c"
+                },
+                "property": {
+                  "label": "Conductivity",
+                  "uriSuffix": "conductivity",
+                  "_id": "53d2ad000d4574412500000f"
+                },
+                "unit": {
+                  "uri": "http://purl.oclc.org/NET/ssnx/qu/unit/deciseimensPerMeter",
+                  "label": "deciseimans per meter",
+                  "_id": "53f73f4c128372000000001e"
+                },
+                "min": 0,
+                "max": 120,
+                "res": 0.001,
+                "acc": 0.01,
+                "_id": "53f73f6e1283720000000021"
+              }
+            }
+          ]
+        }
+      ],
+      "comm": {
+        "config": {
+          "apn-name": "epc.tmobile.com",
+          "cell-band": 1,
+          "gw-port": 5000,
+          "gw-add": "http://vpn.ir.clemson.edu"
+        },
+        "radio": {
+          "_id": "53d2b49c0d4574412500002a",
+          "label": "Cellular",
+          "opts": [
+            {
+              "label": "APN Name",
+              "name": "apn-name",
+              "type": "text"
+            },
+            {
+              "label": "Cellular Band",
+              "name": "cell-band",
+              "type": "number"
+            },
+            {
+              "label": "Gateway Address",
+              "name": "gw-add",
+              "type": "url"
+            },
+            {
+              "label": "Gateway Port",
+              "name": "gw-port",
+              "type": "number"
+            }
+          ]
+        }
+      }
+    },
+    "project": 5,
+    "_id": "53f774a2a7c2a5000000002a",
+    "iaMotes": [
+      
+    ],
+    "location": {
+      "latitude": 33.330414,
+      "longitude": -79.248515
+    }
+  }
+]

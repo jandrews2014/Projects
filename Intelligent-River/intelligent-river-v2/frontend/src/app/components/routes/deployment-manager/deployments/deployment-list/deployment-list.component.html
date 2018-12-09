@@ -1,0 +1,10 @@
+<div class="dep-wrapper">
+  <h4 class="margin-top-element"><b>Choose a Deployment</b></h4>
+  <div class="form-group margin-top-element">
+      <input placeholder="filter" class="form-control" id="deployment-filter" type="text" #filter (input)="filterItem(filter.value)">
+  </div>
+  <div class="list-group margin-bottom-100 margin-top-element">
+    <button type="button" (click)="updateDeployment(null)" class="list-group-item list-group-item-action active">New Deployment...</button>
+    <button type="button" (click)="updateDeployment(deployment)" class="list-group-item list-group-item-action disabled" *ngFor="let deployment of filteredDeployments">{{deployment.label}}</button>
+  </div>
+</div>

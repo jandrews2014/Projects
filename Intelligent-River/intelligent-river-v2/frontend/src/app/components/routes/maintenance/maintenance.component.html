@@ -1,0 +1,149 @@
+<app-project-map *ngIf="!currentProject"></app-project-map>
+
+<body style="background-image: url('assets/img/maintenance_bg.png')" *ngIf="currentProject">
+    <div id='maintenance-component'>
+        <div class="tableTop"></div>
+
+        <!-- show if there is table data to display -->
+        <table *ngIf="currentMaintenance!=null && currentMaintenance.length!=0" id="data">
+            <th>Deployment</th>
+            <th>User</th>
+            <th>Timestamp</th>
+            <th>Action</th>
+            <th>Comments</th>
+
+            <tr *ngFor="let rowContent of currentMaintenance; i as index" data-toggle="modal" data-id=i data-target="#rowDetailModal" (click)="storeCurrentRowValues(rowContent)">
+                <td>{{rowContent.deployment}}</td>
+                <td>{{rowContent.user}}</td>
+                <td>{{rowContent.datetime}}</td>
+                <td>{{rowContent.eventType}}</td>
+                <td>{{rowContent.comment}}</td>
+
+            </tr>
+        </table>
+
+        <!-- show if no data returned from api yet -->
+        <div *ngIf="!currentMaintenance">
+            <div class="tableTop"></div>
+            <img src="assets/gif/loading.gif" id='loadingGif'>
+        </div>
+
+        <!-- show if data returned but array is empty -->
+        <div *ngIf="currentMaintenance && currentMaintenance.length==0">
+            <div class="tableTop"></div>
+            <table>
+                <th>There is no maintenance data available for this project yet!</th>
+            </table>
+        </div>
+
+        <!-- add row button style="position: absolute; bottom: 2%; left: 42%;"-->
+        <div id="addRowButton">
+            <div class="row ml-5">
+            <button *ngIf="currentUser" type="button" class="btn btn-primary" data-toggle="modal" data-target="#addRowModal" (click)="getMaintenanceFormData()">
+                Post Maintenance Request
+                </button>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+<!-- Modal -->
+<div class="modal fade" id="addRowModal" tabindex="-1" role="dialog" aria-labelledby="addRowModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="addRowModalLabel">New Maintenance Event</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="addRowClose">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+        {{ErrorMessage}}
+        <form #f1="ngForm" class="form-addRow" (ngSubmit)="onSubmit(f1)">
+          <div class="form-group">
+            <label for="deploymentInput"><b>Deployment</b></label>
+            <div *ngIf="currentMaintenanceFormData">
+                <select class="form-control" #deploymentInput (change)=deploymentSelected(deploymentInput.value)>
+                    <option *ngFor="let deployment of currentMaintenanceFormData['deployments']" [value]="deployment['label']">
+                    {{deployment['label']}}</option>
+                </select>
+            </div>
+          </div>
+
+          <div class="form-group" *ngIf="currentUser">
+              <label><b>User</b><br>{{currentUser.username}}</label>
+          </div>
+
+          <div class="form-group">
+            <label for="actionTypeInput"><b>Action Type</b></label>
+            <div *ngIf="currentMaintenanceFormData">
+                <select class="form-control" #actionTypeInput (change)=actionTypeSelected(actionTypeInput.value)>
+                    <option *ngFor="let eventType of currentMaintenanceFormData['eventTypes']" [value]="eventType['label']">
+                    {{eventType['label']}}</option>
+                </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+              <label for="dateTimePicker" class=" col-form-label"><b>Timestamp</b></label>
+              <div>
+                <input class="form-control" type="datetime-local" [(ngModel)]="dateTimePickerValue" [ngModelOptions]="{standalone: true}" value="{{dateTimePickerValue}}" #dateTimePicker (change)=dateTimeSelected(dateTimePicker.value)>
+              </div>
+            </div>
+
+          <div class="form-group">
+            <label for="commentTextArea"><b>Comment</b></label>
+            <textarea class="form-control" id="commentTextArea" rows="3" [value] = value #commentTextArea (change)=commentEntered(commentTextArea.value)></textarea>
+          </div>
+
+          <input class="btn btn-lg btn-primary btn-block btn-fau-blue" type="submit" value={{submitButtonText}}>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- View Deployment Maintenance Logs and Deletion Modal -->
+<div class="modal fade" id="rowDetailModal" tabindex="-1" role="dialog" aria-labelledby="rowDetailModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="rowDetailModalLabel">Maintenance Event Details</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="rowDetailClose">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        {{ErrorMessage}}
+        <form #f1="ngForm" class="form-addRow" (ngSubmit)="deleteRow()">
+          <div class="form-group">
+            <label><b>Deployment</b><br>{{detailedDeployment}}</label>
+          </div>
+
+          <div class="form-group">
+              <label><b>User</b><br>{{currentUser.username}}</label>
+          </div>
+
+          <div class="form-group">
+            <label for="actionTypeInput"><b>Action Type</b><br>{{detailedActionType}}</label>
+          </div>
+
+          <div class="form-group">
+              <label for="dateTimePicker" class=" col-form-label"><b>Timestamp</b><br>{{detailedTimestamp}}</label>
+            </div>
+
+          <div class="form-group">
+            <label for="commentTextArea"><b>Comment</b></label><br>
+            {{detailedComment}}
+          </div>
+
+          <input class="btn btn-lg btn-primary btn-block btn-fau-blue" type="submit" value="Delete Entry" *ngIf="currentUser.username==detailedUser">
+          <input class="btn btn-lg btn-primary btn-block btn-fau-blue" data-dismiss="modal" type="close" value="Close">
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

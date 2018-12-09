@@ -1,0 +1,52 @@
+.form-wrapper{
+    width:100%;
+}
+.margin-top-element{
+    margin-top:15px;
+}
+.entity-label{
+    float: right!important;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+.drag-label {
+    float: right!important;
+    font-size: 1.0rem;
+    font-weight: 200;
+}
+
+.pull-right{
+    float: right!important;
+}
+
+.margin-bottom-100{
+    margin-bottom: 150px;
+}
+
+.margin-top-15 {
+    margin-top: 15px;
+}
+
+.draggablePanelList  {
+        cursor: move;
+}
+
+dl {
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0
+}
+dt {
+  float: left;
+  width: 50%;
+  padding: 0;
+  margin: 0
+}
+dd {
+  float: left;
+  width: 50%;
+  padding: 0;
+  margin: 0
+}

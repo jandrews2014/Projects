@@ -1,0 +1,16 @@
+<div>
+    <div *ngFor="let template of motestackTemplates; let index=index;" class="panel panel-default">
+      <div class="panel-heading">template.label
+        <button type="button" ng-click="removeTemplate(index)" class="btn btn-xs btn-danger pull-right"><span class="glyphicon glyphicon-remove"></span> Remove</button>
+      </div>
+      <div class="panel-body">
+        Panel body
+      </div>
+    </div>
+     <div class="form-group">
+      <select name="templates" id="templates" [(ngModel)]="selectedTemplateId" class="form-control form-control-sm">
+        <option *ngFor="let template of getAvailableTemplates()" [value]="template.id">{{template.label}}</option>
+      </select>
+      <button type="button" (click)="addTemplate(selectedTemplateId)" class="btn btn-primary">Add</button>
+    </div>
+</div>

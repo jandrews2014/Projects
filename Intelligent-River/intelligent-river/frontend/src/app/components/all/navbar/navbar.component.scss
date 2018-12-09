@@ -1,0 +1,122 @@
+// img, div, .col {
+//   border-color: red;
+//   border-radius: 1px;
+//   border-style: solid;
+// }
+
+// ul {
+//   border-color: blue;
+//   border-radius: 1px;
+//   border-style: solid;
+// }
+
+// li {
+//   border-color: green;
+//   border-radius: 1px;
+//   border-style: solid;
+// }
+
+.modal-lg {
+  width: 80%;
+  height: 50%;
+}
+
+.modal-content{
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  background-position: top-center;
+  background-position: absolute;
+}
+
+/*statistics table edits made by Jamie Andrews*/
+.modal-header{
+  background-color: #003366;
+  color: #ffffff;
+  border-color: transparent;
+}
+
+.modal-body{
+  background-color: #212529;
+  color: #c8cacb;
+}
+
+.modal-footer{
+  background-color: #212529;
+  color: #ffffff;
+  border-color: transparent;
+}
+
+.close{
+  color:#ffffff;
+}
+.modal-body > .row{
+  border-color: transparent;
+}
+
+th, td{
+  border-color: transparent;
+}
+/*end of table edit*/
+#logo {
+    height: 50px;
+  }
+
+  /* iPhone 5 */
+  @media screen and (max-width: 350px) {
+    #logo {
+      height: 40px;
+    }
+  }
+
+  /* lg */
+  @media screen and (max-width: 992px) {
+    li > a, #projects-dropdown, #login {
+      font-size: x-small;
+    }
+  }
+
+  /* lg */
+  @media screen and (min-width: 992px) and (max-width: 1199px) {
+    li > a, #projects-dropdown, #login {
+      font-size: small;
+    }
+  }
+
+  /* xl */
+  @media screen and (min-width: 1200px) {
+    li > a, #projects-dropdown, #login {
+      font-size: medium;
+    }
+
+    #logo {
+      height: 75px;
+    }
+  }
+
+  @media screen and (max-height: 700px) {
+    // https://www.bootply.com/86116
+    .sm-scrollable-menu {
+      height: auto;
+      max-height: 150px;
+      overflow-x: hidden;
+    }
+  }
+
+  @media screen and (max-height: 969px) {
+    // https://www.bootply.com/86116
+    .sm-scrollable-menu {
+      height: auto;
+      max-height: 300px;
+      overflow-x: hidden;
+    }
+  }
+
+  @media screen and (min-height: 969px) {
+    // https://www.bootply.com/86116
+    .sm-scrollable-menu {
+      height: initial;
+      max-height: initial;
+      overflow-x: initial;
+    }
+  }

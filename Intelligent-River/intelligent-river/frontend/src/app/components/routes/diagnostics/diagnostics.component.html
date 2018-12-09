@@ -1,0 +1,49 @@
+<div *ngIf="!currentProject"> 
+  <app-project-map></app-project-map>
+</div>
+
+<div
+  *ngIf="currentProject && !currentDiagnostics">
+  <img src="/assets/gif/loading.gif" alt="">
+</div>
+
+<div> 
+  <div class="row">
+    <div class="col" *ngIf="currentProject && currentDiagnostics && deploymentDetailsByProjectId">
+      <div class="row pt-5" *ngFor="let diagnostic of currentDiagnostics.diagnostics; let i=index;">
+        <div class="col text-right">
+          <span><strong>Deployment: </strong>{{deploymentDetailsByDeploymentId[diagnostic.deployment].label}}<br><em>Diagnostics: </em></span>
+          <span *ngFor="let observation of currentDiagnostics.diagnostics[[i]].observations; let j=index;">
+            <!-- <a
+              class="btn btn-sm btn-primary btn-fau-blue text-white"
+              (click)="renderJSONStuff([i], [j], '#', observation.observationId)"> #{{j + 1}} </a> -->
+  
+            <!-- Modal -->
+            <div class="modal fade" [id]="observation.observationId" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" >{{deploymentDetailsByDeploymentId[diagnostic.deployment].label}} Observations</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body text-left" >
+                    <pre [id]="observation.observationId + '-jsonOutput'"></pre>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <br><br>
+          <div [id]="'graphLocations'"></div>
+      </div>
+    </div>
+  </div>
+</div>
+  

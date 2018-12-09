@@ -1,0 +1,7 @@
+<app-project-map
+*ngIf="(!currentProject || (currentProject && !deploymentsByProjectId)) && !trueData">
+</app-project-map>
+
+<app-deployments-map
+*ngIf="currentProject && deploymentsByProjectId && deploymentsByProjectId[currentProject.id] && !trueData || !currentFilter">
+</app-deployments-map>

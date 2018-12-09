@@ -1,0 +1,1820 @@
+{
+  "data": [
+    {
+      "observationId": "5f50ed38-2f2f-4ea9-851f-40731b44742d",
+      "readings": [
+        -18,
+        13.1,
+        382
+      ],
+      "deploymentId": "53f774a2a7c2a5000000002a",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": "Observation out of bounds",
+          "status": false
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": "Observation out of bounds",
+          "status": false
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_1",
+      "observationDateTime": 1484888430000,
+      "deviceId": "1",
+      "projectId": "5"
+    },
+    {
+      "observationId": "3a65bcc1-4f46-4705-a7de-1ae8dbe32714",
+      "readings": [
+        4.45,
+        14.5,
+        7
+      ],
+      "deploymentId": "53f77467a7c2a50000000028",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_3",
+      "observationDateTime": 1484888672000,
+      "deviceId": "0",
+      "projectId": "5"
+    },
+    {
+      "observationId": "b3aab12b-74fe-4dc1-88ee-344fda036681",
+      "readings": [
+        5.67,
+        14.2,
+        11
+      ],
+      "deploymentId": "53f77467a7c2a50000000028",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_3",
+      "observationDateTime": 1484888672000,
+      "deviceId": "1",
+      "projectId": "5"
+    },
+    {
+      "observationId": "4b003c29-c12c-429e-97e8-67fe998e91d8",
+      "readings": [
+        5,
+        14.3,
+        4
+      ],
+      "deploymentId": "53f77467a7c2a50000000028",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_3",
+      "observationDateTime": 1484888672000,
+      "deviceId": "2",
+      "projectId": "5"
+    },
+    {
+      "observationId": "546ab141-c4de-4a23-a3b5-107b1ffea15d",
+      "readings": [
+        3.75,
+        14.2,
+        1
+      ],
+      "deploymentId": "53f77467a7c2a50000000028",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_3",
+      "observationDateTime": 1484888672000,
+      "deviceId": "3",
+      "projectId": "5"
+    },
+    {
+      "observationId": "3acd37c5-faff-43f5-aa89-3ace5151a31d",
+      "readings": [
+        -18,
+        13.1,
+        380
+      ],
+      "deploymentId": "53f774a2a7c2a5000000002a",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": "Observation out of bounds",
+          "status": false
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": "Observation out of bounds",
+          "status": false
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_1",
+      "observationDateTime": 1484888730000,
+      "deviceId": "1",
+      "projectId": "5"
+    },
+    {
+      "observationId": "e6afd2a9-a04b-4855-85c9-a17a9b553770",
+      "readings": [
+        399,
+        17.2,
+        54
+      ],
+      "deploymentId": "53f77484a7c2a50000000029",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_2",
+      "observationDateTime": 1484888641000,
+      "deviceId": "0",
+      "projectId": "5"
+    },
+    {
+      "observationId": "dbbf9f62-e96d-44f5-a922-bda50ff0b7d9",
+      "readings": [
+        400,
+        17.1,
+        47
+      ],
+      "deploymentId": "53f77484a7c2a50000000029",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_2",
+      "observationDateTime": 1484888942000,
+      "deviceId": "0",
+      "projectId": "5"
+    },
+    {
+      "observationId": "63d6d799-4b3b-41ff-9469-292a5c03129f",
+      "readings": [
+        -18,
+        13.1,
+        377
+      ],
+      "deploymentId": "53f774a2a7c2a5000000002a",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": "Observation out of bounds",
+          "status": false
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": "Observation out of bounds",
+          "status": false
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_1",
+      "observationDateTime": 1484889032000,
+      "deviceId": "1",
+      "projectId": "5"
+    },
+    {
+      "observationId": "f2b324be-d4e4-47ff-a812-bec2d323d39c",
+      "readings": [
+        -18,
+        13.1,
+        377
+      ],
+      "deploymentId": "53f774a2a7c2a5000000002a",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": "Observation out of bounds",
+          "status": false
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": "Observation out of bounds",
+          "status": false
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_1",
+      "observationDateTime": 1484889032000,
+      "deviceId": "1",
+      "projectId": "5"
+    },
+    {
+      "observationId": "6c3eeb80-b875-4e84-a4ea-1c8b838fabbd",
+      "readings": [
+        11.4,
+        14.2,
+        17
+      ],
+      "deploymentId": "53f77448a7c2a50000000027",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_4",
+      "observationDateTime": 1484888607000,
+      "deviceId": "0",
+      "projectId": "5"
+    },
+    {
+      "observationId": "a4201369-1046-4501-9723-df21b4931654",
+      "readings": [
+        11.38,
+        14.3,
+        16
+      ],
+      "deploymentId": "53f77448a7c2a50000000027",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_4",
+      "observationDateTime": 1484888908000,
+      "deviceId": "0",
+      "projectId": "5"
+    },
+    {
+      "observationId": "b9c89ed8-53ee-45a8-a187-1a7e1ab76d84",
+      "readings": [
+        11.33,
+        14.2,
+        16
+      ],
+      "deploymentId": "53f77448a7c2a50000000027",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_4",
+      "observationDateTime": 1484889209000,
+      "deviceId": "0",
+      "projectId": "5"
+    },
+    {
+      "observationId": "e132e77a-79f5-41b4-8c5a-cf3e53b4b5f8",
+      "readings": [
+        5.7,
+        14.6,
+        15
+      ],
+      "deploymentId": "53f77448a7c2a50000000027",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_4",
+      "observationDateTime": 1484888608000,
+      "deviceId": "1",
+      "projectId": "5"
+    },
+    {
+      "observationId": "15e10270-66e9-4d76-830a-12eb55ab3610",
+      "readings": [
+        5.69,
+        14.6,
+        13
+      ],
+      "deploymentId": "53f77448a7c2a50000000027",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_4",
+      "observationDateTime": 1484888909000,
+      "deviceId": "1",
+      "projectId": "5"
+    },
+    {
+      "observationId": "7f8f7e8c-5a75-4a27-9e51-592f1945f1c0",
+      "readings": [
+        5.7,
+        14.6,
+        13
+      ],
+      "deploymentId": "53f77448a7c2a50000000027",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_4",
+      "observationDateTime": 1484889210000,
+      "deviceId": "1",
+      "projectId": "5"
+    },
+    {
+      "observationId": "c7704515-b545-4be1-9646-0a75e438cf0e",
+      "readings": [
+        8.7,
+        14.3,
+        11
+      ],
+      "deploymentId": "53f77448a7c2a50000000027",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_4",
+      "observationDateTime": 1484888608000,
+      "deviceId": "2",
+      "projectId": "5"
+    },
+    {
+      "observationId": "4b039180-8127-4f28-a90d-04e516da8a3c",
+      "readings": [
+        8.72,
+        14.3,
+        10
+      ],
+      "deploymentId": "53f77448a7c2a50000000027",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_4",
+      "observationDateTime": 1484888909000,
+      "deviceId": "2",
+      "projectId": "5"
+    },
+    {
+      "observationId": "03e883a5-1e9e-480e-b815-f87884403800",
+      "readings": [
+        8.69,
+        14.3,
+        12
+      ],
+      "deploymentId": "53f77448a7c2a50000000027",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_4",
+      "observationDateTime": 1484889210000,
+      "deviceId": "2",
+      "projectId": "5"
+    },
+    {
+      "observationId": "59487fac-518a-4c46-b02e-e536e630defc",
+      "readings": [
+        5.25,
+        14.4,
+        21
+      ],
+      "deploymentId": "53f77448a7c2a50000000027",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_4",
+      "observationDateTime": 1484888608000,
+      "deviceId": "3",
+      "projectId": "5"
+    },
+    {
+      "observationId": "40139d65-3f4c-40a8-a863-b68c4cff82d7",
+      "readings": [
+        5.23,
+        14.4,
+        21
+      ],
+      "deploymentId": "53f77448a7c2a50000000027",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_4",
+      "observationDateTime": 1484888909000,
+      "deviceId": "3",
+      "projectId": "5"
+    },
+    {
+      "observationId": "49347f85-14cb-4d0f-925a-aa2e42b20b3a",
+      "readings": [
+        5.23,
+        14.4,
+        21
+      ],
+      "deploymentId": "53f77448a7c2a50000000027",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_4",
+      "observationDateTime": 1484889210000,
+      "deviceId": "3",
+      "projectId": "5"
+    },
+    {
+      "observationId": "b59b87c5-f799-4980-8ab6-67effe17fa49",
+      "readings": [
+        -18,
+        13.1,
+        381
+      ],
+      "deploymentId": "53f774a2a7c2a5000000002a",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": "Observation out of bounds",
+          "status": false
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": "Observation out of bounds",
+          "status": false
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_1",
+      "observationDateTime": 1484889333000,
+      "deviceId": "1",
+      "projectId": "5"
+    },
+    {
+      "observationId": "117c2cec-ec2a-4728-bb3c-8fe110f10352",
+      "readings": [
+        -18,
+        13.1,
+        381
+      ],
+      "deploymentId": "53f774a2a7c2a5000000002a",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": "Observation out of bounds",
+          "status": false
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": "Observation out of bounds",
+          "status": false
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_1",
+      "observationDateTime": 1484889634000,
+      "deviceId": "1",
+      "projectId": "5"
+    },
+    {
+      "observationId": "348bdb73-bc34-4443-b4ef-335d67014941",
+      "readings": [
+        4.45,
+        14.5,
+        6
+      ],
+      "deploymentId": "53f77467a7c2a50000000028",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_3",
+      "observationDateTime": 1484888973000,
+      "deviceId": "0",
+      "projectId": "5"
+    },
+    {
+      "observationId": "49ee8e9f-3a4e-4885-9a29-d85fdcd47b64",
+      "readings": [
+        4.46,
+        14.5,
+        6
+      ],
+      "deploymentId": "53f77467a7c2a50000000028",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_3",
+      "observationDateTime": 1484889274000,
+      "deviceId": "0",
+      "projectId": "5"
+    },
+    {
+      "observationId": "518cdd93-712a-4587-b3ce-05bf82e252b7",
+      "readings": [
+        4.45,
+        14.5,
+        7
+      ],
+      "deploymentId": "53f77467a7c2a50000000028",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_3",
+      "observationDateTime": 1484889575000,
+      "deviceId": "0",
+      "projectId": "5"
+    },
+    {
+      "observationId": "36fff7f0-e94a-4b2e-9d32-e30a7f28c629",
+      "readings": [
+        4.45,
+        14.5,
+        8
+      ],
+      "deploymentId": "53f77467a7c2a50000000028",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_3",
+      "observationDateTime": 1484889876000,
+      "deviceId": "0",
+      "projectId": "5"
+    },
+    {
+      "observationId": "3abc4db9-2da6-47c1-a535-586ca6aff66b",
+      "readings": [
+        5.65,
+        14.2,
+        10
+      ],
+      "deploymentId": "53f77467a7c2a50000000028",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_3",
+      "observationDateTime": 1484888973000,
+      "deviceId": "1",
+      "projectId": "5"
+    },
+    {
+      "observationId": "d706d7f5-cbae-4ebf-ac46-8c789144045b",
+      "readings": [
+        5.66,
+        14.2,
+        10
+      ],
+      "deploymentId": "53f77467a7c2a50000000028",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_3",
+      "observationDateTime": 1484889274000,
+      "deviceId": "1",
+      "projectId": "5"
+    },
+    {
+      "observationId": "982b3582-774c-4aa0-91c0-16d8a8d562ee",
+      "readings": [
+        5.67,
+        14.2,
+        10
+      ],
+      "deploymentId": "53f77467a7c2a50000000028",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_3",
+      "observationDateTime": 1484889575000,
+      "deviceId": "1",
+      "projectId": "5"
+    },
+    {
+      "observationId": "07b6d6a6-3cad-4679-8478-21b1d512349b",
+      "readings": [
+        5.68,
+        14.2,
+        11
+      ],
+      "deploymentId": "53f77467a7c2a50000000028",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_3",
+      "observationDateTime": 1484889876000,
+      "deviceId": "1",
+      "projectId": "5"
+    },
+    {
+      "observationId": "95282f17-4336-441b-b789-33b9c7a60824",
+      "readings": [
+        4.99,
+        14.3,
+        4
+      ],
+      "deploymentId": "53f77467a7c2a50000000028",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_3",
+      "observationDateTime": 1484888973000,
+      "deviceId": "2",
+      "projectId": "5"
+    },
+    {
+      "observationId": "7d0fb5fe-a10c-443f-913c-4c70227404c8",
+      "readings": [
+        5,
+        14.3,
+        4
+      ],
+      "deploymentId": "53f77467a7c2a50000000028",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_3",
+      "observationDateTime": 1484889274000,
+      "deviceId": "2",
+      "projectId": "5"
+    },
+    {
+      "observationId": "876f32d8-f427-4b50-84cf-0824b28ebbd0",
+      "readings": [
+        4.99,
+        14.3,
+        4
+      ],
+      "deploymentId": "53f77467a7c2a50000000028",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_3",
+      "observationDateTime": 1484889575000,
+      "deviceId": "2",
+      "projectId": "5"
+    },
+    {
+      "observationId": "f5343b16-58da-48f2-ad59-64f2ede2cbef",
+      "readings": [
+        4.98,
+        14.3,
+        5
+      ],
+      "deploymentId": "53f77467a7c2a50000000028",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_3",
+      "observationDateTime": 1484889876000,
+      "deviceId": "2",
+      "projectId": "5"
+    },
+    {
+      "observationId": "a6aa41de-6e8f-4e31-b88c-a7fbf8901bae",
+      "readings": [
+        3.74,
+        14.2,
+        2
+      ],
+      "deploymentId": "53f77467a7c2a50000000028",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_3",
+      "observationDateTime": 1484888973000,
+      "deviceId": "3",
+      "projectId": "5"
+    },
+    {
+      "observationId": "918088c4-6deb-49d6-a398-a903bbefd885",
+      "readings": [
+        3.74,
+        14.2,
+        2
+      ],
+      "deploymentId": "53f77467a7c2a50000000028",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_3",
+      "observationDateTime": 1484889274000,
+      "deviceId": "3",
+      "projectId": "5"
+    },
+    {
+      "observationId": "dffdda90-09cd-4a67-9a9e-41cef29cbbf7",
+      "readings": [
+        3.74,
+        14.2,
+        2
+      ],
+      "deploymentId": "53f77467a7c2a50000000028",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_3",
+      "observationDateTime": 1484889575000,
+      "deviceId": "3",
+      "projectId": "5"
+    },
+    {
+      "observationId": "4f16e7b0-e823-4de4-82a6-9f8418b042c9",
+      "readings": [
+        3.76,
+        14.2,
+        2
+      ],
+      "deploymentId": "53f77467a7c2a50000000028",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_3",
+      "observationDateTime": 1484889876000,
+      "deviceId": "3",
+      "projectId": "5"
+    },
+    {
+      "observationId": "4c53a3f4-f6f6-47db-adc3-4d9f4b36835d",
+      "readings": [
+        -18,
+        13.1,
+        381
+      ],
+      "deploymentId": "53f774a2a7c2a5000000002a",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": "Observation out of bounds",
+          "status": false
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": "Observation out of bounds",
+          "status": false
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_1",
+      "observationDateTime": 1484889935000,
+      "deviceId": "1",
+      "projectId": "5"
+    },
+    {
+      "observationId": "a5bf9b1e-0ac5-4170-b352-263e967f246c",
+      "readings": [
+        400,
+        17.2,
+        47
+      ],
+      "deploymentId": "53f77484a7c2a50000000029",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_2",
+      "observationDateTime": 1484889244000,
+      "deviceId": "0",
+      "projectId": "5"
+    },
+    {
+      "observationId": "29722c1d-6321-4cb9-83fd-fc47f05c7e70",
+      "readings": [
+        401,
+        17.2,
+        55
+      ],
+      "deploymentId": "53f77484a7c2a50000000029",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_2",
+      "observationDateTime": 1484889545000,
+      "deviceId": "0",
+      "projectId": "5"
+    },
+    {
+      "observationId": "2084753c-87c5-442c-805e-8d16ba4f3003",
+      "readings": [
+        400,
+        17.1,
+        50
+      ],
+      "deploymentId": "53f77484a7c2a50000000029",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_2",
+      "observationDateTime": 1484889846000,
+      "deviceId": "0",
+      "projectId": "5"
+    },
+    {
+      "observationId": "2025a615-515f-413a-a5d7-a05785f97870",
+      "readings": [
+        399,
+        17.1,
+        55
+      ],
+      "deploymentId": "53f77484a7c2a50000000029",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_2",
+      "observationDateTime": 1484890147000,
+      "deviceId": "0",
+      "projectId": "5"
+    },
+    {
+      "observationId": "2c1667ea-a471-4cfc-b896-d2e3d5e08fcc",
+      "readings": [
+        -18,
+        13.1,
+        377
+      ],
+      "deploymentId": "53f774a2a7c2a5000000002a",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": "Observation out of bounds",
+          "status": false
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": "Observation out of bounds",
+          "status": false
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_1",
+      "observationDateTime": 1484890236000,
+      "deviceId": "1",
+      "projectId": "5"
+    },
+    {
+      "observationId": "a4428f76-c16a-4412-a955-c028ac904e3a",
+      "readings": [
+        -18,
+        13.1,
+        382
+      ],
+      "deploymentId": "53f774a2a7c2a5000000002a",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": "Observation out of bounds",
+          "status": false
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": "Observation out of bounds",
+          "status": false
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_1",
+      "observationDateTime": 1484890537000,
+      "deviceId": "1",
+      "projectId": "5"
+    },
+    {
+      "observationId": "378d15d6-f1d6-4cd2-aecc-bfe1e79f19b8",
+      "readings": [
+        -18,
+        13.1,
+        382
+      ],
+      "deploymentId": "53f774a2a7c2a5000000002a",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": "Observation out of bounds",
+          "status": false
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": "Observation out of bounds",
+          "status": false
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_1",
+      "observationDateTime": 1484890838000,
+      "deviceId": "1",
+      "projectId": "5"
+    },
+    {
+      "observationId": "17173e6b-3b9b-4b92-8daf-7e9bbdff3860",
+      "readings": [
+        11.36,
+        14.2,
+        15
+      ],
+      "deploymentId": "53f77448a7c2a50000000027",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_4",
+      "observationDateTime": 1484889510000,
+      "deviceId": "0",
+      "projectId": "5"
+    },
+    {
+      "observationId": "3d30efc3-d868-47a4-84ad-dc3b17fbde35",
+      "readings": [
+        11.36,
+        14.3,
+        17
+      ],
+      "deploymentId": "53f77448a7c2a50000000027",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_4",
+      "observationDateTime": 1484889811000,
+      "deviceId": "0",
+      "projectId": "5"
+    },
+    {
+      "observationId": "ddd8b7c8-9996-474a-b539-1bb034f389a5",
+      "readings": [
+        11.39,
+        14.2,
+        16
+      ],
+      "deploymentId": "53f77448a7c2a50000000027",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_4",
+      "observationDateTime": 1484890112000,
+      "deviceId": "0",
+      "projectId": "5"
+    },
+    {
+      "observationId": "b70c6c05-191f-485a-9cb4-f3fe8e92a785",
+      "readings": [
+        11.35,
+        14.3,
+        17
+      ],
+      "deploymentId": "53f77448a7c2a50000000027",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_4",
+      "observationDateTime": 1484890413000,
+      "deviceId": "0",
+      "projectId": "5"
+    },
+    {
+      "observationId": "8d8b81fa-a296-49d2-9c5b-4cf354cff7d6",
+      "readings": [
+        11.31,
+        14.3,
+        16
+      ],
+      "deploymentId": "53f77448a7c2a50000000027",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_4",
+      "observationDateTime": 1484890714000,
+      "deviceId": "0",
+      "projectId": "5"
+    },
+    {
+      "observationId": "04334bf9-c1ea-4f3e-92e0-9d098b7bac16",
+      "readings": [
+        11.37,
+        14.2,
+        17
+      ],
+      "deploymentId": "53f77448a7c2a50000000027",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_4",
+      "observationDateTime": 1484891015000,
+      "deviceId": "0",
+      "projectId": "5"
+    },
+    {
+      "observationId": "43a0473d-d37d-4895-bb28-64053d678738",
+      "readings": [
+        5.69,
+        14.6,
+        12
+      ],
+      "deploymentId": "53f77448a7c2a50000000027",
+      "qaqcResults": [
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        },
+        {
+          "check": "obs-bound-check",
+          "label": "Parameter Bounds Check",
+          "message": null,
+          "status": true
+        }
+      ],
+      "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_4",
+      "observationDateTime": 1484889511000,
+      "deviceId": "1",
+      "projectId": "5"
+    }
+  ],
+  "status": "success"
+}

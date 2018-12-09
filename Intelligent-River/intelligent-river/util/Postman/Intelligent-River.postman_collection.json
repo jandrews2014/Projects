@@ -1,0 +1,632 @@
+{
+	"info": {
+		"name": "Intelligent-River",
+		"_postman_id": "f9a8c40a-ef99-cab9-8a57-32ae0c1c6b73",
+		"description": "Version 2, RESTful API from Stephan Mazoka",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Authentication",
+			"description": "",
+			"item": [
+				{
+					"name": "Create (POST) Login and get Token",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"login\": \"chriscarl\",\n  \"passwordSHA1\": \"09d648b1af22ece08b486277e92f086fa8e4b959\"\n}"
+						},
+						"url": {
+							"raw": "http://{{intelligent-river}}/api/signIn",
+							"protocol": "http",
+							"host": [
+								"{{intelligent-river}}"
+							],
+							"path": [
+								"api",
+								"signIn"
+							]
+						},
+						"description": "CREATE a sign in and get back a token"
+					},
+					"response": []
+				},
+				{
+					"name": "Create (POST) Logout and Provide Token",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"login\": \"chriscarl\",\n  \"token\": \"c8290a28-053a-4202-8ac2-11e6e59eb628\"\n}"
+						},
+						"url": {
+							"raw": "http://{{intelligent-river}}/api/signOut",
+							"protocol": "http",
+							"host": [
+								"{{intelligent-river}}"
+							],
+							"path": [
+								"api",
+								"signOut"
+							]
+						},
+						"description": "CREATE a logout"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Data",
+			"description": "",
+			"item": [
+				{
+					"name": "Read (GET) Data Recent by ProjectId",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"dir\": \"/workspace/work/isense/health-portal/app/html/modules/\"\n}"
+						},
+						"url": {
+							"raw": "http://{{intelligent-river}}/api/dataRecent?projectId=0",
+							"protocol": "http",
+							"host": [
+								"{{intelligent-river}}"
+							],
+							"path": [
+								"api",
+								"dataRecent"
+							],
+							"query": [
+								{
+									"key": "projectId",
+									"value": "0",
+									"equals": true
+								}
+							]
+						},
+						"description": "Get all bundles"
+					},
+					"response": []
+				},
+				{
+					"name": "Read (GET) Data Historical by ProjectId",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"dir\": \"/workspace/work/isense/health-portal/app/html/modules/\"\n}"
+						},
+						"url": {
+							"raw": "http://{{intelligent-river}}/api/dataArchive?projectId={{project-id}}&date={{date}}",
+							"protocol": "http",
+							"host": [
+								"{{intelligent-river}}"
+							],
+							"path": [
+								"api",
+								"dataArchive"
+							],
+							"query": [
+								{
+									"key": "projectId",
+									"value": "{{project-id}}",
+									"equals": true
+								},
+								{
+									"key": "date",
+									"value": "{{date}}",
+									"equals": true
+								}
+							]
+						},
+						"description": "Get all bundles"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Deployments",
+			"description": "",
+			"item": [
+				{
+					"name": "Read (GET) all Deployments",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://{{intelligent-river}}/api/deploymentsAll",
+							"protocol": "http",
+							"host": [
+								"{{intelligent-river}}"
+							],
+							"path": [
+								"api",
+								"deploymentsAll"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Read (GET) all Deployment Details by DeploymentId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://{{intelligent-river}}/api/deploymentDetails?deploymentId={{deployment-id}}",
+							"protocol": "http",
+							"host": [
+								"{{intelligent-river}}"
+							],
+							"path": [
+								"api",
+								"deploymentDetails"
+							],
+							"query": [
+								{
+									"key": "deploymentId",
+									"value": "{{deployment-id}}",
+									"equals": true
+								}
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Read (GET) all Deployment Expanded by ProjectId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://{{intelligent-river}}/api/deploymentsExpanded?projectId={{project-id}}",
+							"protocol": "http",
+							"host": [
+								"{{intelligent-river}}"
+							],
+							"path": [
+								"api",
+								"deploymentsExpanded"
+							],
+							"query": [
+								{
+									"key": "projectId",
+									"value": "{{project-id}}",
+									"equals": true
+								}
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Read (GET) all Deployments Form by ProjectId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://{{intelligent-river}}/api/deploymentsForm?projectId={{project-id}}",
+							"protocol": "http",
+							"host": [
+								"{{intelligent-river}}"
+							],
+							"path": [
+								"api",
+								"deploymentsForm"
+							],
+							"query": [
+								{
+									"key": "projectId",
+									"value": "{{project-id}}",
+									"equals": true
+								}
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Read (GET) Deployments by Project ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://{{intelligent-river}}/api/deployments?projectId={{project-id}}",
+							"protocol": "http",
+							"host": [
+								"{{intelligent-river}}"
+							],
+							"path": [
+								"api",
+								"deployments"
+							],
+							"query": [
+								{
+									"key": "projectId",
+									"value": "{{project-id}}",
+									"equals": true
+								}
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Read (GET) Deployments by Deployment ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://{{intelligent-river}}/api/deploymentDetails?deploymentId={{deployment-id}}",
+							"protocol": "http",
+							"host": [
+								"{{intelligent-river}}"
+							],
+							"path": [
+								"api",
+								"deploymentDetails"
+							],
+							"query": [
+								{
+									"key": "deploymentId",
+									"value": "{{deployment-id}}",
+									"equals": true
+								}
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Maintainance",
+			"description": "",
+			"item": [
+				{
+					"name": "Read (GET) Maintainance by Project ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://{{intelligent-river}}/api/maintainanceForm?projectId={{project-id}}",
+							"protocol": "http",
+							"host": [
+								"{{intelligent-river}}"
+							],
+							"path": [
+								"api",
+								"maintainanceForm"
+							],
+							"query": [
+								{
+									"key": "projectId",
+									"value": "{{project-id}}",
+									"equals": true
+								}
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Motestacks",
+			"description": "",
+			"item": [
+				{
+					"name": "Read (GET) all Motestacks",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://{{intelligent-river}}/api/motestacks",
+							"protocol": "http",
+							"host": [
+								"{{intelligent-river}}"
+							],
+							"path": [
+								"api",
+								"motestacks"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Read (GET) Motestacks by Project ID",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"dir\": \"/workspace/work/isense/health-portal/app/html/modules/\"\n}"
+						},
+						"url": {
+							"raw": "http://{{intelligent-river}}/api/motestacks?id={{project-id}}",
+							"protocol": "http",
+							"host": [
+								"{{intelligent-river}}"
+							],
+							"path": [
+								"api",
+								"motestacks"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "{{project-id}}",
+									"equals": true
+								}
+							]
+						},
+						"description": "Get all bundles"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Projects",
+			"description": "",
+			"item": [
+				{
+					"name": "Read (GET) all Projects",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"dir\": \"/workspace/work/isense/health-portal/app/html/modules/\"\n}"
+						},
+						"url": {
+							"raw": "http://{{intelligent-river}}/api/projects",
+							"protocol": "http",
+							"host": [
+								"{{intelligent-river}}"
+							],
+							"path": [
+								"api",
+								"projects"
+							]
+						},
+						"description": "Get all bundles"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Sensing",
+			"description": "",
+			"item": [
+				{
+					"name": "Read (GET) all Sensing Templates",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://{{intelligent-river}}/api/sensingTemplates",
+							"protocol": "http",
+							"host": [
+								"{{intelligent-river}}"
+							],
+							"path": [
+								"api",
+								"sensingTemplates"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Read (GET) all Sensing Devices",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://{{intelligent-river}}/api/sensingDevices",
+							"protocol": "http",
+							"host": [
+								"{{intelligent-river}}"
+							],
+							"path": [
+								"api",
+								"sensingDevices"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Read (GET) all Radios",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"dir\": \"/workspace/work/isense/health-portal/app/html/modules/\"\n}"
+						},
+						"url": {
+							"raw": "http://{{intelligent-river}}/api/radios",
+							"protocol": "http",
+							"host": [
+								"{{intelligent-river}}"
+							],
+							"path": [
+								"api",
+								"radios"
+							]
+						},
+						"description": "Get all bundles"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Statistics",
+			"description": "",
+			"item": [
+				{
+					"name": "Read (GET) all Statistics",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://{{intelligent-river}}/api/statistics",
+							"protocol": "http",
+							"host": [
+								"{{intelligent-river}}"
+							],
+							"path": [
+								"api",
+								"statistics"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Status",
+			"description": "",
+			"item": [
+				{
+					"name": "Read (GET) Status by Project ID",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"dir\": \"/workspace/work/isense/health-portal/app/html/modules/\"\n}"
+						},
+						"url": {
+							"raw": "http://{{intelligent-river}}/api/status?projectId={{project-id}}",
+							"protocol": "http",
+							"host": [
+								"{{intelligent-river}}"
+							],
+							"path": [
+								"api",
+								"status"
+							],
+							"query": [
+								{
+									"key": "projectId",
+									"value": "{{project-id}}",
+									"equals": true
+								}
+							]
+						},
+						"description": "Get all bundles"
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

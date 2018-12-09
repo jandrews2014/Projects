@@ -1,0 +1,23 @@
+<app-project-map
+  *ngIf="!currentResource">
+</app-project-map>
+
+<app-data
+*ngIf="currentResource == 'data'">
+</app-data>
+
+<app-deployments
+*ngIf="currentResource == 'deployments'">
+</app-deployments>
+
+<app-maintenance
+*ngIf="currentResource == 'maintenance'">
+</app-maintenance>
+
+<app-diagnostics
+*ngIf="currentResource == 'diagnostics'">
+</app-diagnostics>
+
+<app-status
+*ngIf="currentResource == 'status'">
+</app-status>

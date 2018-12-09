@@ -1,0 +1,49 @@
+ngui-map {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+#select-data-filter {
+  position: absolute;
+  left: 20px;
+  bottom: 5px;
+}
+
+.info, .btn-info, .primary, .btn-primary, .btn-info:active, .btn-info.active, .btn-info.dropdown-toggle, .primary, .btn-primary, .btn-primary:active, .btn-primary.active, .btn-primary.dropdown-toggle {
+  background-color: #003366;
+  border-color: #003366;
+}
+
+.btn-info:focus, .btn-info.focus, .btn-primary:focus, .btn-primary.focus {
+  //box-shadow: 0 0 0 3px rgba(0, 51, 102, 0.5);  //blue
+  box-shadow: 0 0 0 3px rgba(154, 51, 56, 0.8);  //red
+}
+
+@media screen and (max-height: 700px) {
+  // https://www.bootply.com/86116
+  .sm-scrollable-menu {
+    height: auto;
+    max-height: 150px;
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (max-height: 969px) {
+  // https://www.bootply.com/86116
+  .sm-scrollable-menu {
+    height: auto;
+    max-height: 300px;
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (min-height: 969px) {
+  // https://www.bootply.com/86116
+  .sm-scrollable-menu {
+    height: initial;
+    max-height: initial;
+    overflow-x: initial;
+  }
+}

@@ -1,0 +1,6 @@
+<div *ngIf="radio">
+  <div *ngFor="let option of radio.options; let index = index;" class="form-group">
+      <label for="{{option.label + index}}">{{option.label}}</label>
+      <input type="text" class="form-control" id="{{option.label + index}}" placeholder="{{'Enter ' + option.label}}" name="{{option.label + index}}" [(ngModel)] = "option.name">
+  </div>
+</div>

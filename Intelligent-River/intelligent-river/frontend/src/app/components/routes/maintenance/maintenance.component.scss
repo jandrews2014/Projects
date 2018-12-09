@@ -1,0 +1,82 @@
+#maintenance-container {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+#loadingGif {
+	display: block;
+}
+
+table, #loadingGif {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table {
+	width: 85vw;
+	text-align: center;
+	background-color: #212529;
+	color: #c8cacb;
+	overflow-x: hidden;
+}
+
+#data {
+	display: block;
+	height: 70vh;
+	overflow-y: scroll;
+}
+
+th {
+	background-color: #003366;
+	color: #ffffff;
+	size: 12px;
+	width: 17vw;
+	line-height: 200%;
+}
+
+tr {
+	line-height: 200%;
+}
+
+td {
+	border: 1px solid #404040;
+}
+
+tr:hover {
+  background-color: #666666;
+}
+
+body {
+	height: 90vh;
+	background-size:cover;
+}
+
+.tableTop {
+	height: 2vh;
+}
+
+#addRowButton, .ml-5 {
+	position: absolute;
+	bottom: 2%; 
+	left: 42%;
+}
+
+@media only screen and (max-width: 60em) {
+	body {
+		font-size: 10px;
+	}
+	table {
+		width: 100vw;
+		overflow-x: scroll;
+	}
+	th, tr {
+		width: 20vw;
+	}
+	#addRowButton, .ml-5 {
+		position: absolute;
+		bottom: 2%; 
+		left: 20%;
+	}
+}

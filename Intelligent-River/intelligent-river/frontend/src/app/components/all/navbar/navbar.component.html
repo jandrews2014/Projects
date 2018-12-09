@@ -1,0 +1,155 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <a class="navbar-brand" routerLink="/" (click)="etPhoneHome()">
+    <img id="logo" src="assets/img/logo-v2.png" class="" alt="">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ir-navbar" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  
+  <!-- show only on large with no columns -->
+  <!-- docs https://getbootstrap.com/docs/4.0/utilities/display/#common-display-values -->
+  <div class="collapse navbar-collapse" id="ir-navbar">
+    <!-- meat of the navbar -->
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item mt-auto mb-auto" routerLinkActive="active">
+        <a class="nav-link" routerLink="/data" *ngIf="!currentProject">Data</a>
+        <a class="nav-link" routerLink="/data/{{currentProject.id}}" *ngIf="currentProject">Data</a>
+      </li>
+      <li class="nav-item mt-auto mb-auto" routerLinkActive="active">
+        <a class="nav-link" [routerLink]="['/diagnostics']">Diagnostics</a>
+      </li>
+      <li class="nav-item mt-auto mb-auto" routerLinkActive="active">
+        <a class="nav-link" routerLink="/status" *ngIf="!currentProject">Status</a>
+        <a class="nav-link" routerLink="/status/{{currentProject.id}}" *ngIf="currentProject">Status</a>
+      </li>
+      <li class="nav-item mt-auto mb-auto" routerLinkActive="active">
+        <a class="nav-link" routerLink="/maintenance" *ngIf="!currentProject">Maintenance</a>
+        <a class="nav-link" routerLink="/maintenance/{{currentProject.id}}" *ngIf="currentProject">Maintenance</a>
+      </li>
+      <li class="nav-item mt-auto mb-auto" routerLinkActive="active">
+        <a class="nav-link" routerLink="/deployment-manager">Deployment Manager</a>
+      </li>
+      <li class="nav-item mt-auto mb-auto" routerLinkActive="active">
+        <a class="nav-link" routerLink="/deployments" *ngIf="!currentProject">Deployments</a>
+        <a class="nav-link" routerLink="/deployments/{{currentProject.id}}" *ngIf="currentProject">Deployments</a>
+      </li>
+      <li class="nav-item mt-auto mb-auto">
+        <a (click)="onClickStatistics($event)" class="nav-link" data-toggle="modal" data-target="#statistics-modal">Statistics</a>
+      </li>
+
+      <li class="nav-item dropdown mr-1 mt-auto mb-auto">
+        <button *ngIf="!currentProject" class="btn btn-primary btn-fau-blue dropdown dropdown-toggle" id="projects-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Project</button>
+        <button *ngIf="currentProject" class="btn btn-primary btn-fau-blue dropdown dropdown-toggle" id="projects-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{currentProject.label}}</button>
+        <div class="dropdown-menu dropdown-menu-right text-right sm-scrollable-menu" aria-labelledby="projects-dropdown">
+          <!-- If projects have not been loaded, load the loading gif -->
+          <div *ngIf="!projects">
+            <img src="/assets/gif/loading.gif" alt="">
+          </div>
+          <!-- for each project, add a new link and click event listener -->
+          <a class="dropdown-item" *ngFor="let p of projects; i as index" (click)="changeProject(p)">{{p.label}}</a>
+          <a class="dropdown-item bg-fau-red" (click)="clearCurrentProject()">Clear Current Project</a>
+        </div>
+      </li>
+      <li class="nav-item mt-auto mb-auto" routerLinkActive="active">
+        <button class="btn btn-primary btn-fau-blue" id="login" data-toggle="modal" data-target="#login-modal" *ngIf="!loggedIn">Login</button>
+        <button class="btn btn-primary btn-fau-blue" id="logout" data-toggle="modal" data-target="#logout-modal" *ngIf="loggedIn" (click)="logout()">Logout</button>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div id="statistics-modal" class="modal fade ml-1 mr-1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Statistics for Intelligent River</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+              <div class="col">
+
+                <!-- If statistics have not been loaded, load the loading gif -->
+                <div *ngIf="!statistics">
+                  <img src="/assets/gif/loading.gif" alt="">
+                </div>
+                
+                <!-- If statistics have been loaded, load the table -->
+                <table *ngIf="statistics" class="table table-hover table-responsive">
+                  <thead>
+                    <tr>
+                      <th></th>
+                      <th>As Of</th>
+                      <th>Records</th>
+                      <th>Samples</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Data</th>
+                      <td class="table-data">{{statistics.data.date}}</td>
+                      <td class="table-data">{{statistics.data.records}}</td>
+                      <td class="table-data">{{statistics.data.samples}}</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Diagnostics</th>
+                      <td class="table-data">{{statistics.diagnostics.date}}</td>
+                      <td class="table-data">{{statistics.diagnostics.records}}</td>
+                      <td class="table-data">{{statistics.diagnostics.samples}}</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+        </div>
+      </div>
+  </div>
+</div>
+
+
+<div id="login-modal" class="modal fade ml-1 mr-1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Login for Intelligent River</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+              <div class="col">
+                <app-login></app-login>
+              </div>
+            </div>
+        </div>
+      </div>
+  </div>
+</div>
+
+<div id="logout-modal" class="modal fade ml-1 mr-1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Logout for Intelligent River</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col" *ngIf="attemptingToSignOut">
+              <div class="container justify-content-center align-items-center">
+                <img src="/assets/gif/loading.gif" alt="">
+              </div>
+            </div>
+            <div class="col" *ngIf="!attemptingToSignOut">
+              {{loggedOutMessage}}
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>

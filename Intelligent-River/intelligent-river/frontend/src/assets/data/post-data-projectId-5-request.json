@@ -1,0 +1,13 @@
+{
+  "p_id": 5,
+  "postData": {
+    "startDate": "2017-11-05T04:00:00.000Z",
+    "endDate": "2017-11-09T18:06:07.592Z",
+    "devices": [
+      {
+        "deploymentUri": "http://www.intelligentriver.org/resource/deployment#bar_1",
+        "deviceId": "1"
+      }
+    ]
+  }
+}

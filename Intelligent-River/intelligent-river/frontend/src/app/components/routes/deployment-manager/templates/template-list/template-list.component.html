@@ -1,0 +1,10 @@
+<div *ngIf="templates" class="list-wrapper">
+  <h4 class="margin-top-element"><b>Choose a Template</b></h4>
+  <div class="form-group margin-top-element">
+      <input placeholder="filter" class="form-control" id="radio-filter" type="text" #filter (input)="filterItem(filter.value)">
+  </div>
+  <div class="list-group margin-bottom-100">
+    <button type="button" (click)="updateTemplate(null)" class="list-group-item list-group-item-action active">New Template...</button>
+    <button type="button" (click)="updateTemplate(template)" class="list-group-item list-group-item-action disabled" *ngFor="let template of filteredTemplates">{{template.label}}</button>
+  </div>
+</div>

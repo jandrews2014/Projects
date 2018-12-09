@@ -1,0 +1,106 @@
+<div *ngIf="this.motestackForm.templates.length" class="list-group form-wrapper margin-bottom-100">
+  <form>
+    <h4 class="margin-top-element"><b>Configure Motestack</b>
+    <p class="entity-label">{{motestackPost.label}}</p></h4>
+    <hr>
+    <div class="form-group">
+      <label for="label">Label</label>
+      <input type="text" class="form-control" id="label" placeholder="Enter label" name="label" [(ngModel)] = "motestackPost.label">
+    </div>
+
+    <div class="form-group">
+      <label for="label">URI</label>
+      <div class="input-group">
+        <span class="input-group-addon" id="uri_addon">http://www.intelligentriver.org/resource/deployment#</span>
+        <input type="text" class="form-control" name="uri_sufix" id="uri_sufix" [(ngModel)] = "usiSufix" aria-describedby="uri_addon">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="project">Project</label>
+      <select name="project" id="project" [(ngModel)]="motestackPost.projectId" class="form-control form-control-sm">
+        <option *ngFor="let project of motestackForm.projects" [value]="project.id">{{project.label}}</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="radio">Radio</label>
+      <select name="radio" id="radio" [(ngModel)]="radioId" class="form-control form-control-sm">
+        <option *ngFor="let radio of motestackForm.radios" [value]="radio.id">{{radio.label}}</option>
+      </select>
+    </div>
+
+    <app-radio-options [radioId]="radioId"></app-radio-options>
+
+    <div class="form-group">
+      <label for="sample_period">Sample Period</label>
+      <input type="text" class="form-control" id="sample_period" placeholder="Enter Sample Period" name="sample_period" [(ngModel)] = "motestackPost.sPeriod">
+    </div>
+    
+    <div class="form-group">
+      <label for="sample_transmit_count">Sample Transmit Count</label>
+      <input type="text" class="form-control" id="sample_transmit_count" placeholder="Enter Sample Transmit Count" name="sample_transmit_count" [(ngModel)] = "motestackPost.sTrans">
+    </div>
+
+    <div class="form-group">
+      <label for="min_sdi_12_device">Min SDI-12 Devices</label>
+      <input type="text" class="form-control" id="min_sdi_12_device" placeholder="Enter Min SDI-12 Devices" name="min_sdi_12_device" [(ngModel)] = "motestackPost.minSdi12">
+    </div>
+
+    <div class="form-group">
+      <label for="max_sdi_12_devices">Max SDI-12 Devices</label>
+      <input type="text" class="form-control" id="max_sdi_12_devices" placeholder="Enter Max SDI-12 Devices" name="max_sdi_12_devices" [(ngModel)] = "motestackPost.maxSdi12">
+    </div>
+
+    <div class="form-group">
+      <label for="max_readings_per_sdi_12">Max Readings per SDI-12 Device</label>
+      <input type="text" class="form-control" id="max_readings_per_sdi_12" placeholder="Enter Max Readings per SDI-12 Device" name="max_readings_per_sdi_12" [(ngModel)] = "motestackPost.sdi12Read">
+    </div>
+
+    <div class="form-group">
+      <label for="sdi_12_setting_time">SDI-12 Settling Time</label>
+      <input type="text" class="form-control" id="sdi_12_setting_time" placeholder="Enter SDI-12 Settling Time" name="sdi_12_setting_time" [(ngModel)] = "motestackPost.sdi12St">
+    </div>
+
+    <div class="form-group">
+      <label for="min_1_wire_devices">Min 1-Wire Devices</label>
+      <input type="text" class="form-control" id="min_1_wire_devices" placeholder="Enter Min 1-Wire Devices" name="min_1_wire_devices" [(ngModel)] = "motestackPost.min1Wire">
+    </div>
+
+    <div class="form-group">
+      <label for="max_1_wire_devices">Max 1-Wire Devices</label>
+      <input type="text" class="form-control" id="max_1_wire_devices" placeholder="Enter Max 1-Wire Devices" name="max_1_wire_devices" [(ngModel)] = "motestackPost.max1Wire">
+    </div>
+
+    <div class="form-group">
+      <label for="num_of_ads_devices">Number of ADS Devices</label>
+      <input type="text" class="form-control" id="num_of_ads_devices" placeholder="Enter Number of ADS Devices" name="num_of_ads_devices" [(ngModel)] = "motestackPost.numAds">
+    </div>
+
+     <div class="form-check">
+      <label class="form-check-label">
+        <input name="nvsram_loggin_enabled" type="checkbox" class="form-check-input" [(ngModel)] = "motestackPost.nvsramLog">
+        NVSRAM logging enabled
+      </label>
+    </div>
+
+    <div class="form-check">
+      <label class="form-check-label">
+        <input name="sdi_12_v3_enabled" type="checkbox" class="form-check-input" [(ngModel)] = "motestackPost.sdi12V3">
+        SDI-12 V3 enabled
+      </label>
+    </div>
+
+    <div class="form-check">
+      <label class="form-check-label">
+        <input name="active" type="checkbox" class="form-check-input" [(ngModel)] = "motestackPost.active">
+        Active
+      </label>
+    </div>
+
+    <h4 class="margin-top-element"><b>Sensing Templates</b></h4>
+    <hr>
+    <app-sensing-templates [availableTemplates]="this.motestackForm.templates"></app-sensing-templates>
+
+  </form>
+</div>

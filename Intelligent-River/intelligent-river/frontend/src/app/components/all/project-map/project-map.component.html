@@ -1,0 +1,34 @@
+<!-- https://github.com/allenhwkim/angularjs-google-maps -->
+<!-- https://rawgit.com/allenhwkim/angularjs-google-maps/master/build/docs/marker.html -->
+<!-- https://ngmap.github.io/#/!custom-marker-2.html -->
+
+<!-- this creates a google map on the page with the given lat/lng from -->
+<!-- the component as the initial center of the map: -->
+
+<!-- My philosophy is that any api returned to the component should be
+      IMMEDIATLEY actionable on because its sorted so well. The job of
+      the component.ts is not to parse the API data returned except
+      when the data is that large. The component html should already
+      have access to that data without further processing. -->
+
+<div class="d-flex" *ngIf="!loadedProjects">
+  <img src="../../assets/gif/loading.gif" alt="" class="align-self-middle">
+</div>
+
+<ngui-map zoom="{{mapZoom}}" center="{{lat}}, {{lng}}" *ngIf="projects && !currentProject">
+  <marker *ngFor="let p of projects; i as index"
+    (click)="onClickProject(p, $event)"
+    [position]="[p.location.lat, p.location.lng]"
+    [icon]="icons[p.pIcon]"
+    >
+  </marker>
+</ngui-map>
+
+<ngui-map zoom="{{mapZoom}}" center="{{currentProject.location.lat}}, {{currentProject.location.lng}}" *ngIf="projects && currentProject">
+  <marker *ngFor="let p of projects; i as index"
+    (click)="onClickProject(p, $event)"
+    [position]="[p.location.lat, p.location.lng]"
+    [icon]="icons[p.pIcon]"
+    >
+  </marker>
+</ngui-map>

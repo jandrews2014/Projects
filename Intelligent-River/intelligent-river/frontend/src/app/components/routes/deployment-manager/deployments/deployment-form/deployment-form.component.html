@@ -1,0 +1,44 @@
+<div class="list-group form-wrapper margin-bottom-100">
+  <form>
+    <h4 class="margin-top-element"><b>Configure Deployment</b>
+    <p class="entity-label">{{deployment.label}}</p></h4>
+      <hr>
+    <div class="form-group">
+      <label for="label">Label</label>
+      <input type="text" class="form-control" id="label" placeholder="Enter label" name="label" [(ngModel)] = "deployment.label">
+    </div>
+    <div class="form-group">
+      <label for="motestack">Motestack</label>
+      <select name="motestack" id="motestack" [(ngModel)]="deployment.motestackId" class="form-control form-control-sm">
+        <option *ngFor="let motestack of deploymentsForm.motestacks" [value]="motestack.id" >{{motestack.label}}</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="project">Project</label>
+      <select name="project" id="project" [(ngModel)]="deployment.projectId" class="form-control form-control-sm">
+        <option *ngFor="let project of deploymentsForm.projects" [value]="project.id">{{project.label}}</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="latitude">Latitude</label>
+      <input type="text" class="form-control" id="latitude" placeholder="Enter latitude" name="latitude" [(ngModel)] = "deployment.location.lat">
+    </div>
+
+    <div class="form-group">
+      <label for="longtitude">Longtide</label>
+      <input type="text" class="form-control" id="longtitude" placeholder="Enter longtitude" name="longtitude" [(ngModel)] = "deployment.location.lng">
+    </div>
+
+    <div class="form-check">
+      <label class="form-check-label">
+        <input name="active" type="checkbox" class="form-check-input" [(ngModel)] = "deployment.active">
+        Active
+      </label>
+    </div>
+
+    <button type="submit" (click)="onSubmit()" class="btn btn-primary">Submit</button>
+
+  </form>
+</div>

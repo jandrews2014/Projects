@@ -1,0 +1,82 @@
+<div *ngIf="!currentProject"> 
+  <app-project-map></app-project-map>
+</div>
+
+<div class="container">
+  <div class="row"  class="pt-5">
+    <div class="col">
+
+      <div *ngIf="currentProject && !currentStatus"> 
+        <img src="/assets/gif/loading.gif" alt="">
+      </div>
+      
+      <div *ngIf="currentProject && currentStatus"> 
+        <div class="row">
+          <div class="col">
+            <nav class="nav nav-tabs" id="myTab" role="tablist">
+              <div *ngFor="let status of currentStatus['statuses']; let i=index">
+                <a
+                  *ngIf="i === 0" 
+                  class="nav-item nav-link active" id="{{status['deployment']['label']}}-{{status['deployment']['id']}}-tab" data-toggle="tab" 
+                  href="#{{status['deployment']['label']}}-{{status['deployment']['id']}}" role="tab" [attr.aria-controls]="status['deployment']['label'] + '-' + status['deployment']['id']" 
+                  aria-selected="true" (click)="selectStatusNumber(i)">{{status['deployment']['label']}}</a>
+
+                <a
+                  *ngIf="i > 0" 
+                  class="nav-item nav-link" id="{{status['deployment']['label']}}-{{status['deployment']['id']}}-tab" data-toggle="tab" 
+                  href="#{{status['deployment']['label']}}-{{status['deployment']['id']}}" role="tab" [attr.aria-controls]="status['deployment']['label'] + '-' + status['deployment']['id']" 
+                  aria-selected="true" (click)="selectStatusNumber(i)">{{status['deployment']['label']}}</a>
+              </div>
+              
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+              <div *ngFor="let status of currentStatus['statuses']; let i=index;">
+                <div *ngIf="i === selectedTab"
+                  class="tab-pane fade show active" id="{{status['deployment']['label']}}-{{status['deployment']['id']}}" role="tabpanel" [attr.aria-labelledby]="status['deployment']['label'] + '-' + status['deployment']['id'] + '-tab'">
+                  <h5><strong>Deployment: </strong>{{status['deployment']['label']}}</h5>
+                  <h6>Diagnostics: {{status['deployment']['label']}}</h6>
+                  <ul>
+                    <li>Sample Attempts: {{status.lastMessage.diagnostics.appDiagnostics.sampleAttempts}}</li>
+                    <li>Sample Failures: {{status.lastMessage.diagnostics.appDiagnostics.sampleFailures}}</li>
+                    <li>Sample Losses: {{status.lastMessage.diagnostics.appDiagnostics.sampleLosses}}</li>
+                    <li>Transmit Attempts: {{status.lastMessage.diagnostics.appDiagnostics.radioAttempts}}</li>
+                    <li>Transmit Failures: {{status.lastMessage.diagnostics.appDiagnostics.radioFailures}}</li>
+                  </ul>
+                  <h6>Sensing Devices: Latest Observations</h6>
+                  <ul>
+                    <li *ngFor="let sensing of status.deployment.motestackId.sensing; let s=index;">
+                      <span>{{sensing.label}} </span>
+                      <button 
+                        class="btn btn-sm btn-fau-blue text-white" type="button" 
+                        data-toggle="collapse" [attr.data-target]="'#' + status.deployment.id + '-' + sensing.id"
+                        aria-expanded="false" aria-controls="collapseExample" 
+                        (click)="onShowHide($event)">Show</button>
+                      <div 
+                        class="collapse" 
+                        [id]="status.deployment.id + '-' + sensing.id">
+                        <ul>
+                          <li *ngFor="let parameter of sensing.parameters; let p=index">
+                            <span>
+                              {{parameter.parameter.label}} ({{parameter.parameter.unit}}):
+                              <span *ngIf="hasProp(status.lastMessage, 'sdi12Samples')"> {{status.lastMessage.sdi12Samples[s].readings[p]}}</span>
+                              <span *ngIf="hasProp(status.lastMessage, 'analogSamples')"> {{status.lastMessage.sdi12Samples[s].readings[p]}}</span>
+                              <span *ngIf="hasProp(status.lastMessage, 'oneWireSamples')"> {{status.lastMessage.sdi12Samples[s].readings[p]}}</span>
+                            </span>
+                          </li>
+                        </ul>
+                        <br>
+                      </div>
+                      
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,10 @@
+<div class="list-wrapper">
+  <h4 class="margin-top-element"><b>Choose a Radio</b></h4>
+  <div class="form-group margin-top-element">
+      <input placeholder="filter" class="form-control" id="radio-filter" type="text" #filter (input)="filterItem(filter.value)">
+  </div>
+  <div class="list-group margin-bottom-100">
+    <button type="button" (click)="updateRadio(null)" class="list-group-item list-group-item-action active">New Radio...</button>
+    <button type="button" (click)="updateRadio(radio)" class="list-group-item list-group-item-action disabled" *ngFor="let radio of filteredRadios">{{radio.label}}</button>
+  </div>
+</div>

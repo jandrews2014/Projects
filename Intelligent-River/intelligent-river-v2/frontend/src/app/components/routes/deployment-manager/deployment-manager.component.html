@@ -1,0 +1,24 @@
+<div class="navigation-wrapper">
+  <nav class="center-block nav nav-tabs" id="myTab" role="tablist">
+    <a class="nav-item nav-link" id="nav-manager-devices-tab" data-toggle="tab" [routerLink]="['./devices']" role="tab" aria-controls="nav-manager-devices">
+    Sensing Devices
+  </a>
+    <a class="nav-item nav-link" id="nav-manager-templates-tab" data-toggle="tab" [routerLink]="['./templates']" role="tab" aria-controls="nav-manager-templates">
+    Templates
+  </a>
+    <a class="nav-item nav-link" id="nav-manager-radios-tab" data-toggle="tab" [routerLink]="['./radios']" role="tab" aria-controls="nav-manager-radios">
+    Radios
+  </a>
+    <a class="nav-item nav-link" id="nav-manager-motestacks-tab" data-toggle="tab" [routerLink]="['./motestacks']" role="tab"
+      aria-controls="nav-manager-motestacks">
+    Motestacks
+  </a>
+    <a class="nav-item nav-link active" id="nav-manager-deployments-tab" data-toggle="tab" [routerLink]="['./deployments']" role="tab"
+      aria-controls="nav-manager-deployments">
+    Deployments
+  </a>
+  </nav>
+</div>
+<div class="content-wrapper">
+  <router-outlet></router-outlet>
+</div>

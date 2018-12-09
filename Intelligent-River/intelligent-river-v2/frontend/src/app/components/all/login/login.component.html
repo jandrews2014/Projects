@@ -1,0 +1,99 @@
+<div *ngIf="!allowLogin && !loggedIn && !attemptingToSignIn">
+  <div class="container justify-content-center align-items-center">
+      <h2 class="danger">WRONG EMAIL OR PASSWORD</h2>
+  </div>
+</div>
+
+<div *ngIf="loggedIn && !attemptingToSignIn">
+  <div class="container justify-content-center align-items-center">
+      <h2 class="danger">You are signed in.</h2>
+  </div>
+</div>
+
+<div *ngIf="attemptingToSignIn">
+  <div class="container justify-content-center align-items-center">
+    <img src="/assets/gif/loading.gif" alt="">
+  </div>
+</div>
+
+<div *ngIf="allowLogin && !loggedIn && !attemptingToSignIn">
+  <form #f1="ngForm" class="form-signin" (ngSubmit)="onSignIn(f1)">
+    <label for="inputUsername" class="sr-only">Email address</label>
+    <input [(ngModel)]="username" #inputUsername="ngModel" 
+      type="text" class="form-control" placeholder="Username" name="username" required autofocus>
+    
+    <label for="userPassword" class="sr-only">Password</label>
+    <input [(ngModel)]="password" #userPassword="ngModel" 
+      type="password" class="form-control" placeholder="Password" name="password" required>
+    
+    <div class="checkbox">
+      <label>
+        <input type="checkbox" value="remember-me"> Remember me
+      </label>
+    </div>
+    
+    <input class="btn btn-lg btn-primary btn-block btn-fau-blue" type="submit" value="Sign In">
+  </form>
+
+  <!-- <ul class="nav nav-tabs" id="myTab" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active" id="login-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Login</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="signup-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Sign Up</a>
+    </li>
+  </ul>
+  <div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="login-tab">
+      <hr>
+      <form #f1="ngForm" class="form-signin" (ngSubmit)="onSignIn(f1)">
+        <h2 class="form-signin-heading">Please sign in</h2>
+        
+        <label for="inputUsername" class="sr-only">Email address</label>
+        <input [(ngModel)]="username" #inputUsername="ngModel" 
+          type="text" class="form-control" placeholder="Username" name="username" required autofocus>
+        
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input [(ngModel)]="password" #userPassword="ngModel" 
+          type="password" class="form-control" placeholder="Password" name="password" required>
+        
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="remember-me"> Remember me
+          </label>
+        </div>
+        
+        <input class="btn btn-lg btn-primary btn-block" type="submit" value="Sign In">
+      </form>
+    </div>
+    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="signup-tab">
+      <hr>
+      <form #f2="ngForm" class="form-signin" (ngSubmit)="onSignIn(f2)">
+        <h2 class="form-signin-heading">Please sign up</h2>
+        
+        <label for="inputFirst" class="sr-only">Username</label>
+        <input [(ngModel)]="username" #newUsername="ngModel" minlength="2"
+          type="text" id="inputFirst" class="form-control" placeholder="Username" name="first" required autofocus>
+        <div *ngIf="newUsername.errors?.required && newUsername.touched" class="alert alert-danger">First is Required</div>
+        <div *ngIf="newUsername.errors?.minlength && newUsername.touched" class="alert alert-danger">First name should be 2 chars</div>
+  
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input [(ngModel)]="email" #newUserEmail="ngModel" 
+          type="email" id="inputEmail" class="form-control" placeholder="Email address" name="email" required>
+        
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input [(ngModel)]="password" #newUserPassword="ngModel"
+          type="password" id="inputPassword" class="form-control" placeholder="Password" name="password" required>
+        
+        <label for="inputConfirmPassword" class="sr-only">Confirm Password</label>
+        <input [(ngModel)]="confirm" #newUserConfirmPassword="ngModel"
+          type="password" id="inputConfirmPassword" class="form-control" name="confirm password" placeholder="Confirm password" required>
+        
+        <input class="btn btn-lg btn-primary btn-block" type="submit" value="Sign Up">
+      </form>
+    </div>
+  
+  
+  </div> -->
+
+</div>

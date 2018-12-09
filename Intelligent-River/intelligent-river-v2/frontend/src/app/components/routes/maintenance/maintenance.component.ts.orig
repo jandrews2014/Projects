@@ -1,0 +1,164 @@
+import * as moment from 'moment';
+import { Component, OnInit } from '@angular/core';
+
+import { Router, ActivatedRoute, Params } from '@angular/router';
+
+import { User } from '../../../models/user.model';
+
+import { Project, ProjectsJSON } from '../../../models/projects.model';
+import { Maintenance, MaintenanceAllJSON } from '../../../models/maintenance.model';
+
+import { IntelligentRiverService } from '../../../services/intelligent-river.service';
+import { AuthService } from '../../../services/auth.service';
+
+@Component({
+  selector: 'app-maintenance',
+  templateUrl: './maintenance.component.html',
+  styleUrls: ['./maintenance.component.scss']
+})
+export class MaintenanceComponent implements OnInit {
+
+  projects: Project[];
+  maintenance: Maintenance[];
+  currentMaintenance: Maintenance;
+  newMaintenanceData: Maintenance;
+  currentMaintenanceFormData: any;
+  currentProject: Project;
+  currentUser: User;
+  maintenanceByProjectId: any;
+  background: any;
+
+  currentProjectId: number;
+  currentMaintenanceId: number;
+
+  deploymentSelectedValue: string;
+  actionTypeSelectedValue: string;
+  dateTimeSelectedValue: number;
+  commentEnteredValue: string;
+  datetimeString: string;
+
+  dateTimePickerValue: any;
+
+  constructor(private irService: IntelligentRiverService,
+    private route: ActivatedRoute,
+    private router: Router,
+    private authService: AuthService) {
+      this.projects = null;
+      this.currentUser = null;
+      this.maintenance = null;
+      this.currentMaintenanceFormData = null;
+      this.maintenanceByProjectId = null;
+      this.currentProject = null;
+      this.currentProjectId = null;
+      this.currentMaintenance = null;
+      this.newMaintenanceData = {
+          datetime: 0,
+          comment: " ",
+          eventType: " ",
+          user: " ",
+          projectId: 0,
+          deployment: " ",
+      };
+      this.deploymentSelectedValue = null;
+      this.actionTypeSelectedValue = null;
+      this.dateTimeSelectedValue = null;
+      this.commentEnteredValue = null;
+      this.datetimeString = null;
+      this.background = 'assets/img/maintenance_bg.png';
+
+      this.dateTimeSelectedValue = Date.now();
+      this.dateTimePickerValue = Date.now();
+    }
+
+  ngOnInit() {
+    console.log('Maintenance Component Initialized');
+
+    this.authService.observeCurrentUser.subscribe((authUser) => {
+        this.currentUser = authUser;
+        console.log('currentUser: ', this.currentUser);
+    });
+
+    this.irService.observeCurrentProject.subscribe((next) => {
+      this.currentProject = next;
+      if (next) {
+        this.currentProjectId = next.id;
+        if (this.currentProject) {
+          this.irService.getMaintenanceByProjectId(this.currentProject.id).subscribe(
+            (data) => {
+              console.log('Maintenance getMaintenanceById success', data);
+              console.log('data[this.currentProject.id]: ', data[this.currentProject.id]);
+              this.currentMaintenance = data[this.currentProject.id];
+            }
+          );
+
+          this.irService.getMaintenanceFormData(this.currentProject.id).subscribe(
+            (data) => {
+              console.log('Maintenance getMaintenanceFormData success', data);
+              this.currentMaintenanceFormData = data;
+            }
+          );
+        }
+      }
+      console.log('Maintenance currentProject', next);
+    });
+  }
+
+  deploymentSelected(value) {
+    this.deploymentSelectedValue = value;
+  }
+
+  actionTypeSelected(value) {
+    this.actionTypeSelectedValue = value;
+  }
+
+  dateTimeSelected(value) {
+    this.datetimeString = value;
+    const newMoment = moment(this.datetimeString);
+    const millis = newMoment.valueOf();
+
+    this.dateTimeSelectedValue = millis;
+
+    console.log(this.dateTimePickerValue, this.dateTimeSelectedValue);
+  }
+
+  commentEntered(value) {
+    this.commentEnteredValue = value;
+  }
+
+  onSubmit() {
+<<<<<<< HEAD
+    this.newMaintenanceData = {};
+    this.newMaintenanceData['datetime'] = this.dateTimeSelectedValue;
+    this.newMaintenanceData['comment'] = this.commentEnteredValue;
+    this.newMaintenanceData['eventType'] = this.actionTypeSelectedValue;
+    this.newMaintenanceData['user'] = this.currentUser.username;
+    this.newMaintenanceData['projectId'] = this.currentProjectId;
+    this.newMaintenanceData['deployment'] = this.deploymentSelectedValue;
+=======
+    console.log('submitting data', this.dateTimeSelectedValue);
+    this.newMaintenanceData.datetime = this.dateTimeSelectedValue;
+    this.newMaintenanceData.comment = this.commentEnteredValue;
+    this.newMaintenanceData.eventType = this.actionTypeSelectedValue;
+    this.newMaintenanceData.user = this.currentUser.username;
+    this.newMaintenanceData.projectId = this.currentProjectId;
+    this.newMaintenanceData.deployment = this.deploymentSelectedValue;
+>>>>>>> 9ad352e0ed286d99ba3e659548400fa129c71d99
+
+    console.log('submission data is set', this.newMaintenanceData);
+
+    this.irService.postMaintenanceData(
+      this.newMaintenanceData,
+      this.currentUser.token
+      ).subscribe(data => {
+      console.log(data);
+      if (data['status'] === 'success') {
+        console.log('maintenance data logged successfully');
+      } else if (data['status'] === 'failure') {
+        console.log('maintenance data logging failed');
+      } else {
+        console.log('something went wrong submitting maintenance data');
+      }
+    });
+  }
+
+}

@@ -1,0 +1,28 @@
+.margin-bottom-100 {
+    margin-bottom: 100px;
+}
+
+#deployment-filter {
+    background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 10px 12px 10px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+}
+
+.form-group {
+    margin-bottom: 0 !important;
+}
+.dep-wrapper{
+    width: 100%;
+}
+
+.margin-top-element {
+    margin-top: 15px;
+}
+
+.list-group-item.active {
+    background-color: #003366;
+    border-color: #003366;
+}

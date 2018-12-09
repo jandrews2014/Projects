@@ -1,0 +1,34 @@
+// #content-container {
+//   border-color: red;
+//   border-radius: 1px;
+//   border-style: solid;
+// }
+
+#content-container {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    top: 76px;
+    height: calc(100% - 76px - 100px);
+  }
+  
+  // xs-md
+  @media screen and (min-width: 0px) and (max-width: 992px) {
+    #content-container {
+      top: 76px;
+      height: calc(100% - 76px - 100px);
+    }
+  }
+  @media screen and (min-width: 992px) and (max-width: 1200px){
+    #content-container {
+      top: 76px;
+      height: calc(100% - 76px - 100px);
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    #content-container {
+      top: 101px;
+      height: calc(100% - 101px - 100px);
+    }
+  }

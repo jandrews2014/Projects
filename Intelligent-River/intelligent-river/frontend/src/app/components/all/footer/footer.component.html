@@ -1,0 +1,138 @@
+<p>
+  footer works!
+</p>
+<footer class="row fixed-bottom navbar-dark bg-dark align-items-center">
+  <!-- causes vertical alignment -->
+  <!-- for reference on bootstrap device size hiding
+  https://medium.com/wdstack/bootstrap-4-hidden-visible-dd969a4c5854 -->
+
+  <!-- shows on xl and higher -->
+  <div class="col-3 d-none d-xl-block">
+    <div class="row justify-content-start text-muted">
+      <div class="ml-4 p-1">
+        <p class="mt-auto mb-auto">Copyright &copy; Florida Atlantic University<br>I-SENSE 2017<br><span style="font-size:69%">CNS-1126344</span></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-9 d-none d-xl-block">
+    <div class="row justify-content-end">
+      <!-- shows on xl and higher -->
+      <div class="p-1"><a target="_blank" href="{{urls[0]}}"><img class="img-fluid footer-logo-rectangle" src="{{logos[0]}}" alt=""></a></div>
+      <div class="p-1"><a target="_blank" href="{{urls[1]}}"><img class="img-fluid footer-logo-rectangle" src="{{logos[1]}}" alt=""></a></div>
+      <div class="p-1"><a target="_blank" href="{{urls[2]}}"><img class="img-fluid footer-logo-rectangle" src="{{logos[2]}}" alt=""></a></div>
+      <div class="p-1"><a target="_blank" href="{{urls[3]}}"><img class="img-fluid footer-logo-circle" src="{{logos[3]}}" alt=""></a></div>
+      <div class="p-1"><a target="_blank" href="{{urls[4]}}"><img class="img-fluid footer-logo-circle" src="{{logos[4]}}" alt=""></a></div>
+      <div class="mr-4 p-1">
+        <a target="_blank" href="{{urls[5]}}"><img class="img-fluid footer-logo-circle p-1" src="{{logos[5]}}" alt=""></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- shows on lg -->
+  <div class="col-4 d-none d-lg-block d-xl-none">
+  <!-- causes horizontal alignment -->
+    <div class="row justify-content-start text-muted">
+      <div class="ml-4 p-1">
+        <p class="mt-auto mb-auto">Copyright &copy; Florida Atlantic University<br>I-SENSE 2017<br><span style="font-size:69%">CNS-1126344</span></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-4 d-none d-lg-block d-xl-none">
+  <!-- causes horizontal alignment -->
+    <div class="row justify-content-center text-muted text-center">
+      <div class="p-1"><a target="_blank" href="{{urls[0]}}"><img class="img-fluid footer-logo-rectangle p-2" src="{{logos[0]}}" alt=""></a></div>
+    </div>
+  </div>
+  <div class="col-4 d-none d-lg-block d-xl-none">
+    <div class="row justify-content-end">
+      <div class="mr-4 p-1">
+        <i class="fa fa-info-circle fa-2x" aria-hidden="true" data-toggle="modal" data-target="#footer-modal"></i>
+      </div>
+    </div>
+  </div>
+
+  <!-- shows on md -->
+  <div class="col-4 d-none d-md-block d-lg-none">
+    <div class="row justify-content-start text-muted">
+      <div class="ml-4 p-1">
+        <p class="mt-auto mb-auto">Copyright &copy; Florida Atlantic University<br>I-SENSE 2017<br><span style="font-size:69%">CNS-1126344</span></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-4 d-none d-md-block d-lg-none">
+    <div class="row justify-content-center text-muted text-center">
+      <div class="p-1"><a target="_blank" href="{{urls[0]}}"><img class="img-fluid footer-logo-rectangle" src="{{logos[0]}}" alt=""></a></div>
+    </div>
+  </div>
+  <div class="col-4 d-none d-md-block d-lg-none">
+    <div class="row justify-content-end">
+      <div class="mr-4 p-1">
+        <i class="fa fa-info-circle fa-2x" aria-hidden="true" data-toggle="modal" data-target="#footer-modal"></i>
+      </div>
+    </div>
+  </div>
+
+  <!-- shows on sm -->
+  <div class="col-4 d-none d-sm-block d-md-none">
+    <div class="row justify-content-start text-muted">
+      <div class="ml-4 p-1">
+        <p class="mt-auto mb-auto">Copyright &copy; Florida Atlantic University<br>I-SENSE 2017<br><span style="font-size:69%">CNS-1126344</span></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-4 d-none d-sm-block d-md-none">
+    <div class="row justify-content-center text-muted text-center">
+      <div class="p-1"><a target="_blank" href="{{urls[0]}}"><img class="img-fluid footer-logo-rectangle" src="{{logos[0]}}" alt=""></a></div>
+    </div>
+  </div>
+  <div class="col-4 d-none d-sm-block d-md-none">
+    <div class="row justify-content-end">
+      <div class="mr-4 p-1">
+        <i class="fa fa-info-circle fa-2x" aria-hidden="true" data-toggle="modal" data-target="#footer-modal"></i>
+      </div>
+    </div>
+  </div>
+
+  <!-- shows on xs -->
+  <div class="col-10 d-block d-sm-none">
+    <div class="row justify-content-start text-muted">
+      <div class="ml-4 p-1">
+        <p class="mt-auto mb-auto">Copyright &copy; Florida Atlantic University<br>I-SENSE 2017<br><span style="font-size:69%">CNS-1126344</span></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-2 d-block d-sm-none">
+    <div class="row justify-content-end">
+      <div class="mr-4 p-1">
+        <i class="fa fa-info-circle fa-2x" aria-hidden="true" data-toggle="modal" data-target="#footer-modal"></i>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div id="footer-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Our Partners</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row justify-content-center">
+          <a target="_blank" href="{{urls[0]}}"><img class="img-fluid p-2" src="{{logos[0]}}" alt=""></a>
+        </div>
+        <div class="row justify-content-center">
+          <a target="_blank" href="{{urls[1]}}"><img class="img-fluid p-2" src="{{logos[1]}}" alt=""></a>
+          <a target="_blank" href="{{urls[2]}}"><img class="img-fluid p-2" src="{{logos[2]}}" alt=""></a>
+        </div>
+        <div class="row justify-content-center">
+          <a target="_blank" href="{{urls[3]}}"><img class="img-fluid p-2" src="{{logos[3]}}" alt=""></a>
+          <a target="_blank" href="{{urls[4]}}"><img class="img-fluid p-2" src="{{logos[4]}}" alt=""></a>
+          <a target="_blank" href="{{urls[5]}}"><img class="img-fluid p-2" src="{{logos[5]}}" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,43 @@
+/* You can add global styles to this file, and also import other style files */
+// FAU BLUE: rgba(0, 51, 102, 1.0)
+// FAU RED: rgba(154, 51, 56, 1.0)
+
+.bg-fau-blue {
+  background-color: #003366;
+}
+
+.bg-fau-dark-blue {
+  background-color: #212529;
+}
+
+.bg-fau-red {
+  background-color: rgba(154, 51, 56, 0.5);
+}
+
+a.bg-fau-red:hover {
+  background-color: rgba(154, 51, 56, 1.0);
+}
+
+.btn-fau-blue {
+  background-color: #003366;
+  border-color: #003366;
+}
+
+.btn-fau-blue:focus {
+  box-shadow: 0 0 0 3px rgba(154, 51, 56, 1.0);
+}
+
+.btn-fau-blue.active, .btn-fau-blue, .btn-fau-blue.dropdown-toggle {
+  background-color: #003366;
+  border-color: #003300;
+}
+
+.btn-fau-blue:hover {
+  background-color: rgba(154, 51, 56, 1.0);
+  border-color: rgba(154, 51, 56, 1.0);
+}
+
+.show > .btn-fau-blue.dropdown-toggle {
+  background-color: rgba(154, 51, 56, 1.0);
+  border-color: rgba(154, 51, 56, 1.0);
+}

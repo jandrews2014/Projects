@@ -1,0 +1,98 @@
+<ngui-map
+*ngIf="currentProject && deploymentsByProjectId && deploymentsByProjectId[currentProject.id]"
+zoom="{{mapZoom}}"
+center="{{lat}}, {{lng}}"
+[mapTypeId]="mapType">
+<div *ngFor="let d of deploymentsByProjectId[currentProject.id]; let i=index">
+  <marker 
+    (click)="onDeploymentClicked($event, '#deployment-details-modal-', [d.id])"
+    [position]="[d.location.lat, d.location.lng]"
+    [icon]="motestackIcon">
+  </marker>
+  <div 
+    [id]="'deployment-details-modal-' + d.id" 
+    class="modal fade ml-1 mr-1" 
+    tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 
+            *ngIf="hasProp(deploymentDetailsByDeploymentId, [d.id])"
+            class="modal-title" 
+            id="exampleModalLongTitle">
+            <strong>Deployment:</strong> {{deploymentDetailsByDeploymentId[d.id]['label']}}
+          </h5>
+          <h5 
+            *ngIf="!hasProp(deploymentDetailsByDeploymentId, [d.id])"
+            class="modal-title" 
+            id="loading_header">
+            <em>Loading:</em> ...
+          </h5>
+          
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+              <div class="col">
+                <div *ngIf="!hasProp(deploymentDetailsByDeploymentId, [d.id])"> 
+                  <img src="/assets/gif/loading.gif" alt="">
+                </div>
+                <div *ngIf="hasProp(deploymentDetailsByDeploymentId, [d.id])" class=""> 
+                  <div class="">
+                    <div class="row">
+                      <div class="col">
+                          <h6><strong>Location:</strong></h6>
+                          <ul>
+                            <li><strong>Lat:</strong> {{deploymentDetailsByDeploymentId[d.id]['location']['lat']}}</li>
+                            <li><strong>Lng:</strong> {{deploymentDetailsByDeploymentId[[d.id]]['location']['lng']}}</li>
+                          </ul>
+                      </div>
+                      <div class="col">
+                          <h6><strong>Motestack:</strong> {{deploymentDetailsByDeploymentId[d.id]['motestackId']['label']}}</h6>      
+                      </div>
+                      <div class="col">
+                          <h6><strong>Radio:</strong> {{deploymentDetailsByDeploymentId[d.id]['motestackId']['comm']['radio']['label']}}</h6>    
+                      </div>
+                    </div>
+                    <form #f2="ngForm" class="form-signin" (ngSubmit)="formValidation(f2)">
+                      <div class="form-group">
+                        <label for="selectParameters">
+                          Select data from <em>{{deploymentDetailsByDeploymentId[d.id]['label']}}</em>. If no data is selected, all data points will be used. For now, you can only graph one data point at a time.
+                        </label>
+                        <select 
+                          multiple class="form-control" #selectParameters
+                          [(ngModel)]="selectedParameters" [ngModelOptions]="{standalone: true}">
+                          <option *ngFor="let filter of filters; let j=index" value="{{filter['property']}}">{{filter['property']}}, {{filter['unit']}}</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <input class="btn btn-lg btn-primary btn-block btn-fau-blue" type="submit" value="Generate .csv and graphs" (click)="clearGraphs([d.id])">
+                      </div>
+                    </form>
+                    <div id="csv-download-link-{{d.id}}" ></div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <img src="/assets/gif/loading.gif" alt="" *ngIf="dataProcessing">
+                    <h3 *ngIf="dataProcessed && !currentData">NO DATA TO DISPLAY!!!</h3>
+                    <div *ngIf="dataProcessed && currentData">
+                        <!-- <app-bar-chart></app-bar-chart> -->
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div [id]="'deployment-details-modal-d3-graphs-' + [d.id]"></div>
+                  
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</ngui-map>
+

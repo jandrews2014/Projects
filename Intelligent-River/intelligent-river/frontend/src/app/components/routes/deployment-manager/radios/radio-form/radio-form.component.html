@@ -1,0 +1,62 @@
+<div class="list-group form-wrapper margin-bottom-100">
+  <form>
+    <h4 class="margin-top-element"><b>Configure Radio</b>
+    <p class="entity-label">{{radio.label}}</p></h4>
+    <hr>
+    <div class="form-group">
+      <label for="label">Label</label>
+      <input type="text" class="form-control" id="label" placeholder="Enter label" name="label" [(ngModel)] = "radio.label">
+    </div>
+
+    <p>Radio Options</p>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Label</th>
+          <th scope="col">Name</th>
+          <th scope="col">Type</th>
+          <th scope="col">Required</th>
+          <th scope="col"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let option of radio.options; let index = index;">
+          <td>{{index+1}}</td>
+          <td>
+            <div class="form-group">
+              <input [(ngModel)]="option.label" name="{{'label'+index}}" type="text" class="form-control" id="label">
+            </div>
+          </td>
+          <td>
+             <div class="form-group">
+              <input [(ngModel)]="option.name" name="{{'name'+index}}" type="text" class="form-control" id="name">
+            </div>
+          </td>
+          <td>
+             <div class="form-group">
+            <select [(ngModel)]="option.type" id="type" style="width:110px;" class="form-control" name="{{'type'+index}}">
+              <option value="text">text</option>
+              <option value="number">number</option>
+              <option value="url">url</option>
+              <option value="email">email</option>
+            </select>
+             </div>
+          </td>
+          <td>
+            <div class="checkbox">
+              <input [(ngModel)]="option.required" id="required" name="{{'required'+index}}" type="checkbox">
+            </div>
+          </td>
+          <td>
+            <button type="button" (click)="deleteOption(index)" class="btn btn-danger">Delete</button>
+          </td>
+        </tr>
+      </tbody>
+</table>
+    <div class="row">
+      <button  (click)="addOption()" class="btn btn-primary">Add option</button>
+      <button type="submit" (click)="onSubmit()" class="btn btn-success  float-right">Submit</button>
+    </div>
+  </form>
+</div>

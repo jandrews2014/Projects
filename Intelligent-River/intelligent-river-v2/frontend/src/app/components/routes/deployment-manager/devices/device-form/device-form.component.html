@@ -1,0 +1,212 @@
+<div *ngIf="device && deviceForm" class="list-group form-wrapper margin-bottom-100">
+  <form>
+    <h4 class="margin-top-element"><b>Configure Device</b>
+    <p class="entity-label">{{device.label}}</p>
+    </h4>
+    <hr>
+
+    <div class="form-group">
+      <label for="label">Label</label>
+      <input type="text" class="form-control" id="label" placeholder="Enter label" name="label" [(ngModel)] = "device.label">
+    </div>
+
+    <div class="form-group">
+        <label for="type">Type</label>
+        <select *ngIf="deviceId != 'new'" disabled name="type" id="type" [(ngModel)]="device.type" class="form-control form-control-sm">
+          <option [value]="device.type">{{device.type}}</option>
+        </select>
+        <select (change)="typeChanged($event.target.value)" *ngIf="deviceId == 'new'" name="type" id="type" [(ngModel)]="device.type" class="form-control form-control-sm">
+            <option value="SDI12" selected >SDI12</option>
+            <option value="ANALOG">ANALOG</option>
+            <option value="ONEWIRE">ONEWIRE</option>
+        </select>
+    </div>
+
+    <div *ngFor="let param of device.params; let index=index;" class="card margin-top-15">
+      <div class="card-header">
+        {{param.label ? param.label : device.type === 'SDI12' ? 'Parameter '+ (+index+1) : 'Sensor Metadata' }}
+          <button type="button" (click)="removeParam(index)" class="btn btn-xs btn-danger pull-right">Remove</button>
+      </div>
+      <div style="padding:10px;" class="card-block">
+
+        <div class="form-group">
+          <label for="param-label">Label</label>
+          <input type="text" class="form-control" id="param-label" placeholder="Enter label" name="{{'param-label'+index}}" [(ngModel)] = "param.label">
+        </div>
+
+        <div *ngIf="device.type === 'SDI12'" class="form-group">
+          <label for="sensor">Sensor</label>
+          <select (click)="$event.target.value == 'new' ? showNewSensorModal(param) : ''" name="{{'sensor'+index}}" id="sensor" [(ngModel)]="param.sensor" class="form-control form-control-sm">
+            <option *ngFor="let sensor of deviceForm.sensors" [value]="sensor.label">{{sensor.label}}</option>
+            <option value='new'>New Sensor...</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <select (click)="$event.target.value == 'new' ? showNewSubjectModal(param) : ''" name="{{'subject'+index}}" id="subject" [(ngModel)]="param.subject" class="form-control form-control-sm">
+            <option *ngFor="let subject of deviceForm.subjects" [value]="subject.label">{{subject.label}}</option>
+            <option value="new">New Subject...</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="property">Property</label>
+          <select (click)="$event.target.value == 'new' ? showNewPropertyModal(param) : ''"  name="{{'property'+index}}" id="property" [(ngModel)]="param.property" class="form-control form-control-sm">
+            <option *ngFor="let property of deviceForm.properties" [value]="property.label">{{property.label}}</option>
+            <option value='new'>New Property...</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="unit">Units</label>
+          <select [disabled]="device.type === 'ANALOG'" (click)="$event.target.value == 'new' ? showNewUnitModal(param) : ''" name="{{'unit'+index}}" id="unit" [(ngModel)]="param.unit" class="form-control form-control-sm">
+            <option *ngFor="let unit of deviceForm.units" [value]="unit.label">{{unit.label}}</option>
+            <option value='new'>New Unit...</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="min-val">Minimum Value</label>
+          <input type="text" class="form-control" id="min-val" placeholder="Enter minimum value" name="{{'min-val'+index}}" [(ngModel)] = "param.min">
+        </div>
+
+        <div class="form-group">
+          <label for="max-val">Maximum Value</label>
+          <input type="text" class="form-control" id="max-val" placeholder="Enter maximum value" name="{{'max-val'+index}}" [(ngModel)] = "param.max">
+        </div>
+
+        <div class="form-group">
+          <label for="accuracy">Accuracy</label>
+          <input type="text" class="form-control" id="accuracy" placeholder="Enter accuracy" name="{{'accuracy'+index}}" [(ngModel)] = "param.accuracy">
+        </div>
+
+        <div class="form-group">
+          <label for="resolution">Resolution</label>
+          <input type="text" class="form-control" id="resolution" placeholder="Enter resolution" name="{{'resolution'+index}}" [(ngModel)] = "param.resolution">
+        </div>
+
+      </div>
+    </div>
+
+     <button *ngIf="device.type === 'SDI12'" (click)="addParam()" class="btn btn-primary margin-top-15">Add parameter</button>
+     <button (click)="updateEntity()" class="btn btn-primary margin-top-15">{{deviceId==='new' ? 'Add' : 'Update'}}</button>
+
+  </form>
+    
+<!-- Sensor Modal -->
+<div class="modal fade" id="newSensorModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Add a new Sensor</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <label for="newSensorLabel">Label</label>
+          <input type="text" class="form-control" id="newSensorLabel" placeholder="humman-readable name" name="newSensorLabel" #newSensorLabel>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" (click)="addNewSensor(newSensorLabel)">Save</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Sensor Modal -->
+
+<!-- Subject Modal -->
+<div class="modal fade" id="newSubjectModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Add a new Subject</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body">
+
+        <div class="form-group">
+          <label for="newSubjectLabel">Label</label>
+          <input type="text" class="form-control" id="newSubjectLabel" placeholder="human-readable name" #newSubjectLabel>
+        </div>
+
+        <div class="form-group">
+          <label for="newSubjectLabel">URI Suffix</label>
+          <input type="text" class="form-control" id="newSubjectLabel" placeholder="eg: water" #newSubjectUriSuffix>
+        </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" (click)="addNewSubject(newSubjectLabel, newSubjectUriSuffix)">Save</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- End Subject Modal -->
+
+<!-- Property Modal -->
+<div class="modal fade" id="newPropertyModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Add a new Property</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body">
+
+        <div class="form-group">
+          <label for="newPropertyLabel">Label</label>
+          <input type="text" class="form-control" id="newPropertyLabel" placeholder="human-readable name" #newPropertyLabel>
+        </div>
+
+        <div class="form-group">
+          <label for="newPropertyUri">URI Suffix</label>
+          <input type="text" class="form-control" id="newPropertyUri" placeholder="eg: water" #newPropertyUriSuffix>
+        </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" (click)="addNewProperty(newPropertyLabel, newPropertyUriSuffix)">Save</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- End Property Modal -->
+
+<!-- Unit Modal -->
+<div class="modal fade" id="newUnitModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Add a new Unit of Measurement</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <label for="newUnitLabel">Label</label>
+          <input type="text" class="form-control" id="newUnitLabel" placeholder="human-readable name" #newUnitLabel>
+        </div>
+        
+        <div class="form-group">
+          <label for="newUnitURI">URI</label>
+          <input type="text" class="form-control" id="newUnitURI" placeholder="eg: http://purl.oclc.org/NET/ssnx/qu/unit/degreeCelsius"  #newUnitUri>
+        </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" (click)="addNewUnit(newUnitLabel, newUnitUri)">Save</button>
+      </div>
+    </div>
+    
+  </div>
+</div>
+<!-- End Unit Modal -->
+
+</div>

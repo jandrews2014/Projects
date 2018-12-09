@@ -1,0 +1,37 @@
+// div, .col {
+//   border-color: red;
+//   border-radius: 1px;
+//   border-style: solid;
+// }
+
+.footer-logo-rectangle {
+  background: rgba(255,255,255,0.7);
+  border-color: rgba(255,255,255,0.7);
+  border-radius: 5px;
+  border-style: solid;
+  border-width: thin;
+}
+
+.footer-logo-circle {
+  background: rgba(255,255,255,0.7);
+  border-color: rgba(255,255,255,0.7);
+  border-radius: 100px;
+  border-style: solid;
+  border-width: thin;
+}
+
+footer {
+  height: 100px;
+}
+
+.fa-info-circle {
+  color: white;
+}
+
+ng-template {
+  width: 75%;
+}
+
+.modal-lg {
+  width: 50%;
+}
