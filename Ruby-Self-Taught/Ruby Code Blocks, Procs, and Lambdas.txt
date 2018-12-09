@@ -1,0 +1,183 @@
+# Write your code below!
+9.times { puts "I'm a block!" }
+
+
+fibs = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
+
+# Add your code below!
+doubled_fibs = fibs.collect { |fibs| fibs * 2 } 
+
+
+def block_test
+  puts "We're in the method!"
+  puts "Yielding to the block..."
+  yield
+  puts "We're back in the method!"
+end
+
+block_test { puts ">>> We're in the block!" }
+
+
+def yield_name(name)
+puts "In the method! Let's yield."
+yield("Kim")
+puts "In between the yields!"
+yield(name)
+puts "Block complete! Back in the method."
+end
+
+yield_name("Eric") { |n| puts "My name is #{n}." }
+yield_name("Jamie") { |name| puts "My name is #{name}"}
+
+
+def double
+    double { |n| n ** 2 }
+end
+
+
+multiples_of_3 = Proc.new do |n|
+  n % 3 == 0
+end
+
+(1..100).to_a.select(&multiples_of_3)
+
+
+floats = [1.2, 3.45, 0.91, 7.727, 11.42, 482.911]
+# Write your code below this line!
+
+round_down = Proc.new {|num| num.floor} 
+
+# Write your code above this line!
+ints = floats.collect(&round_down)
+
+
+floats = [1.2, 3.45, 0.91, 7.727, 11.42, 482.911]
+# Write your code below this line!
+
+round_down = Proc.new {|num| num.floor} 
+
+# Write your code above this line!
+ints = floats.collect(&round_down)
+
+
+def greeter
+    yield
+end
+
+phrase = Proc.new { puts "Hello there!" }
+pass = greeter(&phrase)
+
+
+hi = Proc.new { puts "Hello!" }
+
+hi.call
+
+
+numbers_array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+puts strings_array = numbers_array.collect(&:to_s)
+
+
+def lambda_demo(a_lambda)
+  puts "I'm the method!"
+  a_lambda.call
+end
+
+lambda_demo(lambda { puts "I'm the lambda!" })
+
+
+strings = ["leonardo", "donatello", "raphael", "michaelangelo"]
+# Write your code below this line!
+
+symbolize = lambda {|x| x.to_sym}
+
+# Write your code above this line!
+symbols = strings.collect(&symbolize)
+
+
+def batman_ironman_proc
+  victor = Proc.new { return "Batman will win!" }
+  victor.call
+  "Iron Man will win!"
+end
+
+puts batman_ironman_proc
+
+def batman_ironman_lambda
+  victor = lambda { return "Batman will win!" }
+  victor.call
+  "Iron Man will win!"
+end
+
+puts batman_ironman_lambda
+
+
+my_array = ["raindrops", :kettles, "whiskers", :mittens, :packages]
+
+# Add your code below!
+symbol_filter = lambda{|s|s.is_a?Symbol}
+symbols = my_array.select(&symbol_filter)
+
+
+9.times { puts "I love Batman!" }
+
+def batman_love
+    fandom = Proc.new { return "Batman fan forever!" }
+    fandom.call
+end
+
+def batman_comics
+    comic = lambda{ return "I am a Batman Comic Fan!" }
+    comic.call
+end
+
+
+odds_n_ends = [:weezard, 42, "Trady Blix", 3, true, 19, 12.345]
+ints = []    # initially empty
+odds_n_ends.each do |x|
+   ints << x if x.is_a? Integer
+end
+
+
+ages = [23, 101, 7, 104, 11, 94, 100, 121, 101, 70, 44]
+
+# Add your code below!
+under_100 = Proc.new{|y| y < 100}
+
+
+ages = [23, 101, 7, 104, 11, 94, 100, 121, 101, 70, 44]
+
+# Add your code below!
+under_100 = Proc.new{ |x| x < 100 }
+youngsters = ages.select(&under_100)
+
+
+crew = {
+  captain: "Picard",
+  first_officer: "Riker",
+  lt_cdr: "Data",
+  lt: "Worf",
+  ensign: "Ro",
+  counselor: "Troi",
+  chief_engineer: "LaForge",
+  doctor: "Crusher"
+}
+# Add your code below!
+first_half = lambda { |x, y| y < "M" }
+
+
+crew = {
+  captain: "Picard",
+  first_officer: "Riker",
+  lt_cdr: "Data",
+  lt: "Worf",
+  ensign: "Ro",
+  counselor: "Troi",
+  chief_engineer: "LaForge",
+  doctor: "Crusher"
+}
+# Add your code below!
+first_half = lambda { |x, y| y < "M" }
+a_to_m = crew.select(&first_half)
+
+

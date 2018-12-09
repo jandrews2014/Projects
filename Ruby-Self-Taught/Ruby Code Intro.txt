@@ -1,0 +1,79 @@
+# Welcome to Ruby!
+
+
+my_num = 25    # Add your code here!
+
+my_boolean = true    # And here!
+
+my_string =  "Ruby"   # Also here.
+
+
+my_num = 100
+
+
+sum = 7 + 8
+sub = 7 - 16
+product = 7 * 9
+quotient = 789789 / 3
+remainder = 789789 % 33
+exponent = 2**9
+
+
+puts "Tondo's class."
+print "Is awesome!"
+
+# let's get started
+
+"dove chocolates is the life! :D".length
+#==>31
+
+
+"Michael".reverse
+
+
+puts "maw".upcase
+#==>MAW
+puts "MAW".downcase
+#==>maw
+
+
+# he said to break the code!
+
+
+=begin
+
+Love them dove chocolates!
+Especially them dark ones! :P
+
+=end
+
+
+name = "Tondo."
+# string completed
+
+
+my_name = "jamie"
+my_age = 20
+
+#end of exercise
+
+
+sum = 13 + 379
+product = 923 * 15
+quotient = 13209 / 17
+
+#end of exercise
+
+
+"Tondo".downcase.reverse.upcase
+
+#end of exercise
+
+
+#short comment
+=begin
+long comment
+very long comment! :P
+=end
+
+
