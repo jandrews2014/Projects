@@ -1,0 +1,10 @@
+//the information below is typed by jamie andrews
+
+About the Authors:
+We are a group of university students from Florida Atlantic University that put this project together back in October 2015. 
+Caseman James and Jozef Janikovic are currently working towards their degree in Computer Science while Jamie Andrews is working towards a degree in Computer Engineering.
+This group mainly consists of Juniors and Seniors on the team. 
+Have any more questions or comments about this product, you may reach us through via email at the following:
+jandrews2014@fau.edu
+jjanikovic2013@fau.edu
+casemanjames2013@fau.edu

@@ -1,0 +1,30 @@
+1, Which one of these is five?, 5, 1, 4, 9, five looks like a backwards two flipped upside down.
+2, Which one of these is two?, 2, 8, 5, 6, two looks like a backwards five flipped upside down.
+3, What is 1 + 2?, 3, 9, 6, 0, add 1 + 1 and add one more.
+4, What is 8-3?, 5, 7, 4, 6, what is a nickel worth?
+5, What is 26 + 37?, 63, 65, 60, 67, remember to carry extra digits to the next column if the number passes 10.
+6, What is 21-5?, 16, 13, 15, 6, look for anything we need to borrow and bring it to the ones column.
+7, What is 3 x 4?, 12, 16, 8, 4, and even multiplied by an odd is even.
+8, What is 7 / 7?, 1, 7, 14, 0, when dividing a number by the same number you get the numbers to cancel out.
+9, What is 4 x 25?, 100, 29, 95, 101, Think of quarters: how many quarters does it take to get to a dollar?
+10, What is 900 / 90?, 10, 90, 100, 9, start with the biggest column first and work your way towards the smallest.
+11, Which one of these is a nine?, 9, 7, 6, 3, nine looks like a six flipped upside down.
+12, Which one of these is a six?, 6, 8, 4, 9, six looks like a nine flipped upside down.
+13, What is 4 + 5?, 9, 7, 6, 8, an even plus an odd is odd. 
+14, What is 9 - 6?, 3, 7, 8, 4, and odd minus an even is odd.
+15, What is 56 + 43?, 99, 98, 97, 96, numbers on both columns add up to one number.
+16, What is 79 - 67?, 12, 13, 14, 15, for this question only the ones column matters.
+17, What is 8 x 8?, 64, 32, 16, 88,  adding only half the 8's in the problem is 32.
+18, What is 6 / 2?, 3, 4, 12, 8, an even divided by an even is odd in this case.
+19, What is 18 x 5?, 90, 135, 95, 180, remember that 18 is a multiple of 9.
+20, What is 1000 / 10?, 100, 110, 90, 120, 10 x 10 is 100. 
+21, Which one of these is not a number?, O, 0, 7, 5, if this is a trick question you are right. 
+22, Which one of these is not a number?, S, 8, 3, 5, if this is a trick question you are right. 
+23, What is 3 + 4?, 7, 12, 1, 35, an even plus an odd is an odd. 
+24, What is 9 - 7?, 2, 5, 7, 4, an odd minus an odd is even.
+25, What is 16 + 18?, 34, 35, 36, 33, an even plus an even is an even.
+26, What is 190 - 157?, 33, 34, 32, 35, thank goodness you only have to borrow from the tens column.
+27, What is 6 x 7? 42, 13, 1, 49, an odd multiplied by an even is even.
+28, What is 77 / 11?, 7, 8, 14, 21, an odd divided by an odd is odd. 
+29, What is 17 x 2? 34, 36, 37, 32, think of multiples of 2 instead of 17. 
+30, What is 3465 / 0? None, 0, 5, 3, you cannot divide a number by 0.

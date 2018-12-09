@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_height="fill_parent" 
+	android:layout_width="fill_parent">
+	
+	<TextView	
+		android:id="@+id/correctansweractivitygraphic"
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content"
+		android:layout_marginBottom="100dip"
+		android:layout_marginTop="10dip"
+		android:layout_centerHorizontal="true" 
+		android:background="@drawable/correctanswericon3" 
+		android:text="Good answer !" 
+		android:textStyle="bold" 
+		android:textColor="#ffffffff" 
+		android:gravity="bottom|center_horizontal">
+		</TextView>
+	
+</RelativeLayout>

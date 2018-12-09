@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"	
+	android:layout_height="fill_parent" 
+	android:layout_width="fill_parent" 
+	android:background="@drawable/backgrounddisplayimage2">
+	
+	
+	<TextView
+		android:id="@+id/yourscore"
+		android:textColor="#ff000000"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="275dip"
+		android:layout_marginTop="1dip"
+		android:textStyle="bold">
+	</TextView>
+
+	<TextView
+		android:id="@+id/question" 
+	     android:textColor="#ff000000"
+	     android:layout_height="wrap_content" 
+	     android:layout_width="wrap_content"
+	     android:paddingLeft="65dip"
+	     android:paddingTop="75dip" 
+	     android:paddingRight = "25dip "
+	     android:layout_marginRight="50dip">
+    </TextView>
+    
+    <TextView
+		android:id="@+id/yourscorelabel"
+		android:text="Your score:"
+		android:textColor="#ff000000"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="189dip"
+		android:layout_marginTop="1dip"
+		android:textStyle="bold">
+	</TextView>
+	
+	<TextView
+		android:id="@+id/pressabuttonlabel"
+		android:text="Select the correct answer above"
+		android:textColor="#ffffffff"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="50dip"
+		android:layout_marginTop="355dip"
+		android:textStyle="bold">
+	</TextView>
+    
+    <Button
+    	android:id="@+id/answer1button" 
+    	android:width="130dip"
+    	android:layout_marginLeft="25dip"
+    	android:layout_marginTop="225dip"
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" 
+    	android:background="@drawable/buttonforanswer2" 
+    	android:height="40dip">
+    </Button>
+    
+    <Button
+    	android:id="@+id/answer2button" 
+    	android:width="130dip"
+    	android:layout_marginLeft="170dip"
+    	android:layout_marginTop="225dip"
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" 
+    	android:background="@drawable/buttonforanswer2" 
+    	android:height="40dip">
+    </Button>
+    
+    <Button
+    	android:id="@+id/answer3button" 
+    	android:width="130dip"
+    	android:layout_marginLeft="25dip"
+    	android:layout_marginTop="300dip"
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" 
+    	android:background="@drawable/buttonforanswer2" 
+    	android:height="40dip">
+    </Button>
+
+    <Button
+    	android:id="@+id/answer4button" 
+    	android:width="130dip"
+    	android:layout_marginLeft="170dip"
+    	android:layout_marginTop="300dip"
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" 
+    	android:background="@drawable/buttonforanswer2" 
+    	android:height="40dip">
+    </Button>
+		
+    <Button
+    	android:id="@+id/nextquestion" 
+    	android:width="130dip"
+    	android:layout_marginLeft="95dip"
+    	android:layout_marginTop="375dip"
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" 
+    	android:background="@drawable/buttonforanswer2" 
+    	android:height="40dip">
+    </Button>
+
+</RelativeLayout>
