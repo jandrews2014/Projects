@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<title></title>
+	</head>
+	<body>
+    <?php
+    if(8>9){
+        echo "Optimist";
+    }
+    elseif(8==9){
+        echo "Realist";
+    }
+    else{
+        echo "Pessimist";
+    }
+    ?>
+    </body>
+</html>

@@ -1,0 +1,17 @@
+<html>
+    <p>
+	<?php
+	// Create an array and push 5 elements on to it, then 
+    // print the number of elements in your array to the screen
+    $fav_sites = array();
+    
+    array_push($fav_sites, "Codecademy");
+    array_push($fav_sites, "Caedon");
+    array_push($fav_sites, "Aeria Games");
+    array_push($fav_sites, "Facebook");
+    array_push($fav_sites, "Deviant Art");
+    
+    print count($fav_sites);
+	?>
+	</p>
+</html>

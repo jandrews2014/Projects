@@ -1,0 +1,36 @@
+index.php
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>A loop of your own</title>
+        <link type='text/css' rel='stylesheet' href='style.css'/>
+	</head>
+	<body>
+    <?php
+	//Add while loop below
+	$count = 0;
+	
+	while($count < 4):
+	    echo "<p>Number Count : {$count}</p>";
+	    $count ++;
+	endwhile;
+    
+    ?>
+    </body>
+</html>
+
+style.css
+.coin {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    background-color: grey;
+	text-align: center;
+	font-weight: bold;
+	font-family: sans-serif;
+	color: white;
+	margin: 10px;
+	display: inline-block;
+	line-height: 50px;
+	font-size: 20px;
+}

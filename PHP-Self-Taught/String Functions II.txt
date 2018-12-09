@@ -1,0 +1,21 @@
+<html>
+    <p>
+    <?php
+    // Print out the position of a letter that is in
+    // your own name
+    print strpos("jamie", "ja");
+    print strpos("jamie", "jam");
+    print strpos("jamie", "mie");
+    print strpos("jamie", "son");
+    ?>
+    </p>
+    <p>
+    <?php
+    // Check for a false value of a letter that is not
+    // in your own name and print out an error message
+    if (strpos("jamie", "son") === false){
+        print "You can't spell! :') lol";
+    }
+    ?>
+    </p>
+</html>

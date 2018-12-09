@@ -1,0 +1,15 @@
+index.php
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+	<body>
+	    <p>
+	      <?php
+	      $myName = "Jamie"; 
+	      ?>
+	    </p>
+    </body>
+</html>
+
+style.css

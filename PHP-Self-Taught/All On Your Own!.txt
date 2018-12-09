@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<title></title>
+	</head>
+	<body>
+    <?php
+     $s = 3;
+     
+      switch ($s):
+         case 1:
+             echo "The number is 1.";
+             break;
+         case 2:
+             echo "The number is 2.";
+             break;
+         case 3:
+             echo "The number is 3.";
+             break;
+         default:
+             echo "The number is 0.";
+         endswitch;
+    ?>
+	</body>
+</html>

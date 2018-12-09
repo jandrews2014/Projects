@@ -1,0 +1,10 @@
+<html>
+  <p>
+    <?php
+    // Get the length of your own name
+    // and print it to the screen!
+    $username = strlen("Kora");
+    print $username;
+    ?>
+  </p>
+</html>

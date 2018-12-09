@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+      <p>
+        <?php
+        
+        $name = "Jamie";
+        
+        function greetings($name){
+            echo "Greetings," .$name."!";
+            
+        }
+        
+        greetings($name);
+        
+        ?>
+      </p>
+    </body>
+</html>

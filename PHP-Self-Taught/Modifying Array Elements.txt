@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <title>Modifying Elements</title>
+  </head>
+  <body>
+    <p>
+      <?php
+        $languages = array("HTML/CSS",
+        "JavaScript", "PHP", "Python", "Ruby");
+        
+        // Write the code to modify
+        //echo $languages{0};
+        $languages{0} = "BootStrap";
+        
+        // the $languages array!
+        echo $languages{0};
+      ?>
+    </p>
+  </body>
+</html>

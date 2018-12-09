@@ -1,0 +1,20 @@
+index.php
+
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+	<body>
+        <p>
+          <?php
+          echo "Jamie Andrews";
+          ?>
+        </p>   
+	</body>
+</html>
+
+style.css
+
+p {
+    font-family: Garamond, serif;
+}

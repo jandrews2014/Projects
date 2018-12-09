@@ -1,0 +1,18 @@
+index.php
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Oh No!</title>
+	</head>
+	<body>
+        <p><?php
+            echo "Oh, the humanity!";
+            //starting to learn more PHP
+          ?></p>
+    </body>
+</html>
+
+style.css
+p {
+    font-family: Garamond, serif;
+}

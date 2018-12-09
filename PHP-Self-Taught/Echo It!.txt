@@ -1,0 +1,19 @@
+index.php
+<!DOCTYPE html>
+<html>
+    <head>
+        <link type='text/css' rel='stylesheet' href='style.css'/>
+		<title>PHP FTW!</title>
+	</head>
+	<body>
+        <!-- Write your PHP code below!-->
+        <p>
+        <?php
+        echo $myName = "Jamie";
+        echo $myAge = 22;
+        ?>  
+        </p>   
+	</body>
+</html>
+
+style.css

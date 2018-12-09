@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <title>Solo For Loop!</title>
+  </head>
+  <body>
+    <p>
+      <?php
+      // Write your for loop below!
+      for($s = 0; $s < 9001; $s = $s + 10) {
+          echo $s;
+      }
+      
+      ?>
+    </p>
+  </body>
+</html>

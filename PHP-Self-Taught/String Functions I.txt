@@ -1,0 +1,26 @@
+<html>
+  <p>
+    <?php
+    $username = "Seras";
+    
+    // Get a partial string from within your own name
+    // and print it to the screen!
+    $partial = substr($username, 0, 3);
+    print $partial;
+    ?>
+  </p>
+  <p>
+    <?php
+    // Make your name upper case and print it to the screen:
+    $ucase = strtoupper($username);
+    print $ucase;
+    ?>
+  </p>
+  <p>
+    <?php
+    // Make your name lower case and print it to the screen:
+    $lcase = strtolower($username);
+    print $lcase;
+    ?>
+  </p>
+</html>
