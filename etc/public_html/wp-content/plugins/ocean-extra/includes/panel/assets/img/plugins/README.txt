@@ -1,0 +1,1 @@
+plugin images for assets.
