@@ -1,0 +1,26 @@
+[19-Nov-2018 21:25:49 America/Chicago] PHP Fatal error:  Call to undefined function is_robots() in /home2/jandrews2014/public_html/wp-includes/template-loader.php on line 28
+[11-Feb-2020 22:32:24 America/Chicago] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home2/jandrews2014/public_html/wp-includes/functions.php on line 8
+[11-Feb-2020 22:32:24 America/Chicago] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home2/jandrews2014/public_html/wp-includes/functions.php on line 8
+[11-Feb-2020 22:32:24 America/Chicago] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/php56/lib/php') in /home2/jandrews2014/public_html/wp-includes/functions.php on line 8
+[20-May-2020 06:40:22 America/Chicago] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home2/jandrews2014/public_html/wp-includes/functions.php on line 8
+[20-May-2020 06:40:22 America/Chicago] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home2/jandrews2014/public_html/wp-includes/functions.php on line 8
+[20-May-2020 06:40:22 America/Chicago] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/php56/lib/php') in /home2/jandrews2014/public_html/wp-includes/functions.php on line 8
+[29-Jul-2020 18:21:34 America/Chicago] PHP Fatal error:  Call to undefined function is_main_site() in /home2/jandrews2014/public_html/wp-includes/update.php on line 739
+[30-Jul-2020 21:10:24 America/Chicago] PHP Fatal error:  Class 'IXR_Server' not found in /home2/jandrews2014/public_html/wp-includes/class-wp-xmlrpc-server.php on line 23
+[30-Jul-2020 22:49:40 America/Chicago] PHP Fatal error:  Call to undefined function feed_content_type() in /home2/jandrews2014/public_html/wp-includes/feed-atom-comments.php on line 8
+[30-Jul-2020 22:49:55 America/Chicago] PHP Fatal error:  Call to undefined function feed_content_type() in /home2/jandrews2014/public_html/wp-includes/feed-atom-comments.php on line 8
+[01-Aug-2020 04:04:49 America/Chicago] PHP Fatal error:  Call to undefined function feed_content_type() in /home2/jandrews2014/public_html/wp-includes/feed-atom-comments.php on line 8
+[01-Aug-2020 09:02:23 America/Chicago] PHP Fatal error:  Class 'IXR_Server' not found in /home2/jandrews2014/public_html/wp-includes/class-wp-xmlrpc-server.php on line 23
+[01-Aug-2020 09:02:25 America/Chicago] PHP Fatal error:  Class 'IXR_Server' not found in /home2/jandrews2014/public_html/wp-includes/class-wp-xmlrpc-server.php on line 23
+[01-Aug-2020 16:52:55 America/Chicago] PHP Fatal error:  Call to undefined function _deprecated_file() in /home2/jandrews2014/public_html/wp-includes/locale.php on line 10
+[02-Aug-2020 20:01:11 America/Chicago] PHP Fatal error:  Class 'Walker' not found in /home2/jandrews2014/public_html/wp-includes/class-walker-nav-menu.php on line 17
+[02-Sep-2020 16:54:30 America/Chicago] PHP Fatal error:  Call to undefined function feed_content_type() in /home2/jandrews2014/public_html/wp-includes/feed-atom-comments.php on line 8
+[03-Sep-2020 17:52:11 America/Chicago] PHP Fatal error:  Class 'IXR_Server' not found in /home2/jandrews2014/public_html/wp-includes/class-wp-xmlrpc-server.php on line 23
+[06-Jul-2021 00:43:53 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'Walker' not found in /home2/jandrews2014/public_html/wp-includes/class-walker-nav-menu.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/jandrews2014/public_html/wp-includes/class-walker-nav-menu.php on line 17
+[06-Jul-2021 07:03:35 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home2/jandrews2014/public_html/wp-includes/locale.php:10
+Stack trace:
+#0 {main}
+  thrown in /home2/jandrews2014/public_html/wp-includes/locale.php on line 10
