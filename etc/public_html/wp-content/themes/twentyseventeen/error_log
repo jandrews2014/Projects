@@ -1,0 +1,47 @@
+[14-Sep-2018 04:32:04 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home2/jandrews2014/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[15-Oct-2018 18:57:11 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home2/jandrews2014/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[07-Dec-2018 08:23:04 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home2/jandrews2014/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[06-May-2019 08:29:04 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home2/jandrews2014/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[18-May-2019 23:47:49 America/Chicago] PHP Fatal error:  Call to undefined function get_template_directory() in /home2/jandrews2014/public_html/wp-content/themes/twentyseventeen/functions.php on line 16
+[02-Jun-2019 13:12:31 America/Chicago] PHP Fatal error:  Call to undefined function get_template_part() in /home2/jandrews2014/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[15-Jun-2019 00:29:43 America/Chicago] PHP Fatal error:  Call to undefined function get_template_directory() in /home2/jandrews2014/public_html/wp-content/themes/twentyseventeen/functions.php on line 16
+[01-Jul-2019 11:33:10 America/Chicago] PHP Fatal error:  Call to undefined function get_template_part() in /home2/jandrews2014/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[05-Jul-2019 20:46:01 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home2/jandrews2014/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[14-Jul-2019 11:34:50 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home2/jandrews2014/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[14-Jul-2019 15:36:55 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home2/jandrews2014/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[17-Jul-2019 22:09:55 America/Chicago] PHP Fatal error:  Call to undefined function get_template_part() in /home2/jandrews2014/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[18-Jul-2019 02:03:21 America/Chicago] PHP Fatal error:  Call to undefined function get_template_part() in /home2/jandrews2014/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[06-Aug-2019 03:21:40 America/Chicago] PHP Fatal error:  Call to undefined function get_template_directory() in /home2/jandrews2014/public_html/wp-content/themes/twentyseventeen/functions.php on line 16
+[06-Aug-2019 07:25:38 America/Chicago] PHP Fatal error:  Call to undefined function get_template_directory() in /home2/jandrews2014/public_html/wp-content/themes/twentyseventeen/functions.php on line 16
+[19-Oct-2019 23:55:35 America/Chicago] PHP Fatal error:  Call to undefined function get_template_part() in /home2/jandrews2014/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[05-Nov-2019 23:39:54 America/Chicago] PHP Fatal error:  Call to undefined function get_template_part() in /home2/jandrews2014/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[12-Dec-2019 21:54:30 America/Chicago] PHP Fatal error:  Call to undefined function get_template_directory() in /home2/jandrews2014/public_html/wp-content/themes/twentyseventeen/functions.php on line 16
+[25-Dec-2020 17:38:12 America/Chicago] PHP Fatal error:  Call to undefined function get_template_part() in /home2/jandrews2014/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[28-Dec-2020 03:55:42 America/Chicago] PHP Fatal error:  Call to undefined function get_template_part() in /home2/jandrews2014/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[29-Dec-2020 20:38:03 America/Chicago] PHP Fatal error:  Call to undefined function get_template_directory() in /home2/jandrews2014/public_html/wp-content/themes/twentyseventeen/functions.php on line 16
+[02-Jan-2021 08:26:01 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home2/jandrews2014/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[06-Jan-2021 20:22:48 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home2/jandrews2014/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[21-Feb-2021 01:18:05 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/jandrews2014/public_html/wp-content/themes/twentyseventeen/404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/jandrews2014/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[28-Feb-2021 23:38:07 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/jandrews2014/public_html/wp-content/themes/twentyseventeen/404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/jandrews2014/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[12-May-2021 19:17:51 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/jandrews2014/public_html/wp-content/themes/twentyseventeen/404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/jandrews2014/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[17-May-2021 01:14:29 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/jandrews2014/public_html/wp-content/themes/twentyseventeen/404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/jandrews2014/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[18-Jun-2021 02:01:01 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/jandrews2014/public_html/wp-content/themes/twentyseventeen/404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/jandrews2014/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[03-Jul-2021 04:07:34 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/jandrews2014/public_html/wp-content/themes/twentyseventeen/404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/jandrews2014/public_html/wp-content/themes/twentyseventeen/404.php on line 13

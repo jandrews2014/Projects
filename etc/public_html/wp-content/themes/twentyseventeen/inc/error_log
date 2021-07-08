@@ -1,0 +1,4 @@
+[06-Dec-2018 05:39:11 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home2/jandrews2014/public_html/wp-content/themes/twentyseventeen/inc/template-tags.php on line 199
+[06-Dec-2018 16:27:39 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home2/jandrews2014/public_html/wp-content/themes/twentyseventeen/inc/icon-functions.php on line 22
+[22-May-2019 06:46:26 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home2/jandrews2014/public_html/wp-content/themes/twentyseventeen/inc/back-compat.php on line 26
+[11-Jun-2019 18:39:16 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home2/jandrews2014/public_html/wp-content/themes/twentyseventeen/inc/back-compat.php on line 26
