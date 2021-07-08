@@ -1,0 +1,1424 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202106 will be lost/reset.
+# Last config file used to build this data file was /home2/jandrews2014/tmp/awstats/awstats.forwardprogramming.site.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2025                
+POS_TIME 2708                
+POS_VISITOR 40125               
+POS_DAY 48494               
+POS_DOMAIN 3582                
+POS_LOGIN 4172                
+POS_ROBOT 4327                
+POS_WORMS 4858                
+POS_EMAILSENDER 4989                
+POS_EMAILRECEIVER 5132                
+POS_SESSION 49326               
+POS_SIDER 49536               
+POS_FILETYPES 5267                
+POS_DOWNLOADS 5527                
+POS_OS 5795                
+POS_BROWSER 6066                
+POS_SCREENSIZE 8219                
+POS_UNKNOWNREFERER 8293                
+POS_UNKNOWNREFERERBROWSER 9147                
+POS_ORIGIN 9937                
+POS_SEREFERRALS 10086               
+POS_PAGEREFS 10268               
+POS_SEARCHWORDS 10981               
+POS_KEYWORDS 11133               
+POS_MISC 2371                
+POS_ERRORS 11192               
+POS_CLUSTER 4028                
+POS_SIDER_404 11370               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20210701001927 306 92744 19828184649415
+FirstTime 20210601011249
+LastTime 20210630230551
+LastUpdate 20210701074505 306 0 305 0 0
+TotalVisits 521                 
+TotalUnique 209                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 209                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavascriptDisabled 0 0 0
+DirectorSupport 0 0 0
+JavaEnabled 0 0 0
+AddToFavourites 0 41 0
+WindowsMediaPlayerSupport 0 0 0
+FlashSupport 0 0 0
+QuickTimeSupport 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+PDFSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 35 115 3507070 61 70 641148
+1 126 134 2382416 83 116 754965
+2 42 44 308920 71 83 916603
+3 46 46 839491 249 316 2197895
+4 38 130 3663462 60 60 246998
+5 30 30 178161 231 233 2518461
+6 26 28 375596 102 111 1083899
+7 29 29 374432 102 106 1012782
+8 53 55 1296444 92 96 1332455
+9 26 26 407242 64 76 461180
+10 26 26 207283 130 179 1097598
+11 45 244 2478299 75 91 627952
+12 35 35 578177 98 162 1606959
+13 32 32 222069 95 101 754996
+14 47 47 697908 120 132 496779
+15 101 101 1512763 298 324 1661490
+16 21 21 121970 73 76 971314
+17 109 113 596113 258 272 2365016
+18 37 39 648809 46 53 343484
+19 40 40 569425 134 138 1598302
+20 58 70 1091290 76 91 803259
+21 548 876 18843162 769 1528 24475816
+22 90 92 395269 172 179 1204532
+23 66 280 7665420 76 96 727479
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 25
+us 1348 1891 27522452
+ru 87 167 5952334
+dk 73 73 1108801
+cn 35 171 4275260
+ca 35 47 619037
+gb 32 202 6506558
+fr 16 16 332457
+gr 12 12 722160
+nl 10 10 335915
+in 10 14 123126
+se 9 11 141714
+it 5 5 140331
+ro 4 4 207772
+uy 4 4 32472
+ua 3 3 120360
+br 3 3 120946
+kr 3 3 120946
+pt 3 3 120946
+pl 2 2 31638
+sg 2 2 120360
+ma 2 2 1610
+hk 2 2 31638
+au 2 2 31638
+nz 2 2 120360
+hu 2 2 120360
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 10
+spider 641 15219509 20210630211841 0
+Googlebot/ 156 1465258 20210620031134 8
+bot[\s_+:,\.\;\/\\-] 86 1202914 20210630063256 10
+YandexBot/ 42 286350 20210628224714 24
+bingbot/ 24 1608 20210630230549 24
+unknown 20 1340 20210630005126 20
+DuckDuckGo\-Favicons\-Bot/ 12 113616 20210626051932 0
+no_user_agent 11 661980 20210628124242 0
+curl 4 3698 20210624202542 0
+Python\-urllib/ 2 134 20210630112711 2
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+woff2 20 1072240 0 0
+png 120 8139716 0 0
+php 404 156482 0 0
+js 504 6490428 0 0
+css 301 2325313 0 0
+jpg 14 697594 0 0
+Unknown 41 69635 0 0
+html 1172 29526222 0 0
+gif 8 411456 0 0
+xml 69 72105 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 4
+//wp-content/plugins/ocean-extra/readme.txt 16 0 265408
+/wp-content/plugins/elementor/readme.txt 16 0 1689456
+//wp-content/plugins/elementor/readme.txt 16 0 1689456
+/wp-content/plugins/ocean-extra/readme.txt 16 0 265408
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 15
+Unknown 513 427
+macosx10 8 8
+macosx8 4 4
+macosx 220 21
+macosx7 3 3
+linuxandroid 428 200
+win10 275 275
+linux 271 165
+ios_iphone 2 2
+macosx12 2 2
+macosx9 10 10
+win8.1 22 22
+winxp 12 12
+win7 879 551
+win8 4 4
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 99
+chrome68.0.3440.106 6 6
+chrome67.0.3396.62 4 4
+chrome76.0.3809.132 10 10
+chrome67.0.3396.87 3 3
+chrome83.0.4099.2 4 4
+chrome60.0.3112.90 9 9
+chrome43.0.2376.69 3 3
+chrome84.0.4147.125 3 3
+msie11.0 4 4
+chrome29.0.1547.62 2 2
+chrome41.0.2225.0 2 2
+firefox77.0 4 4
+chrome83.0.4086.0 6 6
+chrome41.0.2227.0 2 2
+chrome79.0 14 14
+chrome26.0.1410.65 2 2
+chrome36.0.1985.67 4 4
+chrome78.0.3904.62 1 1
+android 146 10
+firefox62.0 4 4
+chrome66.0.3359.181 2 2
+netscape5.0 2 2
+chrome41.0.2224.3 2 2
+firefox68.0 3 3
+firefox28.0 10 10
+chrome5.0.375.99 2 2
+firefox22.0 6 6
+firefox72.0 90 78
+firefox54.0 44 34
+opera52.0.2871.99 2 2
+chrome80.0.3987.149 11 11
+firefox57.0 6 6
+chrome27.0.1453.93 2 2
+chrome72.0.3626.121 2 2
+chrome83.0.4103.61 11 11
+chrome74.0.3729.169 3 3
+firefox58.0 2 2
+chrome45.0.2454.94 2 2
+firefox82.0 10 6
+chrome34.0.1847.137 4 4
+msie8.0 3 3
+chrome36.0.1985.125 6 6
+chrome70.0.3538.67 1 1
+chrome79.0.3945.130 6 6
+chrome50.0.2661.75 4 4
+firefox59.0 2 2
+chrome56.0.2896.3 2 2
+chrome83.0.4096.0 2 2
+chrome71.0.3563.0 86 6
+firefox89.0 4 4
+chrome65.0.3325.146 2 2
+opera32.0.1948.45 2 2
+chrome83.0.4103.0 2 2
+chrome89.0.4389.114 3 3
+chrome80.0.3987.132 4 4
+opera69.0.3686.7 4 4
+edge16 2 2
+chrome32.0.1664.3 2 2
+chrome83.0.4102.0 2 2
+chrome80.0.3987.122 4 4
+chrome60.0.3112.107 172 172
+msie9.0 814 486
+chrome85.0.4183.121 10 10
+chrome83.0.4103.97 76 76
+chrome71.0.3578.98 2 2
+chrome83.0.4103.44 2 2
+chrome34.0.1847.116 2 2
+chrome73.0.3683.75 1 1
+Unknown 429 421
+firefox81.0 2 2
+msie10.0 3 3
+chrome28.0.1467.0 2 2
+chrome83.0.4103.34 2 2
+chrome73.0.3683.90 8 8
+chrome35.0.1916.47 2 2
+chrome91.0.4472.101 209 10
+chrome75.0.3770.100 2 2
+chrome35.0.3319.102 2 2
+firefox66.0 2 2
+mozilla 84 6
+chrome78.0.3904.108 40 40
+chrome70.0.3538.77 2 2
+chrome84.0.4147.105 4 4
+safari9.0 2 2
+chrome80.0.3987.116 2 2
+chrome75.0.3770.80 2 2
+chrome78.0.3904.97 30 30
+chrome83.0.4103.24 4 4
+firefox73.0 2 2
+chrome91.0.4472.88 100 8
+chrome31.0.1623.0 2 2
+chrome46.0.2490.80 2 2
+chrome88.0.4240.193 9 9
+chrome91.0.4472.77 6 6
+chrome85.0.4183.83 10 10
+chrome39.0.2171.95 6 6
+msie6.0 2 2
+chrome67.0.3396.99 4 4
+chrome89.0.4389.82 6 6
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 10
+Go_http_package 20210606085858
+GRequests/0.10 20210626095642
+Mozilla/5.0_(compatible;_Dataprovider.com) 20210620231149
+Jetpack_by_WordPress.com 20210623184049
+WordPress/4.9.18;_http://forwardprogramming.site 20210630230551
+colly_-_https://github.com/gocolly/colly/v2 20210609185605
+User-Agent\ 20210618111011
+Go-http-client/1.1 20210623014242
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20210625121541
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210628213713
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 9
+User-Agent\ 20210618111011
+colly_-_https://github.com/gocolly/colly/v2 20210609185605
+Go-http-client/1.1 20210623014242
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210628213713
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20210625121541
+Jetpack_by_WordPress.com 20210623184049
+WordPress/4.9.18;_http://forwardprogramming.site 20210630230551
+GRequests/0.10 20210626095642
+Go_http_package 20210606085858
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 493 505
+From1 176 176
+From2 514 854
+From3 28 82
+From4 495 1036
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+duckduckgo 2 2
+www_google_com 512 852
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 12
+http://mail.forwardprogramming.site/feed.asp 6 60
+http://192.185.46.254:80 4 4
+http://zhuawawa.site 3 3
+https://www.trygym.ru 2 2
+https://tourmesto.ru 2 2
+https://flexmp3.club 2 2
+https://www.bankprofit.ru/oplatit-kredit-drugogo-banka 2 2
+https://ipad-club.ru 2 2
+https://www.bankprofit.ru/pristavy-snimayut-dengi-s-kreditnoj-karty 2 2
+https://flexmp3.uno 1 1
+https://magnet.wtf/robbie%20williams%20live%20at%20the%20royal%20albert%20hall 1 1
+https://torrents.life/startup-an-insiders-guide-to-launching-and-running-a-business-2011-pdf-epub-mantesh-1196610-tr 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 8
+409 100 8300
+400 8 8
+404 2071 30540955
+406 896 195038
+301 496 43434
+302 17 0
+403 38 4690
+500 16 41104
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 686
+/wp-content/plugins/reflex-gallery/admin/scripts/FileUploader/php.php 2 http://www.google.com/
+/wp-content/plugins/fancy-product-designer/inc/custom-image-handler.php 20 forwardprogramming.site
+/index.cgi 2 -
+/.remote 4 https://www.google.com/
+/wp-content/plugins/letme/weblinks.php 2 http://simplesite.com
+/app/Tpl/fanwe_1/js/DD_belatedPNG_0.0.8a-min.js 2 -
+/forwardprogramming.site.zip 3 -
+/uc_server/control/admin/db.php 2 -
+/site/xmlrpc.php 2 www.google.com
+/images/branding/logo.gif 2 -
+/dumper/dumper.php 2 -
+/kindeditor.js 2 -
+/wp-content/plugins/wp-cache/ 2 -
+/wp-content/plugins/super-interactive-maps/css/mega-interactivemap.css 2 -
+/author/wordcamp 2 -
+/acquired.php 2 forwardprogramming.site
+/lang/en.js 2 -
+/wp-content/plugins/wp-front-end-repository/js/uploadify/uploadify.css 2 http://www.google.com/
+/FORWARDPROGRAMMING2020/xmlrpc.php 2 www.google.com
+/FORWARDPROGRAMMING_Backup/xmlrpc.php 2 www.google.com
+/images/logo_product-cml.png 2 -
+/mini.php 2 http://simplesite.com
+/backup_FORWARDPROGRAMMING/xmlrpc.php 2 www.google.com
+/.well-known/pki-validation 4 www.google.com
+/wp-content/plugins/Plugin/plug.php 2 forwardprogramming.site
+/wordpress/wp-content/plugins/xnxx/noob.php 2 http://simplesite.com
+/FCK/editor/js/fckeditorcode_ie.js 2 -
+/wp-content/plugins/videowhisper-video-conference-integration/vc/flash_detect_min.js 2 http://www.google.com/
+/wp-content/plugins/Builder/Builder.php 2 forwardprogramming.site
+/laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin 4 -
+/phpunit/src/Util/PHP/eval-stdin 4 -
+/vendor/phpunit/phpunit/Util/PHP/eval-stdin 4 -
+/asp.net/README.txt 2 -
+/wp-content/uploads/estate_templates/wpbricks/doc.php 2 http://simplesite.com
+/http://forwardprogramming.site/xmlrpc.php 19 -
+/oldsite/ 6 -
+/components/com_banners/metadata.php 4 http://simplesite.com
+/wp-content/plugins/plugs/plugs3.php 2 forwardprogramming.site
+/wp-logins.php 2 http://simplesite.com
+/plus/rssmap.html 2 -
+/libraries/joomla/template/content-post.php.suspected 4 http://simplesite.com
+/phpmyadmin/docs.css 2 -
+/extern.php 2 -
+/lib/phpunit/phpunit/src/Util/PHP/eval-stdin 4 -
+/wp-content/admin.php 10 http://simplesite.com
+/// 1 -
+/wp-includes/sodium_compat 4 www.google.com
+/wp-content/plugins/theplus_elementor_addon%5Cassets/css/extra/imagerevealbase.css 2 -
+/wp-content/plugins/jekyll-exporter/vendor/phpunit/phpunit/build.xml 2 -
+/data/admin/ver.txt 2 -
+/wordpress/wp-content/plugins/masterx/upx.php 4 http://simplesite.com
+/wp-json/oembed/1.0/%5C%22http:%5C/%5C/forwardprogramming.site%5C/projects%5C/%5C%22 1 http://www.google.com/url
+/workspace/drupal/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin 4 -
+/backup-FORWARDPROGRAMMING/xmlrpc.php 2 www.google.com
+/wordpress/wp-admin/includes/wp-blog-headers.php 1 http://simplesite.com
+/wp-content/plugins/wp-mailinglist/css/colorbox.css 2 http://www.google.com/
+/wordpress.zip 4 -
+/Old/xmlrpc.php 2 www.google.com
+/admin/login.asp 2 -
+/plugins/jquery-file-upload/server/php/ 2 -
+/acquired3.php 2 forwardprogramming.site
+/sitemap.xml 2 -
+/common/common.js 2 -
+/gank.php.php 2 http://simplesite.com
+/auth/login 2 -
+/wp-admin/vuln.php 1 -
+/mirasvit_adminer_mysql.php 2 -
+/Web/xmlrpc.php 2 www.google.com
+/v1/ 4 -
+/WP/xmlrpc.php 2 www.google.com
+/wp-content/plugins/wpstorecart/php/upload.php 2 http://www.google.com/
+/wp-content/mu-plugins/db-safe-mode.php 1 www.google.com
+/bk/ 4 -
+/help/ch_gb/images/help-title.gif 2 -
+/issmall/ 2 -
+/wp-includes/blocks 4 www.google.com
+/lib/phpunit/phpunit/Util/PHP/eval-stdin 4 -
+/main/ 4 -
+/_adminer.php 2 -
+/account3.php 4 forwardprogramming.site
+/wp-content/_input_3_vuln.htm 2 -
+/site/ 4 -
+/blackhat.php 2 http://simplesite.com
+/ailing.php 2 forwardprogramming.site
+/plugins/filemanager/filemanager/js 2 -
+/wp-content/themes/multimedia1/server/php/ 2 http://www.google.com/
+/Admin/Images/LoginImages/admin_text.gif 2 -
+/DEMO/xmlrpc.php 2 www.google.com
+/local.php 2 http://simplesite.com
+/extman/default/images/logo.gif 2 -
+/addons/theme/stv2/_static/ts2/layout.css 2 -
+/1.txt 3 -
+/wp-content/uploads/2015/11/new_up.php 2 http://www.google.com/
+/Scripts/jquery/maticsoft.jquery.min.js 2 -
+/coremail/common/help/images/helplogo_zh.gif 2 -
+/assets/images/doc.php 4 http://simplesite.com
+/wp-content/uploads/adminer.php 2 -
+/wp-includes/widgets/class-wp-widget-header.php 2 http://simplesite.com
+/jcms/index.jsp 2 -
+/docs/ 2 -
+/Include/EcsServerApi.js 2 -
+/wp-content/plugins/formcraft/file-upload/server/content/upload.php 22 -
+/assets/plugins/jQuery-File-Upload/server/php/ 2 -
+/temp/ 10 -
+/newsite/xmlrpc.php 2 www.google.com
+/system/language/zh-cn.xml 2 -
+/wp-content/plugins/apikey/apikey.php.suspected 4 -
+/ckeditor/ckfinder/ckfinder.html 2 -
+/fckeditor/editor/js/fckeditorcode_ie.js 2 -
+/wp-json/oembed/1.0/%5C%22http:%5C/%5C/forwardprogramming.site%5C/%5C%22 1 http://www.google.com/url
+/Wp1/xmlrpc.php 2 www.google.com
+/OLD/xmlrpc.php 2 www.google.com
+/wp-content/plugins/omni-secure-files/plupload/examples/upload.php 2 http://www.google.com/
+/b.php 2 forwardprogramming.site
+/xml.php 2 http://simplesite.com
+/style/default/hdwiki.css 2 -
+/wp-content/uploads/2015/10/new_up.php 2 http://www.google.com/
+/dialog/dialog.js 2 -
+/wp-activates.php 4 http://simplesite.com
+/API/DW/Dwplugin/TemplateManage/save_template.htm 2 -
+/datacenter/downloadApp/showDownload.do 2 -
+/old-site/ 4 -
+/whir_system/module/security/login.aspx 2 -
+/docs/DOCUMENTATION.txt 2 -
+/history.txt 2 -
+/vendor/phpunit/src/Util/PHP/eval-stdin 4 -
+/400.shtml 1 -
+/wp-content/plugins/adf/aa-framework/css/activation.css 2 -
+/wp-mails.php 4 http://simplesite.com
+/default/images/logo.gif 2 -
+/wp-content/plugins/contus-video-galleryversion-10/upload1.php 2 http://www.google.com/
+/cgi/index.cgi 2 -
+/rss.php 2 -
+/home/xmlrpc.php 2 www.google.com
+/API/DW/Dwplugin/SystemLabel/SiteConfig.htm 2 -
+/common/help/images/helplogo.gif 2 -
+/wordpress/wp-content/plugins/Luxury/wp-load.php 2 http://simplesite.com
+/wp-content/plugins/log-http-requests/includes/include3.php 2 forwardprogramming.site
+/admin/editor/ 2 -
+/api/api_user.xml 2 -
+/wp-admin/user/user-profile.php 3 http://simplesite.com
+/db.php 6 forwardprogramming.site
+/docs.css 2 -
+/wp-content/plugins/woocommerce-upload-files/css/wcuf-admin-order-details-page.css 2 -
+/mirasvit_adminer_431.php 2 -
+/sypex/dumper.php 2 -
+/rss.aspx 2 -
+/dup-installer/main.installer.php 2 -
+/install/ 4 -
+/Archive.zip 3 -
+/timthumb2.php 2 -
+/admin/login.php 2 -
+/examples/readonly.html 2 -
+/Admin/Images/LoginImages/admin_top.gif 2 -
+/ailing3.php 2 forwardprogramming.site
+/wp-admin.zip 3 -
+/nobody/mobile.htm 2 -
+/licence.txt 2 -
+/wp2/xmlrpc.php 2 www.google.com
+/FORWARDPROGRAMMING/xmlrpc.php 2 www.google.com
+/old/xmlrpc.php 2 www.google.com
+/README.txt 2 -
+/webbuilder/script/locale/wb-lang-zh_CN.js 2 -
+/db3.php 2 forwardprogramming.site
+/themes/default/graphics/horde-power1.png 2 -
+/Error.aspx 2 -
+/adminer/ 4 -
+/adminer-4.5.0.php 2 -
+/wp-content/plugins/hd-webplayer/playlist.php 2 -
+/alfa-index3.php 2 forwardprogramming.site
+/maintlogin.jsp 2 -
+/editor/fckeditor.js 2 -
+/Ntalker/lawfirm.aspx 2 -
+/wp-content/plugins/wp-file-manager/readme.txt 32 -
+/wordpress/files.php 2 http://simplesite.com
+/wordpress/wp-content/plugins/fighter/upx.php 2 http://simplesite.com
+/help/user/index.html 2 -
+/404.php 10 http://simplesite.com
+/wp-content/plugins/log-http-requests/includes/include.php 4 forwardprogramming.site
+/wp-includes/css/wp-pointer.php 2 http://simplesite.com
+/wordpress/wp-content/plugins/ElingKuatSlamet/wp-load.php 2 http://simplesite.com
+/new-site/ 4 -
+/e/master/login.aspx 2 -
+/images/2_11.gif 2 -
+/vendor/phpunit/phpunit/src/Util/PHP/ 2 -
+/wp-content/plugins/apikey/apikey.php 4 -
+/ks_inc/ajax.js 2 -
+/jm-ajax/upload_file/ 2 -
+/wp-content/plugins/radykal-fancy-gallery/admin/generate-code.php 2 http://www.google.com/
+/Images/login/lefttu.jpg 2 -
+/wp-config 2 -
+/wp-content/plugins/woocommerce-software-license-manager/vendor/phpunit/phpunit/build.xml 2 -
+/wp-stream3.php 2 forwardprogramming.site
+/wordpress/wp-content/plugins/ElingKuatSlamet/k.php 4 http://simplesite.com
+/wp-includes/SimplePie/Canonical.php 2 http://simplesite.com
+/lib/phpunit/src/Util/PHP/eval-stdin 4 -
+/wp-content/themes/dulcet/footer1.php 4 http://simplesite.com
+/wp-content/themes/plaintext/includes/custom-header.php 2 http://simplesite.com
+/_input_3_vuln.htm 2 -
+/plugin.php 2 -
+/2020/ 4 -
+/server/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin 4 -
+/templates/jsn_glass_pro/ext/hikashop/jsn_ext_hikashop.css 2 -
+/wp-admins.php 2 http://simplesite.com
+/User/Login.aspx 2 -
+/modules/autoupgrade/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin 4 -
+/wp-content/uploads/2015/12/new_up.php 2 http://www.google.com/
+/include/dedeajax2.js 2 -
+/blog/ 10 -
+/2017/ 6 -
+/fckeditor/fckeditor.js 2 -
+/skin/frontend/default/modern/css/styles.css 2 -
+/admin/dumper.php 2 -
+/siteserver/login.aspx 2 -
+/cms/ 4 -
+/oldsite/xmlrpc.php 2 www.google.com
+/FORWARDPROGRAMMING2021/xmlrpc.php 2 www.google.com
+/static/images/logo/webserver_small.gif 2 -
+/b3.php 2 forwardprogramming.site
+/web/ 4 -
+/wp-content/plugins/mm-forms/includes/doajaxfileupload.php 2 http://www.google.com/
+/autoload_classmap.php 2 http://simplesite.com
+/Site/Pages/WebResources.ashx/PoweredByKodakImage 2 -
+/account.php 4 forwardprogramming.site
+/inc/rsd.php 2 -
+/back/scripts/jspxcms_choose.js 2 -
+/wp-config-samples.php 4 http://simplesite.com
+/wp-logout.php 4 http://simplesite.com
+/wp-blog.php 4 http://simplesite.com
+/new/xmlrpc.php 2 www.google.com
+/custom-background3.php 2 forwardprogramming.site
+/blog/xmlrpc.php 2 www.google.com
+/admin/SouthidcEditor/ButtonImage/standard/componentmenu.gif 2 -
+/FORWARDPROGRAMMING2019/xmlrpc.php 2 www.google.com
+/style3.php 2 forwardprogramming.site
+/adminer.php 2 -
+/Admin/Common/HelpLinks.xml 2 -
+/site.zip 6 -
+/images/login/logo.gif 2 -
+/do.php 2 forwardprogramming.site
+/wp-content/adminer.php 2 -
+/backup_old/xmlrpc.php 2 www.google.com
+/wp-stream.php 2 forwardprogramming.site
+/bencandy.php 2 -
+/wp-json/oembed/1.0/%5C%22http:%5C/%5C/forwardprogramming.site%5C/about%5C/%5C%22 1 http://www.google.com/url
+/db_connect3.php 2 forwardprogramming.site
+/2/xmlrpc.php 2 www.google.com
+/test_404_page/ 2 -
+/wsa.php 4 http://simplesite.com
+/doc.php 4 forwardprogramming.site
+/wp-content/plugins/cherry-plugin/admin/import-export/vuln.txt 2 -
+/wp/xmlrpc.php 2 www.google.com
+/FORWARDPROGRAMMING_OLD/xmlrpc.php 2 www.google.com
+/.local 4 https://www.google.com/
+/js/ckfinder/core/connector/php/connector.php 2 -
+/tools/rss.aspx 2 -
+/plugins/anchor/anchor.js 2 -
+/reskyber.php 2 http://simplesite.com
+/blog/wp-includes/css/css.php 2 www.google.com
+/do3.php 2 forwardprogramming.site
+/wp/ 10 -
+/images/login/eyoumail.gif 2 -
+/Template/Default/Skin/user/images/login_back.jpg 2 -
+/installer-backup.php 12 -
+/wp1/ 4 -
+/wp-content/plugins/category-page-icons/css/menu.css 2 -
+/wp-admin/local.php 1 http://simplesite.com
+/images/logo_88x31.gif 2 -
+/login/Jeecms.do 2 -
+/ids/admin/userhome/forgetPwd.jsp 2 -
+/fckeditor/editor/filemanager/connectors/php/upload.php 2 -
+/buy3.php 2 forwardprogramming.site
+/changelog.txt 2 -
+/Install/logo.gif 2 -
+/admin/login.aspx 2 -
+/vendor/phpunit/phpunit/build.xml 2 -
+/wp-content/themes/oceanwp/assets/js/third/%url% 1 -
+/ini.php 2 http://simplesite.com
+/app/images/login/logo.png 2 -
+/Backup/xmlrpc.php 2 www.google.com
+/wp-content/uploads/2020/06/doc.php 2 http://simplesite.com
+/wp-content/themes/enfold-child/update_script/vendor/phpunit/phpunit/build.xml 2 -
+/forums/list.page 2 -
+/wordpress/wp-content/plugins/fighter/shx.php 4 http://simplesite.com
+/old-index.php 4 forwardprogramming.site
+/staging/xmlrpc.php 2 www.google.com
+/2018/ 10 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin 4 -
+/admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin 4 -
+/API/DW/Dwplugin/ThirdPartyTags/SiteFactory.xml 2 -
+/Images/login/mainlogo.gif 2 -
+/stylesheet.css 2 -
+/wp-content/plugins/contabileads/integracoes/mautic/api-library/vendor/phpunit/phpunit/build.xml 2 -
+/old_FORWARDPROGRAMMING/xmlrpc.php 2 www.google.com
+/wordpress/wp-content/plugins/m4d/shx.php 4 http://simplesite.com
+/wp-info.php 4 http://simplesite.com
+/tpl/login/user/images/login_bg_1.jpg 2 -
+/imagesschool/style1/flash2.jpg 2 -
+/tmp/ 4 -
+/new_gb/help/images/usage/3.3.gif 2 -
+/latest-mysql.php 2 -
+/system/Update.aspx 2 -
+/wordpress/wp-content/plugins/masterx/ran.php 2 http://simplesite.com
+/web2/login_template/1.files/Logo1.jpg 2 -
+/wp-content/plugins/wp-crm/third-party/uploadify/uploadify.css 2 http://www.google.com/
+/wp-includes/block-supports 4 www.google.com
+/uploads/adminer.php 2 -
+/include/dialog/config.php 2 -
+/backup_new/xmlrpc.php 2 www.google.com
+/Public/Admin/Images/login_main_bg.jpg 2 -
+/console/js/CWCMDialogHead.js 2 -
+/backup-old/xmlrpc.php 2 www.google.com
+/doku.php 2 -
+/adminer1.php 2 -
+/wp-content/plugins/uploader/uploadify/uploadify.css 2 http://www.google.com/
+/vindex.php 2 http://simplesite.com
+/Home/xmlrpc.php 2 www.google.com
+/th1s_1s_a_4o4.html 60 -
+/siteserver/upgrade/default.aspx 2 -
+/Wq_StranJF.js 2 -
+/div/ 6 -
+/wp-content/plugins/masterx/shx.php 2 http://simplesite.com
+/shl.php 2 -
+/Search.html 2 -
+/assets/plugins/jquery-fileupload/server/php/ 2 -
+/vendor/phpunit/phpunit/LICENSE 8 -
+/well-known.zip 3 -
+/dev/ 4 -
+/master/login.aspx 2 -
+/ajax-index3.php 2 forwardprogramming.site
+/wordpress/wp-content/plugins/Luxury/content.php 2 http://simplesite.com
+/components/com_jbusinessdirectory/assets/upload.php 2 http://www.google.com/
+/wp-content/plugins/press/wp-class.php 2 -
+/wp-admin/mysql-adminer.php 1 -
+/lsn_an.php%7Croot 2 http://simplesite.com
+/wp-includes/assets 4 www.google.com
+/wp-content/plugins/wp-user-avatar/assets/css/hint.min.css 2 forwardprogramming.site
+/kindeditor-min.js 2 -
+/absorb3.php 2 forwardprogramming.site
+/CuteSoft_Client/CuteEditor/ImageEditor/listfiles.aspx 2 -
+/wordpress/wp-admin/includes/files.php 1 http://simplesite.com
+/BACKUP-FORWARDPROGRAMMING/xmlrpc.php 2 www.google.com
+/lib/phpunit/Util/PHP/eval-stdin 4 -
+/wp-content/themes/sketch/404.php 2 -
+/fckeditor/license.txt 2 -
+/wp-content/themes/distance-lite/languages/namespaces.php 2 http://simplesite.com
+/config.js 2 -
+/wp-configs.php 4 http://simplesite.com
+/wp-json/oembed/1.0/%5C%22http:%5C/%5C/forwardprogramming.site%5C/contact%5C/%5C%22 1 http://www.google.com/url
+/wp-content/plugins/plugs/plugs.php 2 forwardprogramming.site
+/assets/global/plugins/jquery-file-upload/server/php/ 4 -
+/Backup_new/xmlrpc.php 2 www.google.com
+/ckeditor/ckeditor.js 2 -
+/small.php 2 http://simplesite.com
+/skin/htaccess.php 4 http://simplesite.com
+/BackUp/xmlrpc.php 2 www.google.com
+/stindex.php 2 http://simplesite.com
+/API/DW/Dwplugin/TemplateManage/manage_site.htm 2 -
+/customdir/images/english_logo.jpg 2 -
+/ymail/images/index_r1_c4.jpg 2 -
+/plugins/content/apismtp/apismtp.php 4 -
+/includes/as.php 2 http://simplesite.com
+/themes/default/default.css 2 -
+/whir_system/login.aspx 2 -
+/m 2 -
+/CHANGELOG.txt 2 -
+/thumb.php 2 -
+/media-admin.php 4 http://simplesite.com
+/images/default/post_bt.gif 2 -
+/wordpress/wp-content/plugins/fighter/config.php 2 http://simplesite.com
+/admin/thumb.php 2 -
+/FORWARDPROGRAMMING_Old/xmlrpc.php 2 www.google.com
+/admin.php 12 www.google.com
+/admin/ckeditor/plugins/ajaxplorer/phpunit/src/Util/PHP/eval-stdin 4 -
+/wordpress/wp-content/plugins/lock360/k.php 2 http://simplesite.com
+/pub/skins/pmwiki/pmwiki.css 2 -
+/wordpress/wp-content/plugins/masterx/wp-blog.php 4 http://simplesite.com
+/wp-crons.php 2 http://simplesite.com
+/shell.php 4 http://simplesite.com
+/Backup-FORWARDPROGRAMMING/xmlrpc.php 2 www.google.com
+/wp-content/plugins/lbg-bottom-playlist-videoplayer/js/uploadify/uploadify.css 2 http://www.google.com/
+/ajax-index.php 2 forwardprogramming.site
+/mysql-adminer.php 2 -
+/wp-json/wp/v2/users/2 1 http://forwardprogramming.site/
+/wp-content/plugins/downloads-manager/img/unlock.gif 2 -
+/admin/template/article_more/config.htm 2 -
+/Wp/xmlrpc.php 2 www.google.com
+/fckeditor/fckconfig.js 2 -
+/wordpress/wp-content/plugins/fancy-product-designer/inc/custom-image-handler.php 2 www.google.com
+/ckeditor/ckfinder/install.txt 2 -
+/backup/xmlrpc.php 2 www.google.com
+/test/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin 4 -
+/wp-content/plugins/nmedia-user-file-uploader-pro-v7.4-HTML5/nm_fileuploader_style.css 2 http://www.google.com/
+/wp-content/plugins/zingiri-web-shop/fws/addons/tinymce/jscripts/tiny_mce/plugins/ajaxfilemanager/ajaxfilemanager.php 2 http://www.google.com/
+/wp-content/plugins/fancy-product-designer/assets/jssocials/jssocials.css 2 forwardprogramming.site
+/Admin/Login.aspx 2 -
+/beence.php 2 forwardprogramming.site
+/Forwardprogramming/xmlrpc.php 4 www.google.com
+/images/login9/login_33.jpg 2 -
+/sxd/ 2 http://forwardprogramming.site/sxd/index.php
+/fileupload/server/php/ 2 http://www.google.com/
+/ckfinder/core/connector/php/connector.php 2 -
+/media/com_hikashop/js/hikashop.js 2 -
+/API/DW/Dwplugin/TemplateManage/login_site.htm 2 -
+/public/about.html 2 -
+/default/css/em_css.css 2 -
+/admin/admin_login.php 2 -
+/forum.php 2 -
+/wp-content/plugins/nmedia-user-file-uploader/nm_fileuploader_style.css 2 http://www.google.com/
+/Help 2 -
+/FCK/fckeditor.js 2 -
+/1index.php 2 http://simplesite.com
+/addons/theme/stv1/_static/ts2/layout.css 2 -
+/wp-content/plugins/background-image-cropper/doc.php 2 http://simplesite.com
+/assets/jquery-file-upload/server/php/ 2 -
+/custom-background.php 2 forwardprogramming.site
+/.production 4 https://www.google.com/
+/wp-includes/PHPMailer 4 www.google.com
+/includes/general.js 2 -
+/inc/playerKinds.xml 2 -
+/wordpress/wp-22.php 4 http://simplesite.com
+/template/1/bluewise/_files/jspxcms.css 2 -
+/ckfinder/ckfinder.html 2 -
+/wordpress/wp-content/plugins/wpfast/inc/autoload_classmap.php 2 http://simplesite.com
+/common/help/images/helplogo_zh.gif 2 -
+/blog/wp-content/plugins/fancy-product-designer/inc/custom-image-handler.php 2 www.google.com
+/Editor.js 2 -
+/wp-includes/sitemaps 4 www.google.com
+/jcms/index_jcms.jsp 2 -
+/list.php 2 -
+/wp-content/plugins/Builder/Builder3.php 2 forwardprogramming.site
+/WP1/xmlrpc.php 2 www.google.com
+/wordpress/wp-content/plugins/masterx/shx.php 2 http://simplesite.com
+/13.php 2 forwardprogramming.site
+/script/login.js 2 -
+/modules/gamification/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin 4 -
+/demo/xmlrpc.php 2 www.google.com
+/humans.txt 2 -
+/wp-content/plugins/gallery-plugin/upload/php.php 2 http://www.google.com/
+/wordpress/wp-crons.php 4 http://simplesite.com
+/advfile/ad12.js 2 -
+/bb-config.php 2 forwardprogramming.site
+/wp-content/plugins/realia/libraries/PayPal-PHP-SDK/vendor/phpunit/phpunit/build.xml 2 -
+/forum/ 2 -
+/plus/download.php 2 -
+/latest-en.php 2 -
+/absorb.php 2 forwardprogramming.site
+/services 68 -
+/deptWebsiteAction.do 2 -
+/admin/assets/plugins/jQuery-File-Upload/server/php/ 2 -
+/google-site-verification-content-fpk8ez12pdbewljjo9xhbxlv7lhxa9nplpcode87.php 2 http://simplesite.com
+/Blog/xmlrpc.php 2 www.google.com
+/Prompt/images/P_Wrong.gif 2 -
+/wp-content/plugins/superstorefinder-wp/css/normalize.css 2 -
+/fckeditor.js 2 -
+/admin/SouthidcEditor/ewebeditor.asp 2 -
+/wp-content/languages/plugins/ 2 http://forwardprogramming.site/wp-content/languages/plugins/index.php
+/old-wp/ 4 -
+/max-templates/classic/styles/app.css 2 -
+/phpminiadmin.php 2 -
+/adminer/adminer-4.7.0.php 2 -
+/adminer-4.3.0.php 2 -
+/js/buttons.js 2 -
+/ids/admin/login.jsp 2 -
+/wp-content/plugins/videowhisper-video-conference-integration/vc/vw_upload.php 2 http://www.google.com/
+/BACKUP_FORWARDPROGRAMMING/xmlrpc.php 2 www.google.com
+/bbs/ 2 -
+//admin/.env 2 https://www.google.com/
+/v2/ 4 -
+/beence3.php 2 forwardprogramming.site
+/CuteSoft_Client/CuteEditor/Help/default.htm 2 -
+/wp-content/plugins/lite-cache/ 2 -
+/console/include/not_login.htm 2 -
+/wp-content/plugins/Plugin/plug3.php 2 forwardprogramming.site
+/Old-FORWARDPROGRAMMING/xmlrpc.php 2 www.google.com
+/bb-config3.php 2 forwardprogramming.site
+/wp/wp-content/plugins/fancy-product-designer/inc/custom-image-handler.php 2 www.google.com
+/db_connect.php 2 forwardprogramming.site
+/upload/adminer.php 2 -
+/images/login_Name.jpg 2 -
+/wp-content/uploads/2015/09/new_up.php 2 http://www.google.com/
+/member/space/company/info.txt 2 -
+/.info.php 2 http://simplesite.com
+/wordpress/wp-content/plugins/Luxury/k.php 2 http://simplesite.com
+/bak/ 4 -
+/ 85 -
+/backup/dumper.php 2 -
+/tpl/user/tpl1/css/skins/blue.css 2 -
+/digg.php 2 -
+/coremail/common/help/images/helplogo.gif 2 -
+/demo/ 4 -
+/wcm/ 2 -
+/readme.php 2 http://simplesite.com
+/wp-class-cache.php 2 http://simplesite.com
+/app/images/login/toplogo.gif 2 -
+/2.php 14 http://simplesite.com
+/admin/js/IdSUtil.js 2 -
+/components/com_contact/views/contact/tmpl/controller.php 2 http://simplesite.com
+/83.php 2 forwardprogramming.site
+/script/valid_formdata.js 2 -
+/archive/archive.css 2 -
+/api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin 4 -
+/template/home.htm 2 -
+/wp-includes/sitemaps/providers 4 www.google.com
+/adminer/adminer.php 2 -
+/wordpress/ 10 -
+/WORDPRESS/xmlrpc.php 2 www.google.com
+/wp-content/plugins/dzs-videogallery/class_parts/vendor/phpunit/phpunit/build.xml 2 -
+/latest.php 2 -
+/wp-json/wp/v2/posts/None 1 -
+/app/login.jsp 2 -
+/wp-content/plugins/image-symlinks/uploadify/uploadify.css 2 http://www.google.com/
+/ckfinder/install.txt 2 -
+/admin/timthumb.php 2 -
+/old/ 10 -
+/wp-content/plugins/dzs-zoomsounds/admin/upload.php 2 http://www.google.com/
+/wp2/ 4 -
+/wp-content/plugins/mm-plugin/inc/vendors/vendor/phpunit/phpunit/build.xml 2 -
+/wp-content/plugins/dhgdi/s.php 4 http://simplesite.com
+/latest-mysql-en.php 2 -
+/db/dumper.php 2 -
+/mirasvit_adminer-4.2.3.php 2 -
+/Site/SystemThemes/7917A0869761B5458281E407AE0090F5/Images/ISBanner58px.jpg 2 -
+/wp-content/uploads/404.php 2 http://simplesite.com
+/accesson3.php 2 forwardprogramming.site
+/images/login/icon-up.gif 2 -
+/8.php 2 forwardprogramming.site
+/cgi-bin.zip 4 -
+/installer.php 14 forwardprogramming.site
+/ads.txt 4 -
+/admin/inc/xml.xslt 2 -
+/feed.asp 4 -
+/archivarix.cms.php 2 -
+/wp-includes/css/css.php 2 www.google.com
+/wp-admin/network/network.php 1 http://simplesite.com
+/rindex.php 2 forwardprogramming.site
+/pub/guiedit/guiedit.js 2 -
+/templates/beez3/error.php 2 http://simplesite.com
+/system/skins/default/system.login.htm 1 -
+/next/img/logo.gif 2 -
+/NEW/xmlrpc.php 2 www.google.com
+/wp-content/plugins/simple-forum/resources/jscript/ajaxupload/ajaxupload.js 2 http://www.google.com/
+/config.php 4 http://simplesite.com
+/wp-content/plugins/i-dump-iphone-to-wordpress-photo-uploader/uploader.php 2 http://www.google.com/
+/wp-content/plugins/wp-support-plus-responsive-ticket-system/includes/admin/downloadAttachment.php 2 -
+/wp-admin/user/comment.php 1 http://simplesite.com
+/app/home/skins/default/style.css 2 -
+/WordPress/xmlrpc.php 2 www.google.com
+/doc3.php 2 forwardprogramming.site
+/backup.zip 3 -
+/New/xmlrpc.php 2 www.google.com
+/administrator/modules/mod_login/ 2 http://forwardprogramming.site/administrator/modules/mod_login/index.php
+//wp-content/plugins/wp-file-manager/readme.txt 32 -
+/old-FORWARDPROGRAMMING/xmlrpc.php 2 www.google.com
+/images/logo-white.png 2 -
+/archiver/ 2 -
+/wp/wp-includes/css/css.php 2 www.google.com
+/wp-plugins.php 2 http://simplesite.com
+/wordpress/wp-menus.php 2 http://simplesite.com
+/phpunit/Util/PHP/eval-stdin 4 -
+/modules/ps_facetedsearch/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin 4 -
+/FORWARDPROGRAMMINGFORWARDPROGRAMMING/xmlrpc.php 2 www.google.com
+/wordpress/wp-content/plugins/ubh/o.php 4 http://simplesite.com
+/system/Login.aspx 2 -
+/wp-includes/lfx.php 2 www.google.com
+/public/js/ipb.js 2 -
+/installer3.php 2 forwardprogramming.site
+/alfa-index.php 2 forwardprogramming.site
+/assets/plugins/jquery-file-upload/server/php/ 2 -
+/drupal/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin 4 -
+/accesson.php 2 forwardprogramming.site
+/sites/all/libraries/mailchimp/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin 4 -
+/wp-content/plugins/html5avmanager/lib/uploadify/uploadify.css 2 http://www.google.com/
+/wordpress/xmlrpc.php 2 www.google.com
+/phpmyadmin/ 2 -
+/CuteSoft_Client/CuteEditor/Style/IE.css 2 -
+/dump/dumper.php 2 -
+/apps/admin/_static/image/login_box_bg.png 2 -
+/plus/heightsearch.php 2 -
+/forwardprogramming.zip 3 -
+/wp-content/plugins/prh-api/vendor/phpunit/phpunit/build.xml 2 -
+/new/ 10 -
+/dc.php 2 forwardprogramming.site
+/wp-content/plugins/wp-mailinglist/vendors/uploadify/upload.php 2 http://www.google.com/
+/static/hgicon.png 2 -
+/files/ 2 http://www.google.com/
+/UserCenter/css/admin/bgimg/admin_all_bg.png 2 -
+/wp-content/plugins/wp-property/third-party/uploadify/uploadify.css 2 http://www.google.com/
+/web/xmlrpc.php 2 www.google.com
+/404.jpg 2 -
+/public_html.zip 5 -
+/admin/assets/plugins/jquery-file-upload/server/php/ 2 -
+/force-download.php 2 -
+/console/js/CTRSRequestParam.js 2 -
+/admin/SouthidcEditor/Dialog/dialog.js 2 -
+/wp-admin/adminer.php 1 -
+/backup_Old/xmlrpc.php 2 www.google.com
+/community/ 2 http://forwardprogramming.site/
+/.well-known.zip 2 -
+/wp-content/plugins/background-image-cropper/content-post.php 4 http://simplesite.com
+/adminer-4.7.0.php 2 -
+/lsn_an.php|root 2 http://simplesite.com
+/check.php 2 http://simplesite.com
+/inc/Templates/rss.xslt 2 -
+/wp-content/plugins/redirection/models/wp-contentt.php 2 http://simplesite.com
+/License.txt 2 -
+/1.php 4 forwardprogramming.site
+/wp-includes/langar.php 2 http://simplesite.com
+/admin/.env 2 https://www.google.com/
+/wp-content/plugins/videowhisper-video-presentation/vp/translation.php 2 http://www.google.com/
+/themes/graphics/horde-power1.png 2 -
+/help/en/h_authenticate.html 2 -
+/phpmyadmin/themes/original/img/logo_right.png 2 -
+/sitio/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin 4 -
+/wordpress/wp-content/plugins/fighter/index-old.php 2 http://simplesite.com
+/js/ajax_x.js 2 -
+/helpnew/faq/faq_simple_zh_CN.jsp 2 -
+/wp-content/plugins/pica-photo-gallery/css/style.css 2 http://www.google.com/
+/wp-admin/css/colors/modern 2 www.google.com
+/ycportal/js/wbTextBox/showimg.jsp 2 -
+/console/auth/reg_newuser.jsp 2 -
+/wp-admin/vuln.htm 1 -
+/wp1/xmlrpc.php 2 www.google.com
+/files.php 2 http://simplesite.com
+/fckeditor/editor/dtd/fck_dtd_test.html 2 -
+/test/xmlrpc.php 2 www.google.com
+/demo1/xmlrpc.php 2 www.google.com
+/wordpress/wp-content/plugins/kamrul13/wp-load.php 4 http://simplesite.com
+/clientscript/vbulletin_ajax_htmlloader.js 2 -
+/wp-content/plugins/cloudflare/vendor/phpunit/phpunit/build.xml 2 -
+/images/zh-CN/logo.ico 2 -
+/cache/doc.php 2 http://simplesite.com
+/install 2 -
+/wp-content/plugins/contus-hd-flv-player/uploadVideo.php 2 http://www.google.com/
+/http:/forwardprogramming.site/xmlrpc.php 19 -
+/adminsoft/templates/images/login_bg_top.jpg 2 -
+/wp-content/plugins/mm-forms-community/includes/doajaxfileupload.php 2 http://www.google.com/
+/style.php 4 forwardprogramming.site
+/archiver 2 -
+/dumper.php 2 -
+/wp-content/plugins/uploadify/includes/check.php 2 http://www.google.com/
+/asserted.php 2 forwardprogramming.site
+/rindex3.php 2 forwardprogramming.site
+/wp-content/plugins/adminer/inc/editor/ 2 -
+/base/login/login.php 2 -
+/panel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin 4 -
+/a.php 4 http://simplesite.com
+/timthumb.php 2 -
+/wp-content/plugins/sid/sidwso.php 4 http://simplesite.com
+/wp-content/force-download.php 2 -
+/images/hwem.css 2 -
+/data/images/wap_logo.gif 2 -
+/2019/ 4 -
+/about.php 2 http://simplesite.com
+/wp-content/plugins/superlogoshowcase-wp/css/super-logo-showcase.css 2 -
+/examples/index.html 2 -
+/wp-content/plugins/mailcwp/mailcwp-upload.php 2 http://www.google.com/
+/CuteSoft_Client/CuteEditor/Images/log.gif 2 -
+/mirasvit_adminer_425.php 2 -
+/buy.php 2 forwardprogramming.site
+/BACKUP/xmlrpc.php 2 www.google.com
+/back/ 6 -
+/Backup_FORWARDPROGRAMMING/xmlrpc.php 2 www.google.com
+/phpunit/phpunit/Util/PHP/eval-stdin 4 -
+/app/js/source/wcmlib/WCMConstants.js 2 -
+/wso.php 8 -
+/Wp2/xmlrpc.php 2 www.google.com
+/test/ 4 -
+/vendor/phpunit/Util/PHP/eval-stdin 4 -
+/examples/file-manager.html 2 -
+/wp-includes/block-patterns 4 www.google.com
+/wordpress/wp-content/plugins/523453244/mini.php 2 http://simplesite.com
+/plus/sitemap.html 2 -
+/backup/ 10 -
+/adminer-4.6.2-cs.php 2 -
+/plug/publish 2 -
+/Images/login/biaoti.jpg 2 -
+/wp-includes/class-wp-page-cache.php 2 www.google.com
+/OLD-FORWARDPROGRAMMING/xmlrpc.php 2 www.google.com
+/wp-content/plugins/cherry-plugin/admin/import-export/download-content.php 2 -
+/plugins/content/apismtp/apismtp.php.suspected 4 -
+/wp-content/plugins/CCSlider/includes/upload.php 2 http://www.google.com/
+/editor/js/fckeditorcode_ie.js 2 -
+/asserted3.php 2 forwardprogramming.site
+/wp-admin/xmlrpc.php 1 www.google.com
+/phpunit/phpunit/src/Util/PHP/eval-stdin 4 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 209
+192.185.46.254 371 371 0 20210630230551
+184.154.76.20 223 363 7628768 20210629212659
+184.154.139.49 96 156 3269796 20210630211834
+184.154.139.50 88 166 4323160 20210623211713
+184.154.139.51 79 129 2723785 20210626212104
+195.181.163.8 73 73 1108801 20210620154515
+143.198.175.237 71 71 57036 20210627172032
+18.118.253.122 65 65 46964 20210624231420
+40.122.104.40 14 14 127843 20210627033134
+192.99.18.136 12 24 204034 20210610201559
+149.56.160.213 11 11 570670 20210620230859
+192.99.100.141 10 10 119412 20210606200446
+220.181.77.162 10 146 3836068 20210628231321
+81.177.248.237 10 10 158190 20210625235403
+3.15.225.117 10 209 2106263 20210630112719
+92.3.125.230 8 100 3254480 20210606041606
+34.68.200.106 8 8 244900 20210610062435
+34.71.95.46 8 8 126552 20210620220916
+52.1.89.74 7 7 110733 20210620041712
+107.191.41.121 6 6 10072 20210622221907
+44.234.43.86 6 6 10072 20210617182808
+64.225.1.145 6 6 94858 20210607144020
+13.229.102.255 6 6 241892 20210610151047
+5.188.210.18 6 6 361080 20210622081605
+113.215.221.68 6 6 33302 20210608105032
+124.227.31.156 2 2 31638 20210628222641
+185.191.34.215 2 2 0 20210630023635
+34.96.130.27 2 2 120360 20210607155711
+45.251.112.107 2 2 1610 20210625164610
+54.149.117.235 1 3 22053 20210623014237
+39.129.13.12 2 2 120360 20210628235910
+13.69.199.207 2 2 31638 20210612141429
+34.221.172.144 2 2 31638 20210624013748
+54.201.237.110 2 2 31638 20210605011005
+54.39.29.64 2 2 120360 20210619012623
+52.11.111.42 1 3 22053 20210615013238
+94.158.245.33 2 2 31638 20210629224805
+141.98.10.59 1 1 268 20210604190203
+34.210.121.81 2 2 31638 20210606010334
+37.120.145.94 4 4 207772 20210601011253
+34.77.162.30 2 2 120360 20210617215422
+136.244.97.1 2 2 31638 20210621144809
+34.208.131.236 2 2 31638 20210617013555
+162.55.214.24 2 2 31638 20210625022512
+193.93.195.222 2 2 31638 20210617223321
+64.246.161.42 2 2 31638 20210616032516
+34.86.35.19 2 2 120360 20210612040259
+40.121.193.32 5 5 120946 20210614035531
+69.12.66.211 2 2 120360 20210610142409
+62.210.207.196 3 3 120946 20210628091501
+34.223.6.141 2 2 31638 20210602012844
+104.41.225.47 2 2 25496 20210612141457
+103.221.232.19 5 7 61563 20210615180818
+31.20.140.31 3 3 120946 20210617123619
+23.90.29.36 5 7 61563 20210601173903
+172.241.214.205 2 2 120360 20210622113951
+185.56.80.65 1 1 60180 20210615032426
+92.118.160.17 2 2 120360 20210621232942
+198.144.121.93 2 2 31638 20210628213917
+92.118.160.9 2 2 120360 20210628213713
+90.119.119.176 2 2 6745 20210619134406
+20.102.85.239 3 3 120946 20210630153437
+54.178.182.46 4 4 63276 20210617220450
+46.148.206.226 6 6 361080 20210628084303
+51.75.122.59 3 3 120946 20210628200801
+170.83.179.152 5 7 61563 20210617174358
+18.237.142.110 1 3 22053 20210606011237
+52.60.209.36 2 2 31638 20210611002015
+5.188.62.76 2 2 31638 20210610194854
+103.253.25.169 2 2 120360 20210629014207
+34.217.14.226 4 4 63276 20210609021046
+95.182.126.116 6 6 261312 20210601214819
+123.108.77.57 2 2 31638 20210616103310
+18.231.94.162 2 2 31638 20210603011754
+46.219.204.62 3 3 120360 20210626125727
+195.154.200.100 2 2 17394 20210616031523
+211.225.183.232 3 3 120946 20210611082044
+82.102.25.141 3 3 120946 20210623084603
+52.11.108.158 2 2 31638 20210626011740
+201.221.31.190 4 4 32472 20210614115723
+156.146.63.23 2 2 120360 20210609083952
+54.212.150.184 2 2 31638 20210621015428
+62.210.92.175 2 2 31638 20210613024459
+58.53.128.234 2 2 31638 20210615100946
+52.91.213.178 2 2 31638 20210615070955
+51.158.108.67 2 2 31638 20210609220344
+156.146.56.107 3 3 120946 20210626015151
+20.102.76.190 2 2 31638 20210626150325
+40.118.166.250 3 3 47457 20210618194916
+54.214.118.153 2 2 31638 20210622014626
+80.92.206.251 6 6 94914 20210612132855
+128.31.0.13 2 2 120360 20210615032424
+154.51.131.142 6 6 94914 20210626041020
+34.214.227.46 2 2 31638 20210629010616
+185.200.117.167 3 3 120946 20210629001758
+46.105.45.118 3 3 120946 20210627171149
+20.94.223.33 3 3 120946 20210608183825
+18.229.73.207 2 2 31638 20210619121020
+159.69.158.5 2 2 31638 20210616183156
+18.220.83.47 3 3 120946 20210615144030
+52.26.74.77 3 3 47457 20210608014454
+208.72.20.230 2 2 31638 20210614132038
+198.8.85.218 3 3 120946 20210603011130
+51.77.246.204 6 84 2960858 20210620231149
+54.201.248.97 2 2 31638 20210625145943
+34.71.20.225 6 6 94914 20210604053426
+62.210.177.178 2 2 17394 20210607014736
+51.161.115.53 2 2 70436 20210628092714
+107.172.13.93 4 4 57134 20210616132103
+162.144.141.152 2 2 0 20210607214944
+34.219.181.105 2 2 31638 20210625011346
+142.93.201.101 3 3 120946 20210620014638
+23.228.109.147 2 2 31532 20210628211612
+185.220.100.255 6 86 3031880 20210615001432
+218.28.211.3 3 3 120946 20210605083947
+107.175.156.144 4 4 63276 20210613132006
+125.64.94.213 6 6 38032 20210628214321
+52.27.50.163 4 4 63276 20210611020341
+159.89.190.105 2 2 31638 20210629031745
+34.77.162.14 2 2 120360 20210625121541
+54.203.73.198 2 2 31638 20210630190013
+103.143.77.29 5 7 61563 20210617225625
+162.253.129.85 3 3 19971 20210625173218
+34.212.168.160 2 2 31638 20210618012750
+91.79.12.77 2 2 120360 20210610081422
+188.166.230.4 2 2 31638 20210623063320
+5.188.119.3 2 2 120360 20210627185614
+62.102.148.69 1 1 60180 20210615032448
+34.221.139.210 1 1 15819 20210628014246
+179.124.213.108 3 3 120946 20210617014231
+34.208.172.117 2 2 31638 20210616012924
+65.20.154.226 5 5 123036 20210601085317
+104.248.238.131 3 3 47457 20210610144449
+128.199.200.213 2 2 0 20210619054128
+176.61.140.134 5 7 61563 20210629025017
+46.8.22.22 5 5 190904 20210623204342
+23.81.48.160 2 2 25496 20210618111012
+184.168.102.190 4 4 190796 20210617071457
+65.38.88.7 5 5 123036 20210623172740
+18.194.196.202 2 2 31638 20210620053237
+34.217.100.28 2 2 31638 20210620014238
+92.118.160.13 6 6 361080 20210606085858
+54.202.190.178 1 1 15819 20210614002619
+35.164.148.20 1 1 15819 20210615015727
+34.96.130.29 2 2 120360 20210622141007
+184.179.216.130 2 2 120360 20210605042610
+92.118.160.45 2 2 120360 20210613085646
+18.236.200.242 1 3 22053 20210605011506
+18.206.188.97 2 2 31638 20210628065243
+52.52.190.187 2 2 31638 20210616001510
+54.244.166.191 2 2 31638 20210605022150
+18.234.16.132 4 4 63276 20210613205655
+178.184.128.73 5 5 123036 20210608010137
+34.219.231.16 2 2 31638 20210615015631
+51.159.94.134 2 2 17394 20210604190158
+52.60.189.115 2 2 31638 20210608074447
+54.184.231.165 2 2 31638 20210619013132
+69.12.66.248 1 1 269 20210610190509
+98.177.76.32 2 2 31638 20210609185605
+34.221.176.171 3 3 47457 20210606010401
+84.17.45.157 2 2 120360 20210617112708
+58.53.128.88 4 4 63276 20210626095642
+91.76.233.47 2 2 120360 20210602074337
+13.233.73.212 2 2 31638 20210609020714
+45.66.35.35 2 2 120360 20210619205120
+23.19.75.76 2 2 31638 20210609181717
+18.237.217.218 2 2 31638 20210610010932
+156.146.56.116 3 3 120946 20210623191555
+54.189.230.128 2 4 37872 20210622080729
+188.68.216.226 2 2 120360 20210627192551
+34.203.37.48 2 2 31638 20210618050747
+54.187.180.116 2 2 31638 20210615012336
+176.61.143.122 3 3 19971 20210607215346
+34.208.2.9 5 5 79095 20210610011044
+34.219.25.164 2 2 31638 20210628014239
+100.21.218.158 2 4 37872 20210609062931
+193.218.118.167 1 1 60180 20210615032458
+185.230.126.3 4 4 240720 20210619061418
+45.41.178.112 2 2 31638 20210621133953
+54.176.188.51 2 2 31638 20210612040652
+157.245.97.205 2 2 120360 20210609180715
+54.202.197.68 2 2 31638 20210627011259
+91.219.236.134 2 2 120360 20210604164412
+188.35.131.246 4 4 240720 20210624125047
+54.202.137.157 2 2 31638 20210612110534
+35.188.192.154 4 4 120360 20210623014207
+185.200.117.170 3 3 120946 20210621095742
+34.219.217.166 2 2 31638 20210614002140
+62.210.177.248 2 2 17394 20210606232924
+173.199.114.130 6 6 10072 20210625113825
+149.28.248.197 6 6 10072 20210620153700
+51.195.101.137 4 4 18900 20210629084259
+192.0.86.181 1 1 234 20210623184049
+103.15.216.130 2 2 31638 20210604060148
+34.215.69.55 4 4 63276 20210613015134
+176.106.242.148 2 2 31638 20210628095357
+18.197.125.181 2 2 31638 20210618121202
+195.201.125.129 6 6 10072 20210617172805
+18.237.6.160 2 2 31638 20210623013928
+45.77.196.167 6 6 10072 20210619021831
+144.126.139.252 4 4 57134 20210625035337
+34.218.244.30 1 1 15819 20210609021248
+52.36.198.210 1 1 15819 20210627011328
+34.77.162.21 2 2 120360 20210601180740
+185.107.95.227 4 4 123151 20210618004711
+157.230.249.196 1 1 1237 20210617125145
+212.102.33.41 3 3 19971 20210630051000
+18.236.166.230 2 2 31638 20210613223253
+51.15.127.88 2 2 31638 20210622203738
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20210601 50 62 1382285 13
+20210602 32 42 728602 12
+20210603 36 46 760826 11
+20210604 49 59 872816 22
+20210605 44 56 1086875 18
+20210606 59 163 4278120 21
+20210607 42 52 829187 15
+20210608 55 65 980440 19
+20210609 51 63 1182248 21
+20210610 65 87 1601243 21
+20210611 29 39 729188 10
+20210612 39 49 817374 14
+20210613 52 62 1095874 20
+20210614 46 56 897839 13
+20210615 64 158 4224679 22
+20210616 42 52 777684 15
+20210617 80 94 1609793 28
+20210618 47 57 835984 17
+20210619 49 59 1106499 16
+20210620 145 233 5569417 20
+20210621 42 52 881186 16
+20210622 62 102 2625668 18
+20210623 50 62 1306721 18
+20210624 98 108 774810 15
+20210625 53 63 880665 18
+20210626 42 52 912824 15
+20210627 115 125 1128896 16
+20210628 74 220 5298015 26
+20210629 47 59 961649 15
+20210630 47 256 2823784 16
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+5mn-15mn 7
+30s-2mn 9
+15mn-30mn 16
+30mn-1h 46
+2mn-5mn 2
+0s-30s 425
+1h+ 16
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 71
+/ 553 18015992 239 164
+/wp-cron.php 373 0 250 250
+/contact/ 90 2714498 4 3
+/about/ 84 3052144 2 9
+/wp-includes/wlwmanifest.xml 67 70015 0 0
+/projects/ 66 3530102 0 0
+/comments/feed/ 65 47102 0 2
+/feed/ 60 65580 0 0
+/wp-json/oembed/1.0/embed 31 68355 0 30
+/wp-json/ 30 1626390 0 0
+/wp-json/wp/v2/users/ 26 14919 1 23
+/wp-includes/css/ 18 16542 0 0
+/wp-includes/ 18 66474 9 0
+/wp-includes/fonts/ 18 7632 0 7
+/author/jamie/ 12 104364 4 4
+/xmlrpc.php 11 4244 1 2
+/wp-content/themes/oceanwp/assets/fonts/simple-line-icons/Simple-Line-Icons.woff2 10 300640 1 3
+/wp-content/themes/oceanwp/assets/fonts/fontawesome/fontawesome-webfont.woff2 10 771600 0 0
+/wp-json/contact-form-7/v1/contact-forms/275/feedback 9 1012 0 9
+/wp-login.php 6 14993 3 2
+/wp-includes/theme-compat/ 4 2044 0 0
+/wp-content/upgrade/ 4 1260 0 0
+/wp-includes/Text/Diff/Engine/ 4 1748 0 0
+/wp-admin/maint/ 4 2322 1 1
+/wp-includes/pomo/ 4 1900 0 0
+/wp-admin/css/colors/blue/ 2 888 0 0
+/wp-admin/js/ 2 3690 0 0
+/wp-load.php 4 0 2 2
+/wp-admin/admin-post.php 1 0 0 0
+/wp-admin/css/colors/light/ 2 886 0 0
+/wp-admin/load-styles.php 1 105325 0 0
+/wp-admin/js/widgets/ 2 1214 0 0
+/wp-includes/Text/Diff/Engine/shell.php 4 0 0 0
+/wp-includes/Text/Diff/ 4 1612 0 0
+/wp-includes/IXR/ 4 2264 0 0
+/.well-known/ 4 1404 0 0
+//wp-includes/wlwmanifest.xml 2 2090 0 2
+/wp-includes/ID3/ 4 2692 0 0
+/wp-admin/css/ 2 3378 0 0
+/wp-content/plugins/elementor/assets/ 2 850 0 0
+/index.php 2 31540 1 0
+/wp-admin/includes/ 2 4056 0 0
+/wp-admin/css/colors/sunrise/ 2 892 0 0
+/wp-content/ 4 0 2 2
+/wp-includes/SimplePie/ 4 3256 0 0
+/wp-includes/rest-api/ 4 1896 0 0
+/wp-json/wp/v2/posts/ 1 2 0 0
+/wp-includes/Requests/ 4 2716 0 0
+/wp-includes/js/ 4 8596 0 0
+/readme.html 2 6492 0 1
+/wp-links-opml.php 2 380 0 0
+/search/1/feed/rss2/about/feed/rss2/ 2 2482 0 1
+//wp-json/wp/v2/users/ 1 269 0 1
+/wp-admin/css/colors/ectoplasm/ 2 894 0 0
+/wp-includes/images/wlw/ 4 1624 0 0
+/wp-includes/Text/ 4 1532 0 0
+/wp-includes/images/ 4 3488 0 0
+/wp-admin/css/colors/ocean/ 2 890 0 0
+/wp-admin/css/colors/ 2 1036 0 0
+/wp-includes/widgets/ 4 2580 0 2
+/search/1/feed/rss2/services/feed/rss2/ 2 2500 0 0
+/wp-admin/css/colors/midnight/ 2 894 0 0
+/wp-json/wp/v2/users/1 1 268 1 1
+/wp-content/uploads/ 4 1776 0 0
+/search/1/feed/rss2/ 2 176494 0 0
+/wp-includes/images/smilies/ 4 3088 0 0
+/wp-includes/images/media/ 4 2084 0 0
+/wp-includes/images/crystal/ 4 2164 0 0
+/wp-admin/css/colors/coffee/ 2 890 0 0
+/wp-includes/Text/Diff/Renderer/ 4 1476 0 0
+/wp-includes/random_compat/ 4 2264 0 0
+END_SIDER

@@ -1,0 +1,481 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 201810 will be lost/reset.
+# Last config file used to build this data file was /home2/jandrews2014/tmp/awstats/awstats.forwardprogramming.site.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2025                
+POS_TIME 2697                
+POS_VISITOR 10063               
+POS_DAY 11964               
+POS_DOMAIN 3446                
+POS_LOGIN 3824                
+POS_ROBOT 3979                
+POS_WORMS 4569                
+POS_EMAILSENDER 4700                
+POS_EMAILRECEIVER 4843                
+POS_SESSION 12774               
+POS_SIDER 12965               
+POS_FILETYPES 4978                
+POS_DOWNLOADS 5249                
+POS_OS 5352                
+POS_BROWSER 5573                
+POS_SCREENSIZE 6126                
+POS_UNKNOWNREFERER 6200                
+POS_UNKNOWNREFERERBROWSER 6628                
+POS_ORIGIN 6925                
+POS_SEREFERRALS 7065                
+POS_PAGEREFS 7247                
+POS_SEARCHWORDS 7395                
+POS_KEYWORDS 7547                
+POS_MISC 2361                
+POS_ERRORS 7606                
+POS_CLUSTER 3680                
+POS_SIDER_404 7759                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20181101033510 1 0 13101342530718
+FirstTime 20181001000635
+LastTime 20181031212716
+LastUpdate 20181102022620 1 0 0 0 0
+TotalVisits 203                 
+TotalUnique 45                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 46                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+RealPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+DirectorSupport 0 0 0
+JavascriptDisabled 0 0 0
+AddToFavourites 0 0 0
+TotalMisc 0 0 0
+PDFSupport 0 0 0
+FlashSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 5 5 0 26 29 175836
+1 15 15 601982 27 30 170979
+2 10 10 181560 26 28 115208
+3 18 18 338510 29 33 255354
+4 15 51 1419795 30 36 409159
+5 10 10 181560 17 36 1336035
+6 4 44 1371797 9 10 84825
+7 5 5 0 15 19 86064
+8 0 0 0 5 5 670
+9 11 11 184280 29 35 423634
+10 18 120 5811243 9 34 830439
+11 10 10 121040 16 20 790253
+12 3 3 60520 10 11 1549
+13 8 8 121040 15 17 177367
+14 3 3 0 11 11 152829
+15 8 8 92619 15 54 2211002
+16 9 9 121040 30 31 296553
+17 3 3 0 12 13 1709
+18 8 8 89678 9 10 87772
+19 22 22 1313 10 11 87638
+20 8 8 196425 24 25 227847
+21 343 389 13418455 332 393 7087382
+22 2 2 60520 6 6 804
+23 10 10 121040 15 19 152948
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 12
+us 519 743 23408532
+ua 6 6 92795
+ru 5 5 213659
+cz 5 5 184280
+nl 3 3 135905
+in 3 3 181560
+cn 2 2 6624
+rs 1 1 60520
+at 1 1 28982
+ca 1 1 60520
+gb 1 1 60520
+br 1 1 60520
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 11
+spider 258 5584980 20181031212721 0
+facebookexternalhit/ 62 3277865 20181013155356 1
+bingbot/ 35 1713382 20181022165025 4
+Uptimebot/ 12 737 20181031115430 11
+unknown 8 536 20181030014030 8
+(firefox/)([0-9]\.|[0-1][0]\.) 5 14065 20181031181619 0
+DuckDuckGo\-Favicons\-Bot/ 2 121040 20181007145427 0
+no_user_agent 1 60520 20181004112202 0
+bot[\s_+:,\.\;\/\\-] 1 60520 20181029150730 0
+Python\-urllib/ 1 67 20181031044048 1
+Googlebot/ 1 60520 20181030135700 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+php 180 3256149 0 0
+ttf 2 219604 0 0
+gif 2 52279 0 0
+html 280 12041353 0 0
+js 118 3527012 0 0
+Unknown 49 69885 0 0
+jpg 4 181700 0 0
+woff2 6 321672 0 0
+css 68 2007565 0 0
+xml 31 32395 0 0
+png 32 2784803 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+//wp-content/plugins/elementor/readme.txt 31 0 3273321
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 12
+win10 1 1
+win8.1 1 1
+macosx10 2 2
+win7 385 335
+linux 152 19
+macosx4 2 2
+macosx12 56 16
+winlong 4 4
+Unknown 165 164
+macosx11 1 1
+winxp 2 2
+linuxandroid 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 27
+chrome58.0.3029.96 1 1
+chrome61.0.3163.100 3 3
+msie11.0 1 1
+firefox36.0 2 2
+chrome58.0.3029.110 13 13
+chrome65.0.3325.181 1 1
+chrome34.0.1847.116 3 3
+firefox45.0 6 6
+chrome45.0.2454.101 2 2
+chrome70.0.3538.77 111 9
+chrome46.0.2490.80 1 1
+edge34 2 2
+mozilla 43 12
+msie9.0 371 321
+firefox55.0 2 2
+msie7.0 1 1
+chrome60.0.3112.101 2 2
+opera11.10 1 1
+chrome45.0.2454.94 1 1
+firefox33.0 1 1
+firefox42.0 1 1
+firefox34.0 2 2
+Unknown 155 154
+firefox29.0 2 2
+firefox61.0 40 0
+chrome26.0.1410.63 1 1
+netscape 3 3
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 7
+python-requests/2.20.0 20181026092242
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20181009195402
+Mozilla 20181023031714
+WordPress/4.9.8;_http://forwardprogramming.site 20181031212649
+Cpanel-HTTP-Client/1.0 20181009195400
+python-requests/2.18.4 20181002095514
+python-requests/2.18.3 20181031044048
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 5
+python-requests/2.20.0 20181026092242
+WordPress/4.9.8;_http://forwardprogramming.site 20181031212649
+Cpanel-HTTP-Client/1.0 20181009195400
+python-requests/2.18.4 20181002095514
+python-requests/2.18.3 20181031044048
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 58 99
+From1 0 0
+From2 321 371
+From3 0 0
+From4 169 302
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google_com 1 1
+www_google_com 320 370
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+404 161 4218629
+405 1 42
+302 1 0
+301 107 0
+400 5 5
+406 34 7684
+403 221 43264
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 46
+/wp-content/themes/twentytwelve/404.php 1 -
+/status 13 -
+/wp-content/plugins/downloads-manager/img/unlock.gif 1 -
+/.git/HEAD 1 -
+/jQuery-File-Upload/js/jquery.fileupload.js 1 -
+/modules/mod_feed/tmpl/mod_feed.php 1 -
+/pma/ 1 https://google.com
+/.DS_Store 10 -
+/bea_wls_deployment_internal 8 -
+/scripts/setup.php 3 -
+/wp-json/wp/v2/posts/None 1 -
+/media/media.php 1 -
+/wp-json/oembed/1.0/%5C%22http:%5C/%5C/forwardprogramming.site%5C/%5C%22 1 http://www.google.com/url
+/admin/login.php 1 -
+/console/css/dashboard-min.css 13 -
+/wp-content/plugins/formcraft/file-upload/server/content/upload.php 2 -
+/wp-content/uploads/2018/10/settings_auto.php 1 -
+/wp-content/plugins/viral-optins/api/uploader/file-uploader.php 1 -
+/wp-content/themes/default/404.php 1 -
+/wp-content/themes/agregado/404.php 1 -
+/wp-content/plugins/category-page-icons/css/menu.css 1 -
+/wp-content/themes/sketch/404.php 1 -
+/interst.php 1 -
+/wp-json/oembed/1.0/%5C%22http:%5C/%5C/forwardprogramming.site%5C/about%5C/%5C%22 1 http://www.google.com/url
+/templates/system/css/system.css 1 -
+/fckeditor/editor/filemanager/connectors/php/upload.php 1 -
+/services 40 -
+/phpmyadmin/ 1 https://google.com
+/th1s_1s_a_4o4.html 31 -
+/wp-json/oembed/1.0/%5C%22http:%5C/%5C/forwardprogramming.site%5C/projects%5C/%5C%22 1 http://www.google.com/url
+/wp-content/plugins/hd-webplayer/playlist.php 1 -
+/payload.php 1 -
+/wp-content/themes/CherryFramework/404.php 1 -
+/wp-content/plugins/wp-mobile-detector/resize.php 1 -
+/admin/images/cal_date_over.gif 1 -
+/wp-content/themes/classic/404.php 1 -
+/admin.php 1 -
+/ads.txt 1 -
+/jm-ajax/upload_file/ 1 -
+/ 4 http://forwardprogramming.site/
+/wp-content/themes/bloggingcream/404.php 1 -
+/wp-content/plugins/cherry-plugin/admin/import-export/settings_auto.php 1 -
+/wp-content/plugins/barclaycart/uploadify/settings_auto.php 1 -
+/wp-content/themes/advancesettings/404.php 1 -
+/wp-json/oembed/1.0/%5C%22http:%5C/%5C/forwardprogramming.site%5C/contact%5C/%5C%22 1 http://www.google.com/url
+/sitemap.xml 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 46
+192.185.46.254 155 155 1052 20181031212649
+184.154.139.50 101 106 4024440 20181031212716
+184.154.139.4 66 92 3341430 20181025212256
+184.154.139.49 53 59 2236144 20181028211703
+184.154.139.51 52 56 2104128 20181024212206
+184.154.139.52 48 57 1939061 20181029212236
+104.192.74.197 10 112 5690203 20181027103412
+104.192.74.28 6 6 300991 20181008014039
+104.192.74.37 6 6 300991 20181030014042
+77.234.46.193 4 4 123760 20181026092242
+193.106.30.98 3 3 176 20181015185710
+46.101.80.192 3 3 135905 20181023202036
+52.53.201.78 3 3 181560 20181021124845
+66.133.109.36 3 3 261 20181009195402
+18.188.46.23 2 34 1129714 20181031044047
+14.141.107.206 2 2 121040 20181023031714
+77.72.82.12 2 2 32099 20181011154124
+171.34.69.41 2 2 6624 20181021032838
+195.242.80.128 1 1 29286 20181009033640
+14.142.64.3 1 1 60520 20181019232133
+69.164.111.198 1 1 60520 20181009211810
+68.170.59.169 1 1 60520 20181023024250
+185.82.236.13 1 1 60520 20181030111836
+54.193.17.121 1 1 60520 20181006133701
+45.76.23.205 1 1 60520 20181018164031
+35.196.32.196 1 1 60520 20181014054122
+35.237.195.42 1 1 60520 20181024090519
+34.211.42.168 1 1 2813 20181022045436
+91.90.192.172 1 1 60520 20181028053320
+192.3.7.231 1 1 60520 20181005035444
+194.63.141.238 1 1 60520 20181031032244
+178.222.231.72 1 1 60520 20181022154642
+192.161.57.92 1 1 60520 20181020103823
+167.114.117.176 1 1 60520 20181008033023
+193.171.202.150 1 1 28982 20181011183224
+52.39.131.206 0 40 1368984 
+206.180.165.147 1 1 60520 20181017132725
+177.53.174.118 1 1 60520 20181022234402
+54.175.16.19 1 1 60520 20181026221101
+163.172.4.153 1 1 60520 20181023162450
+35.237.232.89 1 1 60520 20181009185919
+104.36.16.123 1 1 60520 20181013020504
+178.159.215.102 1 1 2813 20181030064244
+109.202.27.172 1 1 60520 20181001023912
+185.210.218.103 1 1 60520 20181010205235
+170.79.178.185 1 1 60520 20181008100928
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20181001 16 17 526232 6
+20181002 14 18 468121 4
+20181003 16 34 1168001 3
+20181004 12 13 408008 3
+20181005 15 17 546408 5
+20181006 13 14 468528 3
+20181007 14 16 425368 5
+20181008 26 27 890559 10
+20181009 34 38 577628 8
+20181010 14 16 470316 5
+20181011 19 20 469089 8
+20181012 14 15 468528 5
+20181013 16 16 448352 6
+20181014 18 18 508872 8
+20181015 15 16 465888 5
+20181016 19 22 466333 7
+20181017 15 15 448352 5
+20181018 20 21 450140 11
+20181019 18 58 1938376 8
+20181020 18 19 468528 8
+20181021 17 17 454976 7
+20181022 20 20 511685 11
+20181023 14 14 377985 9
+20181024 22 26 796140 6
+20181025 14 14 448352 4
+20181026 20 21 573900 7
+20181027 20 122 5942130 5
+20181028 15 16 529048 5
+20181029 16 16 387832 7
+20181030 24 24 752156 10
+20181031 20 52 1638586 9
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+0s-30s 189
+30s-2mn 2
+5mn-15mn 4
+30mn-1h 6
+15mn-30mn 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 41
+/wp-cron.php 140 0 129 128
+/ 50 2933847 46 30
+/about/ 35 1541610 17 2
+/projects/ 33 1857933 0 1
+/contact/ 33 1173414 0 1
+/search/1/feed/rss2/ 31 2735626 0 30
+/feed/ 31 33852 0 0
+/wp-includes/wlwmanifest.xml 31 32395 0 0
+/wp-json/oembed/1.0/embed 31 68572 0 0
+/wp-admin/load-styles.php 31 3235284 0 0
+/wp-json/ 31 1680603 2 0
+/comments/feed/ 31 23405 0 0
+/wp-login.php 7 20689 4 4
+/wp-content/themes/oceanwp/assets/fonts/simple-line-icons/Simple-Line-Icons.woff2 3 90192 0 0
+/wp-content/themes/oceanwp/assets/fonts/fontawesome/fontawesome-webfont.woff2 3 231480 0 0
+/author/jamie/ 2 58572 1 2
+/.well-known/acme-challenge/7C8WH4BE3T2KQMT6VCW4910NZPTL_K7J 1 64 0 0
+/search/1/feed/rss2/services/feed/rss2/ 1 1249 0 0
+/.well-known/acme-challenge/TB8Z91Y-NjsqKcaFoKRkVboALomX1AD3486K-i4QSXU 1 87 0 1
+/wp-content/themes/oceanwp/assets/fonts/simple-line-icons/Simple-Line-Icons.ttf 1 54056 0 1
+/.well-known/acme-challenge/C0Z9HG4GAX8L5VOLR1KDCHHDY3YTPGW8 1 64 0 0
+/.well-known/acme-challenge/jg4EjNd6J8EJ3CxTV4mj2tsQn_YP4oGapqI1_USS708 1 87 0 0
+/.well-known/acme-challenge/Ly-bpc2OsCSmRsujbBdzQHxbekJ1bAw_FhvzOM8WIl4 1 87 1 0
+/.well-known/acme-challenge/FpfZYwtOkBzRDHTO4_cZJMjqbu7FieiMOOHq6pn_-Og 1 87 0 0
+/wp-content/themes/oceanwp/assets/fonts/fontawesome/fontawesome-webfont.ttf 1 165548 1 0
+/.well-known/acme-challenge/JM-9Y2G9ANG01B_EMBGXC004BBPH1UTE 1 64 0 0
+/.well-known/acme-challenge/X377WDJI5I2TK820WTCS16TXS93RUJHQ 1 64 0 0
+/wp-load.php 1 0 1 1
+/.well-known/acme-challenge/OZ5KP25HAGNSNADLY87W92WL3MFU-MS2 1 64 0 0
+/.well-known/acme-challenge/EH4KTG58TUMJMPW_FFBMF626199J71BT 1 64 0 0
+/.well-known/acme-challenge/XHVTCZIGEJYKE3RTH9FI0W3CBI_OD1OP 1 64 0 0
+/.well-known/acme-challenge/gqvP20SKv0Y6t7ttxzKamkQJo-jOkcon6RrEADVh1SU 1 87 0 0
+/search/1/feed/rss2/about/feed/rss2/ 1 1240 0 0
+/.well-known/acme-challenge/jJp1V9O_UeaE5OooiqVhNObDXag0IJEUQMcb8lXhofA 1 87 0 1
+/.well-known/acme-challenge/8L4IY93873_KMICLHGP_DQNOSO7-SKHO 1 64 0 0
+/wp-content/themes/twentyseventeen/404.php 1 176 1 1
+/.well-known/acme-challenge/6_Z4Z0OWC7_U8M3R92Y8KI6MVEG2WC1I 1 64 0 0
+/.well-known/acme-challenge/4TL3BX6L-62FB3SPBF4YH_TZDJ18SCC0 1 64 0 0
+/.well-known/acme-challenge/ZBGQCMY-YWP0D8KOCA-5FZWLQJ0J3Y5B 1 64 0 0
+/wp-json/wp/v2/posts/ 1 2 0 0
+/.well-known/acme-challenge/dqYeMfoIKdwBdxcqOmVxJLHlZC4cssISl9r4AMKdZWY 1 87 0 0
+END_SIDER

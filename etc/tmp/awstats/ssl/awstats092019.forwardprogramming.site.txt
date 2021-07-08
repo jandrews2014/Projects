@@ -1,0 +1,374 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 201909 will be lost/reset.
+# Last config file used to build this data file was /home2/jandrews2014/tmp/awstats/ssl/awstats.forwardprogramming.site.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2029                
+POS_TIME 2707                
+POS_VISITOR 8428                
+POS_DAY 9323                
+POS_DOMAIN 3344                
+POS_LOGIN 3611                
+POS_ROBOT 3766                
+POS_WORMS 4122                
+POS_EMAILSENDER 4253                
+POS_EMAILRECEIVER 4396                
+POS_SESSION 9871                
+POS_SIDER 10040               
+POS_FILETYPES 4531                
+POS_DOWNLOADS 4631                
+POS_OS 4679                
+POS_BROWSER 4779                
+POS_SCREENSIZE 4968                
+POS_UNKNOWNREFERER 5042                
+POS_UNKNOWNREFERERBROWSER 5471                
+POS_ORIGIN 5781                
+POS_SEREFERRALS 5915                
+POS_PAGEREFS 6059                
+POS_SEARCHWORDS 6238                
+POS_KEYWORDS 6390                
+POS_MISC 2371                
+POS_ERRORS 6449                
+POS_CLUSTER 3467                
+POS_SIDER_404 6625                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20191001020535 12 2482 21001159248588
+FirstTime 20190901034512
+LastTime 20190930232111
+LastUpdate 20191001073659 12 0 11 0 0
+TotalVisits 66                  
+TotalUnique 21                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 21                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+DirectorSupport 0 0 0
+RealPlayerSupport 0 0 0
+AddToFavourites 0 2 0
+WindowsMediaPlayerSupport 0 0 0
+TotalMisc 0 0 0
+JavascriptDisabled 0 0 0
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+FlashSupport 0 0 0
+PDFSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 2 2 1518
+1 4 4 63669 49 49 6568
+2 3 3 0 8 12 7662
+3 3 3 31828 8 8 242996
+4 0 0 0 5 5 1516
+5 14 14 306213 51 51 121311
+6 3 3 31832 2 2 0
+7 1 1 0 2 2 1516
+8 3 3 31832 56 64 129236
+9 2 2 0 51 63 215554
+10 3 3 0 10 22 271422
+11 1 1 0 5 5 122788
+12 4 4 0 4 18 222078
+13 4 4 0 4 8 1489652
+14 0 0 0 7 7 0
+15 3 3 31832 7 7 678
+16 3 3 31828 1 1 0
+17 6 6 55940 13 13 2422
+18 1 1 0 2 2 0
+19 17 17 183268 5 5 678
+20 2 2 0 3 3 31832
+21 3 3 24108 2 6 102998
+22 6 6 153104 161 161 3220931
+23 3 3 60636 28 210 1887076
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 4
+us 72 72 693830
+de 9 9 95496
+ru 6 6 95492
+ca 2 2 121272
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+Googlebot/ 206 1739790 20190927135816 16
+bingbot/ 20 128132 20190930121930 12
+Googlebot\-Image/ 14 1952576 20190927135818 0
+bot[\s_+:,\.\;\/\\-] 14 848904 20190927222952 0
+(firefox/)([0-9]\.|[0-1][0]\.) 1 0 20190928014421 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 2
+html 42 1000024 0 0
+php 47 6066 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 3
+win7 16 16
+linux 8 8
+Unknown 65 65
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 7
+chrome76.0.3809.100 6 6
+firefox64.0 10 10
+chrome36.0.1985.143 3 3
+chrome40.0.2214.85 3 3
+chrome75.0.3770.142 2 2
+mozilla 6 6
+Unknown 59 59
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+WordPress/4.9.11;_http://forwardprogramming.site 20190925053825
+Mozilla/5.0_zgrab/0.x_(compatible;_Researchscan/t13rl;__http://researchscan.comsys.rwth-aachen.de) 20190926150012
+WordPress/4.9.11;_https://forwardprogramming.site 20190930232112
+Go-http-client/2.0 20190926171959
+WordPress/4.9.10;_https://forwardprogramming.site 20190904163716
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+WordPress/4.9.11;_https://forwardprogramming.site 20190930232112
+Go-http-client/2.0 20190926171959
+WordPress/4.9.10;_https://forwardprogramming.site 20190904163716
+WordPress/4.9.11;_http://forwardprogramming.site 20190925053825
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 38 38
+From1 0 0
+From2 0 0
+From3 6 6
+From4 45 45
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://192.185.46.254:443 6 6
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 9
+302 5 0
+406 32 7232
+301 81 646
+500 43 21944
+409 1 83
+206 2 4
+404 134 3355184
+403 152 20368
+400 19 9
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 64
+/test/rss/catalog/review 2 -
+/old/rss/catalog/review 2 -
+/dev/rss/catalog/notifystock 2 -
+/rss/catalog/notifystock 2 -
+/test/admin/ 2 -
+/2 6 -
+/rss/catalog/review 2 -
+/staging/rss/order/new 2 -
+/demo/downloader/ 2 -
+/demo/rss/catalog/review 2 -
+/shop/rss/catalog/notifystock 2 -
+/old/rss/order/new 2 -
+/demo/admin/ 2 -
+/magento/errors/503.php 2 -
+/forum/ 2 -
+/test/downloader/ 2 -
+/store/errors/503.php 2 -
+/dev/admin/ 2 -
+/magento/downloader/ 2 -
+/test/rss/catalog/notifystock 2 -
+/staging/admin/ 2 -
+/shop/errors/503.php 2 -
+/services 2 -
+/shop/rss/order/new 2 -
+/dev/downloader/ 2 -
+/dev/errors/503.php 2 -
+/vb5/ 2 -
+/magento/rss/catalog/notifystock 2 -
+/demo/rss/catalog/notifystock 2 -
+/staging/rss/catalog/review 2 -
+/vbulletin/ 2 -
+/store/rss/order/new 2 -
+/demo/errors/503.php 2 -
+/.well-known.zip 1 -
+/vb/ 2 -
+/staging/errors/503.php 2 -
+/store/rss/catalog/review 2 -
+/old/downloader/ 2 -
+/old/errors/503.php 2 -
+/test/rss/order/new 2 -
+/old/rss/catalog/notifystock 2 -
+/test/errors/503.php 2 -
+/rss/order/new 2 -
+/demo/rss/order/new 2 -
+/old/admin/ 2 -
+/.well-known.gz 1 -
+/magento/rss/order/new 2 -
+/errors/503.php 2 -
+/store/rss/catalog/notifystock 2 -
+/shop/downloader/ 2 -
+/magento/rss/catalog/review 2 -
+/store/downloader/ 2 -
+/dev/rss/order/new 2 -
+/vbulletin5/ 2 -
+/forums/ 2 -
+/dev/rss/catalog/review 2 -
+/staging/rss/catalog/notifystock 2 -
+/shop/admin/ 2 -
+/store/admin/ 2 -
+/downloader/ 2 -
+/3 6 -
+/shop/rss/catalog/review 2 -
+/magento/admin/ 2 -
+/staging/downloader/ 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 21
+192.185.46.254 43 43 0 20190930232112
+137.226.113.27 4 4 63664 20190926150012
+92.63.111.27 4 4 63660 20190921171615
+159.65.243.149 4 4 121272 20190925054213
+138.246.253.5 3 3 0 20190930232111
+54.212.30.170 2 2 24108 20190918213911
+192.30.164.48 2 2 63669 20190925053537
+165.227.158.27 2 2 63669 20190926012822
+54.188.158.104 2 2 24108 20190915191027
+213.159.213.236 2 2 31832 20190930191823
+35.163.66.244 2 2 31832 20190913191038
+54.190.117.77 2 2 31832 20190908191108
+54.184.113.216 2 2 24108 20190926171959
+34.222.95.202 2 2 31832 20190921191425
+137.226.113.28 2 2 31832 20190920062747
+198.27.69.176 2 2 121272 20190909225955
+52.13.22.157 2 2 31832 20190920220238
+3.17.79.170 2 2 31828 20190901034512
+52.25.20.242 2 2 31832 20190912191127
+162.241.175.243 2 2 121272 20190910051210
+167.99.232.64 1 1 60636 20190909230137
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 25
+20190901 2 2 31828 1
+20190904 3 3 31828 2
+20190905 1 1 0 1
+20190906 5 5 31832 4
+20190907 1 1 0 1
+20190908 3 3 31832 2
+20190909 3 3 181908 2
+20190910 3 3 121272 2
+20190911 1 1 0 1
+20190912 3 3 31832 2
+20190913 3 3 31832 2
+20190914 2 2 0 2
+20190915 3 3 24108 2
+20190916 2 2 0 2
+20190917 3 3 0 3
+20190918 4 4 24108 3
+20190920 6 6 63664 4
+20190921 6 6 63664 4
+20190922 1 1 0 1
+20190924 3 3 0 3
+20190925 8 8 184941 3
+20190926 11 11 119609 8
+20190927 5 5 0 5
+20190928 2 2 0 2
+20190930 5 5 31832 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+2mn-5mn 1
+15mn-30mn 1
+0s-30s 64
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 4
+/wp-cron.php 43 0 42 42
+/ 42 1000024 23 21
+/wp-admin/admin-post.php 2 0 1 1
+/wp-login.php 2 6066 0 2
+END_SIDER

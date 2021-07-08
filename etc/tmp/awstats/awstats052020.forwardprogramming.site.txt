@@ -1,0 +1,1357 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202005 will be lost/reset.
+# Last config file used to build this data file was /home2/jandrews2014/tmp/awstats/awstats.forwardprogramming.site.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2025                
+POS_TIME 2707                
+POS_VISITOR 109597              
+POS_DAY 116595              
+POS_DOMAIN 3581                
+POS_LOGIN 4206                
+POS_ROBOT 4361                
+POS_WORMS 4906                
+POS_EMAILSENDER 5037                
+POS_EMAILRECEIVER 5180                
+POS_SESSION 117456              
+POS_SIDER 117667              
+POS_FILETYPES 5315                
+POS_DOWNLOADS 5588                
+POS_OS 5745                
+POS_BROWSER 6025                
+POS_SCREENSIZE 7488                
+POS_UNKNOWNREFERER 7562                
+POS_UNKNOWNREFERERBROWSER 8174                
+POS_ORIGIN 8562                
+POS_SEREFERRALS 8706                
+POS_PAGEREFS 8873                
+POS_SEARCHWORDS 9086                
+POS_KEYWORDS 9238                
+POS_MISC 2371                
+POS_ERRORS 9297                
+POS_CLUSTER 4062                
+POS_SIDER_404 9488                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200601003707 181 47622 19884439315415
+FirstTime 20200501003807
+LastTime 20200531233912
+LastUpdate 20200601094113 181 0 180 0 0
+TotalVisits 451                 
+TotalUnique 175                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 176                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavascriptDisabled 0 0 0
+QuickTimeSupport 0 0 0
+PDFSupport 0 0 0
+DirectorSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+JavaEnabled 0 0 0
+FlashSupport 0 0 0
+AddToFavourites 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 29 29 473090 568 591 6203202
+1 47 47 624295 618 630 5958089
+2 41 41 482240 116 127 1802902
+3 25 25 284938 60 62 584215
+4 67 67 848501 282 292 2862256
+5 17 17 110922 59 119 897536
+6 62 118 1688806 176 342 3129662
+7 19 19 189830 63 79 296451
+8 54 54 1145505 200 221 2874544
+9 32 32 548231 61 127 931794
+10 32 32 473956 90 200 1245559
+11 39 39 571075 110 114 577971
+12 43 101 1325550 146 292 737038
+13 19 99 3017775 76 84 1948936
+14 27 27 541940 277 445 3182946
+15 22 22 250327 116 123 452661
+16 33 33 449800 108 118 633590
+17 55 55 1035653 65 78 719444
+18 81 81 329886 83 105 700031
+19 22 108 3510110 66 70 28010
+20 33 33 435219 176 187 1346115
+21 729 1069 27592406 1113 1648 19931264
+22 20 20 292959 34 49 3180320
+23 23 24 205970 167 258 2047103
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 28
+us 1296 1694 32858020
+gb 55 192 4807262
+ru 28 28 733780
+fr 19 19 635153
+in 18 18 385946
+ca 17 103 3756236
+nl 15 15 318912
+cn 13 13 366420
+it 13 13 539597
+vn 13 13 432048
+cz 13 13 245049
+de 12 12 372153
+gr 10 10 114892
+se 8 8 126768
+ir 7 7 191317
+ua 6 6 79202
+br 5 5 191048
+za 4 4 18956
+ch 4 4 63384
+uy 2 2 2474
+dk 2 2 31692
+eu 2 2 31692
+hn 2 2 31692
+pl 2 2 31692
+kr 2 2 31692
+zz 1 1 15846
+tr 1 1 269
+la 1 1 15792
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 10
+spider 550 15556939 20200531212813 0
+bingbot/ 284 10018704 20200527040116 48
+Googlebot/ 170 1429302 20200522055803 18
+unknown 28 1876 20200530012033 28
+bot[\s_+:,\.\;\/\\-] 20 995282 20200529050235 2
+YandexBot/ 16 127304 20200527220822 8
+no_user_agent 6 361296 20200527150153 0
+Python\-urllib/ 4 2420 20200531124613 2
+bingpreview 4 214448 20200509064744 0
+(firefox/)([0-9]\.|[0-1][0]\.) 3 47538 20200525101934 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+Unknown 169 80759 0 0
+php 373 3599356 0 0
+xml 62 64790 0 0
+woff 4 392096 0 0
+js 370 4873722 0 0
+gif 4 205728 0 0
+jpg 8 384308 0 0
+ttf 4 216224 0 0
+html 959 31161945 0 0
+png 51 3930334 0 0
+css 188 1519722 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 2
+//wp-content/plugins/elementor/readme.txt 23 0 2428593
+/wp-content/plugins/elementor/readme.txt 23 0 2428593
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 16
+winlong 20 20
+winxp 7 7
+linux 107 49
+macosx 6 6
+Unknown 643 563
+macosx12 10 10
+win2000 5 5
+macosx10 73 73
+macosx8 2 2
+win8 1 1
+win7 1123 641
+macosx11 11 11
+win10 154 153
+macosx9 2 2
+linuxandroid 10 10
+win8.1 18 18
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 68
+firefox65.0 4 4
+chrome80.0.3987.122 2 2
+firefox32.0 92 6
+chrome35.0.1916.47 2 2
+chrome46.0.2754.75 5 5
+chrome79.0 3 3
+firefox54.0 14 14
+chrome67.0.3396.87 2 2
+chrome34.0.1847.116 6 6
+opera12.14 3 3
+chrome58.0.1145.75 6 6
+chrome74.0.3729.108 2 2
+chrome79.0.3945.130 10 10
+firefox45.0 19 19
+chrome67.0.3396.99 5 5
+chrome68.0.3440.84 5 5
+firefox15.0.1 4 4
+firefox59.0 2 2
+opera52.0.2871.99 4 4
+chrome56.0.2924.87 9 9
+chrome46.0.2490.80 2 2
+chrome48.0.2564.97 2 2
+chrome73.0.3683.90 8 8
+firefox58.0 2 2
+firefox57.0 46 46
+chrome68.0.3440.106 4 4
+Unknown 462 462
+opera44.5.0692.6964 2 2
+chrome80.0.3987.149 4 4
+chrome78.0.3904.108 2 2
+chrome45.0.2454.101 71 71
+mozilla 168 88
+chrome26.0.1410.65 2 2
+chrome76.0.3809.132 2 2
+firefox62.0 12 12
+firefox36.0 3 3
+msie6.0 3 3
+chrome41.0.2228.0 2 2
+chrome74.0.3729.131 2 2
+opera54.0.2952.71 5 5
+opera53.0.2907.99 5 5
+chrome56.0.2925.37 2 2
+netscape 14 14
+chrome74.0.3729.157 2 2
+chrome45.0.2454.94 2 2
+chrome65.0.3325.146 5 5
+chrome67.0.3396.79 5 5
+chrome58.0.3029.110 10 10
+firefox56.0 4 4
+firefox75.0 2 2
+firefox64.0 1 1
+chrome79.0.3945.59 24 24
+chrome5.0.375.99 2 2
+chrome46.0.2490.86 1 0
+chrome62.0.3202.94 3 3
+chrome80.0.3987.116 2 2
+chrome62.0.2710.68 2 2
+chrome63.0.3239.132 2 2
+firefox63.0 5 5
+firefox72.0 7 7
+firefox40.1 62 6
+chrome74.0.3729.169 7 7
+firefox28.0 8 8
+chrome36.0.1985.143 4 4
+firefox47.0 2 2
+msie9.0 934 594
+chrome75.0.3770.142 67 9
+firefox52.53.00 5 5
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 11
+myseosnapshot/1.0 20200505214558
+Cpanel-HTTP-Client/1.0 20200511185426
+Mozilla/4.0_(compatible;_Netcraft_Web_Server_Survey) 20200529184038
+Mozilla/5.0_(compatible;_ips-agent) 20200519082353
+User-Agent\ 20200528140642
+WordPress/4.9.14;_http://forwardprogramming.site 20200531233912
+Go-http-client/1.1 20200531221616
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20200511211122
+WordPress 20200501205141
+Mozilla 20200526142638
+Mozilla/5.0_(compatible;_Dataprovider.com) 20200512131054
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 7
+User-Agent\ 20200528140642
+WordPress/4.9.14;_http://forwardprogramming.site 20200531233912
+Go-http-client/1.1 20200531221616
+WordPress 20200501205141
+Microsoft_Office/16.0_(Windows_NT_6.2;_Microsoft_Word_16.0.9330;_Pro) 20200512130819
+myseosnapshot/1.0 20200505214558
+Cpanel-HTTP-Client/1.0 20200511185426
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 578 579
+From1 13 13
+From2 594 934
+From3 8 8
+From4 378 658
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 594 934
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://www.facebook.net 7 7
+https://www.netcraft.com/survey/ 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 9
+500 1 1237
+405 20 840
+403 1365 182910
+409 127 10541
+302 13 0
+400 15 15
+404 1726 32997129
+406 1433 323858
+301 576 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 689
+/wp-build-report-site.php.suspected 2 -
+/wordpress.rar 2 -
+/wp-content/uploads/2019/10/wp-simple-plugin.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2019/10/wp-simple-plugin.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/foten.tar.gz 1 -
+/wp-config.phpback 2 -
+/wp-content/uploads/up.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/up.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/cache/log/000000/varnish.log 1 -
+/old-wp/ 4 -
+/wp-content/uploads/2020/03/wp-simple-plugin.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/03/wp-simple-plugin.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/db.zip 2 -
+/data.gzip 2 -
+//laravel/vendor/phpunit/phpunit/phpunit.xsd 1 -
+/wp.gz 2 -
+/wp-config.php_old7 2 -
+/wp-includes/indeh.php 6 http://site.ru
+/2018/ 4 -
+/wp-content/uploads/2019/06/wp-simple-plugin.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2019/06/wp-simple-plugin.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/master.zip 2 -
+/archive.zip 2 -
+/wp-admin/css/common.php 1 http://site.ru
+/wp-content/plugins/tassembly/js/js.php 2 http://www.facebook.net/
+/wp-content/s.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/s.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/db.rar 2 -
+/www.funknsoulshop.pl.rar 1 -
+//wp-content/plugins/apikey/apikey.php 1 -
+/new.zip 2 -
+/wp-content/uploads/2019/01/wp-upd.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2019/01/wp-upd.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-cron.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-cron.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/uploads/2020/04/wp-simple-plugin-1.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/04/wp-simple-plugin-1.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/uploads/2020/01/wp-zip-plugin.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/01/wp-zip-plugin.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/gallery.php 4 http://site.ru
+/wp-content/plugins/dzs-videogallery/class_parts/vendor/phpunit/phpunit/build.xml 2 -
+/wordpress/ 10 -
+/assets/plugins/jquery-file-upload/server/php/ 2 -
+/twentytwelve/functions.php 2 forwardprogramming.site
+/cache_.php 2 -
+/lib/downloadlink.php 2 -
+/wpdemos.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wpdemos.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/phpMyAdmin/ 3 -
+/wp-content/themes/plaintext/404.php 4 -
+/wp-content/plugins/userpro/index.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/plugins/userpro/index.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/veggiedog.gzip 2 -
+/adminer.php 4 -
+/wp-crawl.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-crawl.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/cms.gz 2 -
+/wp-content/plugins/wp-support-plus-responsive-ticket-system/includes/admin/downloadAttachment.php 2 -
+/www.funknsoulshop.pl.gzip 1 -
+/app.gzip 2 -
+/wp-content/uploads/2018/2018.php.suspected 2 -
+/tmp/ 4 -
+/wp-content/uploads/2020/03/wp-zip-plugin-2.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/03/wp-zip-plugin-2.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/cache/simple.php5 2 http://site.ru
+/2020/ 4 -
+/wp-ajax-hook.php.suspected 2 -
+/data.rar 2 -
+/.well-known/wp-craft-report.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/.well-known/wp-craft-report.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/new/wp-includes/wlwmanifest.xml 2 -
+/wp-content/uploads/2018/2018.php 2 -
+/backups.tar.gz 2 -
+/wp-content/uploads/2020/03/wp-zip-plugin.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/03/wp-zip-plugin.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-m.php 4 http://site.ru
+/www.funknsoulshop.pl.tar.gz 1 -
+/.well-known.gz 2 -
+/furrydance.gzip 1 -
+/jm-ajax/upload_file/ 2 -
+/wp-content/uploads/ld.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/ld.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/themes/kap/download.php 2 -
+/bk/ 4 -
+/wp-upd.php.suspected 2 -
+/temp/ 4 -
+/// 1 -
+/wp-content/s.php.suspected 2 -
+/wp-content/plugins/wp-gdpr-compliance/wp-gdpr-compliance.php 2 -
+/wp-content/plugins/woopra/inc/php-ofc-library/ofc_upload_image.php 2 http://www.google.com/
+/dump.gzip 2 -
+/wp-content/plugins/formcraft/file-upload/server/php/files/wp-upd.php.suspected 2 -
+/download_file.php 2 -
+/header-cache.php 2 -
+/license.php 2 -
+/.well-known/wp-bk-report.php 2 -
+/sito/ 4 -
+/wp-content/plugins/wp-gdpr-compliance/wp-gdpr-compliance.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/plugins/wp-gdpr-compliance/wp-gdpr-compliance.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/plugins/wp-symposium/server/php/ 2 http://www.google.com/
+/installer.gzip 2 -
+/wp-simple-plugin.php 2 -
+/wp-content/uploads/file-manager/log.txt 2 -
+/wp-content/plugins/wp-hello-plugin/wp-hello-plugin.php/wp-content/uploads/2019/01/wp-upd.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk 2 http://forwardprogramming.site/wp-content/plugins/wp-hello-plugin/wp-hello-plugin.php/wp-content/uploads/2019/01/wp-upd.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/db.gzip 2 -
+/wp-content/plugins/wp-seo-spy-google/ofc/php-ofc-library/ofc_upload_image.php 2 http://www.google.com/
+/wp-content/plugins/fluid_forms/file-upload/server/php/files/wp-upd.php.suspected 1 -
+/wp-cl-plugin.php 6 forwardprogramming.site
+/wp-crawl.php 2 -
+/foten.zip 1 -
+/main/wp-includes/wlwmanifest.xml 2 -
+/OMC_template.gz 2 -
+/wp-craft-report-conf.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-craft-report-conf.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-system.php 2 forwardprogramming.site
+/www/wp-includes/wlwmanifest.xml 2 -
+/wp-admin/maint/images.php 2 http://site.ru
+/wp-config.php_old4 2 -
+/.well-known/wp-craft-report.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/.well-known/wp-craft-report.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/pma/ 3 -
+/wp-content/uploads/2018/12/wp-upd.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2018/12/wp-upd.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-config.new 2 -
+/cgi-bin.gz 2 -
+/vendor/phpunit/phpunit/build.xml 2 -
+/wp-content/uploads/2020/01/backup-wxoc.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/01/backup-wxoc.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/plugins/wp-slimstat-ex/lib/ofc/php-ofc-library/ofc_upload_image.php 2 http://www.google.com/
+/wp-content/uploads/2020/03/wp-hello-plugin-1.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/03/wp-hello-plugin-1.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wpdemos.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wpdemos.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/InCreate-FullPackage.rar 2 -
+/wp-content/uploads/2020/03/wp-hello-plugin-2.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/03/wp-hello-plugin-2.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-simple-plugin.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-simple-plugin.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/develop/ 2 -
+/wp-content/uploads/wp-header-template.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/wp-header-template.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/uploads/2019/01/wp-upd.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2019/01/wp-upd.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/connect.php 4 -
+/mdocs-posts/ 2 -
+/assets/global/plugins/jquery-file-upload/server/php/ 2 -
+/wp-content/uploads/2019/12/wp-simple-plugin.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2019/12/wp-simple-plugin.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/dev/wp-includes/wlwmanifest.xml 2 -
+/wp-content/plugins/wp-file-upload/css/wordpress_file_upload_adminbarstyle.css 10 -
+/app.gz 2 -
+/phpformbuilder/plugins/jQuery-File-Upload/server/php/ 2 -
+/wp-craft-report.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-craft-report.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/archive.tar.gz 2 -
+/wp-content/uploads/2020/02/wp-hello-plugin-2.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/02/wp-hello-plugin-2.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-config.php_bak 4 -
+/wp.tar.gz 2 -
+/roots.php 2 http://site.ru
+/wp-content/uploads/2020/02/wp-hello-plugin.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/02/wp-hello-plugin.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/plugins/docs-assembly/js/js.php 2 http://www.facebook.net/
+/wp-simple-plugin.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-simple-plugin.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/foten.gzip 1 -
+/wp-content/uploads/2020/02/wp-block-plugin-1.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/02/wp-block-plugin-1.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/cache/log/000000/pagecache.log 1 -
+/wp-content/plugins/crelly-slider/wordpress/temp/super-socialat/super_socialat.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_d 2 http://forwardprogramming.site/wp-content/plugins/crelly-slider/wordpress/temp/super-socialat/super_socialat.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/cms.gzip 2 -
+/wp-content/_input_3_vuln.htm 2 -
+/engl/functions.php 2 forwardprogramming.site
+/wp-content/plugins/linklove/ini_xml_rpc.class.php 2 forwardprogramming.site
+/wp-content/plugins/wp-hello-plugin/wp-hello-plugin.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/plugins/wp-hello-plugin/wp-hello-plugin.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/uploads/2020/01/wp-block-plugin-1.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/01/wp-block-plugin-1.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-json/oembed/1.0/%5C%22http:%5C/%5C/forwardprogramming.site%5C/projects%5C/%5C%22 1 http://www.google.com/url
+/wp-tmp5.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-tmp5.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/old-site/ 4 -
+/wp-upd.php 2 -
+/sketch/functions.php 2 forwardprogramming.site
+/wp-content/uploads/2020/02/wp-hello-plugin-1.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/02/wp-hello-plugin-1.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/OMC_template.tar.gz 2 -
+/wp-craft-report.php 3 -
+/wp-craft-report.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-craft-report.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/dev/ 4 -
+/dump.rar 2 -
+/.well-known/wp-build-report.php 2 -
+/ads.txt 12 -
+/wp-content/uploads/2018/11/wp-upd.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2018/11/wp-upd.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/2018/wp-includes/wlwmanifest.xml 2 -
+/backup.zip 2 -
+/quick_install_archive.gzip 2 -
+/backup/ 4 -
+/wpdemos.php.suspected 2 -
+/wp-content/uploads/wp-logs.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/wp-logs.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-crawl.php.suspected 1 -
+/wp-content/plugins/wp-hide-security-enhancer/router/file-process.php 2 -
+/wp-content/plugins/userpro/index.php 2 -
+/wp-content/plugins/groupsassembly/js/js.php 2 http://www.facebook.net/
+/wp-content/plugins/photo-gallery/css/bwg_edit_image.css 2 forwardprogramming.site
+/demo/wp-includes/wlwmanifest.xml 2 -
+/shop/wp-includes/wlwmanifest.xml 2 -
+/shell.php 2 http://site.ru
+/wp-config.php_old8 2 -
+/wp-content/plugins/blockspluginn/blockspluginn.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/plugins/blockspluginn/blockspluginn.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/themes/epic/includes/download.php 2 -
+/wp-up.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-up.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/plugins/wp-zipy/yusa.php 2 http://site.ru
+/wp-content/uploads/2020/01/wp-block-plugin.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/01/wp-block-plugin.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/plugins/ultimate-elementor/assets/css/modules/business-hours.css 2 forwardprogramming.site
+/foten.gz 1 -
+/oldsite/ 2 -
+/wp-content/plugins/wpwhatsmyrankvideoregular-unlimited/php-ofc-library/ofc_upload_image.php 2 http://www.google.com/
+/wp-content/uploads/2019/12/wp-simple-plugin.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2019/12/wp-simple-plugin.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/uploads/wp-upds.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/wp-upds.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/uploads/wp-crawl.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/wp-crawl.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/old.rar 2 -
+/backups.zip 2 -
+/web.zip 2 -
+/cache_.php.suspected 2 -
+/foten.se.rar 1 -
+/dump.gz 2 -
+/wp-content/plugins/sid/wp-info.php 2 http://site.ru
+/old.zip 2 -
+/.well-known/wp-build-report.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/.well-known/wp-build-report.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/web.rar 2 -
+/wp-content/plugins/super-socialat/super_socialat.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/plugins/super-socialat/super_socialat.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/website/ 2 -
+/wp-content/plugins/pdf-assembly/js/js.php 2 http://www.facebook.net/
+/wp-content/themes/oceanwp/download.php 2 -
+/wp-craft-report-conf.php 1 -
+/wp-upd.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-upd.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/.well-known/wp-build-report.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/.well-known/wp-build-report.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp.gzip 2 -
+/wp-content/plugins/blockspluginn/blockspluginn.php 2 -
+/cgi-bin.zip 2 -
+/restarter/functions.php 2 forwardprogramming.site
+/wp-admin/links.php 2 http://site.ru
+/rt18_archive.gz 2 -
+/login 16 -
+/_input_3_vuln.htm 2 -
+/samudra/functions.php 2 forwardprogramming.site
+/wp-content/uploads/2018/09/wp-pr.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2018/09/wp-pr.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/app.tar.gz 2 -
+/wp-json/oembed/1.0/%5C%22http:%5C/%5C/forwardprogramming.site%5C/%5C%22 1 http://www.google.com/url
+/wp-content/plugins/photocart-link/decode.php 2 -
+/unzip.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/unzip.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/plugins/formcraft/file-upload/server/php/files/wp-upd.php 1 -
+/db.tar.gz 2 -
+/wp-content/uploads/2020/04/wp-hello-plugin.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/04/wp-hello-plugin.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/2019/ 4 -
+/installer.zip 2 -
+/twentyeleven/functions.php 2 forwardprogramming.site
+/wp-admin/css/colors/blue/images.php 3 http://site.ru
+/wp-content/uploads/wp-config-backup.txt 2 -
+/wp-config.php1 2 -
+/backup/wp-includes/wlwmanifest.xml 2 -
+/.well-known/wp-craft-report.php 2 -
+/wp-content/uploads/wp-build-report.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/wp-build-report.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/uploads/2019/02/wp-upd.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2019/02/wp-upd.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/v2/ 4 -
+/.well-known.tar.gz 2 -
+/content-post.php 2 -
+/.well-known.gzip 2 -
+/wp-content/uploads/wp-logs.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/wp-logs.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/rt18_archive.tar.gz 2 -
+/wp-content/themes/cafesalivation/download.php 2 -
+/foten.se.gzip 1 -
+/db.copy.php 4 -
+/wp-admin/wp-upload-class.php 1 -
+/betheme/functions.php 2 forwardprogramming.site
+/wp-build-report-site.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-build-report-site.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/veggiedog.tar.gz 2 -
+/twentynineteen/functions.php 2 forwardprogramming.site
+/furrydance.zip 1 -
+/wp-content/uploads/2020/02/wp-simple-plugin.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/02/wp-simple-plugin.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/uploads/2020/03/wp-block-plugin-2.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/03/wp-block-plugin-2.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/plugins/wp-hello-plugin/wp-hello-plugin.php/wp-content/uploads/2019/01/wp-upd.php.suspected 2 -
+/backup.gz 2 -
+/pma.php 4 -
+/wp-content/plugins/drag-and-drop-multiple-file-upload-contact-form-7/assets/js/dnd-upload-cf7.js 8 -
+/wp-content/uploads/2020/04/wp-zip-plugin.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/04/wp-zip-plugin.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/uploads/wp-crawl.php 2 -
+/wp-config.php_old9 2 -
+/newsite/wp-includes/wlwmanifest.xml 2 -
+/installer.gz 2 -
+/wp-crawl.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-crawl.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/.well-known/wp-craft-report.php.suspected 1 -
+/wp-content/uploads/2020/01/wp-block-plugin.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/01/wp-block-plugin.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/doc.php 2 http://site.ru
+/wp-content/plugins/kiwi-social-share/kiwi-social-share.php 2 -
+/wp-content/uploads/wp-bk-report.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/wp-bk-report.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/InCreate-FullPackage.gz 2 -
+/backups.gz 2 -
+/public_html.rar 2 -
+/wp-up.php 1 -
+/wp-content/plugins/formidable/pro/js/ofc-library/ofc_upload_image.php 2 http://www.google.com/
+/wp2/ 4 -
+/cgi-bin.tar.gz 2 -
+/db.gz 2 -
+/beta/wp-includes/wlwmanifest.xml 2 -
+/wp-bk-report.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-bk-report.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp.zip 2 -
+/wp-content/plugins/kiwi-social-share/kiwi-social-share.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/plugins/kiwi-social-share/kiwi-social-share.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/uploads/2020/02/wp-zip-plugin.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/02/wp-zip-plugin.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-xmlrpc.php 2 forwardprogramming.site
+/site/ 4 -
+/wp-upload-class.php 2 -
+/data.gz 2 -
+/wp-content/uploads/wp-craft-report.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/wp-craft-report.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-simple-plugin.php.suspected 2 -
+/foten.se.zip 1 -
+/installer.tar.gz 2 -
+/public_html.zip 2 -
+/cms/ 4 -
+/force-download.php 2 -
+/web2/ 2 -
+/wp-content/uploads/wp-craft-report.php.suspected 2 -
+/furrydance.gz 1 -
+/master.gz 2 -
+/wp-content/uploads/wp-build-report.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/wp-build-report.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/plugins/gourl-bitcoin-payment-gateway-paid-downloads-membership/images/coins/litecoin.png 2 -
+/archive.gz 2 -
+/wp-link-opml.php 2 forwardprogramming.site
+/wp-content/plugins/background-image-cropper/content-post.php 2 http://site.ru
+/wp-admin/network/sitenet.php5.suspected 2 http://site.ru
+/quick_install_archive.gz 2 -
+/astra/functions.php 2 forwardprogramming.site
+/wp-content/plugins/wp-hello-plugin/wp-hello-plugin.php 2 -
+/adminer 4 -
+/wp-content/uploads/2020/01/backup-ekze.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/01/backup-ekze.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/plugins/wp-product-review/assets/js/main.js 6 -
+/wp.rar 2 -
+/blogg/ 2 -
+/wp-content/plugins/gourl-bitcoin-payment-gateway-paid-downloads-membership/images/coins/paid.png 2 -
+/installer.php 4 -
+/veggiedog.gz 2 -
+/wp-content/uploads/2020/01/wp-simple-plugin.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/01/wp-simple-plugin.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/plugins/jetpack/jetpack.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/plugins/jetpack/jetpack.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/uploads/2020/03/wp-simple-plugin-2.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/03/wp-simple-plugin-2.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/InCreate-FullPackage.zip 2 -
+/www.funknsoulshop.pl.zip 1 -
+/twentyfourteen/functions.php 2 forwardprogramming.site
+/wp-content/plugins/seo-spy-google-wordpress-plugin/ofc/php-ofc-library/ofc_upload_image.php 2 http://www.google.com/
+/Avada/functions.php 2 forwardprogramming.site
+/wp-content/plugins/background-image-cropper/wp-console.php 2 http://site.ru
+/blog/wp-includes/wlwmanifest.xml 2 -
+/api/vendor/phpunit/phpunit/phpunit.xsd 2 -
+/wp-content/uploads/header-template.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/header-template.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/cms.tar.gz 2 -
+/wp-test/ 2 -
+/wp-content/plugins/woocommerce-software-license-manager/vendor/phpunit/phpunit/build.xml 2 -
+/wp-content/uploads/2020/03/wp-zip-plugin-1.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/03/wp-zip-plugin-1.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/plugins/realia/libraries/PayPal-PHP-SDK/vendor/phpunit/phpunit/build.xml 2 -
+/wp-bk-report.php.suspected 2 -
+/wp-content/uploads/2018/11/wp-upd.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2018/11/wp-upd.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/new.rar 2 -
+/old/wp-includes/wlwmanifest.xml 2 -
+/wp-content/plugins/cloudflare/vendor/phpunit/phpunit/build.xml 2 -
+/wp-content/uploads/2020/01/wp-simple-plugin-2.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/01/wp-simple-plugin-2.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/uploads/2019/03/wp-simple-plugin.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2019/03/wp-simple-plugin.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-admin/wp-simple-plugin.php 2 -
+/wp-config.zip 1 -
+/wp-dl-plugin.php 6 forwardprogramming.site
+/wp-content/themes/urbancity/lib/scripts/download.php 2 -
+/wp-upd2.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-upd2.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/plugins/contabileads/integracoes/mautic/api-library/vendor/phpunit/phpunit/build.xml 2 -
+/wp-content/uploads/header-template.php 2 -
+/wp-content/plugins/jekyll-exporter/vendor/phpunit/phpunit/build.xml 2 -
+/newsleter.php.suspected 2 -
+/wp/wp-admin/install.php 2 -
+/wp-config.php_old5 2 -
+/searchreplacedb2.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/searchreplacedb2.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-craft-report-site.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-craft-report-site.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/admin/login.php 2 -
+/wp-content/force-download.php 2 -
+/wp-admin/network/sitenets.php5.suspected 1 http://site.ru
+/InCreate-FullPackage.tar.gz 2 -
+/wp-content/uploads/2020/04/wp-simple-plugin-2.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/04/wp-simple-plugin-2.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/twentyseventeen/functions.php 2 forwardprogramming.site
+/wp-content/plugins/akismet/akismet.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/plugins/akismet/akismet.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/uploads/2020/02/wp-block-plugin-2.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/02/wp-block-plugin-2.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/uploads/2020/04/wp-zip-plugin-1.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/04/wp-zip-plugin-1.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/veggiedog.zip 2 -
+/wp-content/uploads/2020/04/wp-simple-plugin.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/04/wp-simple-plugin.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-bk-report-site.php.suspected 2 -
+/blog/ 8 -
+/wp-content/plugins/jetpack/jetpack.php 2 -
+/wp-content/uploads/2018/templatic89.php.suspected 2 -
+/dump.zip 2 -
+/wp-content/uploads/wp-build-report.php.suspected 2 -
+/wp-content/uploads/2020/03/wp-hello-plugin.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/03/wp-hello-plugin.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/cgi-bin/test-cgi 16 -
+/blogs/wp-includes/wlwmanifest.xml 2 -
+/wp-includes/SimplePie/Pattern.php 2 http://site.ru
+/wp-content/uploads/wp-dl-plugin.php 1 -
+//vendor/phpunit/phpunit/phpunit.xsd 1 -
+/wp-craft-report.php.suspected 2 -
+/wordpress.gz 2 -
+/wp-json/oembed/1.0/%5C%22http:%5C/%5C/forwardprogramming.site%5C/contact%5C/%5C%22 1 http://www.google.com/url
+/wp-content/plugins/spamtask/chart/php-ofc-library/ofc_upload_image.php 2 http://www.google.com/
+/wp-build-report.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-build-report.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/en/wp-includes/wlwmanifest.xml 2 -
+/adm.php 4 -
+/wp-content/plugins/apikey/apikey.php 2 -
+/license.php.suspected 2 -
+/400.shtml 1 -
+/wp-content/uploads/2020/01/wp-hello-plugin-2.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/01/wp-hello-plugin-2.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/plugins/simple-file-list/js/ee-head.js 10 -
+/wp-build-report-conf.php 2 -
+/wp-build-report.php 1 -
+/InCreate-FullPackage.gzip 2 -
+/phpmyadmin/ 7 -
+/quick_install_archive.zip 2 -
+/gaukingo/functions.php 2 forwardprogramming.site
+/wp-content/uploads/2018/templatic89.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2018/templatic89.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/themes/themes.php 4 -
+/wp-bk-report.php 1 -
+//wp-content/plugins/elementor-pro/changelog.txt 1 -
+/wp-config.new.new 2 -
+/cms.zip 2 -
+/wp-bk-report-site.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-bk-report-site.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/plugins/crelly-slider/wordpress/temp/super-socialat/super_socialat.php 2 -
+/wp-content/plugins/hd-webplayer/playlist.php 2 -
+/wp-content/uploads/2020/04/wp-hello-plugin-1.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/04/wp-hello-plugin-1.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/uploads/header-template.php.suspected 2 -
+/wp-content/uploads/up.php.suspected 2 -
+/mide.php 4 http://site.ru
+/wp-content/plugins/downloads-manager/img/unlock.gif 2 -
+/wp-json/oembed/1.0/%5C%22http:%5C/%5C/forwardprogramming.site%5C/about%5C/%5C%22 1 http://www.google.com/url
+/wp-content/plugins/sf-booking/lib/downloads.php 4 -
+/searchreplacedb2.php 1 -
+/furrydance.tar.gz 1 -
+/cache/content-post.php 4 http://site.ru
+/wp-content/uploads/2018/09/wp-pr.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2018/09/wp-pr.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/portal/wp-includes/wlwmanifest.xml 2 -
+/wp-admin/vuln.php 1 -
+/wpdemos.php 2 -
+/wp-content/wp-muen.php 2 http://site.ru
+/master.gzip 2 -
+/wp-content/plugins/simple-ads-manager/sam-ajax-admin.php 2 -
+/wp-up.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-up.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/new.gz 2 -
+/rt18_archive.rar 2 -
+/cgi-bin.rar 2 -
+/wordpress.zip 2 -
+/wp-info.php 4 http://site.ru
+/wptest/ 2 -
+/cgi-bin.gzip 2 -
+/furrydance.rar 1 -
+/wp-content/uploads/2020/01/wp-zip-plugin-2.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/01/wp-zip-plugin-2.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp/ 8 -
+/wp-content/uploads/2020/02/wp-simple-plugin-2.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/02/wp-simple-plugin-2.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/plugins/wp-hello-plugin/wp-hello-plugin.php.suspected 2 -
+/a.php 2 http://site.ru
+/test/ 4 -
+/web.gzip 2 -
+/wp-craft-report-site.php.suspected 1 -
+/mysqlbackupro/ 2 -
+/wp-content/uploads/wp-crawl.php.suspected 2 -
+/wp-content/plugins/supersociall/supersociall.php.suspected 2 -
+/_wpeprivate/config.json 2 -
+/wp-includes/widgets/class-wp-widget-header.php 4 http://site.ru
+/wp-content/plugins/prh-api/vendor/phpunit/phpunit/build.xml 2 -
+/wp-content/uploads/wp-bk-report.php.suspected 1 -
+/wp-config.txt 2 -
+/wp-includes/ms-cache.php 2 -
+/wp-craft-report-site.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-craft-report-site.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/uploads/2020/01/backup-nnlg.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/01/backup-nnlg.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/web.gz 2 -
+/wp-content/uploads/fm_temp.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/fm_temp.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-admin/vuln.htm 1 -
+/administrator/ 2 -
+/wp-content/uploads/2020/04/wp-zip-plugin-3.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/04/wp-zip-plugin-3.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/themes/pridmag/db.php 2 -
+/unzip.php.suspected 1 -
+/wp-content/themes/dulcet/footer1.php 2 http://site.ru
+/wp-content/uploads/2020/01/wp-block-plugin-2.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/01/wp-block-plugin-2.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/themes/enfold-child/update_script/vendor/phpunit/phpunit/build.xml 2 -
+/wp-content/plugins/wp-business-intelligence-lite/resources/open-flash-chart/php-ofc-library/ofc_upload_image.php 2 http://www.google.com/
+/wp-content/uploads/up.php 2 -
+/data.zip 2 -
+/staging/wp-includes/wlwmanifest.xml 2 -
+/OMC_template.zip 2 -
+/wp-content/plugins/background-image-cropper/simple.php5.suspected 2 http://site.ru
+/wp-content/uploads/wp-cl-plugin.php 6 forwardprogramming.site
+/wp-content/plugins/formcraft/file-upload/server/content/upload.php 4 -
+/wp-content/cache/log/000000/dbcache.log 1 -
+/new.gzip 2 -
+/public_html.gz 2 -
+/wp-config.php_oldd 2 -
+/desktopmodules/Admin/RadEditorProvider/DialogHandler.aspx 2 -
+/_cms/ 2 -
+/laravel/vendor/phpunit/phpunit/phpunit.xsd 1 -
+/cms/wp-includes/wlwmanifest.xml 2 -
+/old/ 6 -
+/backup.gzip 2 -
+/wp-content/plugins/category-page-icons/css/menu.css 2 -
+/wp-content/plugins/blockspluginn/blockspluginn.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/plugins/blockspluginn/blockspluginn.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/plugins/assembly/js/js.php 2 http://www.facebook.net/
+/wp-content/uploads/2020/01/backup-zqcn.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/01/backup-zqcn.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/.well-known/wp-bk-report.php.suspected 2 -
+/twentytwenty/functions.php 2 forwardprogramming.site
+/wp-doc.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-doc.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-hello-plugin.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-hello-plugin.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/plugins/civicrm/civicrm/packages/OpenFlashChart/php-ofc-library/ofc_upload_image.php 2 http://www.google.com/
+/.well-known/wp-bk-report.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/.well-known/wp-bk-report.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/uploads/2019/03/simple.php5 4 http://site.ru
+/wp-content/uploads/2019/11/wp-simple-plugin.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2019/11/wp-simple-plugin.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/%23wp-config.php%23 2 -
+/fckeditor/editor/filemanager/connectors/php/upload.php 2 -
+/twentythirteen/functions.php 2 forwardprogramming.site
+/app.zip 2 -
+/foten.rar 1 -
+/wp-content/plugins/supersociall/supersociall.php 2 -
+/wp-config.php_old6 2 -
+/wp-content/uploads/2020/04/wp-zip-plugin-2.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/04/wp-zip-plugin-2.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/uploads/2019/05/wp-simple-plugin.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2019/05/wp-simple-plugin.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/mysql.php 4 -
+/wp-content/uploads/2020/02/wp-zip-plugin-2.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/02/wp-zip-plugin-2.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/new_license.php.suspected 2 -
+/wp-content/uploads/2020/04/wp-block-plugin-1.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/04/wp-block-plugin-1.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-build-report.php.suspected 1 -
+/wp-content/uploads/wp-crawl.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/wp-crawl.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-upd.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-upd.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/assets/jquery-file-upload/server/php/ 2 -
+/wp-content/uploads/2020/04/wp-block-plugin.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/04/wp-block-plugin.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-config.xml 2 -
+/wp-content/uploads/2019/05/wp-simple-plugin.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2019/05/wp-simple-plugin.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wordpress.tar.gz 2 -
+/db.php 4 -
+/foten.se.gz 1 -
+/old.tar.gz 2 -
+/options.php 2 forwardprogramming.site
+/simple.php5 2 http://site.ru
+/wp-ajax-hook.php 2 -
+/rt18_archive.gzip 2 -
+/wp-content/plugins/super-socialat/super_socialat.php.suspected 2 -
+/wp-content/themes/AdvanceImage5/functions.php 1 http://www.facebook.net/
+/wp-content/plugins/sam-pro-free/sam-pro-ajax-admin.php 2 -
+/wp-content/plugins/supersociall/supersociall.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/plugins/supersociall/supersociall.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/twentyten/functions.php 2 forwardprogramming.site
+/_old/ 2 -
+/header-cache.php.suspected 2 -
+/wp-content/uploads/2020/01/wp-hello-plugin.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/01/wp-hello-plugin.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/uploads/2020/04/wp-hello-plugin-2.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/04/wp-hello-plugin-2.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/themes/prid/db.php 2 -
+/wp-content/wp-caches.php 2 http://site.ru
+/wp-up.php.suspected 2 -
+/wp-content/uploads/fm_temp.php 2 -
+/wp-content/plugins/blockspluginn/blockspluginn.php.suspected 2 -
+/wp-xml.php.suspected 2 -
+/cache/simple.php5.suspected 2 http://site.ru
+/wp-includes/Text/Diff/Engine/meta.php 2 http://site.ru
+/wp-content/plugins/convertplug/modules/info_bar/assets/css/info_bar.min.css 12 -
+/twentysixteen/functions.php 2 forwardprogramming.site
+/rt18_archive.zip 2 -
+/web.tar.gz 2 -
+/master.tar.gz 2 -
+/wp-api.php 4 -
+/wp-content/plugins/super-socialat/super_socialat.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/plugins/super-socialat/super_socialat.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/uploads/2020/03/wp-simple-plugin-1.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/03/wp-simple-plugin-1.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/dnloadcontrol.php 2 -
+/data.tar.gz 2 -
+/newsleter.php 4 -
+/wp-content/plugins/background-image-cropper/wp-console.php.suspected 2 http://site.ru
+/quick_install_archive.rar 2 -
+/wp-build-report-conf.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-build-report-conf.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/uploads/2019/06/wp-simple-plugin.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2019/06/wp-simple-plugin.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/uploads/2020/03/wp-block-plugin.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/03/wp-block-plugin.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/plugins/mm-plugin/inc/vendors/vendor/phpunit/phpunit/build.xml 2 -
+/wp-content/uploads/2018/2018.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2018/2018.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/uploads/wp-header-template.php.suspected 1 -
+/app.rar 2 -
+/blogbackup/ 2 -
+/news-box-lite/functions.php 2 forwardprogramming.site
+/admin/ 2 -
+/wp-content/plugins/wp-ecommerce-shop-styling/includes/download.php 2 -
+/wp-build-report-site.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-build-report-site.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/services 72 -
+/wp-content/uploads/wp-header-template.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/wp-header-template.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/plugins/gourl-bitcoin-payment-gateway-paid-downloads-membership/images/coins/bitcoin.png 2 -
+/wp-includes/js/crop/mini.php 2 http://site.ru
+/wp-includes/wp-caches.php 2 http://site.ru
+/wp-craft-report-conf.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-craft-report-conf.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/plugins/formcraft/file-upload/server/php/files/wp-upd.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_deco 2 http://forwardprogramming.site/wp-content/plugins/formcraft/file-upload/server/php/files/wp-upd.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/web/ 4 -
+/wp-content/uploads/wysija/themes/Master/wp-upd.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/wysija/themes/Master/wp-upd.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/plugins/ip-logger/chart/ofc_upload_image.php 2 http://www.google.com/
+/.well-known.zip 2 -
+/backup.rar 2 -
+/wp-content/s.php 2 -
+/wp-content/s.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/s.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp2/wp-includes/wlwmanifest.xml 2 -
+/wp-content/uploads/wp-build-report.php 1 -
+/ 27 -
+/sitemap.xml 2 -
+/mybackup/ 2 -
+/wp-content/plugins/elementor-pro/assets/css/frontend.min.css 2 -
+/wp-includes/wp-info.php 8 http://site.ru
+/wp-content/uploads/2020/05/settings_auto.php 2 -
+/new_license.php 4 -
+/wp-craft-report-conf.php.suspected 1 -
+/wp-content/plugins/formcraft/file-upload/server/php/files/wp-upd.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1s 2 http://forwardprogramming.site/wp-content/plugins/formcraft/file-upload/server/php/files/wp-upd.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/blog2/ 2 -
+/quick_install_archive.tar.gz 2 -
+/wp-content/uploads/content-post.php 4 http://site.ru
+/archive.rar 2 -
+/wp-craft-report-site.php 1 -
+/wp-content/plugins/super-socialat/super_socialat.php 2 -
+/download.php 6 -
+/wp-content/uploads/wp-craft-report.php 2 -
+/wp-content/plugins/elementor-pro/assets/js/preview.min.js 2 forwardprogramming.site
+/index2.php 4 -
+/www.funknsoulshop.pl.gz 1 -
+/wp-upload-class.php.suspected 2 -
+/wp-content/plugins/cip4-folder-download-widget/cip4-download.php 2 -
+/.well-known/wp-craft-report-site.php 2 -
+/archive.gzip 2 -
+/2019/wp-includes/wlwmanifest.xml 2 -
+/wp-content/cache/log/000000/minify.log 1 -
+/wp-content/uploads/2019/02/wp-simple-plugin.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2019/02/wp-simple-plugin.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/uploads/wp-header-template.php 1 -
+/wp-content/uploads/2020/02/wp-simple-plugin-1.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/02/wp-simple-plugin-1.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/uploads/wp-craft-report.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/wp-craft-report.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/OMC_template.gzip 2 -
+/installer.rar 2 -
+/old_site/ 2 -
+/v1/ 4 -
+/old.gz 2 -
+/demos/ 2 -
+/th1s_1s_a_4o4.html 62 -
+/wp-content/uploads/2020/03/wp-block-plugin-1.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/03/wp-block-plugin-1.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/new/ 6 -
+/wordpress/wp-admin/install.php 1 -
+/wp-upds.php 2 -
+/wp-content/plugins/barclaycart/uploadify/settings_auto.php 2 -
+/wp-includes/css/wp-pointer.php 4 http://site.ru
+/wp-json/wp/v2/posts/None 1 -
+/vendor/phpunit/phpunit/phpunit.xsd 1 -
+/web/wp-includes/wlwmanifest.xml 2 -
+/wp-content/uploads/wp-logs.php 2 -
+/wp-config.tar 1 -
+/wp-content/plugins/linklove/linklove.php 2 forwardprogramming.site
+/.well-known/wp-craft-report-site.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/.well-known/wp-craft-report-site.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-upds.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-upds.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/v1/wp-includes/wlwmanifest.xml 2 -
+/wp-content/themes/twentyeleven/download.php 4 -
+/foten.se.tar.gz 1 -
+/news/wp-includes/wlwmanifest.xml 2 -
+/wp-content/plugins/cherry-plugin/admin/import-export/settings_auto.php 2 -
+/old.gzip 2 -
+/wp-content/plugins/background-image-cropper/simple.php5 2 http://site.ru
+/wp-content/plugins/open-flash-chart-core-wordpress-plugin/open-flash-chart-2/php-ofc-library/ofc_upload_image.php 2 http://www.google.com/
+/public_html.gzip 2 -
+/public_html.tar.gz 2 -
+/wp-build-report-site.php 2 -
+/wp-backup/ 2 -
+/wp-content/plugins/elementor-pro/changelog.txt 1 -
+/wp-content/uploads/2020/02/wp-hello-plugin.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/02/wp-hello-plugin.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/.well-known.rar 2 -
+/veggiedog.rar 2 -
+/old_wp/ 2 -
+/wp-includes/Requests/Cookie/images.php 2 http://site.ru
+/wordpress2/ 2 -
+/general.php 2 -
+/wp-content/themes/FifteenTen/403.php 1 http://www.facebook.net/
+/main/ 4 -
+/wp-content/uploads/ld.php 2 -
+/wp-content/uploads/header-template.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/header-template.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/backups.gzip 2 -
+/.info.php 2 http://site.ru
+/bak/ 4 -
+/wp-doc.php 2 -
+/wp-config.inc 2 -
+/master.rar 2 -
+/wp-admin/wp-simple-plugin.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t 1 http://forwardprogramming.site/wp-admin/wp-simple-plugin.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/.well-known/wp-build-report.php.suspected 2 -
+/dump.tar.gz 2 -
+/humans.txt 8 -
+/wp-content/uploads/2020/04/wp-block-plugin-2.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/04/wp-block-plugin-2.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-xml.php 4 -
+/wp-content/uploads/2020/01/wp-zip-plugin-1.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/01/wp-zip-plugin-1.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/plugins/fluid_forms/file-upload/server/php/files/wp-upd.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_de 2 http://forwardprogramming.site/wp-content/plugins/fluid_forms/file-upload/server/php/files/wp-upd.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/horde/imp/test.php 16 -
+/wp-content/uploads/wp-logs.php.suspected 1 -
+/backups.rar 2 -
+/twentyfifteen/functions.php 2 forwardprogramming.site
+/wp-content/plugins/wp-hello-plugin/wp-hello-plugin.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/plugins/wp-hello-plugin/wp-hello-plugin.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/Divi/functions.php 2 forwardprogramming.site
+/installer-backup.php 6 -
+/home/wp-includes/wlwmanifest.xml 2 -
+/+/ 4 -
+/wp-content/uploads/2020/01/wp-simple-plugin-1.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/01/wp-simple-plugin-1.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp1/ 4 -
+/cms.rar 2 -
+/wp-content/uploads/2020/01/backup-lmvc.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/01/backup-lmvc.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/plugins/supersociall/supersociall.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/plugins/supersociall/supersociall.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/OMC_template.rar 2 -
+/wp-content/uploads/wp-upds.php 1 -
+/new.tar.gz 2 -
+/wp-content/uploads/2020/01/backup-erjm.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/01/backup-erjm.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/uploads/2018/2018.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2018/2018.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/backup.tar.gz 2 -
+/wp-build-report.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-build-report.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/content-post.php.suspected 2 -
+/wp-content/uploads/2020/01/wp-simple-plugin.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/01/wp-simple-plugin.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/plugins/background-image-cropper/header-cache.php.suspected 2 http://site.ru
+/wp-bk-report.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-bk-report.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp/wp-includes/wlwmanifest.xml 2 -
+/wp-content/uploads/2020/02/wp-block-plugin.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/02/wp-block-plugin.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-json/trx_addons/v2/get/sc_layout 1 -
+//api/vendor/phpunit/phpunit/phpunit.xsd 2 -
+/wp-config-backup.txt 2 -
+/wp-content/uploads/2020/02/wp-zip-plugin-1.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/2020/02/wp-zip-plugin-1.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/uploads/up.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/wp-content/uploads/up.php&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/wp-content/themes/oceanwp/assets/js/third/%url% 1 -
+/.well-known/wp-bk-report.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump(base64_decode(%22LS1sZC0t 2 http://forwardprogramming.site/.well-known/wp-bk-report.php.suspected&d1=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&q=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&d=dmFyX2R1bXAoYmFzZTY0X2RlY29kZSgiTFMxc1pDMHQiKSk7&a=var_dump%28base64_decode%28%22LS1sZC0t%22%29%29
+/demo/ 4 -
+/wordpress.gzip 2 -
+/wp-hello-plugin.php 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 176
+192.185.46.254 394 394 7632 20200531233912
+184.154.139.50 190 290 8265760 20200531212807
+184.154.76.20 157 267 7973719 20200530211718
+184.154.139.49 95 145 4132880 20200516212113
+184.154.139.51 95 145 4132880 20200529212356
+184.154.139.4 57 87 2479728 20200510212110
+34.233.170.90 42 42 665532 20200531221616
+69.160.160.140 19 19 273754 20200507041122
+40.114.25.176 11 11 142508 20200502085427
+51.15.141.220 10 66 1036170 20200514065810
+154.51.131.142 10 10 158460 20200530164819
+158.69.54.207 9 9 500558 20200512084806
+3.233.212.58 8 8 126768 20200508003002
+51.89.201.9 8 8 126768 20200522235028
+35.189.63.18 8 8 291176 20200526142719
+92.253.200.145 8 8 54001 20200510061413
+103.13.242.215 7 7 110706 20200503030318
+3.15.14.248 7 65 640102 20200531124617
+51.83.216.240 7 7 24817 20200503065404
+64.78.149.164 6 6 522 20200511211118
+158.101.18.36 6 6 95076 20200513215827
+46.101.9.216 6 6 87558 20200502103205
+103.27.236.185 6 6 260550 20200516171741
+192.99.100.93 6 92 3135246 20200516193736
+119.27.178.22 6 6 123360 20200513175028
+176.31.251.161 2 2 31692 20200510065612
+159.65.204.135 5 5 48410 20200501200812
+2.236.112.207 4 4 240864 20200511101037
+178.128.254.230 5 5 64513 20200514210804
+149.255.58.67 2 2 120432 20200501195424
+88.208.238.235 2 2 31692 20200508104803
+185.126.228.108 5 5 191048 20200509171418
+52.28.236.88 2 2 174 20200511211119
+149.28.116.87 2 2 31692 20200502043743
+178.22.65.113 2 2 31692 20200527214452
+209.208.28.94 2 2 31692 20200516041839
+162.213.37.124 2 2 31692 20200522014755
+167.99.50.79 2 2 31692 20200502064638
+164.132.44.97 1 1 60175 20200516083331
+51.15.78.133 2 2 31692 20200526053407
+188.165.235.173 2 2 31692 20200522135321
+161.35.221.217 2 2 31692 20200530011830
+188.165.141.114 2 2 87484 20200522110434
+54.203.5.243 2 2 31692 20200524014019
+51.83.70.152 5 5 200334 20200516212342
+213.138.56.61 5 5 122628 20200514040920
+209.208.109.15 2 2 31692 20200501232402
+209.208.63.58 2 2 31692 20200521012851
+144.202.52.245 2 2 31692 20200501091051
+51.89.200.124 1 1 15846 20200514055723
+69.39.239.21 1 1 60175 20200510175313
+162.213.37.106 2 2 31692 20200516015108
+51.83.2.111 5 5 167970 20200527181016
+52.208.21.210 2 2 31692 20200509125308
+141.98.102.227 2 2 19912 20200509031410
+200.255.122.170 5 5 191048 20200509144943
+192.255.127.241 2 2 25550 20200513212704
+34.209.232.166 2 2 174 20200511211118
+104.36.18.243 2 2 31692 20200515054101
+62.210.83.78 2 2 31692 20200515115702
+195.54.167.95 3 3 8661 20200526022229
+104.36.18.219 2 2 31692 20200515090650
+202.137.155.247 1 1 15792 20200511171252
+185.244.216.132 2 2 2474 20200524095701
+31.171.246.187 2 2 31692 20200529202232
+5.180.220.221 2 2 120432 20200524124804
+91.121.79.16 4 4 240484 20200522101831
+23.83.87.163 5 5 51717 20200507092735
+193.106.30.99 1 1 0 20200525200013
+192.71.3.26 2 2 31692 20200522010716
+213.32.44.151 2 2 31692 20200519171030
+45.119.81.242 2 2 3528 20200518170236
+185.220.101.213 1 1 15818 20200518022753
+89.187.168.144 5 5 191048 20200505191824
+45.10.83.248 5 5 191048 20200511173900
+104.156.253.179 5 5 167970 20200528022253
+1.255.70.86 2 2 31692 20200511092620
+104.36.16.76 2 2 31692 20200529163143
+52.170.116.159 2 2 120432 20200514000933
+167.71.4.80 2 2 31692 20200506111316
+52.15.254.228 4 4 348 20200511211121
+167.71.181.194 1 1 0 20200529184038
+54.202.232.238 2 2 31692 20200525002056
+162.213.36.130 2 2 31692 20200501113735
+34.211.182.126 2 2 31692 20200519010643
+130.61.14.196 5 5 122628 20200516034816
+193.70.73.242 2 2 31692 20200517205719
+192.71.38.71 2 2 31692 20200505074705
+52.39.164.144 2 2 31692 20200526183156
+34.222.203.19 2 2 31692 20200525134224
+212.115.51.189 1 1 269 20200507165208
+200.40.79.199 2 2 2474 20200524143633
+184.94.240.92 4 4 207916 20200505091151
+176.31.244.49 2 2 120242 20200526160130
+185.104.184.121 3 3 29913 20200507221501
+188.166.37.110 2 2 31692 20200516063340
+178.238.8.70 2 2 31692 20200522183601
+18.196.96.172 4 4 348 20200511211119
+64.235.53.37 4 4 18956 20200516102712
+192.71.2.171 2 2 31692 20200513182826
+64.246.165.140 2 2 31692 20200514192143
+34.222.229.130 4 4 348 20200511211122
+5.135.143.224 2 2 0 20200528020107
+64.227.69.135 2 2 31692 20200501151422
+110.172.160.42 2 2 120432 20200522110414
+92.204.53.67 2 2 120432 20200510123854
+52.14.185.54 2 2 31692 20200501010947
+178.165.72.177 1 1 15818 20200515162307
+51.15.198.78 2 2 31692 20200522121809
+193.70.13.33 1 1 15818 20200518022742
+192.99.4.63 2 2 120432 20200530012043
+61.95.233.61 5 5 122628 20200519065550
+84.17.51.42 5 5 191048 20200507091236
+45.76.161.33 2 2 31692 20200515153837
+51.255.43.153 2 2 31692 20200506122945
+134.122.97.12 2 2 31692 20200530063534
+161.35.29.252 2 2 31692 20200501055224
+77.238.122.196 5 5 167970 20200527163241
+188.166.73.26 2 2 31692 20200529010139
+54.39.198.170 3 3 121018 20200502043045
+64.225.63.171 2 2 31692 20200515113624
+191.102.176.9 2 2 31692 20200531140515
+185.238.3.193 6 6 260550 20200517062803
+173.203.70.234 2 2 120242 20200516083135
+3.14.255.131 2 2 174 20200511211121
+72.13.46.2 6 6 87558 20200519082353
+185.131.53.58 2 2 31692 20200517161119
+129.146.162.176 3 3 61680 20200514041005
+209.59.181.92 6 6 95076 20200505214558
+69.28.92.221 2 2 31692 20200529102922
+45.76.30.26 2 2 31692 20200530040748
+52.74.117.160 6 6 123360 20200513205343
+45.87.80.59 1 1 403 20200512130819
+51.158.153.225 0 1 0 
+54.36.244.196 3 3 121018 20200521022751
+81.177.141.93 4 4 16718 20200501011918
+104.238.165.76 2 2 31692 20200522073248
+86.135.191.89 2 2 120432 20200525001946
+198.20.164.235 5 5 51717 20200530043436
+66.70.225.57 1 1 60175 20200526073826
+167.172.23.79 2 2 31692 20200522230419
+37.221.113.49 2 2 269 20200529020611
+103.48.193.247 5 5 167970 20200527221240
+23.129.64.216 1 1 15846 20200513163615
+51.77.128.205 2 82 2817900 20200512131050
+192.255.123.207 2 2 25550 20200528140643
+92.63.104.84 1 1 15818 20200514230959
+183.136.225.46 2 2 120432 20200524085232
+46.101.123.84 5 5 167970 20200527203751
+95.217.166.84 2 2 31692 20200530175052
+162.213.36.210 2 2 31692 20200530085200
+129.150.97.201 5 5 122628 20200514110339
+54.184.1.95 2 2 31692 20200526012702
+37.187.72.67 1 1 60175 20200512011051
+91.132.138.57 5 5 50379 20200512110231
+161.35.141.155 4 4 63384 20200515225923
+161.35.131.141 2 2 31692 20200514234055
+64.225.100.65 2 2 31692 20200513174248
+185.23.128.180 5 5 191048 20200528124949
+44.234.50.52 2 2 31692 20200516010631
+192.255.101.226 2 2 31692 20200504102532
+159.203.182.52 1 1 60175 20200526154822
+69.28.94.21 2 2 31692 20200502021651
+115.239.177.166 5 5 122628 20200517045032
+199.244.88.132 2 2 31692 20200518061615
+157.245.41.112 2 2 31692 20200507221629
+31.170.165.52 1 1 403 20200501205141
+104.245.35.83 1 1 15846 20200522135758
+154.0.167.68 4 4 18956 20200511085300
+178.62.210.122 2 2 31692 20200522105146
+207.180.255.81 4 4 57242 20200512215941
+192.36.70.176 2 2 31692 20200529152301
+95.216.113.229 2 2 31692 20200507073756
+104.36.18.200 2 2 31692 20200529070329
+194.93.36.83 2 2 31692 20200510194158
+103.13.242.217 4 4 32180 20200520064021
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20200501 54 64 1202691 19
+20200502 58 68 1304428 16
+20200503 48 58 1057175 14
+20200504 27 37 889960 7
+20200505 44 54 1320616 13
+20200506 27 37 889960 5
+20200507 70 80 1468353 18
+20200508 40 50 1010202 10
+20200509 60 70 1261428 14
+20200510 65 75 1157412 14
+20200511 134 144 1332344 22
+20200512 59 149 4376617 18
+20200513 56 66 1304844 18
+20200514 65 132 2449675 18
+20200515 44 54 1064238 16
+20200516 65 161 4871475 18
+20200517 42 52 1304830 12
+20200518 31 41 893432 11
+20200519 44 54 1137612 14
+20200520 32 42 890448 9
+20200521 37 47 1042670 12
+20200522 75 115 3007071 28
+20200523 25 35 889960 5
+20200524 39 49 1135772 14
+20200525 33 43 1010392 12
+20200526 49 59 1456307 17
+20200527 59 69 1530148 14
+20200528 45 55 1211144 10
+20200529 50 60 1080381 21
+20200530 49 59 1220569 18
+20200531 45 113 1656830 14
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+0s-30s 354
+30s-2mn 32
+1h+ 11
+2mn-5mn 1
+30mn-1h 32
+5mn-15mn 8
+15mn-30mn 13
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 72
+/ 453 13667386 204 139
+/wp-cron.php 293 0 211 213
+/about/ 90 3317440 3 8
+/contact/ 87 2788865 2 2
+/projects/ 72 3705072 0 2
+/search/1/feed/rss2/ 62 5471314 0 30
+/comments/feed/ 62 46872 0 0
+/feed/ 62 67766 0 0
+/wp-includes/wlwmanifest.xml 62 64790 0 0
+/wp-json/ 37 2005881 0 3
+/wp-json/oembed/1.0/embed 31 68727 0 0
+/wp-admin/load-styles.php 31 3235284 0 0
+/wp-login.php 20 34399 8 8
+/cgi-sys/403.html 11 7488 0 0
+/.well-known/acme-challenge/jqs6om6DtUD63q2A2F8OJLz3cUjGFMnuLee1ifnM8Ao 8 696 0 0
+/.well-known/acme-challenge/6997jHfNxebtPiO7_vbr2KbLJJfOuq7far7kL3w1bus 8 696 0 0
+/.well-known/acme-challenge/Wo3TiBaobef7nPXX2nytES4mn3dwE5piwC5R8CESMAs 8 696 0 0
+/.well-known/acme-challenge/ATvbCVIVobqOUGHN_biIvWGhjlElp5XquYKfE6n7134 8 696 0 0
+/phpmyadmin/scripts/setup.php 8 5856 0 8
+/.well-known/acme-challenge/T_4eT479iHBxdKG__a5YIekEXhIEd6sNWJgCfmotcuA 8 696 1 0
+/.well-known/acme-challenge/Z0FDhVwUkNvEBuV4JWa34VbA-1ws6bcdZyqaR4uP7Is 8 696 2 2
+/wp-json/contact-form-7/v1/contact-forms/275/feedback 8 874 0 8
+/phpMyAdmin/scripts/setup.php 8 5856 0 0
+/.well-known/acme-challenge/i3TUFWYlm8B1dHkNaA_ig_p5XH0aPphOeWGMkc9Uckw 8 696 0 0
+/.well-known/acme-challenge/aFR7wk-J7O3_OoniC0Bw1Ar60VQPc5dPn94xmT67RZs 8 696 3 4
+/.well-known/acme-challenge/686ZFSRDYJ4C-DSE_F7N_5164CGQ0IAH 2 128 0 0
+/wp-json/wp/v2/users 2 538 2 2
+/xmlrpc.php 2 806 2 2
+/wp-json/wp/v2/users/ 2 1172 0 2
+/.well-known/acme-challenge/6RD18TP3M9TOE1J3JF4YR7SG9G8979NG 2 128 0 0
+/wp-admin/css/colors/light/ 1 1635 0 1
+/wp-content/themes/oceanwp/assets/fonts/simple-line-icons/Simple-Line-Icons.ttf 4 216224 0 0
+/.well-known/acme-challenge/FPCXKE6RKHW5I2UJVC_9LK-CJAQP8YBT 2 128 0 0
+/.well-known/acme-challenge/O67T3_4Y50-9XRCXY7YO2NPO107U9TSN 2 128 0 0
+//wp-json/wp/v2/users/ 2 538 0 2
+/.well-known/acme-challenge/LLVFDO0U8G679E-C-J0H64AHX4G453CF 2 128 0 0
+/.well-known/acme-challenge/ASGMLA_69EOXFZ7KVJ708JXCIJLRGS1Q 2 128 0 0
+/.well-known/acme-challenge/2YJ9VWDTS8X977_9UNFFOF8_7-WMW6KI 2 128 0 0
+/wp-content/themes/oceanwp/assets/fonts/fontawesome/fontawesome-webfont.woff 4 392096 0 1
+/.well-known/acme-challenge/UX26CZSEEY_42M2YYLXCSGREXD_9ANES 2 128 0 0
+/author/jamie/ 7 52350 1 2
+/wp-admin/admin-post.php 1 0 0 0
+/wp-content/uploads/ 2 2804 1 0
+/wp-json/wp/v2/posts/ 1 2 0 0
+/.well-known/acme-challenge/2428TSCAGAEIK4EN9YRTQ7UI0WUPPMJL 2 128 1 0
+/search/1/feed/rss2/services/feed/rss2/ 2 2500 0 0
+/search/1/feed/rss2/about/feed/rss2/ 2 2482 0 0
+/.well-known/acme-challenge/X1RR8MH8QFDLQUPY1BDIWH18SCCI707S 2 128 0 0
+/wp-includes/images/media/ 2 4670 0 0
+/.well-known/acme-challenge/OW1VRQVR8FNUELMCFPSO42590X4_F09P 2 128 0 0
+/.well-known/acme-challenge/N3U8ZQWR-DMAWM8-9Q0FPIN3P5RX6COD 2 128 0 0
+/.well-known/acme-challenge/FQ_U979V_5H-I4A2RXLST6I8G0ENQOPU 2 128 0 0
+/.well-known/acme-challenge/608YBR0ZR75HEU-32WXNKVWNIU2N_GHB 2 128 0 0
+/index.php 6 316667 6 6
+/wp-includes/functions.php 2 488 0 1
+/.htaccess 2 900 0 1
+/.well-known/acme-challenge/KYNZOR7X1H-6572-BOCBKGC15T2PBDMK 2 128 0 1
+/.well-known/acme-challenge/MLZ6HG52L-1GJVW3R3X1DBWFW_HN6JW8 2 128 0 0
+/.well-known/acme-challenge/-IN4PBASEIY7RKXRHMHKZ1SFC91VV9FW 2 128 0 0
+/.well-known/acme-challenge/3YNJ2F_B_812TY8AD5I7_7LSUCMX53IT 2 128 0 0
+/wp-includes/css/ 2 15708 0 0
+/.well-known/acme-challenge/US0JI_IN21SWJPFI0Q152J9CDK1LPS0_ 2 128 0 0
+/.well-known/acme-challenge/6BUBKRJP4MM1KSY8MKDQGGBUSFR76VWZ 2 128 0 0
+/wp-load.php 2 0 1 1
+/.well-known/acme-challenge/N9F8ILNCE5_LBS1_SGLZ91ZCFXSOUSFD 2 128 0 0
+/.well-known/acme-challenge/S7ZF2T-Z6TVGDQM-MUSR9FLIB7VOL66W 2 128 0 0
+/.well-known/acme-challenge/U1V9MR-C22G1QQC1A1781-DPS6P3GTLM 2 128 0 1
+/.well-known/acme-challenge/LQGCHWQ7XLEUYGUS_6H4BGP_6ZMW9_8C 2 128 0 0
+/.well-known/acme-challenge/6ET1EDD7FAXK6LRQI9FYW94ANK9X_Z64 2 128 1 0
+/.well-known/acme-challenge/GFQNXVQBWBWV8JT1WEFN9TYWUPYQ7VST 2 128 0 0
+/.well-known/acme-challenge/nSRiUS6YEGr6UD6btS2YMaDUX6YqWgaML35OY2vIpPw 8 696 2 1
+/.well-known/acme-challenge/_RVP8DQ6ELW806OXVNV5OYN6UW5P9MXQ 2 128 0 0
+END_SIDER

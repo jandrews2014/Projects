@@ -1,0 +1,1263 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202104 will be lost/reset.
+# Last config file used to build this data file was /home2/jandrews2014/tmp/awstats/awstats.forwardprogramming.site.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2025                
+POS_TIME 2708                
+POS_VISITOR 28283               
+POS_DAY 39738               
+POS_DOMAIN 3588                
+POS_LOGIN 4558                
+POS_ROBOT 4713                
+POS_WORMS 5281                
+POS_EMAILSENDER 5412                
+POS_EMAILRECEIVER 5555                
+POS_SESSION 40576               
+POS_SIDER 40786               
+POS_FILETYPES 5690                
+POS_DOWNLOADS 5969                
+POS_OS 6257                
+POS_BROWSER 6529                
+POS_SCREENSIZE 8450                
+POS_UNKNOWNREFERER 8524                
+POS_UNKNOWNREFERERBROWSER 9526                
+POS_ORIGIN 10281               
+POS_SEREFERRALS 10426               
+POS_PAGEREFS 10593               
+POS_SEARCHWORDS 11407               
+POS_KEYWORDS 11559               
+POS_MISC 2371                
+POS_ERRORS 11618               
+POS_CLUSTER 4414                
+POS_SIDER_404 11805               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20210501002535 103 25258 19828017661911
+FirstTime 20210401001331
+LastTime 20210430224657
+LastUpdate 20210501072139 103 0 102 0 0
+TotalVisits 631                 
+TotalUnique 288                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 298                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+TotalMisc 0 0 0
+QuickTimeSupport 0 0 0
+AddToFavourites 0 18 0
+JavaEnabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+RealPlayerSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 21 21 308198 60 62 608516
+1 78 86 1103559 189 309 2248442
+2 18 18 79209 183 187 1361393
+3 44 44 822089 113 128 725247
+4 50 50 626946 365 461 3824940
+5 54 134 4256811 74 187 1736308
+6 27 27 572385 50 58 381235
+7 47 47 508946 307 313 654024
+8 43 45 544608 410 417 1607317
+9 50 154 1045474 305 311 966532
+10 30 116 1429556 55 55 825358
+11 66 66 1304582 120 128 1012857
+12 36 36 545952 70 94 768859
+13 72 100 774273 371 389 1808743
+14 34 34 389635 103 117 2220785
+15 36 36 819025 76 78 778034
+16 54 54 994464 123 133 1070166
+17 22 110 3518314 61 69 880683
+18 41 45 688285 330 497 6510629
+19 36 88 1144415 85 94 923031
+20 71 185 3812826 275 283 520740
+21 521 939 21323323 639 1229 22927122
+22 81 249 6391492 740 754 1040291
+23 47 47 1010504 114 130 747060
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 58
+us 1176 1866 30085772
+fr 45 45 1586324
+ru 45 45 1352784
+cn 41 331 9967840
+ro 24 24 1090636
+in 22 22 332474
+sc 19 19 218447
+ua 16 16 480126
+gb 14 94 3336608
+vn 12 12 2472
+th 12 12 2472
+md 11 11 423712
+ca 11 11 185758
+br 10 10 2060
+lt 9 9 417433
+au 8 96 3277276
+tr 8 8 1648
+de 6 6 139692
+co 6 6 1236
+qa 6 6 33288
+gr 6 6 361224
+sr 5 5 123036
+mx 4 4 824
+eg 4 4 824
+cr 4 4 20237
+hu 2 2 412
+sg 2 2 31696
+no 1 1 206
+ir 2 2 3235
+nz 2 2 120432
+mk 1 1 206
+my 1 1 206
+es 2 2 412
+ao 1 1 206
+se 2 2 31696
+ch 2 2 120360
+hk 3 3 31965
+ma 3 3 618
+jp 1 1 60139
+pk 3 3 618
+ve 1 1 206
+zz 2 2 31696
+ng 1 1 206
+me 1 1 206
+pl 3 3 618
+nl 4 8 72095
+ae 1 1 206
+bg 2 2 60422
+ph 1 1 206
+lv 1 1 206
+id 2 2 412
+mg 1 1 206
+cu 1 1 206
+dz 1 1 206
+gt 1 1 206
+ar 2 2 412
+do 1 1 206
+sk 1 1 206
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 11
+spider 625 14343917 20210430212547 0
+baidu 254 8945704 20210419213151 0
+Googlebot/ 110 1068414 20210425142812 4
+bingpreview 92 3049328 20210429045813 0
+bingbot/ 84 1055288 20210430060937 52
+YandexBot/ 42 286500 20210427231024 24
+bot[\s_+:,\.\;\/\\-] 38 601108 20210430105826 0
+unknown 24 1608 20210427091435 24
+DuckDuckGo\-Favicons\-Bot/ 11 110487 20210425212725 0
+no_user_agent 2 120432 20210412084700 0
+curl 1 60180 20210422052834 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+html 909 28141930 0 0
+css 338 2347841 0 0
+woff2 32 1132368 0 0
+jpg 34 1274060 0 0
+xml 65 67925 0 0
+png 224 13052506 0 0
+js 540 6607779 0 0
+php 530 265664 0 0
+eot 4 440016 0 0
+gif 16 617184 0 0
+Unknown 39 67330 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 5
+/wp-content/plugins/elementor/readme.txt 14 0 1478274
+//wp-content/plugins/ocean-extra/readme.txt 14 0 232232
+//wp-content/plugins/elementor/readme.txt 14 0 1478274
+/wp-content/plugins/ocean-extra/readme.txt 14 0 232232
+/robots.txt 0 2 134
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 15
+linuxandroid 224 24
+Unknown 560 474
+macosx8 2 2
+win10 316 222
+winlong 56 4
+macosx10 16 16
+linux 98 96
+win8.1 29 29
+win7 1040 628
+winxp 16 16
+macosx 354 46
+winvista 3 3
+win8 10 10
+winunknown 2 2
+macosx9 7 7
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 90
+chrome46.0.2754.75 2 2
+chrome50.0.2880.81 2 2
+chrome66.0.3359.181 6 6
+chrome67.0.3396.87 4 4
+chrome71.0.3578.98 4 4
+firefox45.0 2 2
+chrome89.0.4389.114 9 9
+chrome88.0.4240.193 69 69
+chrome79.0.3945.130 12 12
+firefox82.0 6 4
+chrome89.0.4389.90 2 2
+chrome73.0.3683.90 4 4
+chrome70.0.3538.77 2 2
+firefox79.0 2 2
+firefox72.0 4 4
+firefox54.0 38 38
+chrome56.0.2896.3 2 2
+chrome37.0.2049.0 2 2
+Unknown 455 449
+chrome29.0.1547.2 4 4
+edge12 2 2
+msie6.0 5 5
+opera53.0.2907.99 4 4
+chrome35.0.1916.47 5 5
+arora 2 2
+chrome67.0.3396.99 4 4
+firefox59.0 2 2
+chrome27.0.1453.93 2 2
+chrome83.0.4103.44 5 5
+firefox52.0 1 1
+chrome29.0.1547.62 2 2
+chrome59.0.3071.109 112 112
+chrome74.0.3729.157 2 2
+chrome83.0.4103.116 2 2
+bonecho 2 2
+firefox33.0 3 3
+chrome78.0.3904.97 5 5
+chrome80.0.3987.122 2 2
+android 176 12
+chrome56.0.2140.74 2 2
+chrome36.0.1985.67 2 2
+chrome83.0.4103.97 41 41
+chrome67.0.3396.79 12 12
+firefox73.0 2 2
+firefox66.0 2 2
+firefox57.0 2 2
+chrome36.0.1985.125 3 3
+chrome50.0.2661.75 2 2
+safari14.0.3 334 30
+chrome41.0.2228.0 2 2
+chrome79.0.3945.88 2 2
+chrome60.0.3112.113 6 6
+chrome80.0.3987.132 6 6
+opera69.0.3686.7 2 2
+firefox64.0 1 1
+chrome45.0.2454.94 2 2
+chrome5.0.375.99 5 5
+chrome75.0.3770.100 6 6
+chrome33.0.1750.517 4 4
+msie11.0 95 7
+firefox68.0 3 3
+chrome89.0.4389.82 4 4
+chrome41.0.2225.0 3 3
+chrome78.0.3904.108 26 20
+chrome39.0.2171.95 14 14
+chrome68.0.3440.106 14 14
+chrome41.0.2226.0 2 2
+msie8.0 1 1
+chrome79.0 15 15
+chrome26.0.1410.65 2 2
+opera54.0.2952.64 6 6
+chrome85.0.4183.121 19 15
+chrome80.0.3987.149 10 10
+chrome74.0.3729.169 4 4
+firefox56.0 2 2
+opera54.0.2952.71 1 1
+firefox40.0 2 2
+firefox67.0 2 2
+chrome36.0.1944.0 2 2
+msie9.0 851 471
+chrome76.0.3809.132 4 4
+chrome80.0.3987.117 2 2
+firefox62.0 4 4
+chrome41.0.2224.3 2 2
+mozilla 103 23
+firefox35.0 2 2
+chrome75.0.3765.0 30 2
+chrome78.0.3904.62 10 2
+chrome83.0.4103.61 2 2
+chrome70.0.3538.102 89 5
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 12
+Mozilla/5.0_(compatible;_Domains_Project/1.3.2;__https://domainsproject.org) 20210426052012
+Mozilla/5.0_(compatible;_Dataprovider.com) 20210406054629
+User-Agent\ 20210412115107
+GRequests/0.10 20210427033933
+Go_http_package 20210405211847
+Go-http-client/1.1 20210429232539
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210418150011
+WordPress/4.9.17;_http://forwardprogramming.site 20210430224658
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20210430224657
+WordPress/4.9.16;_http://forwardprogramming.site 20210415045213
+Mozilla/5.0_Firefox/35.0 20210405045015
+Mozilla/5.0_(compatible;_ips-agent) 20210417164650
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 8
+Go-http-client/1.1 20210429232539
+Go_http_package 20210405211847
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210418150011
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20210430224657
+WordPress/4.9.17;_http://forwardprogramming.site 20210430224658
+WordPress/4.9.16;_http://forwardprogramming.site 20210415045213
+GRequests/0.10 20210427033933
+User-Agent\ 20210412115107
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 526 554
+From1 6 6
+From2 475 803
+From3 23 23
+From4 549 1347
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 475 803
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 12
+http://192.185.46.254:80 4 4
+http://simplesite.com 3 3
+https://www.bankprofit.ru/kredit-karta-halva 2 2
+https://mydreamdl.me/crossroads-guitar-festival-2010-4038-magnet 2 2
+https://www.directtravel.ru 2 2
+http://www.trygym.ru/uprazhneniya-na-yagodiczy-dlya-devushek-v-trenazhernom-zale 2 2
+https://www.bankprofit.ru/zajm-ot-dengi-srazu 2 2
+https://proturnik.ru 2 2
+https://mydreamdl.me/gujarati-wedding-songs-download-mp3 1 1
+https://mydreamdl.me/tufli-gnu-tufli-gnu-ep-2014-330851-magnet 1 1
+http://mail.forwardprogramming.site 1 1
+https://mydreamdl.me/teens-like-it-big-kimmy-granger-mia-pearl-bunk-bed-head-04-14-2016-brazzers-new-april-14-2016-37215-magnet 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 9
+302 8 0
+400 8 8
+403 20 2144
+500 53 41139
+301 330 0
+405 40 1680
+404 1547 25717717
+406 3038 681164
+409 138 11454
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 447
+/backup_new/xmlrpc.php 4 www.google.com
+/cache/unadjustably/th3_alpha.php 2 -
+/v2/wp-includes/wlwmanifest.xml 2 -
+/wp-content/plugins/press/wp-class.php 2 -
+/assets/admin/plugins/elfinder/connectors/php/connector.php 2 http://www.google.com/
+/wp/wp-admin/install.php 1 -
+/wp-json/oembed/1.0/%5C%22http:%5C/%5C/forwardprogramming.site%5C/projects%5C/%5C%22 1 http://www.google.com/url
+/kefu.php 2 -
+/wp-admin/link-edd.php 1 http://simplesite.com
+/400.shtml 1 -
+/cache/subfusiform/th3_alpha.php 2 -
+/code.php.php 1 -
+/wp-content/admin.php 2 http://simplesite.com
+/wp-content/plugins/ubh/up.php 4 http://forwardprogramming.site/wp-content/plugins/ubh/up.php
+/cache/s_ne.php 1 -
+/modules/mod_simplefileuploadv1.3/elements/w.php 2 http://simplesite.com
+/pas.php 2 -
+/wp-content/db-cache.php 1 www.google.com
+/wp-content/uploads/2020/11/doc.php 2 http://simplesite.com
+/WP/xmlrpc.php 4 www.google.com
+/Archive.zip 3 -
+/kindex.php 2 forwardprogramming.site
+/ 145 -
+/test/xmlrpc.php 4 www.google.com
+/new/xmlrpc.php 4 www.google.com
+/dev/wp-includes/wlwmanifest.xml 2 -
+/Providers/HtmlEditorProviders/Telerik/Telerik.Web.UI.DialogHandler.aspx 2 -
+/merge.php 2 -
+/m/allticker/1 2 -
+/base/goexjs 2 -
+/mobile/config.js 2 -
+/thriveGame.css 2 -
+/old-forwardprogramming/xmlrpc.php 4 www.google.com
+/Wap/Api/getSystemNotice 2 -
+/wp-content/plugins/redirection/models/wp-contentt.php 2 http://simplesite.com
+/Forwardprogramming 2 www.google.com
+/wso.php 6 http://simplesite.com
+/cms/ 2 -
+/cache/spouty/th3_alpha.php 2 -
+/wp-includes/Requests/Exception/HTTPS.php 2 -
+/myConfig.js 2 -
+/assets/plugins/jQuery-File-Upload/server/php/ 2 http://www.google.com/
+/cache/simple.php5 2 http://simplesite.com
+/emergenc.php 2 -
+/wp-json/oembed/1.0/%5C%22http:%5C/%5C/forwardprogramming.site%5C/contact%5C/%5C%22 1 http://www.google.com/url
+/m.php 2 http://simplesite.com
+/wp-admin/xmlrpc.php 2 www.google.com
+/legal/currency/set 2 -
+/Forwardprogramming/xmlrpc.php 4 www.google.com
+/new/ 14 -
+/cscpLoginWeb/app/home 2 -
+/wp/wp-content/plugins/ubh/up.php 2 -
+/forwardprogramming_OLD/xmlrpc.php 4 www.google.com
+/adminer.php 2 -
+/static/home/js/rooms.js 2 -
+/admin.php 4 http://simplesite.com
+/wp-content/themes/dulcet/footer1.php 4 http://simplesite.com
+/BACKUP-forwardprogramming/xmlrpc.php 4 www.google.com
+/hello.php 4 http://simplesite.com
+/wp/wp-admin/setup-config.php 1 -
+//wp-content/plugins/wp-file-manager/readme.txt 28 -
+/blogs/wp-includes/wlwmanifest.xml 2 -
+/template/css/login.css 2 -
+/xmlrp.php 2 www.google.com
+/wp-log-7.php 1 -
+/bk/ 2 -
+/backup-old/xmlrpc.php 4 www.google.com
+/site/xmlrpc.php 4 www.google.com
+/emerge.php 2 -
+/emerg.php 2 -
+/Backup-forwardprogramming/xmlrpc.php 4 www.google.com
+/Templates/user/js/global.js 2 -
+/2017/ 12 -
+/wp-admin.zip 4 -
+/member/js/lang_zh_CN.js 2 -
+/wp-content/plugins/formcraft/documentation.html 2 http://forwardprogramming.site/wp-content/plugins/formcraft/documentation.html
+/bd.php 2 -
+/.info.php 2 http://simplesite.com
+/adminer-4.2.2.php 2 -
+/WP1/xmlrpc.php 4 www.google.com
+/oldsite/ 12 -
+/wordpress/ 14 -
+/wp-logout.php 2 http://simplesite.com
+/style.css 2 -
+/js/data.php 8 http://simplesite.com
+/.wp-config.php 2 -
+/assets/images/content-post.php 2 http://simplesite.com
+/wp-config_backup.txt 2 -
+/test/wp-admin/install.php 1 -
+/admin/jQuery-File-Upload/server/php/ 2 http://www.google.com/
+/site/get-hq 2 -
+/assets/images/wp-console.php 2 -
+/static/css/index.css 2 -
+/forwardprogramming 2 www.google.com
+/beck/cron.php 1 -
+/temp/ 12 -
+/user/Login 2 -
+/css/dafa.css 2 -
+/Backup_forwardprogramming/xmlrpc.php 4 www.google.com
+/laravel/_ignition/health-check/ 2 -
+/mergency.php 2 -
+/vendor/phpunit/phpunit/phpunit.xml 2 -
+/js/app.ling.js 2 -
+/assets/images/wp-plugins.php 2 http://simplesite.com
+/en/wp-includes/wlwmanifest.xml 2 -
+/update.php 1 -
+/wp-stream.php 5 forwardprogramming.site
+/administrator/ 2 -
+/OLD-forwardprogramming/xmlrpc.php 4 www.google.com
+/anquan/qgga.asp 2 -
+/wp-admin/output.php 1 -
+/wp-api.php 2 -
+/wp-includes/theme-compat/back-up.php 2 -
+/web/xmlrpc.php 4 www.google.com
+/static/wap/css/index.css 2 -
+/Telerik.Web.UI.DialogHandler.aspx 2 -
+/wp-content/plugins/angwp/assets/fonts/font-awesome/css/font-awesome.min.css 4 -
+/wp-admin.php 2 http://simplesite.com
+/home/GetQrCodeInfo 2 -
+/api/Index/getLottery 2 -
+/55index.php 2 http://simplesite.com
+/wp-content/themes/twentynineteen/classes/ 2 forwardprogramming.site
+/wordpress/wp-admin/setup-config.php 1 -
+/2019/wp-includes/wlwmanifest.xml 2 -
+/community/members/ 2 -
+/components/com_jbusinessdirectory/assets/upload.php 4 http://www.google.com/
+/wp/xmlrpc.php 4 www.google.com
+/static/xianyu/js/bankCheck.js 2 -
+/v1/ 2 -
+/forwardprogramming2021 2 www.google.com
+/wp-content/themes/sketch/wp-console.php 2 -
+/Wp1/xmlrpc.php 4 www.google.com
+/404.php 2 http://simplesite.com
+/wp-plugins.php 2 http://simplesite.com
+/wp-content/plugins/wpshop/templates/wpshop/modal.php 2 http://www.google.com/
+/Wap/JS/wap-index.js 2 -
+/cache/medianity/th3_alpha.php 2 -
+/web/ 2 -
+/test/wp-includes/wlwmanifest.xml 2 -
+/Adminer.php 2 -
+/wp-config.cp 2 -
+/WORDPRESS/xmlrpc.php 4 www.google.com
+/old/xmlrpc.php 4 www.google.com
+/assets/jQuery-File-Upload/server/php/ 2 http://www.google.com/
+//vendor/phpunit/phpunit/phpunit.xsd 2 -
+/cache/copyhold/th3_alpha.php 2 -
+/wp1/ 2 -
+/DEMO/xmlrpc.php 4 www.google.com
+/js/base.js 2 -
+/base/exchange_index/googlecode 2 -
+/wp-content/plugins/formcraft/file-upload/server/content/upload.php 2 -
+/installer-backup.php 18 -
+/cache/content-post.php 2 http://simplesite.com
+/demo/ 2 -
+/blog/wp-admin/install.php 1 -
+/home/xmlrpc.php 4 www.google.com
+/testdewreio8uhdsfd.php 2 forwardprogramming.site
+/2018/wp-includes/wlwmanifest.xml 2 -
+/Web/xmlrpc.php 4 www.google.com
+/DesktopModules/Admin/RadEditorProvider/telerik.web.ui.dialoghandler.aspx 2 -
+/_controls/responsive/Telerik.Web.UI.DialogHandler.aspx 2 -
+/common/member/js/user.util.js 2 -
+/api/message/webInfo 2 -
+/installation/ 2 -
+/test/wp-admin/setup-config.php 1 -
+/em.php 2 -
+/srbd.php 2 -
+/wp-json/oembed/1.0/%5C%22http:%5C/%5C/forwardprogramming.site%5C/%5C%22 1 http://www.google.com/url
+/Wp/xmlrpc.php 4 www.google.com
+/loan 2 -
+/public/wap/js/basis.js 2 -
+/template/js/comm/Confrim.js 2 -
+/adminer-4.2.5-en.php 2 -
+/bak/ 2 -
+/ajax 4 -
+/wp-config 1 -
+/wp-includes/wp-class.php 2 -
+/srd/ 2 -
+/wp-content/plugins/worprees-plugin-bug-dar/ultimate-member/includes/admin/core/class-admin-upgrade.php 2 -
+/wp1/xmlrpc.php 4 www.google.com
+/backup/ 14 -
+/old/ 14 -
+/wordpress/xmlrpc.php 4 www.google.com
+/wp-content/uploads/elementor/css/post-15.css/readme.html 2 -
+/wp-config_cp 2 -
+/api/content_bottom 2 -
+/room/script/face.js 2 -
+/assets/js/dmshub.js 2 -
+/2020/ 2 -
+/cache/blackhat.php 2 http://simplesite.com
+/well-known.zip 3 -
+/api/site/getInfo.do 2 -
+/langConfig.js 2 -
+/Backup_new/xmlrpc.php 4 www.google.com
+/blog/ 14 -
+/wp-json/oembed/1.0/%5C%22http:%5C/%5C/forwardprogramming.site%5C/about%5C/%5C%22 1 http://www.google.com/url
+/DesktopModules/Admin/RadEditorProvider/DialogHandler.aspx 2 -
+/installer.php 16 -
+/testindex.php 4 forwardprogramming.site
+/wp-content/uploads/404.php 2 http://simplesite.com
+/Public/home/js/check.js 2 -
+/mobile/script/main.m.js 2 -
+/srbd/ 2 -
+/plugins/elfinder/connectors/php/connector.php 2 http://www.google.com/
+/public_html.zip 1 -
+/wp-content/plugins/background-image-cropper/new_license.php.suspected 2 http://simplesite.com
+/wp-blog-header.php 1 forwardprogramming.site
+/wp2/xmlrpc.php 4 www.google.com
+/staging/xmlrpc.php 4 www.google.com
+/tmp/ 2 -
+/files/pub_rem.js 2 -
+/wp-content/uploads/2020/05/doc.php 2 http://simplesite.com
+/install/ 2 -
+/wap/trading/lastKlineParameter 2 -
+/assets/extension/market/css/mt4.css 2 -
+/backup.zip 5 -
+/joomla/installation/ 2 -
+/Public/Wchat/js/cvphp.js 2 -
+/wp-content/plugins/myshe.php 1 -
+/css/style.css 2 -
+/Components/General/Admin/UserControl/Telerik.Web.UI.DialogHandler.aspx 2 -
+/assets/images/1.php 2 -
+/wp-content/plugins/kaswara/assets/js/font-manager.js 2 forwardprogramming.site
+/wp-admin/edit-teg-form.php 1 http://simplesite.com
+/wp-config_copy 2 -
+/wp-content/uploads/estate_templates/wp-rentals-demo.php 2 http://simplesite.com
+/css/main.css 2 -
+/api/user/get_user_group 2 -
+/humans.txt 2 -
+/api/index/loansList 2 -
+/static/admincp/js/common.js 2 -
+/SRBD/ 2 -
+/forwardprogramming2021/xmlrpc.php 4 www.google.com
+/2.php 2 http://simplesite.com
+/wp-content/themes/distance-lite/languages/namespaces.php 4 http://simplesite.com
+/css.php 4 http://simplesite.com
+/forwardprogramming2019/xmlrpc.php 4 www.google.com
+/forwardprogramming/xmlrpc.php 4 www.google.com
+/th1s_1s_a_4o4.html 58 -
+/ajax/allcoin_a/id/0 2 -
+/wp2/ 2 -
+/New/xmlrpc.php 4 www.google.com
+/BACKUP/xmlrpc.php 4 www.google.com
+/plugins/jQuery-File-Upload/server/php/ 2 http://www.google.com/
+/index.php 2 forwardprogramming.site
+/Template/Mobile/js/main.js 2 -
+/new-site/ 2 -
+/community/ 10 -
+/backup-forwardprogramming/xmlrpc.php 4 www.google.com
+/plugins/content/apismtp/apismtp.php 2 -
+/wp-admin/site-health-info.php 1 http://simplesite.com
+/div/ 10 -
+/backup_Old/xmlrpc.php 4 www.google.com
+/2018/ 14 -
+/wp-content/plugins/super-forms/ 2 -
+/wp-content/plugins/background-image-cropper/doc.php 2 http://simplesite.com
+/wp-content/plugins/akismet/views/connect-jp.php 2 http://simplesite.com
+/old-wp/ 2 -
+/new/wp-admin/setup-config.php 1 -
+/bd/ 2 -
+/vendor/phpunit/phpunit/phpunit.xsd 2 -
+/shop/wp-includes/wlwmanifest.xml 2 -
+/info.php 1 -
+/user/allroleinfo 2 -
+/services 62 -
+/wp-content/plugins/apikey/apikey.php 4 http://forwardprogramming.site/wp-content/plugins/apikey/apikey.php
+/Public/Home/ecshe_css/main.css 2 -
+/plugins/content/apismtp/apismtp.php.suspected 2 -
+/testefewf938hdsf 2 forwardprogramming.site
+/xmrlpc.php 2 forwardprogramming.site
+/Old/xmlrpc.php 4 www.google.com
+// 1 -
+/wp-content/uploads/kaswara/icons/15/icons.php 1 forwardprogramming.site
+/_ignition/execute-solution 1 -
+/wp-config_copy.php.CloudTech_bak 2 -
+/blog/xmlrpc.php 4 www.google.com
+/FCKeditor/editor/filemanager/connectors/asp/connector.asp 12 http://forwardprogramming.site/FCKeditor/editor/filemanager/connectors/asp/connector.asp
+/test/installation/ 2 -
+/old/wp-admin/setup-config.php 1 -
+/Backup/xmlrpc.php 4 www.google.com
+/portal/index/protocol.html 2 -
+/Wp2/xmlrpc.php 4 www.google.com
+/log.php 2 http://simplesite.com
+/Res/font/font.css 2 -
+/wordpress/wp-admin/install.php 1 -
+/templates/beez3/error.php 2 http://simplesite.com
+/new/wp-includes/wlwmanifest.xml 2 -
+/index-config.php 2 -
+/admin/elfinder/connectors/php/connector.php 2 http://www.google.com/
+/sitemap.xml 2 -
+/common/admin/Jobs2/Telerik.Web.UI.DialogHandler.aspx 2 -
+/wp-class.php 4 -
+/wp-content/uploads/wp-logout.php 1 forwardprogramming.site
+/index/api/config 2 -
+/blog/wp-content/plugins/ubh/up.php 2 -
+/backup_forwardprogramming/xmlrpc.php 4 www.google.com
+/staging/wp-includes/wlwmanifest.xml 4 -
+/oldsite/xmlrpc.php 4 www.google.com
+/otc/ 2 -
+/Public/Home/js/cls.js 2 -
+/cache/s_e.php 1 -
+/OLD/xmlrpc.php 4 www.google.com
+/_ignition/health-check/ 2 -
+/nyyh/game.css 2 -
+/old-index.php 2 forwardprogramming.site
+/backup_old/xmlrpc.php 4 www.google.com
+/wp-content/plugins/super-forms/documentation.txt 2 -
+/wp-includes/Requests/Exception/HTTP/512.php 2 -
+/cache/outcut/th3_alpha.php 2 -
+/forwardprogramming2020 2 www.google.com
+/web/wp-includes/wlwmanifest.xml 2 -
+/wordpress/wp-includes/wlwmanifest.xml 2 -
+/2/xmlrpc.php 4 www.google.com
+/template/920ka/js/woodyapp.js 2 -
+/forwardprogrammingforwardprogramming/xmlrpc.php 4 www.google.com
+/iframe/rankgiftgotapi/1005 2 -
+/1index.php 2 http://simplesite.com
+/newsite/wp-includes/wlwmanifest.xml 2 -
+/register.asp 3 -
+/mobile/v3/appSuperDownload.do 2 -
+/h5/ 2 -
+/wp-content/plugins/wp-file-manager/readme.txt 28 -
+/demo/xmlrpc.php 4 www.google.com
+/wp-content/plugins/letme/weblinks.php 2 http://simplesite.com
+/login/kefuxian.mvc 1 -
+/.well-known.zip 2 -
+/assets/admin/plugins/jQuery-File-Upload/server/php/ 2 http://www.google.com/
+/wp-content/uploads/estate_templates/doc.php 2 http://simplesite.com
+/api/web/user/getIndexData.php 2 -
+/wp-config_backup 2 -
+/script/public.js 2 -
+/Public/css/_pk10.css 2 -
+/demo1/xmlrpc.php 4 www.google.com
+/BackUp/xmlrpc.php 4 www.google.com
+/1.php 4 http://simplesite.com
+/forwardprogramming_Backup/xmlrpc.php 4 www.google.com
+/css/all.css 2 -
+/wp/ 14 -
+/2019/ 2 -
+/mtja.html 2 -
+/newsite/xmlrpc.php 4 www.google.com
+/wp-content/plugins/cherry-plugin/admin/import-export/download-content.php 2 -
+/templates/beez3/jsstrings.php 2 http://simplesite.com
+/theme/assets/plugins/jquery-file-upload/server/php/ 4 http://www.google.com/
+/wp-content/themes/oceanwp/assets/js/third/%url% 1 -
+/forwardprogramming.site.zip 4 -
+/step1.asp 2 -
+/old_forwardprogramming/xmlrpc.php 4 www.google.com
+/wp-content/themes/twenty/twenty.php 2 -
+/Promotions/list.mvc 2 -
+/check.php 2 http://simplesite.com
+/wp-content/plugins/custom-css-js/assets/codemirror/suspect.sys.php 1 -
+/main/ 2 -
+/ups.php 4 http://simplesite.com
+/phpmyadmin/ 2 -
+/adminer-4.2.2-en.php 2 -
+/BACKUP_forwardprogramming/xmlrpc.php 4 www.google.com
+/Public/css/errorCss.css 2 -
+/cache/mainview/th3_alpha.php 2 -
+/template/920ka/css/lsy.css 2 -
+/wp-content/uploads/kaswara/fonts_icon/15/icons.php 1 forwardprogramming.site
+/blog/wp-admin/setup-config.php 1 -
+/old/wp-admin/install.php 1 -
+/common/template/lottery/lecai/css/style.css 2 -
+/new/wp-admin/install.php 1 -
+/eme.php 2 -
+/dev/ 2 -
+/test/ 2 -
+/wp-admin/network/network.php 2 http://simplesite.com
+/up.php 2 -
+/DesktopModules/TelerikWebUI/RadEditorProvider/Telerik.Web.UI.DialogHandler.aspx 2 -
+/wap/api/exchangerateuserconfig!get.action 2 -
+/Home/xmlrpc.php 4 www.google.com
+/adm.php 2 -
+/wordpress/wp-content/plugins/ubh/up.php 2 -
+/wp-admin/css/common.php 2 http://simplesite.com
+/1.txt 2 -
+/App_Master/Telerik.Web.UI.DialogHandler.aspx 2 -
+/Old-forwardprogramming/xmlrpc.php 4 www.google.com
+/www/wp-includes/wlwmanifest.xml 2 -
+/Public/Mobile/ecshe_css/wapmain.css 2 -
+/wp-admin/css/colors/index.php 1 -
+/new-index.php 10 forwardprogramming.site
+/backup/xmlrpc.php 4 www.google.com
+/Css/index.css 2 -
+/docindex.php 2 http://simplesite.com
+/content-post.php.suspected 2 http://simplesite.com
+/site.zip 3 -
+/wp-admin/user/back-up.php 1 -
+/forwardprogramming.zip 3 -
+/mini.php 2 http://simplesite.com
+/Blog/xmlrpc.php 4 www.google.com
+/-/~/code87/5.php 10 http://simplesite.com
+/Public/home/common/js/index.js 2 -
+/JS/loginstatus.js 2 -
+/admin/controller/extension/module/opheadar.php 4 http://simplesite.com
+/sql.php 2 -
+/wp-admin/links.php 1 http://simplesite.com
+/wp-content/plugins/angwp/UPDATES.txt 4 -
+/v2/ 2 -
+/m/ticker/usdtqc 2 -
+/forwardprogramming_Old/xmlrpc.php 4 www.google.com
+/readme.php 2 http://simplesite.com
+/NEW/xmlrpc.php 4 www.google.com
+/ads.txt 6 -
+/v1/wp-includes/wlwmanifest.xml 2 -
+/js/tvConfig.js 2 -
+/fePublicInfo/ 2 -
+/wp-content/themes/wp-update.php 2 forwardprogramming.site
+/wikindex.php 2 forwardprogramming.site
+/api/user/ismustmobile 2 -
+/n/news/banner 2 -
+/wordpress.zip 4 -
+/about.php 2 http://simplesite.com
+/wp-content/vuln.php 2 -
+/bitrix/admin/search.php 1 -
+/statics/js/API.js 2 -
+/wp-content/plugins/easyrotator-for-wordpress/cache.php 1 -
+/wp-includes/class.wp-date.php 1 -
+/wp-content/uploads/2020/04/content-post.php 2 http://simplesite.com
+/wp-admin/includes/index.php 1 -
+/resources/main/common.js 2 -
+/libraries/joomla/template/55index.php 4 http://simplesite.com
+/new.php 2 -
+/search.php 1 -
+/cgi-bin.zip 4 -
+/news/wp-includes/wlwmanifest.xml 2 -
+/wp-content/plugins/apikey/apikey.php.suspected 2 -
+/baindex.php 2 forwardprogramming.site
+/replacedb/ 2 -
+/DesktopModules/dnnWerk.RadEditorProvider/DialogHandler.aspx 2 -
+/wp-content/themes/plaintext/includes/custom-header.php 4 http://simplesite.com
+/static/guide/ab.css 2 -
+/static/local/img/userCenter/hourlyPrivilege.svg 2 -
+/theme/assets/global/plugins/jquery-file-upload/server/php/ 4 http://www.google.com/
+/admin_user/m_tixian.php 2 -
+/site/ 2 -
+/emergen.php 2 -
+/forwardprogramming2020/xmlrpc.php 4 www.google.com
+/back/ 12 -
+/wp-config_backup_ 2 -
+/seter.php 2 http://simplesite.com
+/doc.php 2 http://simplesite.com
+/Content/common/web/CommonActivity.css 2 -
+/ws/index/getTheLotteryInitList 2 -
+/old-site/ 2 -
+/WordPress/xmlrpc.php 4 www.google.com
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 298
+192.185.46.254 402 402 1 20210430224658
+184.154.76.20 237 387 8108837 20210428213100
+184.154.139.49 96 166 3582980 20210430212534
+184.154.139.50 72 140 3803474 20210426211950
+184.154.139.51 64 104 2205144 20210425212515
+135.148.12.120 56 56 2239713 20210424231404
+73.85.171.48 30 334 5020670 20210426100757
+46.105.45.118 18 18 726036 20210417103557
+52.1.89.74 14 14 221686 20210429232539
+220.181.77.162 12 176 6036848 20210428215215
+144.217.135.211 11 11 571066 20210406053924
+52.170.186.150 9 9 362838 20210420124050
+213.222.224.238 8 8 126784 20210406074500
+52.151.45.161 8 8 126660 20210425131737
+176.123.9.232 8 8 302694 20210428035929
+117.50.101.49 7 11 273096 20210415015232
+154.51.131.142 6 6 94964 20210426130805
+104.154.228.70 6 6 94902 20210420162453
+72.13.46.6 6 6 87386 20210417164650
+121.5.31.116 6 90 3012514 20210412221516
+51.91.218.19 6 86 3032352 20210406054629
+78.101.81.15 6 6 33288 20210419220725
+124.169.242.179 6 94 3276864 20210425175108
+109.248.139.85 6 6 261312 20210419162138
+193.56.252.52 6 6 278208 20210426232214
+196.242.115.205 5 5 51727 20210406030406
+198.20.185.113 2 2 31696 20210407181205
+193.106.30.100 4 4 0 20210424225457
+201.185.9.78 1 1 206 20210409221001
+64.246.161.30 2 2 31634 20210418034528
+92.118.160.5 2 2 120432 20210405174114
+34.77.162.28 2 2 120360 20210416034013
+88.230.49.74 1 1 206 20210419083417
+176.116.138.89 1 1 206 20210409220242
+27.115.124.6 0 4 12468 
+45.186.5.0 1 1 206 20210424220201
+14.232.214.253 1 1 206 20210424221131
+187.152.82.217 1 1 206 20210412221324
+159.192.186.158 1 1 206 20210412221417
+62.210.92.175 4 4 63330 20210427120401
+212.142.235.208 1 1 206 20210415095303
+45.62.39.195 2 2 25552 20210412115107
+170.83.119.59 1 1 206 20210424221628
+34.220.42.135 2 2 31634 20210425012222
+179.33.155.51 1 1 206 20210409220432
+34.213.209.187 2 2 31634 20210416012336
+13.228.104.57 2 2 31696 20210401024917
+37.120.133.166 4 4 207916 20210413114846
+54.189.230.128 4 6 69564 20210427091430
+210.14.103.171 1 1 206 20210412221651
+34.220.121.196 2 2 31696 20210414012246
+103.134.205.18 1 1 206 20210409221646
+108.170.55.250 4 4 18898 20210425111058
+3.0.115.255 4 4 63268 20210420044304
+139.28.252.25 1 1 206 20210409220818
+186.169.90.195 1 1 206 20210405201247
+124.122.46.137 1 1 206 20210409220403
+13.78.226.240 2 2 31696 20210409115433
+88.228.65.92 1 1 206 20210420044132
+173.245.211.110 3 3 121018 20210402153930
+156.204.80.45 1 1 206 20210405201738
+188.163.18.31 2 2 120360 20210417124007
+149.202.87.175 2 2 120360 20210428093812
+185.246.208.215 5 5 123108 20210401110929
+105.67.3.121 1 1 206 20210415094136
+95.10.135.73 1 1 206 20210422075141
+42.236.10.114 0 2 6234 
+165.21.73.130 2 2 31696 20210407192155
+123.26.110.7 1 1 206 20210415094156
+188.166.218.146 1 1 1091 20210401044045
+13.232.96.15 2 2 31634 20210423012309
+115.164.172.243 1 1 206 20210412221806
+171.101.162.91 1 1 206 20210420044100
+3.143.255.129 2 2 120360 20210421053617
+195.214.155.142 1 1 206 20210424180843
+70.35.205.76 2 2 31634 20210428114708
+34.223.90.183 2 2 31634 20210425144934
+192.241.137.43 1 1 13168 20210412221320
+194.147.142.160 2 2 120360 20210424072231
+89.46.62.18 4 4 51488 20210416114632
+13.209.28.104 2 2 31634 20210420155347
+51.178.27.211 2 2 120432 20210411191623
+137.74.76.181 1 1 269 20210427191256
+34.220.58.89 2 2 31696 20210404010810
+105.106.11.241 1 1 206 20210415095326
+85.206.162.217 4 4 207916 20210408232927
+52.192.73.251 2 2 31634 20210423105356
+54.213.17.255 2 2 31696 20210409010237
+177.245.192.20 1 1 206 20210415095824
+113.23.103.70 1 1 206 20210422074413
+44.242.158.212 1 3 22082 20210414012330
+131.0.197.234 1 1 206 20210424182540
+212.37.80.66 1 1 206 20210422075754
+210.245.33.230 1 1 206 20210409220756
+92.204.170.186 2 2 120432 20210402205036
+107.158.86.185 3 3 19967 20210429050705
+128.199.15.45 2 2 120432 20210411123633
+82.193.104.168 1 1 0 20210426052004
+34.217.89.139 3 3 121018 20210404210621
+121.5.147.119 0 2 9310 
+185.29.81.45 1 1 206 20210405200954
+58.53.128.234 4 4 63330 20210422180226
+51.15.127.88 2 2 31696 20210411044526
+212.90.39.68 4 4 151994 20210426132304
+3.8.68.2 2 2 31634 20210416071205
+52.60.189.115 2 2 31696 20210407233257
+109.201.133.100 1 1 60216 20210410111541
+171.13.14.11 0 4 10080 
+34.222.203.52 2 2 31696 20210412010436
+13.82.3.237 3 3 121018 20210413130538
+34.96.130.7 4 4 240864 20210412185506
+88.122.119.198 1 1 206 20210414133250
+151.240.236.58 1 1 206 20210424221457
+194.110.13.131 4 4 207772 20210418180819
+94.233.240.140 1 1 206 20210405201828
+190.188.195.60 1 1 206 20210405201242
+34.215.163.189 1 3 22051 20210425012605
+34.216.147.162 2 2 31634 20210417010636
+196.19.249.173 2 2 31696 20210403031612
+44.224.32.254 2 2 31634 20210420011808
+89.205.124.82 1 1 206 20210409221543
+101.51.236.41 1 1 206 20210424222047
+5.24.53.4 1 1 206 20210422075610
+101.100.146.147 2 2 120432 20210410111537
+35.80.38.167 1 1 15848 20210401010948
+49.228.144.239 1 1 206 20210412222002
+160.16.79.253 1 1 60139 20210415152649
+46.101.209.166 2 2 0 20210407220518
+83.23.240.173 1 1 206 20210420043851
+77.252.60.248 1 1 206 20210414132709
+190.113.115.94 1 1 206 20210409220533
+23.95.224.104 3 3 20031 20210403031624
+196.196.31.134 5 5 51601 20210419162244
+37.120.194.37 4 4 207772 20210424083955
+187.94.195.116 1 1 206 20210414133104
+222.254.168.29 1 1 206 20210409220514
+191.95.128.150 1 1 206 20210414133334
+112.210.34.92 1 1 206 20210405201441
+54.188.215.132 2 2 31634 20210419011455
+119.160.68.20 1 1 206 20210420045551
+34.77.162.26 2 2 120432 20210405213322
+80.92.206.251 2 2 31634 20210426123436
+149.202.72.186 1 1 1598 20210430205656
+103.69.108.20 1 1 206 20210405201133
+79.98.28.112 1 1 1601 20210430205657
+103.87.234.220 1 1 206 20210415094130
+78.46.200.13 1 1 1602 20210430205658
+34.208.121.47 2 2 31634 20210428013808
+156.197.73.61 1 1 206 20210412220341
+156.196.48.148 1 1 206 20210424182530
+52.24.186.241 2 2 31696 20210407010426
+171.96.157.123 1 1 206 20210409220442
+113.173.75.38 1 1 206 20210405201741
+52.40.80.156 2 2 31696 20210410010232
+94.120.190.154 1 1 206 20210414132600
+109.234.37.227 2 2 120360 20210418192533
+121.5.103.58 2 2 31696 20210414235302
+34.211.58.2 2 2 31634 20210421011227
+201.97.88.144 1 1 206 20210409221014
+196.245.164.112 5 5 51727 20210407140757
+81.0.125.230 1 1 206 20210409221848
+202.47.118.68 4 4 51488 20210417165915
+167.172.132.13 2 2 31696 20210405084900
+187.204.100.248 1 1 206 20210405201144
+142.93.63.7 2 2 31696 20210402145802
+178.162.212.214 2 2 17452 20210409071131
+13.90.27.68 2 2 31696 20210407132922
+186.179.194.12 5 5 123036 20210421154818
+184.168.152.199 2 2 460 20210403075744
+103.3.221.136 1 1 206 20210405201416
+160.179.47.24 1 1 206 20210405201252
+35.181.112.20 2 2 31634 20210418051028
+187.10.193.19 1 1 206 20210414132538
+34.96.130.25 2 2 120360 20210430224657
+189.49.48.77 1 1 206 20210405200947
+171.227.66.20 1 1 206 20210412221211
+199.244.88.132 5 5 0 20210425091020
+23.100.232.233 2 54 562222 20210428190842
+213.94.3.39 1 1 206 20210414132817
+154.152.149.49 1 1 206 20210424180944
+85.206.162.209 4 4 207916 20210411115322
+190.200.10.173 1 1 206 20210414133032
+197.158.119.131 1 1 206 20210422075445
+181.174.65.165 1 1 206 20210405200923
+18.221.206.247 2 2 31696 20210407070516
+65.21.106.137 1 1 543 20210427011922
+34.213.50.28 1 1 15817 20210420011951
+162.253.129.188 2 2 70436 20210416185905
+95.32.23.213 1 1 206 20210420044238
+107.189.11.153 1 1 60216 20210410111613
+192.82.84.83 1 1 206 20210420044515
+92.118.160.45 2 2 120360 20210418150011
+54.187.95.23 2 2 31696 20210401010825
+177.137.118.165 1 1 206 20210405201308
+91.227.68.180 1 1 0 20210426054116
+34.222.206.183 2 2 31696 20210415010625
+171.13.14.20 0 2 11320 
+49.230.204.53 1 1 206 20210409220821
+82.146.20.170 1 1 206 20210414132549
+107.158.86.48 3 3 19967 20210423164512
+103.113.172.28 1 1 206 20210409220523
+23.228.109.147 2 2 31590 20210415045215
+177.172.21.238 1 1 206 20210409220255
+138.186.138.41 3 3 20031 20210408033933
+168.80.80.235 2 2 31696 20210403085925
+27.145.29.174 2 2 412 20210422075412
+192.99.18.136 4 4 63330 20210425094530
+80.95.44.90 2 2 120360 20210415140424
+113.179.144.201 1 1 206 20210415094243
+136.158.100.179 1 1 206 20210405201048
+103.15.216.130 2 2 31696 20210409043030
+176.123.8.40 3 3 121018 20210404115930
+35.81.163.19 2 2 31634 20210422010739
+88.243.149.30 1 1 206 20210420044928
+179.234.163.83 1 1 206 20210405201127
+37.120.145.90 4 4 207772 20210419132055
+94.23.16.74 1 1 15817 20210426022137
+5.61.25.2 1 1 3029 20210403093900
+160.177.95.115 1 1 206 20210422075805
+23.19.80.25 2 2 31634 20210415114330
+104.168.28.169 2 2 31696 20210402135751
+182.185.52.44 1 1 206 20210412221003
+78.163.197.122 1 1 206 20210420044524
+66.220.149.32 0 2 134 
+152.254.213.201 1 1 206 20210422075022
+181.33.153.155 1 1 206 20210409221202
+45.182.17.7 1 1 206 20210405201207
+185.206.224.236 4 4 207772 20210425063238
+92.39.208.208 1 1 0 20210410202410
+116.203.217.243 2 2 31634 20210425202553
+81.177.248.237 2 2 31634 20210417005657
+79.140.150.214 1 1 206 20210414132505
+182.182.195.82 1 1 206 20210420044937
+58.96.14.57 1 1 206 20210405201224
+185.246.208.216 3 3 121018 20210401062017
+62.210.172.16 3 3 47513 20210417194234
+41.199.31.164 1 1 206 20210424180804
+49.234.47.214 0 2 1500 
+105.112.113.243 1 1 206 20210415094249
+152.207.213.223 1 1 206 20210405201819
+91.121.84.136 3 3 120946 20210429150340
+177.152.114.90 1 1 206 20210405200953
+49.49.238.23 1 1 206 20210405201239
+171.13.14.76 0 10 93382 
+79.124.60.174 1 1 60216 20210410111614
+39.106.98.188 2 2 31696 20210413232636
+125.24.107.168 1 1 206 20210412221157
+66.42.224.229 5 5 190904 20210429163824
+171.13.14.75 2 10 159356 20210414204301
+37.120.235.158 4 4 207772 20210423053048
+47.240.81.77 1 1 2904 20210404004450
+103.204.111.179 2 2 5740 20210428203422
+212.129.152.41 0 4 10788 
+94.23.253.21 2 2 31696 20210403205411
+91.121.79.16 2 2 120170 20210427092247
+3.8.12.221 2 2 31696 20210404215648
+142.93.229.2 2 2 17392 20210430205650
+114.5.250.30 1 1 206 20210409220501
+86.106.74.246 4 4 207916 20210414040614
+1.54.199.133 1 1 206 20210412220417
+188.113.166.23 1 1 206 20210422075429
+124.206.180.139 2 2 120432 20210405045015
+191.220.188.176 1 1 206 20210415094542
+92.118.160.61 2 2 120432 20210405211847
+95.159.142.10 1 1 206 20210405201357
+186.84.22.114 1 1 206 20210424215956
+219.138.163.116 4 4 63268 20210427033933
+40.117.124.126 3 3 2676 20210406202500
+35.162.33.98 2 2 31634 20210418010234
+34.212.231.78 2 2 31634 20210429011602
+171.13.14.5 0 4 31310 
+34.209.105.222 2 2 31634 20210416230204
+190.166.188.36 1 1 206 20210409221547
+176.36.232.170 1 1 0 20210426052012
+185.189.114.118 4 4 207772 20210417165155
+195.191.162.175 1 1 206 20210420045711
+14.180.41.166 1 1 206 20210419083553
+34.215.11.57 2 2 31634 20210423011659
+198.46.173.94 5 5 51727 20210414192259
+209.209.225.63 2 2 31696 20210410135920
+14.166.221.9 1 1 206 20210409221846
+93.158.90.155 2 2 31696 20210411144311
+94.23.250.140 1 1 60175 20210405185533
+191.186.224.199 1 1 206 20210405201803
+87.110.135.149 1 1 206 20210424221300
+94.202.228.177 1 1 206 20210424221245
+91.121.79.58 1 1 269 20210430205655
+162.243.4.24 2 2 31696 20210412221319
+52.30.16.188 1 1 15848 20210406042155
+103.25.242.95 1 1 206 20210412220448
+103.77.234.215 3 3 121018 20210413052700
+103.132.176.63 1 1 206 20210419083412
+171.247.214.127 1 1 206 20210405201809
+35.183.60.188 2 2 31634 20210415210730
+198.71.238.10 2 2 2090 20210423142756
+168.181.48.102 1 1 206 20210414133508
+45.154.255.67 3 3 120946 20210419010103
+45.180.148.20 1 1 206 20210414133553
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20210401 53 63 1111625 22
+20210402 37 47 882256 15
+20210403 46 56 848736 18
+20210404 47 57 1159478 17
+20210405 68 78 1216759 40
+20210406 57 147 4281734 17
+20210407 53 63 819317 19
+20210408 53 149 4033073 18
+20210409 61 201 1076136 37
+20210410 46 56 973582 20
+20210411 44 54 1057890 15
+20210412 67 163 3871592 30
+20210413 35 45 1027366 10
+20210414 66 118 1658308 32
+20210415 62 76 1166842 28
+20210416 48 58 1042908 18
+20210417 61 71 1251813 21
+20210418 47 57 1249116 18
+20210419 79 173 4829521 25
+20210420 65 75 1155295 28
+20210421 41 51 949118 17
+20210422 45 55 650104 20
+20210423 64 102 2839041 18
+20210424 64 74 1399370 28
+20210425 54 154 4357257 19
+20210426 55 151 2244903 20
+20210427 35 47 775260 15
+20210428 49 193 4444102 17
+20210429 46 56 948495 15
+20210430 31 41 693874 14
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+15mn-30mn 13
+5mn-15mn 9
+30s-2mn 4
+2mn-5mn 2
+0s-30s 527
+30mn-1h 54
+1h+ 22
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 32
+/ 461 16467484 234 139
+/wp-cron.php 401 0 258 258
+/xmlrpc.php 112 23072 111 111
+/contact/ 90 2665208 5 5
+/about/ 88 3661786 1 11
+/wp-includes/wlwmanifest.xml 64 66880 3 2
+/comments/feed/ 62 45502 0 1
+/projects/ 62 3388926 0 1
+/feed/ 58 63394 0 0
+/wp-json/wp/v2/users/ 42 23978 2 38
+/wp-json/ 30 1585345 1 1
+/wp-json/oembed/1.0/embed 30 66318 0 29
+/wp-content/themes/oceanwp/assets/fonts/simple-line-icons/Simple-Line-Icons.woff2 16 360768 0 6
+/wp-content/themes/oceanwp/assets/fonts/fontawesome/fontawesome-webfont.woff2 16 771600 0 1
+/wp-json/contact-form-7/v1/contact-forms/275/feedback 9 1012 0 9
+/wp-login.php 7 14858 6 5
+/author/jamie/ 6 52236 2 2
+/index.php 2 120314 2 2
+/wp-content/themes/oceanwp/assets/fonts/simple-line-icons/Simple-Line-Icons.eot 2 108532 0 1
+/wp-content/themes/oceanwp/assets/fonts/fontawesome/fontawesome-webfont.eot 2 331484 0 0
+/wp-admin/upgrade.php 2 1092 2 2
+/wp-load.php 2 0 1 1
+/wp-links-opml.php 2 460 1 1
+/search/1/feed/rss2/ 2 176494 0 0
+/search/1/feed/rss2/services/feed/rss2/ 2 2500 0 0
+/index.php/wp-json/wp/v2/posts/ 1 2 1 0
+//wp-admin/install.php 1 543 1 1
+/index.php/wp-json/wp/v2/pages/ 1 5738 0 1
+/wp-admin/load-styles.php 1 105325 0 0
+//wp-includes/wlwmanifest.xml 1 1045 0 0
+/search/1/feed/rss2/about/feed/rss2/ 2 2482 0 1
+//wp-json/wp/v2/users/ 2 855 0 2
+END_SIDER

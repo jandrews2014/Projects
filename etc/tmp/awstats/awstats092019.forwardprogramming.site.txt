@@ -1,0 +1,824 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 201909 will be lost/reset.
+# Last config file used to build this data file was /home2/jandrews2014/tmp/awstats/awstats.forwardprogramming.site.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2025                
+POS_TIME 2703                
+POS_VISITOR 20147               
+POS_DAY 26847               
+POS_DOMAIN 3558                
+POS_LOGIN 4162                
+POS_ROBOT 4317                
+POS_WORMS 4947                
+POS_EMAILSENDER 5078                
+POS_EMAILRECEIVER 5221                
+POS_SESSION 27685               
+POS_SIDER 27896               
+POS_FILETYPES 5356                
+POS_DOWNLOADS 5637                
+POS_OS 5794                
+POS_BROWSER 6130                
+POS_SCREENSIZE 7604                
+POS_UNKNOWNREFERER 7678                
+POS_UNKNOWNREFERERBROWSER 8175                
+POS_ORIGIN 8478                
+POS_SEREFERRALS 8622                
+POS_PAGEREFS 8789                
+POS_SEARCHWORDS 8965                
+POS_KEYWORDS 9117                
+POS_MISC 2367                
+POS_ERRORS 9176                
+POS_CLUSTER 4018                
+POS_SIDER_404 9368                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20191001013840 83 19876 8531074839329
+FirstTime 20190901015709
+LastTime 20190930212258
+LastUpdate 20191001073659 83 0 82 0 0
+TotalVisits 425                 
+TotalUnique 155                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 174                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+TotalMisc 0 0 0
+AddToFavourites 0 0 0
+PDFSupport 0 0 0
+FlashSupport 0 0 0
+JavaEnabled 0 0 0
+DirectorSupport 0 0 0
+JavascriptDisabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+RealPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 20 23 253146 52 114 1345794
+1 29 29 359749 87 164 1813307
+2 25 111 3315038 71 168 1547276
+3 39 155 1676616 65 78 1179494
+4 49 288 8715277 80 133 1524429
+5 34 34 613444 88 102 403461
+6 31 31 816014 25 33 348872
+7 23 23 200241 33 116 1393111
+8 33 33 490894 92 114 414792
+9 16 19 155382 61 166 2911341
+10 29 113 3280840 32 55 428329
+11 18 27 266090 21 25 172189
+12 34 37 745244 19 22 195215
+13 25 34 327311 34 37 237340
+14 40 40 588335 45 50 466818
+15 29 34 407970 28 32 173032
+16 47 47 751450 68 72 1259335
+17 49 333 11435134 144 178 1179844
+18 35 66 564676 35 58 355655
+19 53 191 8157761 94 189 4359429
+20 24 24 379010 23 29 239644
+21 631 969 26944542 599 979 23565800
+22 28 28 474384 43 98 922907
+23 23 77 720571 35 51 184893
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 27
+us 1135 2119 51408645
+cn 55 100 1740808
+il 28 191 7860408
+ua 23 23 686882
+ca 20 20 829163
+ru 18 72 1100385
+gb 16 100 3266868
+it 9 9 255864
+bg 9 81 2874460
+ne 7 7 280404
+fr 6 6 273516
+pl 6 6 122926
+ch 4 4 63566
+in 4 4 241922
+hu 2 2 31784
+id 2 2 31784
+np 2 2 121056
+eg 2 2 31784
+gr 2 2 121056
+vg 2 2 121056
+kr 2 2 31784
+sa 2 2 31784
+ke 2 2 31784
+ro 2 2 31784
+th 2 2 31782
+ph 1 1 15864
+br 1 1 0
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 12
+spider 546 17013659 20190930212304 0
+bingpreview 316 7357950 20190925092631 0
+Googlebot/ 316 2811044 20190929105939 20
+link 95 3154578 20190929084059 0
+bingbot/ 42 453400 20190925225010 20
+bot[\s_+:,\.\;\/\\-] 34 865766 20190929001324 2
+unknown 34 2278 20190930054551 34
+Python\-urllib/ 21 1090781 20190928033758 2
+no_user_agent 14 158396 20190925210358 0
+(firefox/)([0-9]\.|[0-1][0]\.) 11 113906 20190928134531 0
+DuckDuckGo\-Favicons\-Bot/ 8 76036 20190924201807 0
+curl 4 242112 20190912071757 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+woff2 34 1869904 0 0
+html 837 29105767 0 0
+png 280 22927626 0 0
+jpg 34 1545530 0 0
+php 386 3200687 0 0
+Unknown 42 78782 0 0
+ttf 4 439208 0 0
+xml 61 63745 0 0
+css 422 3654770 0 0
+gif 31 1493222 0 0
+js 635 7259878 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 2
+//wp-content/plugins/elementor/readme.txt 30 0 3167730
+/wp-content/plugins/elementor/readme.txt 30 0 3167730
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 20
+linuxandroid 47 2
+macosx 8 8
+win8.1 25 13
+linux 451 83
+macosx8 16 4
+macosx9 10 0
+macosx12 2 2
+Unknown 507 419
+macosx7 6 4
+macosx10 44 40
+win8 23 9
+macosx4 2 2
+macosx11 22 22
+ios_iphone 96 6
+winxp 16 16
+macosx6 4 0
+linuxubuntu 2 0
+winlong 16 6
+win7 1168 673
+win10 301 55
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 71
+chrome46.0.2490.80 2 2
+firefox42.0 2 2
+chrome32.0.1700.41 2 0
+chrome74.0.3729.131 4 4
+msie9.0 906 574
+chrome40.0.2214.111 8 2
+chrome46.0.2490.86 2 2
+firefox47.0 22 22
+opera44.5.0792.5065 2 2
+chrome58.0.3029.110 111 39
+firefox25.0 16 4
+chrome68.0.3440.106 10 10
+opera53.0.2907.106 5 5
+msie11.0 8 2
+firefox24.0 1 1
+chrome19.0.1084.52 2 2
+chrome31.0.1650.57 4 2
+safari12.1.2 98 8
+chrome36.0.1985.143 2 2
+firefox59.0 4 4
+msie7.0 2 2
+msie8.0 3 3
+firefox26.0 34 0
+firefox31.0 5 1
+chrome71.0.3578.80 2 2
+chrome70.0.3538.110 256 20
+chrome69.0.3494.0 56 2
+chrome73.0.3683.103 2 2
+firefox64.0 16 16
+opera62.0.3331.99 11 11
+firefox65.0 4 4
+chrome76.0.3809.100 5 5
+chrome68.0.3440.84 6 6
+edge36 2 2
+chrome63.0.3239.132 10 10
+Unknown 399 399
+chrome71.0.3578.98 2 2
+chrome45.0.2454.101 36 36
+chrome12.0.742.91 2 0
+chrome76.0.3809.132 132 12
+edge34 2 2
+chrome41.0.2227.0 9 5
+firefox68.0 4 4
+firefox56.0 2 2
+firefox33.0 2 0
+chrome32.0.1700.72 40 5
+safari7.0.1 2 0
+chrome26.0.1410.65 4 4
+chrome35.0.1916.153 4 0
+chrome40.0.2214.85 92 6
+chrome66.0.3359.181 7 7
+firefox53.0 4 4
+chrome74.0.3729.169 2 2
+safari6.1.1 2 2
+firefox54.0 12 12
+chrome73.0.3683.86 60 6
+chrome36.0.1985.67 2 2
+chrome75.0.3770.142 114 7
+mozilla 131 43
+opera12.16 2 0
+chrome65.0.3325.181 2 2
+firefox28.0 4 0
+safari6.1 2 2
+firefox36.0 4 0
+chrome45.0.2454.94 2 2
+chrome9.0.597.107 2 2
+msie10.0 6 2
+firefox60.0 2 2
+chrome31.0.1650.63 36 2
+chrome46.0.2754.75 4 4
+msie6.0 9 9
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 9
+Zend_Http_Client 20190916052328
+WordPress/4.9.11;_http://forwardprogramming.site 20190930212230
+Mozilla/5.0_(compatible;_ips-agent) 20190913070756
+ia_archiver 20190923213944
+Mozilla/5.0_(compatible) 20190913192011
+Go-http-client/1.1 20190930174826
+Mozilla/6.0_(compatible) 20190913183018
+WordPress/4.9.10;_http://forwardprogramming.site 20190905042136
+Mozilla/5.0_(compatible;_Dataprovider.com) 20190918103125
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 5
+ia_archiver 20190923213944
+WordPress/4.9.10;_http://forwardprogramming.site 20190905042136
+Zend_Http_Client 20190916052328
+Go-http-client/1.1 20190930174826
+WordPress/4.9.11;_http://forwardprogramming.site 20190930212230
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 365 560
+From1 4 4
+From2 574 906
+From3 4 76
+From4 417 1220
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 574 906
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://freevpn.express 4 76
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 10
+500 10 7112
+405 2 84
+301 264 0
+409 247 20335
+206 2 4
+302 9 0
+406 51 11526
+404 727 13204469
+400 11 11
+403 299 38860
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 201
+/wp-includes/Requests/Exception/Transport/media-admin.php 2 forwardprogramming.site
+//Old/ 4 -
+/idb.php 2 forwardprogramming.site
+/wp-admin/includes/idb.php 1 forwardprogramming.site
+/wp-content/themes/pinword-theme/style.css 4 http://forwardprogramming.site/wp-content/themes/pinword-theme/style.css
+/wp-content/themes/news-box-lite/db.php 2 -
+/installer.php 4 -
+/wp-content/themes/konzept/style.css 2 http://forwardprogramming.site/wp-content/themes/konzept/style.css
+/wp-includes/js/tinymce/plugins/wpview/idb.php 2 forwardprogramming.site
+/cgi-bin/index.php 1 -
+/js/ajax.js 2 -
+/vbforums/js/ajax.js 2 -
+/wp-content/uploads/2019/05/media-admin.php 2 forwardprogramming.site
+/wp-content/plugins/easyrotator-for-wordpress/c.php 2 -
+/forwardprogramming.site 2 http://forwardprogramming.site/forwardprogramming.site
+/functions.php 2 -
+/wp-content/uploads/idb.php 2 forwardprogramming.site
+/ 100 -
+/wp-includes/Text/Diff/Engine/idb.php 2 forwardprogramming.site
+/wp-json/oembed/1.0/%5C%22http:%5C/%5C/forwardprogramming.site%5C/contact%5C/%5C%22 1 http://www.google.com/url
+/ads.txt 2 -
+/wp-includes/output.php 2 -
+/wp-admin/maint/idb.php 1 forwardprogramming.site
+/wp-content/themes/sportimo-theme/style.css 2 http://forwardprogramming.site/wp-content/themes/sportimo-theme/style.css
+/wp-content/idb.php 2 forwardprogramming.site
+//wp1/ 4 -
+/wp-admin/network/user-about.php 2 -
+/wp-content/themes/famous/style.css 2 http://forwardprogramming.site/wp-content/themes/famous/style.css
+/wp-content/plugins/page-flip-image-gallery/upload.php 2 http://forwardprogramming.site/wp-content/plugins/page-flip-image-gallery/upload.php
+/wp-content/themes/rayoflight-theme/css/style.css 2 http://forwardprogramming.site/wp-content/themes/rayoflight-theme/css/style.css
+/wp-json/oembed/1.0/%5C%22http:%5C/%5C/forwardprogramming.site%5C/projects%5C/%5C%22 1 http://www.google.com/url
+/xxxxxx.php 2 -
+/profile/register/ 2 -
+/wp-includes/SimplePie/Parse/media-admin.php 2 forwardprogramming.site
+/forums/ 3 -
+/wp-admin/theme-uploader.php 2 -
+//wordpress/ 4 -
+//vendor/phpunit/phpunit/phpunit.xsd 1 -
+/author/admin/ 2 -
+/wp-content/themes/eptonic-v1.4.3/functions/jwpanel/scripts/valums_uploader/php.php 2 http://forwardprogramming.site/wp-content/themes/eptonic-v1.4.3/functions/jwpanel/scripts/valums_uploader/php.php
+/manager/ 2 http://forwardprogramming.site/manager/index.php
+/vb/js/ajax.js 2 -
+/wp-admin/includes/rnnvhs.php 2 -
+//v2/ 4 -
+/media-admin.php 2 forwardprogramming.site
+/OMC_template.zip 1 -
+/blog/ 7 -
+/quick_install_archive.tar.gz 1 -
+/smalls.php 2 -
+/wp-includes/images/wlw/license.php 1 -
+/wp-content/themes/rockstar-theme/style.css 2 http://forwardprogramming.site/wp-content/themes/rockstar-theme/style.css
+/wp-includes/idb.php 2 forwardprogramming.site
+/wp-load-5b7a23c0744615b7a23c0744af.php 2 -
+/wp-main.php 2 -
+/wp-content/media-admin.php 2 forwardprogramming.site
+/vb5/ 3 -
+//site/ 4 -
+/test/ 6 -
+/wp-content/plugins/lifterlms/assets/js/llms-metabox-students.js 2 -
+//wp-content/plugins/revslider/license.php 1 -
+/wp-content/uploader.php 2 -
+/wp-content/themes/kiddo/style.css 2 http://forwardprogramming.site/wp-content/themes/kiddo/style.css
+/wp-includes/js/tinymce/plugins/textcolor/idb.php 2 forwardprogramming.site
+/wp-content/uploads/license.php 1 -
+/forwardprogramming.gz 2 -
+/wp-config.php_backup 2 -
+/wp-json/oembed/1.0/%5C%22http:%5C/%5C/forwardprogramming.site%5C/about%5C/%5C%22 1 http://www.google.com/url
+/sitemap.xml 2 -
+/wp-includes/SimplePie/Decode/idb.php 2 forwardprogramming.site
+/Iontrol.php 2 -
+/wp-content/themes/Clockstone/style.css 2 http://forwardprogramming.site/wp-content/themes/Clockstone/style.css
+/installer-backup.php 5 -
+/wp-includes/js/tinymce/plugins/media/idb.php 2 forwardprogramming.site
+/wp-content/themes/anthology/style.css 2 http://forwardprogramming.site/wp-content/themes/anthology/style.css
+/new/ 6 -
+/new/wp-admin/install.php 1 -
+/wp-content/uploads/2019/05/idb.php 2 forwardprogramming.site
+/wp-includes/media-admin.php 2 forwardprogramming.site
+/wp-content/themes/radial-theme/style.css 2 http://forwardprogramming.site/wp-content/themes/radial-theme/style.css
+/wp-content/themes/Famous/style.css 2 http://forwardprogramming.site/wp-content/themes/Famous/style.css
+/wp-includes/css/style.css.php 2 -
+/wp-content/themes/cameleonthemeforest/includes/fileuploader/upload_handler.php 2 http://forwardprogramming.site/wp-content/themes/cameleonthemeforest/includes/fileuploader/upload_handler.php
+/2 4 -
+/test.php 1 -
+/wp-content/plugins/WP_Estimation_Form/assets/css/lfb_frontendPackedLibs.min.css 3 -
+/vb/ 3 -
+/wp-content/themes/eptonic/functions/jwpanel/scripts/valums_uploader/php.php 2 http://forwardprogramming.site/wp-content/themes/eptonic/functions/jwpanel/scripts/valums_uploader/php.php
+/wordpress/ 7 -
+/wp-content/plugins/akismet/akismet.php 4 -
+/wp-admin/network/idb.php 1 forwardprogramming.site
+/wp-admin/css/colors/ectoplasm/idb.php 1 forwardprogramming.site
+/wp-content/themes/lightspeed/framework/_scripts/valums_uploader/php.php 2 http://forwardprogramming.site/wp-content/themes/lightspeed/framework/_scripts/valums_uploader/php.php
+/web/ 2 -
+/wp-admin/js/widgets/idb.php 1 forwardprogramming.site
+/wp-content/themes/Dandelion/style.css 2 http://forwardprogramming.site/wp-content/themes/Dandelion/style.css
+/wp-content/plugins/BirdsRio.php 2 -
+/wp-content/plugins/Wp-LayerSlider/layerslider.php 2 -
+/wp-content/themes/amplus/style.css 2 http://forwardprogramming.site/wp-content/themes/amplus/style.css
+/wp-content/plugins/SocketIontrol.php 2 -
+//wp-includes/images/wlw/license.php 1 -
+/sqlibak.php 2 -
+/wp-content/themes/nuance/functions/jwpanel/scripts/valums_uploader/php.php 2 http://forwardprogramming.site/wp-content/themes/nuance/functions/jwpanel/scripts/valums_uploader/php.php
+/wp-admin/includes/wp-cods.php 2 -
+/news/wp-login.php 1 -
+/wp-content/themes/AdvanceImage5/functions.php 1 -
+/old/ 6 -
+//demo/ 4 -
+/wp-content/plugins/wp-cache.php 2 -
+/wp-content/plugins/lifterlms/assets/css/admin-setup.min.css 2 forwardprogramming.site
+/wp-content/themes/clockstone/style.css 2 http://forwardprogramming.site/wp-content/themes/clockstone/style.css
+/imdex.php 1 -
+/wp-content/uploads/2019/idb.php 2 forwardprogramming.site
+/cms/ 2 -
+/bak.php 4 -
+/wp-content/plugins/thumbnail.php 2 -
+/vendor/phpunit/phpunit/src/Util/PHP/kill.php 2 -
+/wp-admin/css/colors/blue/idb.php 1 forwardprogramming.site
+/wp-includes/js/tinymce/plugins/hr/idb.php 2 forwardprogramming.site
+/temp/ 6 -
+//installer-backup.php 3 -
+//main/ 4 -
+//v1/ 4 -
+/3 4 -
+/vendor/phpunit/phpunit/phpunit.xsd 1 -
+/wp-admin/css/colors/sunrise/idb.php 1 forwardprogramming.site
+/wp-includes/js/tinymce/plugins/wpautoresize/idb.php 2 forwardprogramming.site
+/wp-includes/SimplePie/XML/Declaration/idb.php 2 forwardprogramming.site
+/db_z.php 2 -
+/demo/ 6 -
+/wp/wp-admin/install.php 1 -
+/wp-tmp.php 1 -
+/vbulletin/ 3 -
+/wp-content/themes/OptimizePress/lib/admin/media-upload.php 2 http://forwardprogramming.site/wp-content/themes/OptimizePress/lib/admin/media-upload.php
+/wp/wp-admin/ 1 -
+/main/ 6 -
+//new/ 4 -
+/wp-admin/idb.php 1 forwardprogramming.site
+/wp-admin/network/rnnvhs.php 2 -
+/services 84 -
+/forums/js/ajax.js 2 -
+/wp-content/themes/dandelion/style.css 2 http://forwardprogramming.site/wp-content/themes/dandelion/style.css
+/wp-content/plugins/revslider/license.php 1 -
+/wp-includes/js/tinymce/plugins/image/idb.php 2 forwardprogramming.site
+//temp/ 4 -
+/wp/ 7 -
+/wp-includes/Text/idb.php 2 forwardprogramming.site
+/readme.php 2 -
+/Old/ 4 -
+//old/ 4 -
+/site/ 6 -
+/tmp/ 2 -
+//wp/ 4 -
+//wp-content/uploads/license.php 1 -
+/wp-includes/SimplePie/idb.php 2 forwardprogramming.site
+/wp1/ 4 -
+/400.shtml 1 -
+/saless.php 2 -
+/wp-content/themes/qualifire/style.css 2 http://forwardprogramming.site/wp-content/themes/qualifire/style.css
+/wp-content/themes/magnitudo/framework/_scripts/valums_uploader/php.php 2 http://forwardprogramming.site/wp-content/themes/magnitudo/framework/_scripts/valums_uploader/php.php
+/wp-includes/ID3/license.php 1 -
+/wp-content/themes/reganto-theme/style.css 2 http://forwardprogramming.site/wp-content/themes/reganto-theme/style.css
+/wp-content/plugins/500.php 2 -
+//test/ 4 -
+/wp-content/themes/project10-theme/style.css 2 http://forwardprogramming.site/wp-content/themes/project10-theme/style.css
+/vbulletin5/ 3 -
+/wp-content/themes/optimizepress/lib/admin/media-upload.php 2 http://forwardprogramming.site/wp-content/themes/optimizepress/lib/admin/media-upload.php
+/wp-content/themes/deep-blue/style.css 2 http://forwardprogramming.site/wp-content/themes/deep-blue/style.css
+//backup/ 4 -
+/manager/ldskflks 2 -
+/th1s_1s_a_4o4.html 60 -
+/wp-content/themes/highlight/style.css 2 http://forwardprogramming.site/wp-content/themes/highlight/style.css
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 4 -
+/wp-content/themes/curvo/style.css 2 http://forwardprogramming.site/wp-content/themes/curvo/style.css
+/v1/ 6 -
+/wp-admin/user/idb.php 1 forwardprogramming.site
+/wp-content/themes/AdvanceImage5/header.php 1 -
+/wordpress/wp-admin/install.php 1 -
+/forum/ 13 -
+/wp-content/themes/oceanwp/assets/js/third/%url% 1 -
+/wp-content/themes/konzept/includes/uploadify/upload.php 2 http://forwardprogramming.site/wp-content/themes/konzept/includes/uploadify/upload.php
+/wp-content/themes/cubed_v1.2/style.css 2 http://forwardprogramming.site/wp-content/themes/cubed_v1.2/style.css
+/backup/ 6 -
+//wp-content/plugins/WP_Estimation_Form/assets/css/lfb_frontendPackedLibs.min.css 3 -
+/wp-content/themes/cameleon/includes/fileuploader/upload_handler.php 2 http://forwardprogramming.site/wp-content/themes/cameleon/includes/fileuploader/upload_handler.php
+/wp-json/oembed/1.0/%5C%22http:%5C/%5C/forwardprogramming.site%5C/%5C%22 1 http://www.google.com/url
+//blog/ 4 -
+/feal.php 4 forwardprogramming.site
+//wp-includes/ID3/license.php 1 -
+/wp-includes/js/tinymce/plugins/link/idb.php 2 forwardprogramming.site
+/wp-content/themes/dimension/style.css 2 http://forwardprogramming.site/wp-content/themes/dimension/style.css
+/wp-admin/css/colors/media-admin.php 1 forwardprogramming.site
+/error-logs.php 2 -
+/wp-admin/css/colors/coffee/idb.php 1 forwardprogramming.site
+/forum/js/ajax.js 2 -
+/wp-content/plugins/Materialnlns.php 2 -
+/wp-includes/js/tinymce/utils/idb.php 2 forwardprogramming.site
+//installer.php 2 -
+/wp-includes/js/idb.php 2 forwardprogramming.site
+/wp-content/themes/Anthology/style.css 2 http://forwardprogramming.site/wp-content/themes/Anthology/style.css
+/wp-includes/class.wp-times.php 2 -
+/v2/ 6 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 174
+192.185.46.254 315 315 1 20190930212230
+184.154.139.52 228 348 10053014 20190924212119
+184.154.139.49 95 145 4154920 20190927212707
+184.154.139.50 94 144 4153875 20190925212506
+184.154.139.4 81 153 4677459 20190929212543
+184.154.139.51 76 116 3307886 20190930212258
+54.173.35.129 24 24 621608 20190923213944
+104.192.74.228 22 258 8401554 20190903040253
+60.191.38.77 22 22 1331616 20190924225541
+82.80.230.228 14 115 4412102 20190913192330
+131.91.4.38 12 132 5336406 20190910173945
+193.106.30.99 11 11 143028 20190918143200
+82.80.249.137 10 38 334188 20190913183030
+158.69.225.33 9 9 503366 20190916064405
+184.94.240.92 8 8 418328 20190925020043
+41.203.146.142 7 7 280404 20190925141916
+3.17.79.170 7 69 642159 20190901034523
+131.91.4.31 6 96 3160812 20190910173729
+213.183.54.65 6 60 776924 20190928030105
+51.68.152.26 6 6 95350 20190927185151
+69.58.178.57 6 6 77430 20190913070756
+51.77.129.167 6 90 3018678 20190918103125
+54.38.37.42 5 5 192296 20190912123203
+84.17.47.19 5 5 192296 20190925205204
+91.134.221.168 5 5 192296 20190921015222
+54.69.161.68 2 2 31784 20190921191426
+206.189.11.44 2 2 31784 20190925175611
+159.65.119.180 2 2 31784 20190919212411
+91.121.79.16 2 2 120866 20190919174614
+82.80.249.202 2 2 121056 20190913192151
+35.231.231.82 3 3 47676 20190923131633
+34.212.54.228 2 2 31784 20190926150321
+46.248.187.123 2 2 1042 20190916052328
+163.179.32.110 4 4 7020 20190914043952
+202.166.216.249 2 2 121056 20190918150108
+172.245.80.22 3 3 47676 20190929215359
+82.80.249.157 0 4 143442 
+52.198.117.7 2 2 31784 20190906061820
+13.250.22.253 2 2 31784 20190913224805
+54.85.2.224 2 2 31782 20190903033738
+211.176.125.70 2 2 31784 20190927020335
+34.219.70.16 2 2 31782 20190901210500
+13.234.13.177 2 2 31784 20190927022317
+158.69.162.111 2 2 121056 20190922041743
+162.213.36.130 4 4 63568 20190905204837
+3.228.22.151 2 2 31784 20190924125626
+145.239.116.33 2 2 121056 20190930190754
+18.215.235.254 2 2 31784 20190920182118
+35.243.241.242 3 3 47673 20190903101108
+185.216.33.149 2 2 31784 20190917141950
+123.148.217.248 1 1 1758 20190924142450
+101.4.60.123 0 6 10100 
+34.212.93.220 2 2 31784 20190913191044
+177.106.82.93 1 1 0 20190926161309
+173.252.127.21 2 36 824104 20190928021859
+54.152.31.39 2 2 31784 20190916042859
+35.173.196.252 2 2 31782 20190903081701
+34.219.115.76 2 2 31784 20190919191426
+54.218.106.99 2 2 31784 20190915191048
+84.17.48.189 2 2 31784 20190915161518
+104.36.19.239 2 2 31784 20190905223542
+82.80.249.164 0 6 1553168 
+18.207.94.205 2 2 31784 20190907080157
+52.12.138.46 2 2 31784 20190929162434
+82.80.249.204 0 2 121132 
+104.196.216.71 3 3 47676 20190915121259
+35.165.80.78 2 2 31784 20190925183312
+194.63.141.189 2 2 121056 20190907051226
+54.91.89.30 2 2 31784 20190907125326
+94.97.96.139 2 2 31784 20190929015534
+107.178.237.10 2 56 562476 20190914231912
+167.99.232.64 1 1 60528 20190909230034
+54.237.72.159 0 2 32502 
+165.227.158.27 2 2 63557 20190926012835
+101.4.60.63 0 3 83712 
+149.28.121.119 2 2 31784 20190927195107
+193.70.34.209 2 2 31784 20190911122739
+82.80.249.152 0 2 22772 
+35.163.154.175 2 2 31784 20190920220235
+125.106.204.112 3 3 5226 20190910164226
+101.4.60.64 0 3 5626 
+27.115.124.4 0 7 34734 
+82.80.249.143 0 2 7706 
+54.186.103.29 2 2 31784 20190906215935
+182.19.41.145 2 2 121056 20190915103750
+35.231.247.101 3 3 47676 20190907104324
+82.80.249.214 2 2 31784 20190913182949
+123.148.209.214 1 1 1758 20190924083735
+104.245.145.55 3 3 20117 20190925140703
+103.92.209.3 2 2 120866 20190911160008
+34.232.80.56 2 2 31784 20190912181253
+173.252.127.24 2 40 634482 20190928021851
+82.80.249.194 0 4 127592 
+156.196.146.96 2 2 31784 20190929082506
+37.120.217.3 2 2 31784 20190914093615
+104.36.19.141 2 2 31784 20190905183938
+18.234.26.213 2 2 31784 20190916181912
+192.30.164.48 2 2 63557 20190925053531
+198.55.96.57 2 2 31782 20190904232021
+89.35.29.38 2 2 121056 20190915165630
+159.89.25.194 2 2 31784 20190911144207
+119.93.81.99 1 1 15864 20190920222915
+171.99.130.178 2 2 31782 20190901133429
+27.115.124.3 0 8 87032 
+34.215.109.248 2 2 31784 20190914203949
+27.115.124.2 0 7 10438 
+27.115.124.5 0 8 114322 
+123.148.244.100 4 4 7032 20190905172341
+163.179.32.233 1 1 1755 20190926002709
+18.205.60.193 2 2 31784 20190926211831
+35.240.133.122 2 2 31784 20190917162252
+34.215.227.197 2 2 31784 20190907191537
+35.160.40.86 2 2 31784 20190910191355
+178.137.82.147 2 2 121056 20190914225632
+89.133.222.158 2 2 31784 20190926141048
+91.121.171.148 2 2 120866 20190903042551
+162.213.36.180 2 2 31784 20190927082645
+3.87.11.251 2 2 31784 20190912152402
+195.242.80.29 2 2 58588 20190918130121
+62.210.83.78 2 2 31784 20190913052151
+167.71.162.81 2 2 31784 20190912193211
+82.80.249.155 0 6 717424 
+162.241.175.243 2 2 121056 20190910051218
+54.244.213.177 2 2 31784 20190911215934
+54.184.240.30 2 2 31784 20190917191504
+31.202.101.40 2 2 121056 20190906112301
+78.24.220.1 3 3 121056 20190908063236
+64.246.165.170 2 2 31784 20190930054556
+123.148.217.252 4 4 7032 20190919164433
+18.236.200.75 2 2 31784 20190923215049
+52.52.190.187 2 2 3001 20190907133544
+31.171.251.200 2 2 31782 20190904165445
+183.150.236.91 4 4 6968 20190913063135
+162.213.36.236 2 2 31784 20190927035401
+123.148.211.118 1 1 1758 20190926110641
+46.248.188.216 2 2 828 20190901112735
+134.209.161.68 2 2 31784 20190927002032
+35.243.200.96 3 3 47676 20190911111605
+162.213.37.29 2 2 31784 20190927232621
+173.252.127.42 2 16 1581534 20190928021859
+82.80.249.227 0 4 166804 
+3.215.186.15 2 2 31784 20190930174826
+176.8.90.196 2 2 121056 20190919160203
+54.174.78.92 2 2 31784 20190917014804
+167.114.228.206 2 2 31784 20190925032355
+104.36.17.150 2 2 31784 20190927062224
+3.84.233.138 2 2 31784 20190916235215
+3.214.21.251 4 4 57426 20190912104656
+37.115.185.241 2 2 121056 20190918055734
+64.246.165.210 2 2 31784 20190908012914
+104.223.67.231 3 3 20115 20190902105005
+91.148.141.162 4 76 2682164 20190917171113
+51.15.124.33 2 2 31784 20190929121508
+41.89.56.211 2 2 31784 20190923045735
+35.231.135.17 3 3 47676 20190919124506
+34.229.177.12 0 2 32502 
+134.209.40.112 2 2 31784 20190918171149
+92.244.96.102 2 2 1042 20190921093241
+125.106.94.228 4 4 6968 20190902162334
+198.27.69.176 2 2 121056 20190909225947
+92.119.160.72 2 2 121056 20190917083848
+35.237.129.70 3 3 47676 20190927141357
+118.96.137.76 2 2 31784 20190910154406
+162.213.39.133 2 2 31784 20190927152536
+31.184.215.241 5 5 49565 20190919035215
+35.247.128.90 2 2 88108 20190918150128
+82.80.244.51 0 4 101238 
+154.51.131.142 2 2 31784 20190920035319
+101.4.60.124 0 3 5408 
+178.22.66.240 2 2 31784 20190927214403
+123.148.245.37 4 4 7032 20190908015017
+123.148.242.194 1 1 1758 20190921150812
+163.179.32.121 1 1 1755 20190907070048
+79.191.125.26 2 2 121056 20190929195716
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20190901 44 116 1566767 15
+20190902 35 45 856155 10
+20190903 64 310 9493873 16
+20190904 38 48 924418 12
+20190905 46 56 981203 16
+20190906 38 48 1002731 14
+20190907 47 57 1115874 18
+20190908 49 59 1180891 16
+20190909 35 45 1149674 13
+20190910 71 293 9808874 19
+20190911 46 56 1169897 14
+20190912 40 50 1129180 13
+20190913 73 246 9008248 17
+20190914 39 103 1570010 12
+20190915 39 49 1200390 12
+20190916 49 59 1447434 16
+20190917 51 133 4140558 17
+20190918 60 159 4762410 17
+20190919 51 64 1232507 18
+20190920 31 47 1028792 8
+20190921 41 51 1316026 14
+20190922 33 43 1179058 10
+20190923 37 59 1108152 10
+20190924 37 50 1009438 11
+20190925 54 64 1707924 16
+20190926 39 55 995622 16
+20190927 59 69 1244334 22
+20190928 45 227 5984545 9
+20190929 44 57 1148528 16
+20190930 29 48 1175606 8
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+5mn-15mn 5
+15mn-30mn 12
+30mn-1h 36
+1h+ 16
+2mn-5mn 4
+0s-30s 335
+30s-2mn 17
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 26
+/ 358 12011028 168 120
+/wp-cron.php 314 0 222 222
+/about/ 92 3428300 3 7
+/contact/ 80 2538506 2 1
+/projects/ 76 3950634 2 3
+/feed/ 66 69850 3 2
+/comments/feed/ 64 47700 1 2
+/wp-includes/wlwmanifest.xml 61 63745 0 0
+/search/1/feed/rss2/ 60 5294820 0 29
+/wp-login.php 38 69766 14 17
+/wp-json/oembed/1.0/embed 35 77855 1 3
+/wp-json/ 31 1680603 0 0
+/wp-admin/load-styles.php 30 3130920 0 0
+/wp-content/themes/oceanwp/assets/fonts/fontawesome/fontawesome-webfont.woff2 18 1388880 1 2
+/wp-content/themes/oceanwp/assets/fonts/simple-line-icons/Simple-Line-Icons.woff2 16 481024 1 4
+/wp-json/contact-form-7/v1/contact-forms/275/feedback 6 658 0 6
+/author/jamie/ 4 76100 1 2
+/wp-content/plugins/elementor/assets/ 2 3244 1 0
+/search/1/feed/rss2/about/feed/rss2/ 2 2482 0 0
+/wp-content/themes/oceanwp/assets/fonts/simple-line-icons/Simple-Line-Icons.ttf 2 108112 0 0
+/wp-content/themes/oceanwp/assets/fonts/fontawesome/fontawesome-webfont.ttf 2 331096 0 1
+/wp-content/index.php 2 0 2 2
+/search/1/feed/rss2/services/feed/rss2/ 2 2500 0 0
+/wp-admin/admin-post.php 1 0 1 1
+/wp-json/wp/v2/users 1 269 1 0
+/wp-admin/upgrade.php 1 1 1 1
+END_SIDER

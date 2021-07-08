@@ -1,0 +1,474 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202011 will be lost/reset.
+# Last config file used to build this data file was /home2/jandrews2014/tmp/awstats/ssl/awstats.forwardprogramming.site.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2029                
+POS_TIME 2701                
+POS_VISITOR 10101               
+POS_DAY 11282               
+POS_DOMAIN 3401                
+POS_LOGIN 3746                
+POS_ROBOT 3901                
+POS_WORMS 4319                
+POS_EMAILSENDER 4450                
+POS_EMAILRECEIVER 4593                
+POS_SESSION 12002               
+POS_SIDER 12199               
+POS_FILETYPES 4728                
+POS_DOWNLOADS 4879                
+POS_OS 5263                
+POS_BROWSER 5396                
+POS_SCREENSIZE 5758                
+POS_UNKNOWNREFERER 5832                
+POS_UNKNOWNREFERERBROWSER 6048                
+POS_ORIGIN 6259                
+POS_SEREFERRALS 6397                
+POS_PAGEREFS 6560                
+POS_SEARCHWORDS 6708                
+POS_KEYWORDS 6860                
+POS_MISC 2365                
+POS_ERRORS 6919                
+POS_CLUSTER 3602                
+POS_SIDER_404 7090                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20201201033524 1 0 20996730596533
+FirstTime 20201101033403
+LastTime 20201130225029
+LastUpdate 20201202014731 1 0 0 0 0
+TotalVisits 141                 
+TotalUnique 27                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 29                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+DirectorSupport 0 0 0
+RealPlayerSupport 0 0 0
+AddToFavourites 0 2 0
+JavaEnabled 0 0 0
+TotalMisc 0 0 0
+QuickTimeSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+FlashSupport 0 0 0
+PDFSupport 0 0 0
+JavascriptDisabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 14 14 184124 29 101 1228451
+1 2 2 0 12 22 36885
+2 3 3 0 24 42 204882
+3 91 91 952200 28 48 338238
+4 1 1 0 23 23 35860
+5 4 4 31740 17 23 65206
+6 2 2 0 18 20 276776
+7 4 4 0 16 17 33065
+8 8 8 152384 14 34 181113
+9 2 2 273 5 7 48662
+10 3 3 0 18 26 139716
+11 1 1 0 24 28 28020
+12 25 27 490030 29 37 73267
+13 6 6 241288 39 45 29402
+14 27 45 454955 371 462 2562984
+15 8 18 41388 73 103 588426
+16 1 1 0 14 26 66376
+17 23 23 348670 26 42 136900
+18 3 3 0 13 13 4290
+19 0 0 0 0 0 0
+20 1 1 0 22 53 376500
+21 3 3 0 28 118 1232602
+22 9 9 241288 38 61 70135
+23 46 46 722556 32 52 230667
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 9
+us 170 182 1239247
+de 63 63 952200
+fr 16 18 575352
+gb 13 29 283556
+ca 10 10 603220
+in 10 10 143841
+cn 2 2 31740
+ru 2 2 31740
+gr 1 1 0
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 7
+Googlebot/ 196 1960802 20201128203901 32
+YandexBot/ 127 1348566 20201130232846 32
+bingbot/ 100 325348 20201130215901 88
+bot[\s_+:,\.\;\/\\-] 18 1082299 20201128063705 0
+unknown 16 1072 20201130224821 16
+Googlebot\-Image/ 4 30108 20201128101214 0
+no_user_agent 2 120644 20201122104105 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 5
+html 190 3607866 0 0
+txt 26 123156 0 0
+php 97 1246 0 0
+css 2 62178 0 0
+png 2 66450 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 8
+/wp-includes/images/crystal/license.txt 4 0 572
+/wp-includes/js/tinymce/license.txt 4 0 45228
+/wp-includes/ID3/license.txt 4 0 1856
+/wp-includes/js/swfupload/license.txt 4 0 3372
+/wp-includes/js/plupload/license.txt 4 0 31748
+/wp-includes/ID3/license.commercial.txt 2 0 1212
+/wp-includes/ID3/readme.txt 2 0 21666
+/license.txt 2 0 17502
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 6
+win10 133 107
+linux 78 76
+unix 2 0
+win7 7 7
+Unknown 96 96
+winxp 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 14
+Unknown 96 96
+chrome74.0.3729.169 2 2
+chrome36.0.1985.67 1 1
+chrome83.0.4103.97 2 2
+chrome60.0.3112.101 2 2
+opera11.11 2 2
+chrome41.0.2227.0 1 1
+firefox58.0 15 13
+chrome46.0.2490.80 12 12
+chrome40.0.2214.85 3 3
+chrome84.0.4147.125 114 88
+chrome86.0.4240.112 2 0
+chrome79.0.3945.79 60 60
+chrome80.0.3987.149 5 5
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+WordPress/4.9.16;_https://forwardprogramming.site 20201130224822
+WordPress/4.9.16;_http://forwardprogramming.site 20201107010913
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+WordPress/4.9.16;_http://forwardprogramming.site 20201107010913
+WordPress/4.9.16;_https://forwardprogramming.site 20201130224822
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 185 213
+From1 0 0
+From2 0 2
+From3 0 0
+From4 102 102
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 0 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 8
+400 30 894
+403 20 9000
+500 49 25172
+409 14 1162
+406 431 97406
+301 36 0
+302 3 0
+404 355 2980390
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 120
+/Makefile.in 4 -
+/wp-content/themes/twentythirteen/fonts/COPYING.txt 4 -
+/version.xml 2 -
+/resources.xml 2 -
+/wp-config 6 -
+/README.md 2 -
+/.svn 4 -
+/wp-content/access.log 2 -
+/user.ini 2 -
+/.meta 4 -
+/wp-config.tmp 4 -
+/error.txt 2 -
+/sitemap.xml.gz 1 -
+/.wp-config.php.bck 2 -
+/.dockerignore 2 -
+/wp-config%20fix.txt 2 -
+/wp-config.php_BAK 2 -
+/wp-config.zip 1 -
+/Robots.txt 2 -
+/wp-content/plugins/ait-csv-import-export/admin/assets/scripts/scripts.js 4 https://forwardprogramming.site/wp-content/plugins/ait-csv-import-export/admin/assets/scripts/scripts.js%20
+/.perf 4 -
+/.profile 2 -
+/errors.txt 2 -
+/security.xml 2 -
+/force-download.php 2 -
+/config.inc 4 -
+/.addressbook 4 -
+/.DS_Store 4 -
+/wp-content/themes/twentythirteen/fonts/LICENSE.txt 4 -
+/.pinerc 2 -
+/web.xml 8 -
+/.FBCIndex 4 -
+/logs.txt 4 -
+/config.json 4 -
+/atom.xml 6 -
+/.htaccess.sample 2 -
+/wp-config.DAT 2 -
+/.proclog 2 -
+/.plan 2 -
+/.nsconfig 2 -
+/.psql_history 2 -
+/wp-content/debug.log 2 -
+/.lynx_cookies 2 -
+/CHANGELOG.md 4 -
+/wp-admin/debug.log 1 -
+/wp-content/plugins/cherry-plugin/admin/import-export/download-content.php 4 -
+/wp-config.DB 2 -
+/.rhosts 2 -
+/adminer-4.6.2.php 2 -
+/config.xml 2 -
+/config.ini 4 -
+/.git 2 -
+/server.xml 2 -
+/logs/php-errors.log 1 -
+/wp-config_INC 2 -
+/sitemap.xml 4 -
+/wp-config.phpa 2 -
+/.mysql_history 4 -
+/wp-config.txt 2 -
+/.forward 2 -
+/wp-config.php_bak 2 -
+/wp-config.phpOLD 4 -
+/wp-content/plugins/wp-support-plus-responsive-ticket-system/includes/admin/downloadAttachment.php 2 -
+/wp-includes/debug.log 1 -
+/Desktop.ini 4 -
+/wp-config.tar.gz 1 -
+/wp-content/php_errors.log 1 -
+/wp-content/plugins/ultimate-member/assets/js/um-modal.js 8 -
+/wp-config.ZIP 2 -
+/wp-includes/js/tinymce/plugins/spellchecker/changelog.txt 4 -
+/.passwd 4 -
+/soapConfig.xml 2 -
+/.php_cs.dist 2 -
+/.web 6 -
+/composer.json 2 -
+/wp-config.dat 4 -
+/wp-config.TMP 4 -
+/wp-config-backup1.txt 4 -
+/.www_acl 4 -
+/log.txt 4 -
+/php_errors.log 2 -
+/wp-includes/access.log 1 -
+/.eslintignore 4 -
+/robots 2 -
+/.travis.yml 2 -
+/wp-config-backup 4 -
+/LICENSE.txt 2 -
+/readme.txt 4 -
+/services 2 -
+/wp-config.phpe 4 -
+/test.txt 4 -
+/wp-admin/access.log 1 -
+/wp-config.test 2 -
+/serverindex.xml 2 -
+/wp-config.TEST 4 -
+/.gitattributes 2 -
+/wp-content/force-download.php 2 -
+/node.xml 2 -
+/wp-content/plugins/ti-woocommerce-wishlist/assets/js/public.js 8 -
+/.gitignore 8 -
+/.bashrc 4 -
+/wp-config-backup.txt 2 -
+/wp-config.db 4 -
+/.procmailrc 2 -
+/debug.log 1 -
+/tags.txt 4 -
+/php.ini.sample 2 -
+/wp-config.TXT 4 -
+/.wp-config.php.BCK 2 -
+/.wwwacl 4 -
+/Thumbs.db 4 -
+/wp-config_inc 4 -
+/phpcs.xml 2 -
+/wp-config.TAR.GZ 4 -
+/access.log 1 -
+/.ssh 4 -
+/weblogic.xml 4 -
+/.access 2 -
+/.nsf..winntwin.ini 2 -
+/config.status 4 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 29
+192.185.46.254 96 96 0 20201130224822
+131.220.6.152 60 60 952200 20201130033616
+157.245.79.217 18 18 285086 20201129232745
+68.183.8.48 18 18 285086 20201129232744
+132.148.148.24 11 11 174335 20201116172142
+172.104.219.49 11 11 174335 20201116172141
+103.70.5.59 10 10 143841 20201121124926
+45.40.136.39 9 9 142595 20201121124917
+51.79.161.166 7 23 167506 20201124142455
+192.95.30.59 6 6 361932 20201129133110
+51.15.191.81 6 6 116050 20201116123228
+150.109.49.161 4 14 79620 20201124143327
+192.95.30.137 4 4 241288 20201123003700
+212.83.146.233 4 4 241288 20201115144548
+62.210.83.32 3 3 32013 20201117090238
+195.154.182.72 2 2 31740 20201122081426
+37.59.47.61 2 2 120644 20201130225030
+91.144.130.24 2 2 31740 20201111002341
+138.246.253.15 2 2 0 20201113003051
+39.104.14.100 2 2 31740 20201127123047
+62.210.178.243 2 2 31740 20201111055221
+195.154.61.206 2 2 1516 20201115143327
+18.237.25.94 2 2 31740 20201130001606
+178.128.230.27 1 1 0 20201114185658
+62.4.14.206 1 1 54233 20201115141918
+62.4.14.198 0 2 62178 
+73.76.18.119 0 2 66450 
+138.246.253.24 1 1 0 20201122122735
+68.183.206.251 1 1 0 20201114185659
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20201101 2 2 31740 1
+20201102 2 2 31740 1
+20201103 6 6 31740 4
+20201104 4 4 31740 3
+20201105 4 4 31740 3
+20201106 5 5 31740 4
+20201107 6 6 31740 5
+20201108 3 3 31740 2
+20201109 4 6 98190 3
+20201110 5 5 31740 4
+20201111 14 14 126960 10
+20201112 11 11 273028 8
+20201113 7 7 31740 4
+20201114 12 12 152384 8
+20201115 13 15 280957 7
+20201116 28 28 485814 6
+20201117 6 6 32013 4
+20201118 4 4 31740 3
+20201119 5 5 31740 3
+20201120 8 8 31740 5
+20201121 28 28 318176 10
+20201122 10 10 63480 7
+20201123 9 9 152384 5
+20201124 20 46 278866 6
+20201125 3 3 31740 2
+20201126 3 3 31740 2
+20201127 5 5 63480 3
+20201128 10 10 152384 7
+20201129 41 41 722556 5
+20201130 9 9 184124 6
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 5
+1h+ 1
+15mn-30mn 7
+0s-30s 121
+30mn-1h 4
+30s-2mn 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 10
+/ 176 3422810 57 55
+/wp-cron.php 96 0 79 79
+/readme.html 4 12984 0 2
+/comments/feed/ 2 1516 1 1
+/wp-content/themes/oceanwp/assets/css/third/ 2 8452 1 0
+/wp-content/uploads/2018/08/ 2 105404 1 1
+/feed/ 2 2194 0 1
+/wp-json/wp/v2/users/ 1 273 1 1
+/wp-json/ 1 54233 1 1
+/wp-login.php 1 1246 0 0
+END_SIDER
