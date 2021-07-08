@@ -1,0 +1,1 @@
+javascripts files for assets.
