@@ -1,0 +1,11 @@
+[18-Nov-2019 12:01:47 America/Chicago] PHP Fatal error:  Call to undefined function get_theme_mod() in /home2/jandrews2014/public_html/wp-content/themes/oceanwp/404.php on line 9
+[13-Dec-2019 22:23:29 America/Chicago] PHP Fatal error:  Call to undefined function get_theme_mod() in /home2/jandrews2014/public_html/wp-content/themes/oceanwp/404.php on line 9
+[15-Dec-2019 22:38:07 America/Chicago] PHP Fatal error:  Call to undefined function get_theme_mod() in /home2/jandrews2014/public_html/wp-content/themes/oceanwp/404.php on line 9
+[12-Jan-2020 01:42:31 America/Chicago] PHP Fatal error:  Call to undefined function get_theme_mod() in /home2/jandrews2014/public_html/wp-content/themes/oceanwp/404.php on line 9
+[14-Jan-2020 23:32:41 America/Chicago] PHP Fatal error:  Call to undefined function get_theme_mod() in /home2/jandrews2014/public_html/wp-content/themes/oceanwp/404.php on line 9
+[17-Apr-2020 18:15:42 America/Chicago] PHP Fatal error:  Call to undefined function get_theme_mod() in /home2/jandrews2014/public_html/wp-content/themes/oceanwp/404.php on line 9
+[25-Apr-2020 13:54:58 America/Chicago] PHP Fatal error:  Call to undefined function get_theme_mod() in /home2/jandrews2014/public_html/wp-content/themes/oceanwp/404.php on line 9
+[22-May-2021 01:10:32 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_theme_mod() in /home2/jandrews2014/public_html/wp-content/themes/oceanwp/404.php:9
+Stack trace:
+#0 {main}
+  thrown in /home2/jandrews2014/public_html/wp-content/themes/oceanwp/404.php on line 9
