@@ -1,0 +1,381 @@
+# Webalizer V2.23-08 Incremental Data - 07/06/2021 03:13:16
+2021 7 6 3 13 16
+317 240 47 31 7 22 2496286 66 34 0
+2 2 99 1 6
+28 16 121221 11 10 6
+30 10 182782 11 18 9
+54 22 166994 12 11 5
+121 110 900055 15 10 4
+80 78 1061866 10 13 8
+4 4 63368 2 4 2
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0
+15 13 146712 9
+4 3 34516 2
+25 22 207026 13
+1 0 226 0
+10 10 82568 0
+13 4 97046 6
+6 3 48636 2
+15 5 225862 8
+61 61 603552 4
+3 0 1580 0
+105 99 792273 4
+2 2 120572 2
+5 4 40181 2
+1 0 226 0
+3 0 1580 2
+5 5 268 0
+8 5 1848 2
+2 0 1354 2
+22 1 1162 2
+1 0 226 0
+0 0 0 0
+3 0 55834 2
+7 3 33038 4
+0
+0
+0
+240
+0
+0
+0
+0
+0
+0
+0
+14
+0
+0
+0
+0
+0
+19
+0
+0
+0
+16
+0
+14
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+14
+0
+0
+0
+0
+0
+# -urls- 
+/wp-content/themes/oceanwp/assets/css/third/font-awesome.min.css
+0 6 18446744073709551615 42702 0 0
+/wp-content/uploads/elementor/css/post-310.css
+0 6 0 2100 0 0
+/wp-content/plugins/ocean-extra/assets/css/widgets.css
+0 4 0 34152 0 0
+/wp-content/themes/oceanwp/assets/js/third/lightbox.min.js
+0 4 128 2256 0 0
+/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js
+0 6 23300362152960 22482 0 0
+/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css
+0 8 20983088 19176 0 0
+/wp-content/plugins/elementor/assets/lib/animations/animations.min.css
+0 6 0 17982 0 0
+/wp-content/themes/oceanwp/assets/css/third/simple-line-icons.min.css
+0 4 0 10736 0 0
+/wp-includes/js/imagesloaded.min.js
+0 6 0 16554 0 0
+/favicon.ico
+0 2 0 5560 0 0
+/wp-content/themes/oceanwp/assets/css/third/magnific-popup.min.css
+0 6 0 11052 0 0
+/wp-content/themes/oceanwp/assets/js/main.min.js
+0 4 3543827368440116536 176696 0 0
+/wp-includes/js/jquery/jquery-migrate.min.js
+0 6 72057594037927936 26664 0 0
+/wp-content/plugins/contact-form-7/includes/css/styles.css
+0 6 13402835641511194926 4110 0 0
+/wp-includes/js/jquery/jquery.js
+0 4 8661018023923298606 171064 0 0
+/wp-content/plugins/elementor/assets/css/frontend.min.css
+0 6 0 108180 0 0
+/wp-includes/js/wp-embed.min.js
+0 6 20962336 4500 0 0
+/wp-content/plugins/contact-form-7/includes/js/scripts.js
+0 6 0 29862 0 0
+/wp-includes/js/wp-emoji-release.min.js
+0 6 0 27768 0 0
+/wp-content/plugins/elementor/assets/js/frontend.min.js
+0 6 0 80664 0 0
+/wp-content/uploads/elementor/css/global.css
+0 6 0 4212 0 0
+/wp-content/themes/oceanwp/assets/css/third/slick.min.css
+0 6 0 3576 0 0
+/
+0 48 0 938192 29 10
+/wp-content/plugins/elementor/assets/lib/swiper/swiper.jquery.min.js
+0 4 0 167424 0 0
+/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js
+0 6 0 24000 0 0
+/wp-content/themes/oceanwp/assets/css/style.min.css
+0 6 0 232518 0 0
+/wp-content/uploads/elementor/css/post-11.css
+0 6 0 33960 0 0
+/robots.txt
+0 24 0 1608 0 0
+/wp-cron.php
+0 16 0 0 0 0
+/wp-content/themes/oceanwp/assets/js/third/magnific-popup.min.js
+0 4 0 35948 0 0
+/wp-includes/js/jquery/ui/position.min.js
+0 6 0 15468 0 0
+# End Of Table - urls
+# -sites- (monthly)
+petalbot-114-119-156-16.petalsearch.com
+0 1 0 226 0 0
+-
+ec2-34-208-135-206.us-west-2.compute.amazonaws.com
+0 1 1 2780 0 0
+-
+msnbot-40-77-167-46.search.msn.com
+0 4 4 268 0 0
+-
+23.162.77.34.bc.googleusercontent.com
+0 2 0 1354 1 1625245614
+/
+server23.com
+0 4 0 111134 1 1625436440
+-
+5-255-231-129.spider.yandex.com
+0 7 7 47794 3 1625282339
+/
+ec2-54-189-228-106.us-west-2.compute.amazonaws.com
+0 1 1 15842 1 1625448213
+/
+99-155-108-36.lightspeed.btrgla.sbcglobal.net
+0 1 0 226 0 0
+-
+ec2-34-210-85-31.us-west-2.compute.amazonaws.com
+0 2 2 31684 1 1625534548
+/
+petalbot-114-119-137-7.petalsearch.com
+0 1 0 226 0 0
+-
+basis.yournetmarket.com
+0 4 0 16726 0 0
+-
+ces197.flashstart.com
+0 2 2 120572 1 1625472918
+/
+173.208.244.93
+0 8 2 48410 1 1625302304
+/
+92.118.160.37.netsystemsresearch.com
+0 2 2 120572 1 1625486973
+/
+107.150.46.53
+0 4 2 48410 1 1625206721
+/
+92.118.160.13.netsystemsresearch.com
+0 2 0 1354 1 1625251324
+/
+crawl-66-249-74-14.googlebot.com
+0 24 24 187006 0 0
+-
+petalbot-114-119-158-196.petalsearch.com
+0 1 0 226 0 0
+-
+polecat.cs.uni-bonn.de
+0 12 12 190104 6 1625541196
+/
+petalbot-114-119-135-98.petalsearch.com
+0 1 0 226 0 0
+-
+ec2-54-71-89-177.us-west-2.compute.amazonaws.com
+0 2 2 31684 1 1625276755
+/
+45.61.146.100
+0 2 0 452 0 0
+-
+crawl-66-249-74-12.googlebot.com
+0 132 132 1228052 2 1625477755
+/
+msnbot-207-46-13-44.search.msn.com
+0 4 4 268 0 0
+-
+slot0.juneggy.com
+0 1 0 8363 0 0
+-
+ec2-34-220-126-68.us-west-2.compute.amazonaws.com
+0 2 2 31684 1 1625447998
+/
+40.76.110.71
+0 19 0 1162 0 0
+-
+143-251-15-51.instances.scw.cloud
+0 2 0 1354 2 1625214506
+/
+crawl-66-249-74-16.googlebot.com
+0 8 8 37886 2 1625477815
+/
+cosmoyard.com
+0 8 2 48410 1 1625205949
+/
+petalbot-114-119-155-233.petalsearch.com
+0 1 0 226 0 0
+-
+petalbot-114-119-158-36.petalsearch.com
+0 1 0 226 0 0
+-
+165.22.27.121
+0 1 0 8363 0 0
+-
+planetlab24.gino-research.net.in.tum.de
+0 9 2 4248 0 0
+-
+msnbot-40-77-167-89.search.msn.com
+0 4 4 268 0 0
+-
+mail.connectionseps.com
+0 16 16 0 0 0
+-
+69.30.225.102
+0 4 2 48410 1 1625209857
+/
+petalbot-114-119-137-128.petalsearch.com
+0 1 0 226 0 0
+-
+247-103-158-51.instances.scw.cloud
+0 2 0 1354 1 1625239700
+/
+researchscan36.comsys.rwth-aachen.de
+0 4 2 31684 2 1625182576
+/
+petalbot-114-119-158-149.petalsearch.com
+0 1 0 226 0 0
+-
+petalbot-114-119-153-232.petalsearch.com
+0 1 0 226 0 0
+-
+ec2-52-35-33-146.us-west-2.compute.amazonaws.com
+0 2 2 31684 1 1625278345
+/
+petalbot-114-119-146-98.petalsearch.com
+0 1 0 226 0 0
+-
+ec2-54-200-147-152.us-west-2.compute.amazonaws.com
+0 2 2 31684 1 1625362785
+/
+3-109-158-51.instances.scw.cloud
+0 2 0 0 1 1625169478
+/
+ec2-52-32-197-59.us-west-2.compute.amazonaws.com
+0 1 1 2780 0 0
+-
+# End Of Table - sites (monthly)
+# -sites- (daily)
+ec2-34-210-85-31.us-west-2.compute.amazonaws.com
+0 2 2 31684 1 1625534548
+/
+polecat.cs.uni-bonn.de
+0 2 2 31684 1 1625541196
+/
+# End Of Table - sites (daily)
+# -referrers- 
+https://forwardprogramming.site/wp-cron.php
+0 16
+- (Direct Request)
+0 131
+https://www.forwardprogramming.site/
+0 2
+https://forwardprogramming.site/
+0 146
+http://forwardprogramming.site/
+0 4
+anonymousfox.co
+0 2
+http://www.google.com.hk
+0 16
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (compatible;PetalBot;+https://webmaster.petalsearch.com/site/petalbot)
+0 10
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+0 16
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36 OPR/28.0.1750.48
+0 4
+WordPress/4.9.18; https://forwardprogramming.site
+0 16
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4 AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+0 2
+Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+0 10
+Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+0 12
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+0 10
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4240.193 Safari/537.36
+0 19
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36
+0 13
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36
+0 12
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36
+0 2
+Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.90 Mobile S
+0 42
+Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Googlebot/2.1; +http://www.google.com/bot.html) Chrome/91.0.44
+0 112
+python-requests/2.25.1
+0 2
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.47 Safari/537.36
+0 2
+Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39
+0 2
+Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)
+0 7
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36
+0 9
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0
+0 1
+NetSystemsResearch studies the availability of various services across the internet. Our website is netsystemsresearch.com
+0 4
+Mozilla/5.0 (X11; Linux x86_64; rv:84.0) Gecko/20100101 Firefox/84.0
+0 4
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames
