@@ -1,0 +1,10 @@
+[07-Dec-2018 18:06:24 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home2/jandrews2014/public_html/wp-content/themes/twentysixteen/404.php on line 10
+[06-May-2019 21:06:59 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home2/jandrews2014/public_html/wp-content/themes/twentysixteen/404.php on line 10
+[06-Jul-2019 09:45:57 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home2/jandrews2014/public_html/wp-content/themes/twentysixteen/404.php on line 10
+[15-Jul-2019 01:09:28 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home2/jandrews2014/public_html/wp-content/themes/twentysixteen/404.php on line 10
+[15-Jul-2019 05:08:00 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home2/jandrews2014/public_html/wp-content/themes/twentysixteen/404.php on line 10
+[01-Dec-2020 20:14:02 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home2/jandrews2014/public_html/wp-content/themes/twentysixteen/404.php on line 10
+[20-Feb-2021 16:04:59 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/jandrews2014/public_html/wp-content/themes/twentysixteen/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home2/jandrews2014/public_html/wp-content/themes/twentysixteen/404.php on line 10

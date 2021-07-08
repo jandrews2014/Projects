@@ -1,0 +1,2 @@
+[05-Dec-2018 03:28:20 America/Chicago] PHP Fatal error:  Call to undefined function the_ID() in /home2/jandrews2014/public_html/wp-content/themes/twentysixteen/template-parts/content-single.php on line 11
+[11-Jun-2019 03:53:29 America/Chicago] PHP Fatal error:  Call to undefined function the_ID() in /home2/jandrews2014/public_html/wp-content/themes/twentysixteen/template-parts/content-single.php on line 11
